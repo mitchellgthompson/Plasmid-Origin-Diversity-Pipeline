@@ -1,0 +1,58 @@
+LOCUS       NZ_AP025291_1           1419 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Treponema_saccharophilum | RIP: Rep3_N |
+            1,419 bp.
+ACCESSION   NZ_AP025291
+VERSION     NZ_AP025291.1
+KEYWORDS    .
+SOURCE      Treponema_saccharophilum
+  ORGANISM  Treponema_saccharophilum
+            Spirochaetota; Spirochaetia; Spirochaetales; Treponemataceae;
+            Treponema.
+FEATURES             Location/Qualifiers
+     source          1..1419
+                     /organism="Treponema_saccharophilum"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_AP025291.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Rep3_N |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..1219
+                     /product="repM_Acin"
+                     /locus_tag="NZ_AP025291.1_orf1"
+                     /translation="MRKSEIVKASENARFLNESNEVSRAFYTCPVMTKKLIVMGLYKIV
+                     PVFNPENYRKTDLSNLGDKFKWTDFSATFTIQEFCNVMGIENGGFQRESIEEAISTATK
+                     QTVLIKTLTDTTYLPWFSRANYNRPTGTIELVFNPFVMRAALDIRRKYSNIELDKVGKL
+                     RSFYAIRYYEICRSFYNTKGKFGNLPGEWHSFELPLDEIREMFQLGDLYKDRTNNFIVR
+                     IVKKPLEELNSVGLDFTVEAEIIRKGGGRKIRGIIFKCREIAPLKQIKAEDTSEARKAK
+                     RETNRDKIRMEKARSLPEWAQVAADVRAAAEDTDTFIPDGLMFDVAVFTEMQRRGIVR"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 gtcattgcaa aaccgaaatt tgagtcaaaa cagctcacgt agttaagtag tcttacagag
+       61 cgatttgacg tagttacgta gtcaatggga cgtagttacg tagtcattga aacgcgggaa
+      121 gcctagtaaa ataaggggtt cccgagccta taaatacata actactttta aatacatata
+      181 ggggagcgcc gctaaaaaaa tgcgaaaatc cgaaatcgtg aaagcgagcg aaaacgcccg
+      241 cttcctaaac gagtcaaacg aagtcagccg ggccttctac acctgccccg tcatgaccaa
+      301 aaaactcatc gtcatggggc tatacaaaat cgtccccgtc ttcaacccgg agaactacag
+      361 gaagaccgac ctctcgaacc tcggggacaa attcaagtgg accgacttct ccgcgacctt
+      421 caccatccag gaattctgca acgtcatggg catcgagaac ggcggcttcc agagggagtc
+      481 catcgaggaa gccataagca ccgcgacaaa gcagacggtc ctcataaaga ccctgaccga
+      541 caccacctac ctgccgtggt tctcgcgcgc gaactacaac aggcctaccg ggacgataga
+      601 gctcgtcttc aacccgttcg tcatgagggc tgccctcgac atccgcagga agtactcgaa
+      661 catcgagctc gacaaggtcg gcaagctccg ctcgttctac gcaatccgct actacgagat
+      721 ttgccgctcc ttctacaaca ccaagggcaa gttcggtaac ctgcccggcg agtggcactc
+      781 cttcgagctt cccctggacg aaatccgcga gatgttccag ctcggcgacc tctacaagga
+      841 ccggacgaac aacttcatcg tgcgcatcgt caagaagccg ctcgaggagc tgaactccgt
+      901 ggggctcgac ttcaccgtgg aggccgaaat catcaggaag ggcggcggca ggaaaatccg
+      961 cggcatcatc ttcaagtgcc gcgagatagc gcccctcaag caaataaagg ccgaggacac
+     1021 ctccgaagcc aggaaggcga agcgcgagac gaaccgcgac aaaatccgca tggagaaggc
+     1081 gaggtctctc ccggagtggg cgcaggtggc ggccgacgtg cgcgccgcgg ccgaggacac
+     1141 ggacacgttc atccccgacg ggctcatgtt cgacgtcgcc gtcttcacgg agatgcagcg
+     1201 aaggggaatc gtcaggtaaa accatcccgg aaaaagaccc cgaaaaccgc attttttccg
+     1261 gaacccggaa ttcgggcggt cgagcatgcc ctccgggaag ccctctaagg ccatttaacg
+     1321 gcccgtaggc gcgttcaaaa cgattttttg agtaatttca cgtccgagcc ctttcgaggc
+     1381 cgttgtagcg cgttctcgcg cgtctgaggg ggtcctgaa
+//

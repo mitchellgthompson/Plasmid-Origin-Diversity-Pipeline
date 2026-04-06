@@ -1,0 +1,75 @@
+LOCUS       NZ_CP049829_1           1749 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Janthinobacterium_lividum | RIP: Rep3_C |
+            1,749 bp.
+ACCESSION   NZ_CP049829
+VERSION     NZ_CP049829.1
+KEYWORDS    .
+SOURCE      Janthinobacterium_lividum
+  ORGANISM  Janthinobacterium_lividum
+            Pseudomonadota; Betaproteobacteria; Burkholderiales;
+            Oxalobacteraceae; Janthinobacterium.
+FEATURES             Location/Qualifiers
+     source          1..1749
+                     /organism="Janthinobacterium_lividum"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP049829.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Rep3_C |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..1549
+                     /product="repM_Acin"
+                     /locus_tag="NZ_CP049829.1_orf2"
+                     /translation="MATRKPKAAKNGELTSPSMEFRKTNDAIGLRVREGKMSLLTRKVF
+                     NVMMYHAQQLKVTGANSPIDTPASKKYFWIRLADLARDAAYDSKDTEFLKAQLEEMQNI
+                     KLLMENDRQWTSERLVASVTLVNPMGLKKHAGQVWFGFAFPPEVHELVMAPGTYTRFSI
+                     FYQGLLRSGSSLALYEICRRYATNPSKVTLIETYEHWYGALTGNPVSEDAPPPQYKYFK
+                     RDVIRPAMAEINALTDIQVELIEHRVGRRVERLQFRVEHTKQPQLGFAAPPVIDLELMG
+                     SIMKFGLTQVDAADVMAQHGDDKIRSAVAFVQARIDHKSSAPLDSPAAYFRWTMKQGAD
+                     AAKNLQLKSSAAKNSVAKKDSGTTVLEKFLAARAQDAYDLYNELENADRSAIFERFKDQ
+                     NTNTAVNLDRGVENVLARSLFTNWYAQELWGEPTIEALAAFVEQFSLAPR"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1626..1747)
+                     /product="hypothetical protein (40 aa)"
+                     /locus_tag="NZ_CP049829.1_orf3"
+                     /translation="NQLAVQTADPGTVPPAFREQHAAQLRAALIRGITIDLSGT"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 gagtctactg gtggatggtt aagttttgag atgaacggcc cggttttaag gtgaactgat
+       61 tttcaaaata aaatcactta tttgggtgaa attttctgtg tgggcataca aaggtgagtc
+      121 aattcgcgtt atagttcgca ccatgtaaag gcgagtatgg gcatctggag ccatgctttc
+      181 tcgatgaaag aggatcggcg tggcaacgag aaaacccaag gcagccaaga atggtgaatt
+      241 gacatctcca tcgatggagt ttcgcaagac gaatgatgcg attggcttgc gtgtgaggga
+      301 aggcaagatg tctttgctca cacgtaaggt gttcaacgtc atgatgtacc acgcccagca
+      361 gctgaaggtc acgggcgcca attcgccgat cgatacgccg gcgtcaaaaa aatacttctg
+      421 gattcgcctg gcggatctgg cgcgcgatgc tgcctacgac agcaaggata ccgagttcct
+      481 gaaggcccag ctcgaagaga tgcagaatat caagctgcta atggaaaatg accgtcagtg
+      541 gacatccgag cgtctggtcg cttctgtcac gctggtcaat ccgatgggtt taaaaaaaca
+      601 cgctggccag gtctggtttg gctttgcgtt tccaccggaa gtgcatgagc tggtcatggc
+      661 ccctggaact tacacgcggt tcagcatttt ctatcaggga ttgttgcgtt ccggctcatc
+      721 gctcgcactc tatgaaattt gccgccgcta tgccaccaat ccatccaagg tcacgctgat
+      781 cgagacgtat gaacactggt atggtgcgct gaccggcaat ccggtgtccg aggacgcgcc
+      841 gccgccgcag tacaagtatt tcaagcgcga cgtcattcgt ccggcgatgg ccgagatcaa
+      901 tgcgctcact gatatccagg tcgagctgat cgaacaccgc gtgggccgac gcgttgagcg
+      961 cctgcagttt cgcgtcgagc acaccaagca gccgcagctt ggctttgccg cgccgcccgt
+     1021 cattgatctg gagctgatgg gcagcatcat gaaatttgga ctgacccagg tcgatgcggc
+     1081 agatgtgatg gcgcagcatg gcgatgacaa gattcgcagt gccgtggcct ttgtgcaggc
+     1141 gcggattgat cacaagagca gtgcgccgct ggattctcct gctgcctatt tccgctggac
+     1201 gatgaagcag ggtgccgatg cggcgaagaa cctgcagctt aaaagcagtg cggcaaaaaa
+     1261 tagcgtcgct aaaaaagaca gcggtacgac ggtgctggag aaattcctcg cggcgcgtgc
+     1321 gcaggacgcg tatgacctgt ataacgaact cgaaaacgct gaccgcagcg cgatttttga
+     1381 gcgcttcaag gatcaaaata caaatacggc cgttaatctg gaccgcggtg tcgagaacgt
+     1441 cctggcccga tcgctgttta ccaactggta tgcccaggaa ctatggggtg aaccgaccat
+     1501 tgaggcactg gctgccttcg tagaacagtt cagtctcgcg ccgcgctaga cgcgctgtcc
+     1561 aggattggcg gcggcgacag gcttgctgtc tgtttcgccg gcatatttcc atggaattga
+     1621 cgctctatgt acccgataag tcgatggtga taccgcggat gagtgccgcg cgcagctgcg
+     1681 ctgcatgctg ttcacggaag gctggcggca ccgtgccagg atcggctgtt tgcaccgcga
+     1741 gctgattgc
+//

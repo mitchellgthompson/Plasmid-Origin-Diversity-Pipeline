@@ -1,0 +1,82 @@
+LOCUS       NZ_CP049346_1           1485 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Sulfitobacter_pontiacus | RIP: DnaA_N |
+            1,485 bp.
+ACCESSION   NZ_CP049346
+VERSION     NZ_CP049346.1
+KEYWORDS    .
+SOURCE      Sulfitobacter_pontiacus
+  ORGANISM  Sulfitobacter_pontiacus
+            Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+            Roseobacteraceae; Sulfitobacter.
+FEATURES             Location/Qualifiers
+     source          1..1485
+                     /organism="Sulfitobacter_pontiacus"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP049346.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: DnaA_N |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             complement(4..200)
+                     /product="hypothetical protein (66 aa)"
+                     /locus_tag="NZ_CP049346.1_orf1"
+                     /translation="MRNHNDLLNMNERSLEQQAAVRRATFSPGEIKALRPFSIWEISQF
+                     MFDVPADTLRKKLADDPTLPQ"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             591..1285
+                     /product="DnaA_N"
+                     /locus_tag="NZ_CP049346.1_orf2"
+                     /translation="MNPLRLTGPEAGVIKYDLLTALSVAGLNGSPTLQTSLMRLIAAVT
+                     SRYNWRADELSVGQRDLARMWSVNERTVKREIKRLTDAQLLICTRGGVRGRVAAYRLNY
+                     AQIARLSEPCWPLVGPDYDARMKERYRSETPVKVVQLADYAKPEASEPAQGGPGTWQRA
+                     MLNLSRENADQFKAWFSQLEYVAFEGGVLELRTPSKFAQRYIETHLLRPLVAAVEAELG
+                     PVTRIEFRA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1283..1485)
+                     /product="IclR_C: Bacterial transcriptional regulator IclR
+                     C-terminal"
+                     /locus_tag="NZ_CP049346.1_orf3"
+                     /translation="RRDGFAQVQNEFVLGEIAIGVPVVNRQGRPLGAIHIAGSLSEWSA
+                     EDFARRAAPIAQEAARAISGSF"
+                     /codon_start=1
+                     /function="structural"
+                     /note="category=structural; color=#FF8F00"
+                     /note="Pfam=IclR_C (PF01614.25)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF01614.25"
+                     /ApEinfo_fwdcolor="#FF8F00"
+                     /ApEinfo_revcolor="#FF8F00"
+ORIGIN
+        1 ccctggggca gggtcgggtc gtccgccagc ttcttgcgca gggtgtcggc ggggacgtcg
+       61 aacatgaact ggctgatctc ccagatggag aaggggcgca gggccttgat ctctccgggg
+      121 gagaaggtgg cgcggcgcac ggcggcctgt tgttccaagc tgcgctcgtt catgttaaga
+      181 aggtcgttgt gatttctcat ctatctactc gcgtttttaa gcctcgaatt tcgaataacg
+      241 cgaattcggc aatttggcaa aacctaattt tcccgaaatt cgcgcgccgt tcctgaagaa
+      301 cgggtttatt tcgctgcggt taacgcggag caaagagatt ttggtgacag gcaaggggca
+      361 tatgacgctg ttttggtgac agcgatcccc tgatatggtg acacctaagc gtccccctta
+      421 acctattaac ctttaccaaa ttgaatttgg attaaggaaa agggtaattc ctgtttttcc
+      481 cagcgggttg acagaagacg ggatttagag ctttgtagaa agcataaacg gaatcggctc
+      541 aaagaagctg accgataaaa ataagacgat acatcgagta ggcaaaacca tgaacccatt
+      601 gcggctgacc ggccctgaag ccggggtgat caagtacgac cttttgaccg ctttgagcgt
+      661 ggcggggttg aacggatcac caaccttgca gacctcgttg atgcggctga tcgcggcggt
+      721 gacctcgcgg tataattggc gcgctgacga gctgagcgtg ggccagcggg atctggcgcg
+      781 gatgtggtca gtgaatgaac gcacggtgaa acgcgagatc aaacggctga cggatgcgca
+      841 gctgttgatt tgtacgcgcg gcggcgtgcg gggcagggtg gcggcctatc ggttgaacta
+      901 cgcgcagatc gcgcgcctgt cagagccgtg ctggccgctg gtcgggccgg attacgatgc
+      961 gcggatgaaa gagcggtatc gcagtgaaac gccggtcaag gtggtacaac tggccgatta
+     1021 tgcgaaaccc gaggcatcag agcccgcgca gggcgggccg ggcacgtggc aacgtgcgat
+     1081 gctgaacctg tcgcgggaga acgcggatca gttcaaggcg tggttctcgc agcttgaata
+     1141 tgtggcgttc gaaggaggcg tgcttgagct gcgcaccccg agcaaattcg cgcaacgcta
+     1201 tatagagacg catcttctgc gcccgcttgt tgcggcggtg gaggcagagt tggggccggt
+     1261 gacgcggatc gaatttaggg cctagaaact gccgctgatg gcgcgggcgg cttcttgggc
+     1321 gatgggggca gcacggcggg cgaagtcttc ggcgctccat tcggaaagcg agccggcgat
+     1381 gtggatggcc cccaaggggc ggccctgacg gttgacgacg ggcacaccaa tggcgatttc
+     1441 gcccaagacg aattcattct gcacttgggc aaaaccgtct ctacg
+//

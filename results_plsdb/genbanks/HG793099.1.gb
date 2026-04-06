@@ -1,0 +1,54 @@
+LOCUS       HG793099_1              1224 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Erwinia_amylovora | RIP: incFII_RepA | 1,224
+            bp.
+ACCESSION   HG793099
+VERSION     HG793099.1
+KEYWORDS    .
+SOURCE      Erwinia_amylovora
+  ORGANISM  Erwinia_amylovora
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales; Erwiniaceae;
+            Erwinia.
+FEATURES             Location/Qualifiers
+     source          1..1224
+                     /organism="Erwinia_amylovora"
+                     /mol_type="genomic DNA"
+                     /plasmid="HG793099.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     incFII_RepA | Tier: Tier 5: Diversity fill"
+     CDS             201..1024
+                     /product="incFII_RepA"
+                     /locus_tag="HG793099.1_orf1"
+                     /translation="MKNPNPEFIPEKGKKTLPFCEKIREKASGFTQRIEFQALVAMEIA
+                     HGARKRRPPELRIRALEAALQALCHYYNPLANRVGASLTTMSIRCGLATEKKRLSITRF
+                     TGAVQFLAQLKLLTYTTEYDKDIGCNIPTDITFAPLMWQVLDVSEEAVAAARRSRIEWE
+                     NRQREKKGLPRADAGELINAAWSFVRERFREYQKSRREHGMKRHRARKDAPRTRKDIEQ
+                     LVRLQLQKEIRHERFFGGLDAVKAEIERRVTERMKLSRGRYGRLDDDLLVTT"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 gataatcttc ctcagtttgg cgactcggag aagactaatg gggcccactt attctgcata
+       61 gaagctgttg ctctatgcgg ggagtataga ttcatgcccg aaaaactgca ataccttcgg
+      121 tgcctgctcc ttctgtgcaa cataagcgca ggaaggtttg aataagcagg ttactgataa
+      181 ttcatcattt tatcgtcagg tgaaaaatcc gaatccggag ttcattccgg aaaaaggcaa
+      241 aaaaaccctg ccgttctgcg aaaaaatccg cgaaaaagcg tcgggcttta cgcagcgcat
+      301 cgagttccag gcactggtgg ccatggaaat cgcccacgga gcccgcaagc gccgtccgcc
+      361 agagctccgc atccgcgcgc ttgaagccgc gctgcaggcg ctctgccact attacaaccc
+      421 gctggccaac cgcgtggggg cctcgctcac gaccatgagc atccgctgcg ggctggccac
+      481 ggagaaaaaa cgcctctcta tcacccgttt caccggcgcc gtgcagttcc tggcgcagct
+      541 gaagctcctc acctacacca ccgaatacga caaagacatc ggctgtaaca ttcccacgga
+      601 catcaccttc gcgccgctga tgtggcaggt gctcgacgtg tcggaagaag ccgtcgcggc
+      661 cgcgcgccgc agccgcatcg agtgggaaaa ccgccagcgc gagaagaagg gcctgccgcg
+      721 cgccgacgcc ggcgagctca tcaacgccgc atggtctttc gtgcgcgagc gcttccgcga
+      781 gtaccagaag tcccgccgcg agcacggcat gaagcgccac cgcgcgcgta aagacgcgcc
+      841 gcgcacccgt aaggacatcg agcagctggt ccgcctgcag cttcagaaag aaatccgtca
+      901 cgagcgcttc ttcggcggtc tggacgcggt aaaagccgaa atcgaacgac gcgtcaccga
+      961 gcgcatgaag ctttcacgcg gccgctacgg ccgactggac gacgatctgc tggtcacgac
+     1021 ctgacatccg cagagacctc acgcaactca ctggcgcagc cgcgccggct ttcccctgcc
+     1081 cgccatccgg ccagaacggc tgttatttcc ctcactcagc tccgttttca gctatccggt
+     1141 ttgcgccgga ggccttcgca cgtccgcagt cagccattcg gataaaattc atccacacca
+     1201 gccccttact ctggccagcg gaat
+//

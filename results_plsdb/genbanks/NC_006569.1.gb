@@ -1,0 +1,105 @@
+LOCUS       NC_006569_1             2595 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Ruegeria_pomeroyi | RIP: PriCT_1 | 2,595 bp.
+ACCESSION   NC_006569
+VERSION     NC_006569.1
+KEYWORDS    .
+SOURCE      Ruegeria_pomeroyi
+  ORGANISM  Ruegeria_pomeroyi
+            Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+            Roseobacteraceae; Ruegeria.
+FEATURES             Location/Qualifiers
+     source          1..2595
+                     /organism="Ruegeria_pomeroyi"
+                     /mol_type="genomic DNA"
+                     /plasmid="NC_006569.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: PriCT_1 |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             4..200
+                     /product="hypothetical protein (65 aa)"
+                     /locus_tag="NC_006569.1_orf1"
+                     /translation="QTKTILGNWHRLWCLIFGPLYYLFKGMFWWALLSLITANGLWVGF
+                     PLFNRSIVLRHFHRKGWVQE"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(585..2395)
+                     /product="PriCT_1"
+                     /locus_tag="NC_006569.1_orf2"
+                     /translation="MRQHFRVSKQMRSRNTLDAAKAQIAAGRKVILTYGIGEDGRCSCK
+                     RDDCPSPGKHPLSKYFPNGVYSATDDIELVQKALRTHPRANLAISLAGLTVVDVDGKAG
+                     KQAVEGLDLPKTVKVFTGRGYHLYYQGECSGGAFKGDEIDVLTGANRMVMVPPSTHPSG
+                     KRYRYSSQSPSGMAAMPKNLSKLKPDRTQHRKEGPQTASTDLVIKSGSRNDFFFRTACF
+                     LRRRFDDKNAVEAMLETLNNDFTEAPLSPSELRSVIQSSGNYVEDTAALFGPPKTTEPL
+                     PMEFLYYPYIPYFGVTLLAGNPGMGKSLLVSRLIAAVTSGSPWPLSDECAPKGKVLLLS
+                     AEDNWQRVTLGRLLEHGADISQIRMMQRFKILCPDNLEAMARYIDEERPKLVVIDTLTA
+                     YMGSGRDMNRQNEVGEFLGRLTEIAEDAGCAVLAIGHLNKQSSEHPLFRIVGSIGFAAS
+                     IRSALFYGTDPTDRSRFALAHGKANASELGKTIIFERFGGGRDETPVLHPVEFSDANEA
+                     EVCRVETNSVGRPASATDSAREFILEFLSDQPVRWEAVESAVTSRSLASVGTLNVLRAD
+                     MAKSGEIVQVGKGKSTRWKLGEPRTDE"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(2447..2595)
+                     /product="Phage_AlpA: Prophage CP4-57 regulatory protein
+                     (AlpA)"
+                     /locus_tag="NC_006569.1_orf3"
+                     /translation="TTLLRWEARGRFPRRIRMAGTSVAWFLSEIEDWLADRAAERVRTH
+                     YAEY"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=Phage_AlpA (PF05930.19)"
+                     /db_xref="Pfam:PF05930.19"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+ORIGIN
+        1 gccagacgaa aactatcttg gggaactggc acaggctatg gtgcctaatc ttcgggccgc
+       61 tctattacct gttcaaaggc atgttctggt gggcgctctt gtcgctaatc accgcgaacg
+      121 ggttgtgggt cggcttcccg ttgttcaatc gcagcatcgt actgcgccac tttcaccgca
+      181 agggctgggt tcaagaatga ccgccagcac ctccgcccaa gcagtttgcc acccgagtgg
+      241 aacccggcgc actatgccga aacccagcgt gaatgcggac cgtatgaaaa gactcggcaa
+      301 ttcggatccg gctcgcatcc gacagactga tagatagtcc tcgtgtcacc ctagacaggt
+      361 ctgacgggca ccctaagagg tgctgacaca agggcttggg ggaggcgttt ttttaacggc
+      421 gcgcgcccta cgggcagacg aggggtcata cataccgccg aggtttttgg cccctagccg
+      481 ctccgccgtc cggtccagcg ccgactactg gaaaagcgaa agacgggccg aagcccgcct
+      541 ctcattcgat ataaaaattg ttgtacacga attattataa cgatcactca tcggtgcggg
+      601 gttcgccgag tttccagcgg gtgctttttc ccttacccac ctgcacgatc tcaccggatt
+      661 ttgccatgtc cgcccgaagc acgttcaaag tgccaacaga cgcgaggctg cggctcgtca
+      721 cggcgctttc gactgcctcc cacctgactg gctgatcgga tagaaactcg aggatgaact
+      781 ctcgcgcaga gtcagtggct gacgcaggcc tgccgaccga atttgtctcg accctgcaaa
+      841 cctcggcctc attggcgtca gagaactcca ccgggtgcag gaccggcgtc tcgtctcgcc
+      901 cgcccccaaa gcgctcgaaa atgatcgtct tgccgagttc actggcgttg gccttgccgt
+      961 gcgccaaagc gaagcgcgac cgatccgtcg ggtccgtgcc atagaacagc gcagatcgaa
+     1021 tactggcggc gaagccaatt gagccgacaa ttcggaatag tggatgctct gacgactgtt
+     1081 tgttcaagtg accaatggcc agcaccgcac acccggcatc ctcggcgatc tccgtcaggc
+     1141 gccccagaaa ctcgccaacc tcgttttgcc ggttcatgtc gcgtccactg cccatgtagg
+     1201 cggtcagcgt gtcgatcacg accagtttgg gccgctcttc gtcaatgtag cgcgccattg
+     1261 cctcaaggtt gtccgggcat aggatcttga atctctgcat catgcgtatt tgcgaaatat
+     1321 ctgccccatg ctctaacagc ctcccaaggg ttaccctttg ccagttgtct tcggccgaaa
+     1381 gtaatagaac tttgcctttc ggagcgcatt cgtccgaaag cggccaaggg ctgccggagg
+     1441 tcactgcagc gatcaatcgg cttaccagca gggacttacc cataccggga ttgcccgcga
+     1501 gcagcgttac gccaaaatat gggatgtacg ggtagtacag gaactccatc ggcaagggct
+     1561 cggttgtctt tggtggcccg aacagggctg cagtgtcttc gacatagttc ccgctgctct
+     1621 ggatgaccga gcgcaactcg cttggcgaca acggggcttc ggtgaaatcg ttgttcaggg
+     1681 tttccagcat ggcctcaacc gcatttttat catcgaacct tcgacgcaag aagcaggccg
+     1741 tacgaaagaa gaaatcgttg cggctaccgc tcttgatgac gaggtccgtt gatgccgttt
+     1801 gcggtccctc tttcctatgc tgcgttcgat caggtttgag cttgctcaag tttttcggca
+     1861 tagcggccat accggaaggc gattgcgagg agtaacgata gcgcttgccc gagggatggg
+     1921 tgctgggagg aaccatcacc atcctgttcg cgccggtcag gacgtcaatc tcatcacctt
+     1981 tgaacgcgcc accagaacat tcaccctgat agtacaagtg atagccgcgc ccggtgaaaa
+     2041 ccttgaccgt tttcggcaga tcaagaccct caacggcctg tttgcccgct ttcccgtcca
+     2101 catcgaccac cgtcaatccg gcgagagata tcgcgagatt ggcacgggga tgcgttcgca
+     2161 gggctttttg caccagttcg atatcatcgg tcgcactata tacgccgttc ggaaagtact
+     2221 tggacaaggg gtgtttgccg ggtgaggggc agtcgtcacg cttgcacgag catcgcccgt
+     2281 cctcgccaat gccatatgtc aaaatcactt ttcgcccggc ggcgatctgc gccttggcag
+     2341 cgtctagtgt atttcgggag cgcatctgtt ttgacacgcg aaaatgttgt cgcatggtgt
+     2401 ttcctttgat ttcttctgga agaaaggggg ctggaaagcc cccaatcagt actcagcgta
+     2461 atgggtgcgc acgcgctcgg ctgcgcggtc agcaagccag tcctcgatct cggacaggaa
+     2521 ccacgcaacg ctggtcccgg ccatcctgat acgccgaggg aagcgcccac gggcctccca
+     2581 gcgcaacagg gtcgt
+//

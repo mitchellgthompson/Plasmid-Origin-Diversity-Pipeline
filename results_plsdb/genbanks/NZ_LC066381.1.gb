@@ -1,0 +1,62 @@
+LOCUS       NZ_LC066381_1           1101 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Aureimonas_ureilytica | RIP: repM_Acin |
+            1,101 bp.
+ACCESSION   NZ_LC066381
+VERSION     NZ_LC066381.1
+KEYWORDS    .
+SOURCE      Aureimonas_ureilytica
+  ORGANISM  Aureimonas_ureilytica
+            Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+            Aurantimonadaceae; Aureimonas.
+FEATURES             Location/Qualifiers
+     source          1..1101
+                     /organism="Aureimonas_ureilytica"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_LC066381.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: repM_Acin
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             1..95
+                     /product="hypothetical protein (76 aa)"
+                     /locus_tag="NZ_LC066381.1_orf1"
+                     /translation="RGFAACYLRFFLFFLVFKAENAFEIMGLYPPIVPFSGLNVPFSGL
+                     NVPFPGCFPQPSCASREAIFGEMCHLPQEAQ"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             201..901
+                     /product="repM_Acin"
+                     /locus_tag="NZ_LC066381.1_orf2"
+                     /translation="MSNALTRAGHGLTLAEKRIIAHAASKLDSRRPLAPGEVPQTHLTA
+                     AEYAETFDVDLTTAYEALQSAARTLYERSITFYEAAHRRRGTSLSLAKVQMRWVGSVKY
+                     HETEGWVELHWWPALLPHLTGLKKQFTSHQLKQASALRSVYSWRLLELLTRFGSTGRAE
+                     YTVEDFAASMDATEKQQANFAAIRRKIIEPAVRELVEKDGWQIEWKPIKAGRKVKAVRF
+                     DFSRDPQGQLL"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 atgtgccttt tcccgggtgt tttccacagc cgtcctgcgc ctcgagagag gccatctttg
+       61 gcgaaatgtg ccatcttccc caagaggcac aatgacccgg aagacggcac aatagatggg
+      121 aaaaaccgca gcaaaattcc gggtcgagcg ctacgatccc gccgccccgg agcggcctgc
+      181 gaaggagcga tgggtgtcca tgagcaatgc cctgacgcga gcggggcatg ggctgaccct
+      241 ggcggaaaaa cgcatcatcg cgcatgccgc ctcgaagctg gacagccgcc gccccctggc
+      301 gcccggcgag gtgcctcaga cccatctgac ggcggccgag tatgccgaga ccttcgacgt
+      361 ggacctcacc accgcctacg aggccctgca gagcgccgcc aggaccctct acgagcgatc
+      421 catcaccttc tacgaggccg cgcaccggcg gcgcggcacg tcgctgtctc tggccaaggt
+      481 gcagatgcgc tgggtcgggt cggtgaagta ccacgagacg gaaggctggg tggagctgca
+      541 ctggtggccg gcgctgctgc cgcacctgac ggggctcaag aagcagttca cgagccacca
+      601 gctcaaacag gcctcggcgc tgcgctcggt ctattcctgg cggctcctgg agctcctgac
+      661 gcgcttcggc tcgacgggcc gggcggaata cacggtcgag gacttcgcgg cctcgatgga
+      721 cgcgaccgag aagcagcagg cgaacttcgc cgccatccgg cgcaagatca tcgagcccgc
+      781 ggtgcgcgag ctcgtggaga aggacggctg gcagatcgag tggaagccga tcaaggccgg
+      841 gcgcaaggtc aaggcggtgc gcttcgactt cagccgcgat ccgcagggcc agctgctctg
+      901 aggggcctcg gccgggcaca cccggccgcg acgcgcctcg gagacgatcg ccgcgtcacc
+      961 ggagcggccc agcgccggtt ttgtgacggg cgcgccagcg aaccacccat gcgggacaag
+     1021 gttcggcccg cgatcgacga ccatgccgcg ccggcaggcg agattgccaa agaaggccac
+     1081 agacgcgcag gagacgcgtt t
+//

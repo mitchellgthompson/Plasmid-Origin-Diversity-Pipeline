@@ -1,0 +1,97 @@
+LOCUS       NZ_CP100692_1           2077 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Salmonella_enterica | RIP: RepC | 2,077 bp.
+ACCESSION   NZ_CP100692
+VERSION     NZ_CP100692.1
+KEYWORDS    .
+SOURCE      Salmonella_enterica
+  ORGANISM  Salmonella_enterica
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Salmonella.
+FEATURES             Location/Qualifiers
+     source          1..2077
+                     /organism="Salmonella_enterica"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP100692.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RepC |
+                     Tier: Tier 5: Diversity fill"
+     CDS             complement(201..1051)
+                     /product="RepC"
+                     /locus_tag="NZ_CP100692.1_orf1"
+                     /translation="MVKPKNKHSLSHVRHDPAHCLAPGLFRALKRGERKRSKLDVTYDY
+                     GDGKRIEFSGPEPLGADDLRILQGLVAMAGPNGLVLGPEPKTEGGRQLRLFLEPKWEAV
+                     TADAMVVKGSYRALAKEIGAEVDSGGALKHIQDCIERLWKVSIIAQNGRKRQGFRLLSE
+                     YASDEADGRLYVALNPLIAQAVMGGGQHVRISMDEVRALDSETARLLHQRLCGWIDPGK
+                     TGKASIDTLCGYVWPSEASGSTMRKRRQRVREALPELVALGWTVTEFAAGKYDITRPKA
+                     AG"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1039..1877)
+                     /product="AAA_25: AAA domain"
+                     /locus_tag="NZ_CP100692.1_orf2"
+                     /translation="MATHKPINILEAFAAAPPPLDYVLPNMVAGTVGALVSPGGAGKSM
+                     LALQLAAQIAGGPDLLEVGELPTGPVIYLPAEDPPTAIHHRLHALGAHLSAEERQAVAD
+                     GLLIQPLIGSLPNIMAPEWFDGLKRAAEGRRLMVLDTLRRFHIEEENASGPMAQVIGRM
+                     EAIAADTGCSIVFLHHASKGAAMMGAGDQQQASRGSSVLVDNIRWQSYLSSMTSAEAEE
+                     WGVDDDQRRFFVRFGVSKANYGAPFADRWFRRHDGGVLKPAVLERQRKSKGVPRGEA"
+                     /codon_start=1
+                     /function="structural"
+                     /note="category=structural; color=#FF8F00"
+                     /note="Pfam=AAA_25 (PF13481.13)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF13481.13"
+                     /ApEinfo_fwdcolor="#FF8F00"
+                     /ApEinfo_revcolor="#FF8F00"
+     CDS             complement(1908..2077)
+                     /product="MazE-like: Antitoxin MazE-like"
+                     /locus_tag="NZ_CP100692.1_orf3"
+                     /translation="LASPDAVRQARYAERMKAKGMRQRKFWLTDDEYEALRECLEELRA
+                     AQGGGSDPASA"
+                     /codon_start=1
+                     /function="structural"
+                     /note="category=structural; color=#FF8F00"
+                     /note="Pfam=MazE-like (PF11455.14) E=2.7e-03"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#FF8F00"
+                     /ApEinfo_revcolor="#FF8F00"
+                     /db_xref="Pfam:PF11455.14"
+ORIGIN
+        1 gcagaagagc atacatctgg aagcaaagcc aggaaagcgg cctatggagc tgtgcggcag
+       61 cgctcagtag gcaatttttc aaaatattgt taagcctttt ctgagcatgg tatttttcat
+      121 ggtattacca attagcagga aaataagcca ttgaatataa aagataaaaa tgtcttgttt
+      181 acaatagagt gggggggggt cagcctgccg ccttgggccg ggtgatgtcg tacttgcccg
+      241 ccgcgaactc ggttaccgtc cagcccagcg cgaccagctc cggcaacgcc tcgcgcaccc
+      301 gctggcggcg cttgcgcatg gtcgaaccac tggcctctga cggccagaca tagccgcaca
+      361 aggtatctat ggaagccttg ccggttttgc cggggtcgat ccagccacac agccgctggt
+      421 gcagcaggcg ggcggtttcg ctgtccagcg cccgcacctc gtccatgctg atgcgcacat
+      481 gctggccgcc acccatgacg gcctgcgcga tcaaggggtt cagggccacg tacaggcgcc
+      541 cgtccgcctc gtcgctggcg tactccgaca gcagccgaaa cccctgccgc ttgcggccat
+      601 tctgggcgat gatggatacc ttccaaaggc gctcgatgca gtcctgtatg tgcttgagcg
+      661 ccccaccact atcgacctct gccccgattt cctttgccag cgcccgatag ctacctttga
+      721 ccaccatggc atcagcggtg acggcctccc acttgggttc caggaacagc cggagctgcc
+      781 gtccgccttc ggtcttgggt tccgggccaa gcactaggcc attaggccca gccatggcca
+      841 ccagcccttg caggatgcgc agatcatcag cgcccagcgg ctccgggccg ctgaactcga
+      901 tccgcttgcc gtcgccgtag tcatacgtca cgtccagctt gctgcgcttg cgctcgcccc
+      961 gcttgagggc acggaacagg ccgggggcca gacagtgcgc cgggtcgtgc cggacgtggc
+     1021 tgaggctgtg cttgttctta ggcttcacca cggggcaccc ccttgctctt gcgctgcctc
+     1081 tccagcacgg cgggcttgag caccccgccg tcatgccgcc tgaaccaccg atcagcgaac
+     1141 ggtgcgccat agttggcctt gctcacaccg aagcggacga agaaccggcg ctggtcgtcg
+     1201 tccacacccc attcctcggc ctcggcgctg gtcatgctcg acaggtagga ctgccagcgg
+     1261 atgttatcga ccagtaccga gctgccccgg ctggcctgct gctggtcgcc tgcgcccatc
+     1321 atggccgcgc ccttgctggc atggtgcagg aacacgatag agcacccggt atcggcggcg
+     1381 atggcctcca tgcgaccgat gacctgggcc atggggccgc tggcgttttc ttcctcgatg
+     1441 tggaaccggc gcagcgtgtc cagcaccatc aggcggcggc cctcggcggc gcgcttgagg
+     1501 ccgtcgaacc actccggggc catgatgttg ggcaggctgc cgatcagcgg ctggatcagc
+     1561 aggccgtcag ccacggcttg ccgttcctcg gcgctgaggt gcgccccaag ggcgtgcagg
+     1621 cggtgatgaa tggcggtggg cgggtcttcg gcgggcaggt agatcaccgg gccggtgggc
+     1681 agttcgccca cctccagcag atccggcccg cctgcaatct gtgcggccag ttgcagggcc
+     1741 agcatggatt taccggcacc accgggcgac accagcgccc cgaccgtacc ggccaccatg
+     1801 ttgggcaaaa cgtagtccag cggtggcggc gctgctgcga acgcctccag aatattgata
+     1861 ggcttatggg tagccattga ttgcctcctt tgcaggcagt tggtggttag gcgctggcgg
+     1921 ggtcactacc cccgccctgc gccgctctga gttcttccag gcactcgcgc agcgcctcgt
+     1981 attcgtcgtc ggtcagccag aacttgcgct gacgcatccc tttggccttc atgcgctcgg
+     2041 catatcgcgc ttggcgtaca gcgtcagggc tggccag
+//

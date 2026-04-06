@@ -1,0 +1,45 @@
+# ── Large databases (download externally) ──────────────────────────────────
+Pfam-A.hmm
+Pfam-A.hmm.h3*
+Pfam-A.hmm.gz
+
+# PLSDB raw data (download from https://ccb-microbe.cs.uni-saarland.de/plsdb2025/)
+plsdb2025/
+plsdb2025*
+
+# OriVFinder Docker extract (~16GB) — algorithm is embedded in pipeline
+orivfinder/
+
+# Old notebooks (kept locally for reference; not part of pipeline)
+*.ipynb
+.ipynb_checkpoints/
+
+# Old results from notebook runs
+results/
+
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── OS / editor ─────────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# ── Pipeline temp files ─────────────────────────────────────────────────────
+*.faa.tbl
+*.domtbl
+plsdb_batch_*
+lib_orfs_*
+gb_orfs_*
+pfam_orfs_*
+
+# ── Conversation logs ───────────────────────────────────────────────────────
+.claude/

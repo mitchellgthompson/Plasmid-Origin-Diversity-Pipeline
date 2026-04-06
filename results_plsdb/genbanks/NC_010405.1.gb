@@ -1,0 +1,73 @@
+LOCUS       NC_010405_1             1503 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Paulownia_witches'-broom_phytoplasma | RIP:
+            Gemini_AL1__RCR | 1,503 bp.
+ACCESSION   NC_010405
+VERSION     NC_010405.1
+KEYWORDS    .
+SOURCE      Paulownia_witches'-broom_phytoplasma
+  ORGANISM  Paulownia_witches'-broom_phytoplasma
+            Mycoplasmatota; Mollicutes; Acholeplasmatales; Acholeplasmataceae;
+            Candidatus_Phytoplasma.
+FEATURES             Location/Qualifiers
+     source          1..1503
+                     /organism="Paulownia_witches'-broom_phytoplasma"
+                     /mol_type="genomic DNA"
+                     /plasmid="NC_010405.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     Gemini_AL1__RCR | Tier: Tier 4: Phylum-exclusive"
+     CDS             4..152
+                     /product="SSB: Single-strand binding protein family"
+                     /locus_tag="NC_010405.1_orf1"
+                     /translation="NMFMYLRKGSKVYVEGSLSIEKYTNNDGENKTSIKVIVQRVIFLD
+                     SKEK"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=SSB (PF00436.32)"
+                     /db_xref="Pfam:PF00436.32"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+     CDS             201..1303
+                     /product="Gemini_AL1__RCR"
+                     /locus_tag="NC_010405.1_orf2"
+                     /translation="MKKTKFKIKTKDIFLTYSKCPLGKDKIHNHIKQLMASKKKEIQYL
+                     ITNQENHKDHKEIHSHVLFQLTKSATFNGERFFDIEGFHPEIEVARDIEKSISYIKKDG
+                     DFIEEGTPRHKKYVRQNQKEERKQLIYDEIFRLKNEYYHNEDLTLQQVKKTLDEFIINL
+                     DRDFYLEQIDLIEKILKKKFIKKDELALLDKLQNHIPSTGYDLNTFKFNKSTQEIENAI
+                     VEQLKVDKRPLSIVIEGASRLGKTEFIISYLNNQKVHYNYIRGSFDFSKENYNDNFKVD
+                     VYDDISINYIKSAGLLKNIIGGQGGFIVDVKYSPKRLLSGNKLSIFLVNPDISFESWCE
+                     EDEKYAGETHKYIKTNCIFIYVPDKLY"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 ataatatgtt tatgtatctt cgtaaaggtt caaaagtata tgtagaaggg tctttatcaa
+       61 ttgaaaaata tactaataac gatggtgaaa ataaaacctc aattaaagta atagttcaaa
+      121 gagttatctt tttagatagc aaagaaaaat aaaataagcc cctaaactaa taggggcttt
+      181 aacaagaaag agcattaaga tgaaaaaaac taaatttaaa ataaaaacca aagatatctt
+      241 tttaacctat tccaaatgtc ctttaggtaa agataaaatt cataatcata ttaaacaatt
+      301 aatggcttct aaaaaaaaag aaattcaata tttgattact aatcaagaaa accataaaga
+      361 ccataaagaa attcattctc atgttttatt tcaattaact aaatcagcaa catttaatgg
+      421 agaaagattc tttgatatcg aaggttttca tcccgaaatc gaagttgctc gtgatattga
+      481 aaaatcaatt tcttatataa aaaaagatgg cgacttcatt gaagaaggta ctccaagaca
+      541 taaaaaatac gttcgtcaaa accaaaaaga agaacgtaaa caattaatct atgacgaaat
+      601 attcagatta aaaaatgaat attatcataa tgaggattta actttacaac aagttaaaaa
+      661 aactcttgat gaatttataa ttaatcttga ccgtgatttt tatttagaac aaatagattt
+      721 aattgaaaaa atcctaaaaa aaaagttcat caaaaaagat gaactagcgt tacttgataa
+      781 actacaaaat catatcccct caactggcta tgatttaaat actttcaaat ttaataaaag
+      841 cactcaagaa attgaaaatg ctattgtaga acagcttaaa gttgataaac gtcctttatc
+      901 aattgttatt gaaggagcta gtagactcgg aaaaaccgag tttattatta gctatctaaa
+      961 taatcaaaaa gtacactata attatatcag aggtagtttt gattttagta aagaaaatta
+     1021 taatgataac ttcaaagtag atgtttatga tgatatcagt atcaattata tcaaatcagc
+     1081 aggtttatta aaaaacatta ttggaggcca aggaggattt atagttgatg ttaaatattc
+     1141 tcctaaaagg ttattatctg gtaataaatt aagtattttt ttagttaacc ctgacatctc
+     1201 atttgaatct tggtgtgaag aagatgaaaa atatgcagga gaaacacata aatatataaa
+     1261 aactaattgt atctttatct atgtccctga taaattatat taattcgttt ccgcggaatg
+     1321 ttaattttaa aacattctat tagatttaaa agatatttta aacgcattat tttgcctctc
+     1381 tcgctttgac gagcagagcg aactaggcgg ccagccgaag tacagccaaa ttaactctta
+     1441 ccctcctcct ataaagtccc ctttggggat ttaggggttg gtttttttat acccaaattc
+     1501 gct
+//

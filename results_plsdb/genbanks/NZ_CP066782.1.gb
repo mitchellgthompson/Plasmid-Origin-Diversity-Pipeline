@@ -1,0 +1,63 @@
+LOCUS       NZ_CP066782_1           1620 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Comamonas_fluminis | RIP: Replicase | 1,620
+            bp.
+ACCESSION   NZ_CP066782
+VERSION     NZ_CP066782.1
+KEYWORDS    .
+SOURCE      Comamonas_fluminis
+  ORGANISM  Comamonas_fluminis
+            Pseudomonadota; Betaproteobacteria; Burkholderiales; Comamonadaceae;
+            Comamonas.
+FEATURES             Location/Qualifiers
+     source          1..1620
+                     /organism="Comamonas_fluminis"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP066782.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Replicase
+                     | Tier: Tier 5: Diversity fill"
+     CDS             201..1420
+                     /product="Replicase"
+                     /locus_tag="NZ_CP066782.1_orf1"
+                     /translation="MAGTTAQKLDNQTADRFFQSGTALNRVLTEAPYLPRCSDDKTATR
+                     VRPREYAIRYPYMQVNRPGFVSWLIFDLDHAKAMIWEDAGLPAPNLIVRNRQSGHSHLY
+                     YAIPPVCTTEAARSKPIAYMKAVYEAFAARLDADTDFHSGPVAKTPGHPWWLTHELHAH
+                     VYELGELADYVDLAVSSPWGKGPQFDEVSHSRHCILFEHLRHYAYSIVNRERERGSFAT
+                     FTRLLEVYAHNRNSFQKLGFMDNLAQSSLKATVKSVARWTWDRYTGCGRCHRGVMQLDK
+                     DLPLIERQRLAAARTHDVRHKTTESKVRAACRLLQQKGEALTQAAIGRVAGLTRQTVAT
+                     YKHVLEEVLKPVAVAILGGTSGKAEDVKHGAHQVTAAPQGAGVPVSASVSLELFPAGPG
+                     VVPVLDG"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 tcagaaacga caaagcccgc tttggcgagc gggtcttgac agataaaccg ggcagggtgc
+       61 ccagacacgt acagcgttcg ctttggcggg tgaactctgt accagtgcaa taaagcgact
+      121 gaaagtgctt ccattgtacg tgtcttaaac cctgcgcgca agcgtgcgca cgcccctatg
+      181 ggacgtgtga tgaggggtta tggcaggtac aacggcacag aaactagaca accagaccgc
+      241 agatcgcttt ttccagtcgg gcaccgcgct caatcgcgtg ctcacggaag cgccctatct
+      301 gccgcgttgt tctgacgaca agacggccac ccgagtccgg ccgcgcgaat acgccattcg
+      361 ctacccctac atgcaggtca atcggcccgg cttcgtgagc tggctgatct tcgaccttga
+      421 ccatgccaag gcgatgatct gggaggacgc tggccttcct gcccccaacc tgatcgtccg
+      481 caaccgccaa agcggccaca gccacctcta ctacgcgatt cccccggtct gtacgaccga
+      541 ggccgcccgc agcaagccca tcgcctacat gaaggccgtc tatgaggcct tcgctgcccg
+      601 gctcgatgcc gacaccgact tccacagcgg ccccgtggcc aagacgcccg gtcatccttg
+      661 gtggctgacg cacgagctgc acgcccacgt ctacgagctg ggggagttgg ccgactacgt
+      721 ggacttggct gtgtccagcc cgtggggcaa ggggcctcag ttcgacgagg tgagccattc
+      781 ccggcactgc atcctcttcg agcacctgcg gcactacgcc tattccatcg tgaaccgtga
+      841 gcgcgagcgc ggctcgtttg ccaccttcac gcggctgctc gaagtctacg cgcacaaccg
+      901 caacagcttc cagaagctgg gcttcatgga caacctggcc cagtcctcac tcaaggccac
+      961 ggtgaagtcc gtcgcccgct ggacgtggga tcgctacacc ggctgcggcc ggtgccaccg
+     1021 gggcgtgatg cagctcgaca aggacttgcc gctgatcgag cggcagcgcc tcgccgccgc
+     1081 ccgcacccac gacgtgcgcc acaagaccac cgagtccaag gtgcgcgccg cgtgccgcct
+     1141 gctgcaacag aagggcgaag ccctcacgca agccgctatc ggccgcgtag cgggcctcac
+     1201 aaggcagacg gtggccacct acaagcatgt gctcgaagaa gtgctcaaac ccgtcgccgt
+     1261 ggcgattttg gggggcactt cgggcaaggc cgaggatgtt aagcatggtg cacatcaggt
+     1321 aactgccgcc ccgcaggggg ccggggttcc ggtttcagct tcggtgtccc ttgagctgtt
+     1381 tcctgctggg ccgggtgtcg tgcctgtgct ggatggttga gatggagccg gttttggttt
+     1441 tgagtagccc aagcgtttat caaacgcgag tagccgcaag tgggttgtgg gtaagtccgc
+     1501 aggacttatc catcatcccg cgcgcagggc gaagcccgga gggtgttccg ccgcgcgcaa
+     1561 gcgcggcccc ccctcagttt tcggcgtggc ggccgtgtcg gttgaatgga gttcggagga
+//

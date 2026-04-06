@@ -1,0 +1,109 @@
+LOCUS       NC_011378_1             2077 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Pasteurella_multocida | RIP: RepC | 2,077
+            bp.
+ACCESSION   NC_011378
+VERSION     NC_011378.1
+KEYWORDS    .
+SOURCE      Pasteurella_multocida
+  ORGANISM  Pasteurella_multocida
+            Pseudomonadota; Gammaproteobacteria; Pasteurellales;
+            Pasteurellaceae; Pasteurella.
+FEATURES             Location/Qualifiers
+     source          1..2077
+                     /organism="Pasteurella_multocida"
+                     /mol_type="genomic DNA"
+                     /plasmid="NC_011378.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RepC |
+                     Tier: Tier 5: Diversity fill"
+     CDS             4..170
+                     /product="MazE-like: Antitoxin MazE-like"
+                     /locus_tag="NC_011378.1_orf1"
+                     /translation="ASPDAVRQARYAERMKAKGMRQRKFWLTDDEYEALRECLEELRAA
+                     QGGGSDPASA"
+                     /codon_start=1
+                     /function="structural"
+                     /note="category=structural; color=#FF8F00"
+                     /note="Pfam=MazE-like (PF11455.14) E=2.5e-03"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#FF8F00"
+                     /ApEinfo_revcolor="#FF8F00"
+                     /db_xref="Pfam:PF11455.14"
+     CDS             201..1039
+                     /product="AAA_25: AAA domain"
+                     /locus_tag="NC_011378.1_orf2"
+                     /translation="MATHKPINILEAFAAAPPPLDYVLPNMVAGTVGALVSPGGAGKSM
+                     LALQLAAQIAGGPDLLEVGELPTGPVIYLPAEDPPTAIHHRLHALGAHLSAEERQAVAD
+                     GLLIQPLIGSLPNIMAPEWFDGLKRAAEGRRLMVLDTLRRFHIEEENASGPMAQVIGRM
+                     EAIAADTGCSIVFLHHASKGAAMMGAGDQQQASRGSSVLVDNIRWQSYLSSMTSAEAEE
+                     WGVDDDQRRFFVRFGVSKANYGAPFADRWFRRHDGGVLKPSVLERQRKSKGVPRGEA"
+                     /codon_start=1
+                     /function="structural"
+                     /note="category=structural; color=#FF8F00"
+                     /note="Pfam=AAA_25 (PF13481.13)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF13481.13"
+                     /ApEinfo_fwdcolor="#FF8F00"
+                     /ApEinfo_revcolor="#FF8F00"
+     CDS             1027..1877
+                     /product="RepC"
+                     /locus_tag="NC_011378.1_orf3"
+                     /translation="MVKPKNKHSLSHVRHDPAHCLAPGLFRALKRGERKRSKLDVTYDY
+                     GDGKRIEFSGPEPLGADDLRILQGLVAMAGPNGLVLGPEPKTEGGRQLRLFLEPKWEAV
+                     TADAMVVKGSYRALAKEIGAEVDSGGALKHIQDCIERLWKVSIIAQNGRKRQGFRLLSE
+                     YASDEADGRLYVALNPLIAQAVMGGGQHVRISMDEVRALDSETARLLHQRLCGWIDPGK
+                     TGKASIDTLCGYVWPSEASGSTMRKRRQRVREALPELVALGWTVTEFAAGKYDITRPKA
+                     AG"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1956..2077
+                     /product="Pterin_bind: Pterin binding enzyme"
+                     /locus_tag="NC_011378.1_orf4"
+                     /translation="MNKSLIIFGIVNITSDSFSDGGRYLAPDAAIAQARKLMAEG"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=Pterin_bind (PF00809.29)"
+                     /db_xref="Pfam:PF00809.29"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+ORIGIN
+        1 tggccagccc tgacgctgta cgccaagcgc gatatgccga gcgcatgaag gccaaaggga
+       61 tgcgtcagcg caagttctgg ctgaccgacg acgaatacga ggcgctgcgc gagtgcctgg
+      121 aagaactcag agcggcgcag ggcgggggta gtgaccccgc cagcgcctaa ccaccaactg
+      181 cctgcaaagg aggcaatcaa tggctaccca taagcctatc aatattctgg aggcgttcgc
+      241 agcagcgccg ccaccgctgg actacgtttt gcccaacatg gtggccggta cggtcggggc
+      301 gctggtgtcg cccggtggtg ccggtaaatc catgctggcc ctgcaactgg ccgcacagat
+      361 tgcaggcggg ccggatctgc tggaggtggg cgaactgccc accggcccgg tgatctacct
+      421 gcccgccgaa gacccgccca ccgccattca tcaccgcctg cacgcccttg gggcgcacct
+      481 cagcgccgag gaacggcaag ccgtggctga cggcctgctg atccagccgc tgatcggcag
+      541 cctgcccaac atcatggccc cggagtggtt cgacggcctc aagcgcgccg ccgagggccg
+      601 ccgcctgatg gtgctggaca cgctgcgccg gttccacatc gaggaagaaa acgccagcgg
+      661 ccccatggcc caggtcatcg gtcgcatgga ggccatcgcc gccgataccg ggtgctctat
+      721 cgtgttcctg caccatgcca gcaagggcgc ggccatgatg ggcgcaggcg accagcagca
+      781 ggccagccgg ggcagctcgg tactggtcga taacatccgc tggcagtcct acctgtcgag
+      841 catgaccagc gccgaggccg aggaatgggg tgtggacgac gaccagcgcc ggttcttcgt
+      901 ccgcttcggt gtgagcaagg ccaactatgg cgcaccgttc gctgatcggt ggttcaggcg
+      961 gcatgacggc ggggtgctca agccctccgt gctggagagg cagcgcaaga gcaagggggt
+     1021 gccccgtggt gaagcctaag aacaagcaca gcctcagcca cgtccggcac gacccggcgc
+     1081 actgtctggc ccccggcctg ttccgtgccc tcaagcgggg cgagcgcaag cgcagcaagc
+     1141 tggacgtgac gtatgactac ggcgacggca agcggatcga gttcagcggc ccggagccgc
+     1201 tgggcgctga tgatctgcgc atcctgcaag ggctggtggc catggctggg cctaatggcc
+     1261 tagtgcttgg gccggaaccc aagaccgaag gcggacggca gctccggctg ttcctggaac
+     1321 ccaagtggga ggccgtcacc gctgatgcca tggtggtcaa aggtagctat cgggcgctgg
+     1381 caaaggaaat cggggcagag gtcgatagtg gtggggcgct caagcacata caggactgca
+     1441 tcgagcgcct ttggaaggta tccatcatcg cccagaatgg ccgcaagcgg caggggtttc
+     1501 ggctgctgtc ggagtacgcc agcgacgagg cggacgggcg cctgtacgtg gccctgaacc
+     1561 ccttgatcgc gcaggccgtc atgggtggcg gccagcatgt gcgcatcagc atggacgagg
+     1621 tgcgggcgct ggacagcgaa accgcccgcc tgctgcacca gcggctgtgt ggctggatcg
+     1681 accccggcaa aaccggcaag gcttccatag ataccttgtg cggctatgtc tggccgtcag
+     1741 aggccagtgg ttcgaccatg cgcaagcgcc gccagcgggt gcgcgaggcg ttgccggagc
+     1801 tggtcgcgct gggctggacg gtaaccgagt tcgcggcggg caagtacgac atcacccggc
+     1861 ccaaggcggc aggctgaccc ccccactcta ttgtaaacaa gacattttta tcttttatat
+     1921 tcaatggctt attttcctgc taattggtaa taccatgaat aaatcgctca tcattttcgg
+     1981 catcgtcaac ataacctcgg acagtttctc cgatggaggc cggtatctgg cgccagacgc
+     2041 agccattgcg caggcgcgta agctgatggc cgagggg
+//

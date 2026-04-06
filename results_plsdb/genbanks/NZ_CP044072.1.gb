@@ -1,0 +1,56 @@
+LOCUS       NZ_CP044072_1           1263 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Pseudomonas_oryzihabitans | RIP: repM_Acin |
+            1,263 bp.
+ACCESSION   NZ_CP044072
+VERSION     NZ_CP044072.1
+KEYWORDS    .
+SOURCE      Pseudomonas_oryzihabitans
+  ORGANISM  Pseudomonas_oryzihabitans
+            Pseudomonadota; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+FEATURES             Location/Qualifiers
+     source          1..1263
+                     /organism="Pseudomonas_oryzihabitans"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP044072.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: repM_Acin
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..1063
+                     /product="repM_Acin"
+                     /locus_tag="NZ_CP044072.1_orf5"
+                     /translation="MSKVSTSVPDQADPRPIRVTKSNTLITASYRLTLNEQRLILAAIS
+                     QIDPRKGMPKKISVSALLYSEIYGVQLRHAYEQMKETADVLFEREVKTFDGSAVERKRW
+                     VDAARYIAGEGRVELSFTIHVMPYLSRLHTKLTSYDLRRVARLDSTHSFRLFEMLMQFK
+                     KTGWAYIEIETLRTALGLSDAYQRFNNLRQRVIDPAVEELRTKSRLDVTYELKREARRV
+                     VAIKFMFKDLAQQLPLNLGDEELVPLTEIDLPEDPSLLLASAFEDLSEDDPNFTFPIDV
+                     DESGGA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 gtccgctcgg acgatgtttt actacctgcc aatgcgtctc ctcgagacga ctacaactcg
+       61 actctgcctg atcgccaagg cagttgattg tcgcgcggaa agcgcgccgt gcgggctttt
+      121 gactcttttt tcgcttgacc cggtatcgac tacaggggaa ggcactagta gggtttaagg
+      181 cttcctacca ggtccctcca tgtcaaaggt atccacctcc gttcctgatc aagctgaccc
+      241 tcgtccgatt cgggtaacga agtcaaatac gctcatcaca gcgtcgtatc ggcttaccct
+      301 caacgagcag aggctcattt tggctgcgat aagccaaatc gaccctcgga aagggatgcc
+      361 gaagaagatt tctgtgtctg cactgctcta ttcagagata tacggtgtgc agcttcgtca
+      421 tgcctacgag cagatgaagg agacggccga cgttctgttt gagcgcgagg tgaagacctt
+      481 cgatggatct gcagtggaac gtaagcgctg ggtcgatgct gcgcgttaca tcgctggcga
+      541 ggggagggtg gagctgtcct tcacgatcca cgttatgccg tacctatccc gacttcacac
+      601 caagctcacc agctacgacc tccgccgggt cgcacgtctc gactctactc actcgtttcg
+      661 gctctttgag atgctcatgc agttcaagaa aaccggatgg gcatacatcg agatcgagac
+      721 actcaggacc gctttagggc tttctgacgc ctaccagcgc tttaacaatc tccgccagcg
+      781 cgtgattgat cctgctgtgg aagagctgcg taccaagagt agattggatg tcacctacga
+      841 actgaagcgt gaggcgagaa gagtcgttgc gatcaaattt atgttcaagg atctcgctca
+      901 acagttaccg ctcaacctgg gtgacgagga gcttgtgccc ttgactgaaa ttgatctgcc
+      961 ggaggatccc agcttgctgc tggcgtccgc cttcgaagat ttgagcgagg acgatccgaa
+     1021 cttcaccttc cccattgatg tagatgagtc cggtggcgct tagccgaatt ctgcatcggt
+     1081 tagcgtggaa ccctgtcgct cacgatcagc aggtcttgcc aaaggtgttt caccgacagc
+     1141 tcagcattag gcgacctgcg tagaaagctc atcatcgcgc gatcctgcca cccaggttgt
+     1201 ggagtgcctt tgcggcttgc gggtctccct aacacccctt tcattccaaa tggcgctaga
+     1261 cct
+//

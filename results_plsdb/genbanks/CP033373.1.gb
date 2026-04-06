@@ -1,0 +1,73 @@
+LOCUS       CP033373_1              1620 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Limosilactobacillus_fermentum | RIP: MobT |
+            1,620 bp.
+ACCESSION   CP033373
+VERSION     CP033373.1
+KEYWORDS    .
+SOURCE      Limosilactobacillus_fermentum
+  ORGANISM  Limosilactobacillus_fermentum
+            Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+            Limosilactobacillus.
+FEATURES             Location/Qualifiers
+     source          1..1620
+                     /organism="Limosilactobacillus_fermentum"
+                     /mol_type="genomic DNA"
+                     /plasmid="CP033373.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: MobT |
+                     Tier: Tier 5: Diversity fill"
+     CDS             201..1420
+                     /product="MobT"
+                     /locus_tag="CP033373.1_orf1"
+                     /translation="MNEDLTLIDYQVQADWLNIFWQQLEDKKIKQSQLAKSMGISRSYL
+                     NQLLNSKRPLTEAMRQRLTAAFCELSGITALNICFDYVRIRFPTHDVDELIVALFCIKP
+                     IYFVYEPYGRYGYSGKFRHGDMEIFVSPEDDNRGSLIELKGKGCRELEGILVASEQSWY
+                     DFLRQALALDGVVKRIDLAINDYLDVLPVHYLIKKSMRHEYITKFRECKYFVRDKDNLK
+                     GESLYFGSRKSAIYFCIYQKDIEQYFKLGKALAETKIKNRFEIRVFDERAEQTVADLLA
+                     YRNPQRTVFGIINNYLRFVKPIANKPTSKWPLDDRWAQFIGKYADELRLAVSPEPVTLD
+                     QTIQWIKKQVAPSLKMLMAIDSAKSEDTLMTIIAEAKLSENQQVMIQQMLASPEEIMIQ
+                     QPKHNGD"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1542..1620
+                     /product="hypothetical protein (83 aa)"
+                     /locus_tag="CP033373.1_orf2"
+                     /translation="MENTSVPYSGDSAGKAEWGTKQALLKRYEGLNIYTLNRWLSEMRN
+                     DATFRQGVINPTHKIVLINFATFQEFLFWKQHHYIRNV"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 cggcgtgcaa cgcgaaagcc gctagcgtga gcggcggtcg gctttagccg gccgcctcaa
+       61 cccccaagtt ctaatagggg ggtagaaagt ataaacggtt aattaatcca gcagcaagaa
+      121 atgccaattt ctaggtattc aagcaacaaa gttgctgtta accgtgacta agaattgcaa
+      181 attttggagg tgagcgtact tgaatgaaga tttaactcta attgattacc aggtccaagc
+      241 tgattggctt aatatttttt ggcaacagtt ggaggataaa aaaattaagc aaagtcagct
+      301 agctaagtca atgggcatca gtcgttctta tctcaatcaa ctattgaaca gtaagcgacc
+      361 attaactgag gccatgcgcc aacgattaac cgcagccttt tgcgaactga gtggcatcac
+      421 cgcattaaac atttgttttg actatgtccg gatcagattt ccaacccatg atgttgacga
+      481 attgatcgtg gcacttttct gcatcaagcc gatttatttt gtttatgaac cttatggccg
+      541 ttatggctac agtggaaaat ttcggcatgg cgatatggaa atttttgttt caccggaaga
+      601 cgataatcgc ggttcattga ttgagttgaa ggggaaaggt tgtcgcgaac tggaaggcat
+      661 tttagtggcc agtgaacaga gctggtatga ctttttacgg caggcactgg cccttgatgg
+      721 cgtagttaaa cgcattgatc tagccatcaa tgattattta gatgtgctcc cggttcatta
+      781 cttgattaaa aagagtatgc gtcatgaata cattacaaag ttcagggagt gtaaatactt
+      841 tgtccgcgac aaagacaatt taaaaggaga aagtctctat tttggctcac gtaaaagtgc
+      901 aatttatttt tgtatttatc agaaagatat tgagcaatat tttaaattag gtaaagcgtt
+      961 ggcggagacc aaaatcaaga atcgatttga gattcgtgtg tttgacgaac gggctgagca
+     1021 aacggtcgcc gatctattgg cctatcgcaa cccgcagcga accgtgttcg gtattatcaa
+     1081 taattacttg cgttttgtga agccgattgc caacaagcca acgtcaaaat ggccgttgga
+     1141 cgatcggtgg gcacagttta ttggtaaata tgccgatgag ttacgtttgg ccgtttcgcc
+     1201 ggaaccggtc actttagacc aaactattca atggatcaag aaacaagtgg cgccaagttt
+     1261 aaaaatgtta atggcaattg attcggctaa aagcgaggat actctaatga cgatcattgc
+     1321 tgaggccaag ttaagtgaaa atcaacaagt gatgattcaa caaatgttgg ctagtcccga
+     1381 agaaataatg attcagcaac ccaaacataa tggcgattga gataataaaa agatgcaact
+     1441 acgccgacca aagcaagtag tttacacctt aaaatagata aaataagcaa tctatctacg
+     1501 attattatct cacttcatct agaaattagg aagtgaaaaa atggaaaata caagtgtacc
+     1561 atatagtggc gactccgccg gtaaagcgga atggggaacc aagcaagcat tgttgaaacg
+//

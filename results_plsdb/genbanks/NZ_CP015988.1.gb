@@ -1,0 +1,70 @@
+LOCUS       NZ_CP015988_1           1530 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Sphingobium_sp._EP60837 | RIP: RPA | 1,530
+            bp.
+ACCESSION   NZ_CP015988
+VERSION     NZ_CP015988.1
+KEYWORDS    .
+SOURCE      Sphingobium_sp._EP60837
+  ORGANISM  Sphingobium_sp._EP60837
+            Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+            Sphingomonadaceae; Sphingobium.
+FEATURES             Location/Qualifiers
+     source          1..1530
+                     /organism="Sphingobium_sp._EP60837"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP015988.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RPA |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             4..131
+                     /product="hypothetical protein (42 aa)"
+                     /locus_tag="NZ_CP015988.1_orf1"
+                     /translation="LIVSDTKAKGMTININPKRSMNVEEILAALRPVIEAAKFAKR"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             201..1330
+                     /product="RPA"
+                     /locus_tag="NZ_CP015988.1_orf2"
+                     /translation="MTMASKKDARDDTQVDLFLPQLTALPLRDQRETMERPFFSLSKRK
+                     RLKPIDYVSPDRKVTVHVSANSEYGLATIYDLDILIYCASVLIEYKRQGKNDIPQTLHV
+                     VPYDMLSTLKRDVGGRAYELLGNALDRLQSTTVKTNIRSGDAVETTFSWIDSHSQLKDR
+                     NGQVRGMRITLAKWFYDGVLMEGGVLAIDPAYFSLTGGRERWLYRVARKHAGGAGSDGF
+                     SIAMPTLYEKSGAEGDYRRFKFEMAKIVRENGLPGYSLELIQREGTEPMLRMTRRDAER
+                     QGAPLPSAPLQKPSTPKESETQASDKNPISFPAEGPISFGAFGAIARANLPSPQRDHSA
+                     VAVEFRNFLQTREIAFDAPNITQIFATFCSKQRPAS"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 gcctcattgt ctctgacacc aaagccaaag gaatgacgat caacatcaat ccgaagcggt
+       61 cgatgaacgt tgaggagatt ctcgcagcgc ttcgtccagt gatcgaagcg gcgaaattcg
+      121 ccaaacgatg accgccatta tcgtttaaat tcaggtgttt aacagcgagt aaaacaggtt
+      181 ttacttgtcg agcagtggaa tgaccatggc ctcaaaaaag gatgcgcgcg acgatactca
+      241 ggttgacctg ttccttccgc agctcaccgc cctcccctta cgcgaccagc gggaaacgat
+      301 ggagcggccc tttttttctc tgtccaaacg caaacgtcta aaaccaatcg actatgtcag
+      361 tcccgatcgc aaggtgacgg tccatgtgag cgccaactct gagtacgggc tggctactat
+      421 ctacgacctc gacattctga tttactgcgc gtcggttctc attgagtaca aacgtcaggg
+      481 caaaaacgat atcccccaga cattgcatgt cgttccatat gatatgctat caactctgaa
+      541 gcgcgacgta ggcggccgag cgtatgaatt gctcggcaat gcacttgacc gtctccaatc
+      601 gactaccgtg aagacgaata tccgctcggg cgatgcagtt gaaacgacgt tttcgtggat
+      661 tgacagccac agccagctca aggaccgcaa cggtcaagtt cgtgggatgc ggattacgct
+      721 tgctaagtgg ttttatgatg gcgtccttat ggaaggagga gttcttgcca ttgacccggc
+      781 gtatttctca ttaacgggag ggcgcgaacg ctggctttac cgtgttgctc gtaagcacgc
+      841 cgggggcgca ggttcggacg ggttttcgat tgcaatgccg acactatacg aaaagtcggg
+      901 tgcggagggc gactacagac gcttcaagtt tgagatggcg aagatcgtgc gagagaacgg
+      961 attgccgggg tactcgctcg agctgatcca gagagagggc actgagccaa tgctgaggat
+     1021 gacgagacgc gatgcggaac gtcaaggggc ccccctaccc tccgcgccgc ttcaaaaacc
+     1081 ttcaacccca aaagagagtg aaacgcaggc gtctgataaa aacccgatca gctttcccgc
+     1141 cgagggccca atttcttttg gggcatttgg cgccattgcg cgcgcaaatc ttcccagtcc
+     1201 tcaacgtgac cattcggccg ttgcggttga gttccgcaat tttttacaga cccgtgaaat
+     1261 tgcctttgat gcgccaaaca tcacccaaat atttgcaaca ttttgctcta agcagcggcc
+     1321 cgctagctga ggctaaattg agtggtatcg atgggctgcc cccccttccc cacgctgaca
+     1381 gcacccgcac cagtaagcgc acgcccctgc tagtggcgtt cccaaagtcc cgaacagtgg
+     1441 actcgtacag tatataggtt gcctaggcgc tctgaggggc ctcccttccg tacaactcaa
+     1501 gatagccact cgccagttat ctaaagctcc
+//

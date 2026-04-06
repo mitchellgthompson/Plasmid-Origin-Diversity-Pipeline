@@ -1,0 +1,94 @@
+LOCUS       NZ_CP118996_1           2095 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Aeromonas_media | RIP: RepC | 2,095 bp.
+ACCESSION   NZ_CP118996
+VERSION     NZ_CP118996.1
+KEYWORDS    .
+SOURCE      Aeromonas_media
+  ORGANISM  Aeromonas_media
+            Pseudomonadota; Gammaproteobacteria; Aeromonadales; Aeromonadaceae;
+            Aeromonas.
+FEATURES             Location/Qualifiers
+     source          1..2095
+                     /organism="Aeromonas_media"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP118996.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RepC |
+                     Tier: Tier 5: Diversity fill"
+     CDS             complement(201..1069)
+                     /product="RepC"
+                     /locus_tag="NZ_CP118996.1_orf1"
+                     /translation="MATLVEHRGGDVDHARHDPALALVSLFRPVCRGRRPGGLTIEHEH
+                     NGLRLKFNIWQALDSRDQSVLLGAIGLAGMLAAVGETNGLGAEVEHPRGQQLWLDLKPE
+                     ESAVMDKAIVVKTTRYALLQAAGMDDQGKSYDRLEDCLERLSMVGCRARKDGYDWSMRL
+                     LSYAETPEGQIHIALNPRFAEALSGHHVHVSLIERRELHSDTAQLTHAWLSAWLRQGNS
+                     NSIRLDRLAEKVWGPPSKAAATNRKRRERIGKALNEISKLHGWNVKIEGRGAAAKVTIK
+                     RPLLIEQS"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1054..1895)
+                     /product="AAA_25: AAA domain"
+                     /locus_tag="NZ_CP118996.1_orf2"
+                     /translation="MATHNPIDILAAFTAPPPPIDYVLPNMVAGTVGALVSPGGAGKSM
+                     LALQLAMQIAGGPDLLGVGELPTGRVIYLPAEDPPVAIHHRLHALGAHLSAAERQAVAT
+                     DLWIKPLIGNGPNIMTPEWFDGMMKAAEGRRLMVLDTLRRFHIEEENASGPMAQVIGRM
+                     EAIAAETGCSIIFLHHANKSAAMMGAGDQQQASRGSSVLVDNIRWQSYLSGMTAAEAEE
+                     WGVDDSQRPYFVRYGVSKANYGAPFKDRWFRRHDGGVLKPAVLEKQRKSKGVSDGYAG"
+                     /codon_start=1
+                     /function="structural"
+                     /note="category=structural; color=#FF8F00"
+                     /note="Pfam=AAA_25 (PF13481.13)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF13481.13"
+                     /ApEinfo_fwdcolor="#FF8F00"
+                     /ApEinfo_revcolor="#FF8F00"
+     CDS             complement(1927..2093)
+                     /product="hypothetical protein (55 aa)"
+                     /locus_tag="NZ_CP118996.1_orf3"
+                     /translation="ASDNAIRQARFAETQRELGRKARKIWATDDEAEALRLYLDKIRAA
+                     QDGDRDPASA"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 ccatctaggg gccttcggcc ctagatattc ttagtaatat cttagtacgg atttttggcg
+       61 aatcgctgta ggccagtggt ggcgcggctt acagcgattt ttcagaagtg aaaacgtgac
+      121 cgttaaaacg gtagagcgtg accgttaaaa cggtagaacg tgaccgttaa aacggtaggc
+      181 cgtgaccgtt tggctgggac tagctttgtt cgatcagtag cgggcgctta atcgtgactt
+      241 tcgcagcagc cccacgccct tcgattttca cattccagcc gtgcagcttg ctgatctcat
+      301 tcagcgcctt accgatgcgc tcacggcgct tccggttggt ggctgcggcc ttgctgggcg
+      361 gcccccaaac cttctcagcc agtcggtcga gccggatgct gttactgttc ccttgccgca
+      421 accatgctga cagccaggca tgggtaagct gagcggtgtc gctgtgcagc tcgcggcgct
+      481 caatcagtga tacatgcaca tgatgcccgg acagcgcttc ggcaaagcga gggttaaggg
+      541 caatatgaat ttggccctct ggggtttcgg cataggacag caggcgcatt gaccagtcat
+      601 agccatcctt tcgggcacga cagcccacca tgctgaggcg ttcaagacaa tcttcaagcc
+      661 tatcgtaact tttgccctga tcatccatcc ccgcagcttg tagaagcgcg taccgagttg
+      721 ttttgaccac tatggcttta tccatcacgg cgctttcttc tggcttgaga tcaagccata
+      781 gctgttggcc tcgcgggtgt tcaacctcgg cccctaaacc gttagtttcg cccaccgcgg
+      841 ccagcatacc ggccagccca atagcaccga gcaaaacaga ctgatcgcga ctatcgagcg
+      901 cctgccagat attaaacttg aggcgcaacc cgttatgctc atgctcgatt gtcaggccgc
+      961 ccggacggcg gccacggcac acgggccgga acagcgacac cagcgctaaa gcggggtcgt
+     1021 ggcgggcatg atcaacgtcc ccgcccctgt gctcaaccag cgtagccatc agacaccccc
+     1081 ttgctcttgc gttgcttttc cagcacagcg ggcttgagca ccccgccgtc atgccgcctg
+     1141 aaccagcggt ctttgaacgg tgccccatag ttggccttgc tcacgccgta gcgcacgaaa
+     1201 tagggccgct gtgagtcgtc tacgccccat tcctcggcct cggcggccgt catgccggac
+     1261 aggtaggact gccagcggat gttatccacg agcacggacg atccccggct ggcctgctgc
+     1321 tggtcgcctg cgcccatcat ggccgcgctt ttgttggcat ggtgcaggaa gatgatcgag
+     1381 caccctgtct cggcggcgat ggcctccatg cggccgatga cttgggccat aggcccggag
+     1441 gcgttctcct cctcgatgtg gaagcgcctg agcgtgtcca gcaccatcag gcgtctgccc
+     1501 tcggcggctt tcatcatgcc gtcgaaccac tccggggtca tgatgttggg gccgtttccg
+     1561 atcagcggtt tgatccacaa gtcggttgcc acggcctgcc gttcggctgc ggagaggtgc
+     1621 gccccgagtg cgtgcaggcg gtgatggatg gcaactggtg ggtcttctgc gggcaggtag
+     1681 atcactcggc ctgtcggcag ctcgcccacg cccagcagat cggggccgcc agcgatctgc
+     1741 atcgccagtt gcagggccag catggacttg ccagccccac cgggggatac cagcgccccc
+     1801 acggtgccgg ccaccatgtt gggcaacaca taatcaattg gagggggtgg ggctgtgaaa
+     1861 gccgccagta tgtcgatagg attgtgggta gccattgatt tgcctcctgt ttaggcggtc
+     1921 tgtggttagg cgctggcggg gtcgcgatcc ccgtcctgcg ccgctctgat cttgtccaga
+     1981 taaagcctca aggcctcggc ctcatcgtct gtggcccata tcttacgcgc cttgcgcccc
+     2041 agttcacgct gggtctcggc aaacctagcc tgcctgatcg cgttatcgct ggcca
+//

@@ -1,0 +1,55 @@
+LOCUS       CP104739_1               795 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Edwardsiella_piscicida | RIP: RepL__RCR |
+            795 bp.
+ACCESSION   CP104739
+VERSION     CP104739.1
+KEYWORDS    .
+SOURCE      Edwardsiella_piscicida
+  ORGANISM  Edwardsiella_piscicida
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales; Hafniaceae;
+            Edwardsiella.
+FEATURES             Location/Qualifiers
+     source          1..795
+                     /organism="Edwardsiella_piscicida"
+                     /mol_type="genomic DNA"
+                     /plasmid="CP104739.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RepL__RCR
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..595
+                     /product="RepL__RCR"
+                     /locus_tag="CP104739.1_orf4"
+                     /translation="MYFVEKMGRTTNAVVCSYATLTEVTGYSRRSVATAIKVLKDESWI
+                     QTVKIGSATAYCVNERVFWQAGRNQRKYAIFSATVVAAETEQDSDFHERAKEKLTHIPF
+                     VDVQKERLIADSGEQLPPPDQQDLDLD"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             596..795
+                     /product="hypothetical protein (67 aa)"
+                     /locus_tag="CP104739.1_orf5"
+                     /translation="MGRFRELTPQKLTLCGKDMRQSSKWAKAELMRRKGRLNDQSHGSG
+                     LTPAVAPTSAGSPPPACEPDPA"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 tgcacatggt gtgaaatgtg gtgcaccatg ggtgcagttc aacgacacat agtgtgcagg
+       61 agattacacc gatgagtgca aagggtgaga ctgagcagtc tcaggcagat gagaactaca
+      121 actttgtcca gatatcgagg ggatacctca aggcttggcg aggttgatac ggaagaacgg
+      181 cctagccgcc gaagtgctga tgtatttcgt tgagaagatg ggccgcacaa ccaacgctgt
+      241 cgtttgcagc tatgcgaccc tgacagaagt gacaggttac agccgcagga gcgttgcaac
+      301 agcaatcaaa gtcctcaagg acgagagctg gatccagaca gtcaagatcg gtagtgcaac
+      361 ggcatactgc gtgaatgaac gagtcttttg gcaggctggc cgcaaccagc gcaaatacgc
+      421 gatattcagt gctacagttg ttgctgcaga aacagaacaa gacagcgact tccacgaacg
+      481 ggccaaagaa aaactaaccc acatcccctt cgttgatgtc cagaaggaac gactgattgc
+      541 cgattcaggc gaacaactgc caccaccgga tcaacaggac ttggatctcg actgatgggt
+      601 agattccgcg agctaacccc gcagaaattg acgctctgcg ggaaggatat gcgccagtcc
+      661 agcaaatggg ccaaagccga gttgatgcgg cgtaaggggc gccttaacga ccaaagccac
+      721 ggctcgggtt tgacccctgc tgtggcccca acttccgccg gatctccgcc tccagcttgc
+      781 gagccagatc ctgct
+//

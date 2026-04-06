@@ -1,0 +1,69 @@
+LOCUS       NC_004965_1             1920 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Sinorhizobium_meliloti | RIP: Rep_1__RCR |
+            1,920 bp.
+ACCESSION   NC_004965
+VERSION     NC_004965.1
+KEYWORDS    .
+SOURCE      Sinorhizobium_meliloti
+  ORGANISM  Sinorhizobium_meliloti
+            Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales; Rhizobiaceae;
+            Sinorhizobium.
+FEATURES             Location/Qualifiers
+     source          1..1920
+                     /organism="Sinorhizobium_meliloti"
+                     /mol_type="genomic DNA"
+                     /plasmid="NC_004965.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Rep_1__RCR
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..1720
+                     /product="Rep_1__RCR"
+                     /locus_tag="NC_004965.1_orf3"
+                     /translation="MSACKSPSDSSIISIVKGPLTASFWPSERDFVRHPSPPPAGRSAR
+                     PQAAQLDKRGATLTPPAREVGGEEAFRQRRKRWALRDVAASILRPEEGRGPSVCGCGRA
+                     GFEVEEVGLHLRAAGARTSGTFACDSGWLCPVCAPRKGQERRDRMAEVFDHVKAFRDGQ
+                     MVMCTLTVRHSRGQGLADLRKVVQAASRKARQGAPWARRKKQHGIFGVISAPEVTFSRS
+                     NGWHFHIHTALLLRGTGAEAQDLGEWFVRRYLEAIQAAGYSALLDGQDVSVIRSEEKLA
+                     EYISKGVGRTRDIAWEMAGQATKKARSNEGLHPFEILELASGDDGMKALWLEYAAAMKG
+                     VRSCVVSPAIAAALGIEADEDEERPGEEEPPEEQAAGYLRRDIWNTLMSRKRASTVLAA
+                     LEDFGADRWADVERLALDLAGHAPETGEPARNSDACAIGMDGGRSGRRHQTTVELFRRR
+                     GRPHGDGSGARACRRFRPDVPPAAVAAGAGAGGGIVRQRPQPGPRGSA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 tggaaaacgg ctcggagttg gaagctccga gccgtttaag tggtcctcgg cggcacccac
+       61 tgtctctttg ctttggtcgg cagaacagcg gatgaagccc aaacttgagg ctcggcttga
+      121 aagccgagaa ccagattgtc aacatttata gctgacacag ggcaaaacat caacctcccg
+      181 accgctgtaa gggcggtccg tgagcgcgtg taagtccccc tccgattcct ccattatttc
+      241 aatcgtcaaa ggccctctca cggcttcctt ctggccgtct gagcgcgatt tcgtgcgcca
+      301 cccgtccccg ccgccggcgg ggcgttcggc aaggccgcag gccgcgcagc ttgacaagag
+      361 aggagctacg ttgacccccc ctgcgaggga ggtagggggg gaagaggcgt tccggcagag
+      421 acgtaagcgc tgggcgcttc gcgacgtagc cgcctcgatc ctacgtcctg aagaggggcg
+      481 tggcccctct gtctgcggtt gtggtcgggc agggtttgag gttgaggagg tgggcttgca
+      541 cctccgcgca gcgggggcgc ggacctcggg gacgttcgct tgtgactcgg gctggctttg
+      601 ccctgtttgc gctccgcgca aggggcagga gcgccgcgac cgtatggcgg aggtcttcga
+      661 ccatgtgaag gcgtttcgag acggtcagat ggtcatgtgt accttgaccg tgcggcatag
+      721 ccgcggacag gggctggccg atctccggaa ggttgttcag gccgcttcgc ggaaggctcg
+      781 gcagggtgcg ccgtgggcgc gccggaagaa gcaacatggg attttcgggg ttatttccgc
+      841 gccagaagtg acgttctctc ggtcgaacgg ctggcacttc catatccaca ccgcattgct
+      901 cttgcgaggg actggagccg aggcgcagga ccttggtgag tggttcgtgc ggcggtatct
+      961 ggaggcgatc caggcggcgg gctattcggc cctgctcgac ggccaagacg tgtccgtcat
+     1021 tcggtcggag gagaagcttg cggagtacat ctccaagggc gtggggcgca cccgcgatat
+     1081 cgcgtgggaa atggcaggtc aggcgacgaa aaaggcccgc tctaacgagg ggctgcatcc
+     1141 gtttgaaatc ctcgaactgg catcgggcga tgacggcatg aaagccctct ggctggaata
+     1201 tgccgcggcg atgaaggggg ttcgctcctg cgtcgtctcg ccggcgatcg ccgccgctct
+     1261 cggtatcgag gcggacgagg acgaggagcg ccccggagag gaggagccgc cagaggagca
+     1321 ggcagcggga tacctgcgcc gcgacatctg gaacacgctc atgtctcgca agcgggcgtc
+     1381 tacggtgctg gccgcgctcg aggacttcgg cgcggatcgg tgggcggacg tggaacggct
+     1441 cgccctcgac ctcgcgggcc atgcacctga gacgggggaa cctgcgcgga actcggatgc
+     1501 atgcgccatc ggcatggacg gtggccgctc gggccgacga catcagacaa cagtcgagtt
+     1561 gttccggagg cgaggccgtc cgcacggcga tggatcggga gcgagggcat gccgtcgctt
+     1621 tcggcctgac gttccgcccg ccgccgttgc ggctggtgct ggagctggtg gcggcatagt
+     1681 ccgccagagg ccccagccag gccccagagg gtccgcctga aaggcccctc ggagagccga
+     1741 cgctttgacc gaagggaaaa gcattagtcg gtctctaatg gttgcgccgg tcatctccag
+     1801 agccaacgat tgttgcatgt cgtcgggggg tgctgcgctt gagtttccag ttcgcacatt
+     1861 tggagaattt ttcgaggaag ggggatcgca aagggcggtc caccagcttt gtgttttcgg
+//

@@ -1,0 +1,70 @@
+LOCUS       NZ_MK962686_1           1971 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Aeromonas_sp. | RIP: Rep_1__RCR | 1,971 bp.
+ACCESSION   NZ_MK962686
+VERSION     NZ_MK962686.1
+KEYWORDS    .
+SOURCE      Aeromonas_sp.
+  ORGANISM  Aeromonas_sp.
+            Pseudomonadota; Gammaproteobacteria; Aeromonadales; Aeromonadaceae;
+            Aeromonas.
+FEATURES             Location/Qualifiers
+     source          1..1971
+                     /organism="Aeromonas_sp."
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_MK962686.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Rep_1__RCR
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..1771
+                     /product="Rep_1__RCR"
+                     /locus_tag="NZ_MK962686.1_orf1"
+                     /translation="MVNAKPEVEQPIEAACDARSALARTRAAAPLGIVTRNSSPAVFAD
+                     PETGEIYTVGRNKDGSYRLVLTPEQSRAKRWARKSVANRLLPESRVSKCMNWRRPNAGY
+                     GLADIDVCKGSHGKAFYQGLMACGDIWGCACCAGKVSERRRLELQAAIASATALGWATH
+                     FVTLTVPHGVGDDLDELLGALSDSLKRLSTGKYSIKGQLSKRFPGCIQHGYIRATEVTH
+                     GEHGWHPHFHILVFTSPDLSPADLRSVYSPAWQRACLLSGLPKPHDVHGVTVQDGTKAA
+                     QYASKWGLEDEMTKAHTKQARGKGITPFGLLDAVLDGTDPVYTKPRSSALFIQFTKSFK
+                     GRRQLFWSVGLRAKLDLAPELSDQELVDLPDDDRASLLATLDDDDWRAVRRFRQEAHVL
+                     TVAESNPSLLRQVVQSLRDAMPVQESPAVPPVATPQPVVVPLDDATRDQLVLDWVNYRN
+                     SYLKGFSHGKATTKETSGVLLLPPENDGGSGGLDRLLAGSGLLASPAGNPQLGFTFDCA
+                     YALRRG"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 ctgaacctgt ctagaaggga taatcgccag catacgtctg attagcgacc cgatttgaaa
+       61 ttgaaatgcc ccgcaacatc taccaaatgt ccggggctcg gtcaccgtga attcgtctaa
+      121 aacccagctt tggtgacgtc tatgatgata cctcataccg ccgccctcgc aagcctaaag
+      181 cgcttcgtag ggtggttcca tggtaaacgc taagcccgaa gtggagcagc cgatagaggc
+      241 cgcgtgcgat gcgcgaagcg cgctcgcgcg gactcgggcg gcggcgcccc ttggtatagt
+      301 taccagaaac tcttcccccg ctgttttcgc ggaccctgaa accggtgaga tttacaccgt
+      361 aggtcgcaac aaggacgggt cttaccggct tgttttgacc cccgagcaat cccgcgccaa
+      421 gcgctgggct cgcaagtcgg tcgcgaatcg cctgcttcct gaatcccggg tatccaaatg
+      481 catgaactgg cgccggccaa acgccggcta cggcttggcg gatatcgacg tctgcaaggg
+      541 ctcccatggc aaggcgttct accagggctt gatggcctgt ggcgatatct ggggatgcgc
+      601 ctgctgcgcc ggtaaggtgt cggagcgtcg tcgccttgag ctgcaagcgg ccatcgcttc
+      661 tgcgaccgcc ctggggtggg ctacgcactt cgtgacgctc acggtacccc atggggtagg
+      721 cgatgacctg gacgagctcc taggggccct cagcgactct ctgaagcgtc tgagtaccgg
+      781 gaagtactcc atcaagggcc agctctccaa gcgctttcct ggctgcatcc agcacggcta
+      841 catccgcgcg accgaggtaa cccacggcga gcacggttgg cacccgcatt tccacatcct
+      901 ggtgtttacc tccccggact tgtctcccgc cgacctccgc tctgtgtact cccctgcgtg
+      961 gcaacgggct tgtctgctgt cagggctgcc caagcctcac gatgttcatg gggtgactgt
+     1021 ccaggacggg accaaggccg ctcagtacgc cagcaagtgg ggccttgagg atgagatgac
+     1081 caaggctcac accaagcagg ccaggggcaa gggtatcact ccgttcggcc tgcttgatgc
+     1141 tgttctcgat ggcaccgacc cggtgtatac caagccgcgt tcttcggccc ttttcatcca
+     1201 gttcaccaag tcgttcaagg gtcgccgcca gctcttctgg agtgtggggc tgcgggcgaa
+     1261 actggatctc gcaccagaac tctctgacca agagctggtt gacttgccgg acgatgatcg
+     1321 ggcatccctt ttggctactc tggatgacga tgattggcgg gccgttcgcc gcttccgtca
+     1381 ggaggctcac gtgcttaccg tggccgagtc aaacccctcc ctacttcgtc aggtggtgca
+     1441 gtccctgcgc gatgcgatgc cggtgcagga gtctcctgca gtgccgccgg tggccacacc
+     1501 tcaaccggtg gtggttcctc tcgatgatgc cacccgcgac cagcttgtcc tggactgggt
+     1561 gaattaccgt aacagttact taaaaggctt ctcccatggc aaagcgacca ccaaagaaac
+     1621 ctccggtgta ttacttctac ccccagaaaa cgacggtgga tccggagggc tggatagact
+     1681 tctcgctggt tcaggactac tcgcaagccc tgcaggaaat ccccagttgg gattcacgtt
+     1741 tgattgcgcg tatgcgctgc gaagagggta aggccgcggt gatgctccgg ggcgtctggg
+     1801 gctactgtga ttgccacggg tggcagttcg acccgacagc aatccctgat gactatggcc
+     1861 gcatggcctt tccagtccat tgatgggggg ttctatgacc gagaatccag gtgaaaagca
+     1921 atgcgtaaag tgcggcacgg ttgttatgcc ggactggcat gccgtttctc t
+//

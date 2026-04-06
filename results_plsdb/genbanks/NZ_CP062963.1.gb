@@ -1,0 +1,79 @@
+LOCUS       NZ_CP062963_1           1443 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Rothia_terrae | RIP: PriCT_1 | 1,443 bp.
+ACCESSION   NZ_CP062963
+VERSION     NZ_CP062963.1
+KEYWORDS    .
+SOURCE      Rothia_terrae
+  ORGANISM  Rothia_terrae
+            Actinomycetota; Actinomycetes; Micrococcales; Micrococcaceae;
+            Rothia.
+FEATURES             Location/Qualifiers
+     source          1..1443
+                     /organism="Rothia_terrae"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP062963.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: PriCT_1 |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             complement(2..171)
+                     /product="hypothetical protein (57 aa)"
+                     /locus_tag="NZ_CP062963.1_orf1"
+                     /translation="MEFLNRYVLVALPVLFCLKICFLAYTVRAVWAFFVFVVAVTRSIS
+                     HQINACHRVALA"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             201..1243
+                     /product="Replicase"
+                     /locus_tag="NZ_CP062963.1_orf2"
+                     /translation="MTSSLAVLGEPATKSSRFASHITDTQRIFFCSGTKEQPLSKVLVS
+                     ELARFEFFQPSTQFCRFLVVDIDHVFAVNYIYDLPVNIRPHAIVLTTKGVQAFWLIEGL
+                     PLTANAHQKPIRFAQDVGEMLRQACNGDPAVNPLTPSKCRNPLFEGAERFFLADCPPYA
+                     LKSLCEPLRAFLATQQPSESTQILQSRSRAVWGELSAGQRNETIFQTIRRAAYRGEDFE
+                     TLAYELNSQCQPPLPVAEVAGIVRSVQKFMETRFTPSETRNTSGEPVPDAVREFMAEIG
+                     RKGGSRKTEKQKAVLVKATNASRVVRSAQAVGRRAQIQSLKEAGYTQVQIAERLNINVK
+                     TVKRGWH"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1286..1443)
+                     /product="hypothetical protein (52 aa)"
+                     /locus_tag="NZ_CP062963.1_orf3"
+                     /translation="ILAAAYFAGQLAWFLWGVESWILGVVSVIVWGLVGFLVLLGLVGL
+                     SKGWRNE"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 cgcaagcgcc accctgtgac aggcgttgat ctggtggctg atgctccgcg taacagctac
+       61 gacgaacacg aaaaaagccc acacagcgcg caccgtgtag gctagaaaac agatttttag
+      121 acaaaaaaga accggcagtg ctaccaacac ataccggttc aaaaattcca tcgcgtctta
+      181 cttcgaaagg aattaagctt tgacctccag tctagcagtg ctaggcgaac ccgcaactaa
+      241 atccagccga ttcgctagcc acatcacaga cacccaaaga attttcttct gctccggcac
+      301 caaagaacag ccgttgagca aagttctagt ctctgagctt gcccggtttg agtttttcca
+      361 acccagcacc cagttttgcc ggtttctggt cgttgatatc gaccacgttt tcgcggtgaa
+      421 ctacatctac gacctaccgg tgaatatccg ccctcacgcg atagttctca ccaccaaagg
+      481 cgtacaagct ttctggctca tcgagggttt acccctgacc gcaaacgcgc accagaaacc
+      541 tatccgcttc gcccaagacg taggggagat gttgcgccag gcgtgcaacg gcgacccggc
+      601 agtgaacccg ctgaccccct ccaagtgccg taatccgctc tttgagggcg ctgaacggtt
+      661 tttcctggct gattgcccac cgtatgccct caaaagcctc tgtgagcctc tgagagcgtt
+      721 tttagcgact caacagccct cagagagcac ccaaatcctg caaagccgtt ctagggctgt
+      781 gtggggcgag ctaagtgctg gtcagcgtaa tgaaacgatt ttccagacga tacgccgtgc
+      841 cgcctaccgc ggggaagatt ttgagactct ggcgtatgag ctaaattcgc agtgtcagcc
+      901 cccgttgccg gtggctgagg tcgctggaat tgtcaggagt gtgcagaagt tcatggaaac
+      961 ccgttttacc ccctcagaga cccgtaacac ctctggtgag cctgtgcctg atgctgtgcg
+     1021 ggagttcatg gcggaaatcg gccgtaaagg cggttctcgg aagaccgaga agcaaaaggc
+     1081 tgtccttgtc aaagccacga atgcctctcg agttgttcga agtgctcagg cagtaggcag
+     1141 acgtgcccaa atacagtcac taaaagaagc tggatataca caagttcaga tagccgagag
+     1201 actaaacata aatgtcaaaa ctgtgaagcg gggatggcac taagctgggg ggacatttac
+     1261 gaagcttaat cagggtatta ccgttcactc gttcctccac cctttgctca accccactaa
+     1321 gcccaacagg actaagaaac ctaccaagcc ccatacgatg actgaaacca ctcctaatat
+     1381 ccagctctct accccccaca gaaaccacgc aagttgccct gcaaaatatg ctgctgccag
+     1441 aat
+//

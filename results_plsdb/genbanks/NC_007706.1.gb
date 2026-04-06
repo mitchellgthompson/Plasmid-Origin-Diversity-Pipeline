@@ -1,0 +1,90 @@
+LOCUS       NC_007706_1             2349 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Paramagnetospirillum_magneticum | RIP:
+            Rep_1__RCR | 2,349 bp.
+ACCESSION   NC_007706
+VERSION     NC_007706.1
+KEYWORDS    .
+SOURCE      Paramagnetospirillum_magneticum
+  ORGANISM  Paramagnetospirillum_magneticum
+            Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+            Magnetospirillaceae; Paramagnetospirillum.
+FEATURES             Location/Qualifiers
+     source          1..2349
+                     /organism="Paramagnetospirillum_magneticum"
+                     /mol_type="genomic DNA"
+                     /plasmid="NC_007706.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Rep_1__RCR
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             complement(126..595)
+                     /product="RHH_5: CopG-like RHH_1 or ribbon-helix-helix
+                     domain, RHH_5"
+                     /locus_tag="NC_007706.1_orf1"
+                     /translation="MSQTKTGNVSDTRWTIRCPDAVRDHIQAMALRRGVTVAELLEFLI
+                     TIAQSEERQYVNDQLAVIVQRLDALERRREPTVQKSAPAPAPSVPPTMGDVRQSGIGGP
+                     RVPMSQAVIDRITELAHQGLGRRQIARALAAEQIFVSESTAEKYRHAAVAKR"
+                     /codon_start=1
+                     /function="partition"
+                     /note="category=partition; color=#1565C0"
+                     /note="Pfam=RHH_5 (PF07878.18) E=1.2e-03"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#1565C0"
+                     /ApEinfo_revcolor="#1565C0"
+                     /db_xref="Pfam:PF07878.18"
+     CDS             1020..2149
+                     /product="Rep_1__RCR"
+                     /locus_tag="NC_007706.1_orf2"
+                     /translation="MNVEQQTSQTDTRKRERYRLQDAAAELLPDYRVRHCHRSIGCGCG
+                     ELVSVVTNGQSANFKGVQTCGSVWHCPICSAKISNVRRGELNELLRWGRERELIPLMVT
+                     LTGHHNARMSLAECLTVMKKAKQSLHQSGPWKRHVGPVVEGHVTATEVNRSRRHGWHVH
+                     FHVLMLIEAASEAEAIALVTRHLEPEWLRQLERQGSWGGEHALDVQGAADADRYVAKWG
+                     AAEELALSGEKRARGDAEIKGQTPWELLAAAADGDVQAGRDFVEYATLFHGKRQLVWSR
+                     GLKERVGLKVVEDDEAAGELEDVADSAINEVAVLPRPTWRHIVRRRLRADLLAAARDDG
+                     FDGVARLLNEHGIGGAMPGGWRPMLSEYTEHIAMAA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 ccccgcgcca gcgcggggag cagggatggg ttcgggggcc ggaagttagg caaatcgcgg
+       61 agccgtggcg ccctcggtac atccgcgaaa tcggttgaca ctttgccccc agaacggctg
+      121 caacctaccg cttggcgaca gccgcgtgac ggtacttttc cgctgtggat tcggacacga
+      181 atatctgttc agcagccagg gcgcgggcga tctggcgacg gccgaggccc tgatgggcca
+      241 attctgtgat ccggtctatg accgcttggc tcatcggcac ccgaggaccg ccgataccag
+      301 attggcgcac atcgcccatg gtgggtggaa ccgagggagc cggagccggt gcagatttct
+      361 gcacagttgg ttcacgccgt cgttctagcg catcgagacg ctgcacgatc acggcgagct
+      421 gatcgttgac gtattgtcgc tcctcggact gcgcaattgt gatcagaaat tcgaggagct
+      481 cggccacggt gacgccgcgt cgaagggcca tagcctgtat gtggtcgcgg accgcatcag
+      541 gacagcgaat cgtccatctc gtgtctgaca cattcccggt ttttgtctga ctcatcgtcg
+      601 cccccaatgt ctgacagatt cgagaaagag tcataccggc taacgcgaac gctgacaacg
+      661 aatgtctgac aaaatgatga ttacgtcaga cattgatgtc tgcctaaatc gcaatagtgt
+      721 ctgacatggt ttttggcgtt ccgtatataa aatatgcgcc aaaatctagt gcgtcagcca
+      781 aacggcaaac gcaaccagtt gacaccattt ccggttttat gagactgtga aaagaccaaa
+      841 ggccgccttg cggcggccta ggtgattgtg gtcccggcga ccaaggctgc gaaaacttgg
+      901 cggtccagca gcagaggaag cccgtttgaa aggtccggct tgcgccggaa ccacctaatg
+      961 acaatagcaa ttcgccgcac agttttcaac acccagcccg ccatgattcg cggcggcgtt
+     1021 gaacgttgaa caacagacgt ctcaaacaga cacccgcaaa cgcgaacggt atcggttgca
+     1081 ggatgcagcc gctgaactgc tgccggatta tcgggtgcgg cattgccacc gctcaattgg
+     1141 atgtggctgt ggcgagttgg tcagcgttgt taccaatggg cagtcggcca atttcaaagg
+     1201 cgtgcagacc tgcggctcgg tctggcactg cccaatctgt tcggcaaaaa tcagcaatgt
+     1261 tcggcgcggc gagctgaacg agctgctgcg ctgggggcgg gagagggagc tgatcccgct
+     1321 gatggtgacg ctgacaggcc atcacaatgc acggatgagc ctcgctgaat gtctgacggt
+     1381 gatgaagaag gccaagcaga gccttcacca gtctggccca tggaagcgcc atgttggccc
+     1441 ggtggtcgaa gggcacgtca cggcaacgga ggtcaatcgg tcacgccgcc atggctggca
+     1501 cgtccatttt cacgtcctga tgctgattga ggccgccagc gaggccgaag cgattgcgct
+     1561 cgtgacccga cacctcgaac ctgaatggct ccggcagctt gagcgccaag gcagctgggg
+     1621 cggcgaacat gcgttagacg tccagggcgc agccgatgcg gatcggtatg tggccaagtg
+     1681 gggcgcggct gaggaattgg ctctgtcggg cgaaaagcgg gcgcgcggcg acgccgaaat
+     1741 taagggtcaa acgccgtggg aattgttggc cgctgcggct gatggtgacg tccaggctgg
+     1801 ccgcgatttt gtggagtacg cgaccctgtt tcatggcaaa cgccagctcg tttggtcgcg
+     1861 aggactgaaa gagcgtgtcg gcctcaaggt ggtggaagac gacgaggccg ccggcgagct
+     1921 ggaggatgtc gcagatagcg ccatcaacga agtggccgtg ttgccgaggc cgacttggcg
+     1981 tcacatcgtc cggcgcaggc tccgcgcgga tctgctggcc gccgctcgtg atgacggatt
+     2041 cgatggcgtc gcgcggctgc tcaatgagca tggcatcggc ggagctatgc ccggcggctg
+     2101 gcgaccaatg cttagcgaat ataccgagca tattgcgatg gctgcgtgac tcttttggcc
+     2161 caccggcctg agggaaattt gcctcgcaga gctcacgata atttgacaag ggccgtaggc
+     2221 ccgcaggcaa attgtctagt gagtgtacaa ttttcaaatt cgaaggttat tgtagagctg
+     2281 acgctctcaa ggtgatgacg cctatggctg acgattctgg cgtccggcgg attgtttgtc
+     2341 ggattagca
+//

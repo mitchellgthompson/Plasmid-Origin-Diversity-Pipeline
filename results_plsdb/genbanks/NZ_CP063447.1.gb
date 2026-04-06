@@ -1,0 +1,70 @@
+LOCUS       NZ_CP063447_1           1560 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Novosphingobium_sp._ES2-1 | RIP: Rep3_N |
+            1,560 bp.
+ACCESSION   NZ_CP063447
+VERSION     NZ_CP063447.1
+KEYWORDS    .
+SOURCE      Novosphingobium_sp._ES2-1
+  ORGANISM  Novosphingobium_sp._ES2-1
+            Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+            Sphingomonadaceae; Novosphingobium.
+FEATURES             Location/Qualifiers
+     source          1..1560
+                     /organism="Novosphingobium_sp._ES2-1"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP063447.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Rep3_N |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             4..119
+                     /product="hypothetical protein (38 aa)"
+                     /locus_tag="NZ_CP063447.1_orf1"
+                     /translation="SPPERDRLVRWCDARNLSLPDGIVALLDLVESETQGEG"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(201..1360)
+                     /product="repM_Acin"
+                     /locus_tag="NZ_CP063447.1_orf2"
+                     /translation="MEVDSATEELQLQEDLEGLGRTLRVADVIRRRDLEFVSKPGELVE
+                     SEFETGSLSAAARKAFALMLRKAGPDAGSDKTFTITKKELRGSHKGNERIQPVMDELLR
+                     VIVRIRTTTRKGKPAIMSQSLLASCVEEVSEDGLSVVEFEFSENFKRVIQRSDYYARVN
+                     LGVMLALQSRYSLTIYDLGCLIINRQNRTVRMSVEELRRRIGVPEGSLKNFAELRREVL
+                     AKSKAEIDQLADFTVDWEEIRGSGRGRPVQSVKMTFMPKDSSAQEEAARELDRPKVGRR
+                     ARREGTTETLEALAPPLPPAKSREPRKAPLPRANRQLFPEGSLHFCGDNRLLAILGDFG
+                     GGWDKDLVAQAYREQMGARLEKLAGEALYKSFEGFCRGFVRVRGKA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 tgtctccgcc tgagcgcgat cgcctggtgc ggtggtgcga cgcacgcaac ctcagccttc
+       61 cggacggaat tgttgcattg ctcgatctcg tcgaaagcga gacgcaaggg gagggctgac
+      121 accagccgga tgtctcctga agggcctggg cgtgccgatc gcaccccatg gctggcgctt
+      181 tatgtgaggg aagggggggt caagcctttc cacggaccct gacgaaaccg cggcagaagc
+      241 cttcgaagga cttgtacaat gcctcgcctg caagtttctc cagtcgagcc cccatttgct
+      301 cacgataagc ctgcgccacc aggtccttgt cccagccccc tccgaaatca cccaggatcg
+      361 caagcaggcg attgtccccg cagaaatgca gcgaaccttc cgggaaaagc tgccggtttg
+      421 cccgcggcag cggagccttc cttggttcac gggactttgc agggggaagg ggaggtgcca
+      481 aggcttccag agtctcggtt gtcccttcgc gtctggcacg ccgaccgacc ttaggccggt
+      541 caagctcacg cgctgcttcc tcctgcgccg aggaatcctt gggcatgaat gtcatcttca
+      601 ccgattgcac aggacggcca cgccctgagc cacgaatctc ctcccaatcg accgtgaaat
+      661 cggcaagctg atcgatctcg gccttcgact ttgccaggac ctcccggcgc agctcggcga
+      721 agttcttgag acttccctca ggcacgccga tcctgcgacg caactcctcg acgctcatgc
+      781 gcaccgtgcg attctggcga ttgatgatca ggcaacccag atcatagatt gtcagcgaat
+      841 agcgtgactg cagcgccagc atcacgccca ggttcacccg cgcataataa tcggagcgct
+      901 ggatgacacg cttgaagttc tccgagaatt cgaactcaac gacgctcagg ccatcttcgg
+      961 agacttcctc aacacagctg gcaagcaggg actgcgacat gatcgccggc ttgcccttgc
+     1021 gcgtcgtcgt gcgaatgcga acgataaccc gcagcagctc gtccatgacc ggctgaatgc
+     1081 gctcgttgcc cttgtgcgac ccgcgcaact ccttcttcgt gatggtgaat gtcttgtcag
+     1141 acccggcgtc cggcccggcc ttgcgcaaca tcagcgcaaa ggccttgcgc gctgccgcgc
+     1201 tgagcgaacc ggtttcaaat tcggattcga caagctcacc gggcttgctg acaaactcga
+     1261 gatcgcgcct gcggattaca tcggcaaccc tgagtgtccg cccgagaccc tcaagatcct
+     1321 cttgcagctg cagctcttcc gtggccgaat cgacttccat atgaggagcg taacatcacc
+     1381 tcctctcaaa gagaacatcc ccccgatccc tcacatagac accccggatc gaacacggcc
+     1441 ctgttttgca tgtcaggaac gaacgtgcac gccaggcatc ccccaagaac cctggaggat
+     1501 cacatctgct accaagaacg tgccccccgt aacctcatgt agtcgccgca acgctcatga
+//

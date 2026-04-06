@@ -1,0 +1,53 @@
+LOCUS       NZ_LC066398_1           1197 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Aureimonas_sp._N4 | RIP: repM_Acin | 1,197
+            bp.
+ACCESSION   NZ_LC066398
+VERSION     NZ_LC066398.1
+KEYWORDS    .
+SOURCE      Aureimonas_sp._N4
+  ORGANISM  Aureimonas_sp._N4
+            Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+            Aurantimonadaceae; Aureimonas.
+FEATURES             Location/Qualifiers
+     source          1..1197
+                     /organism="Aureimonas_sp._N4"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_LC066398.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: repM_Acin
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..997
+                     /product="repM_Acin"
+                     /locus_tag="NZ_LC066398.1_orf1"
+                     /translation="MAELTRKPAAKFRVERYDPAAPERPAEERWVSMSNALTRAGHGLT
+                     LAEKRIIAHAASKLDSRRPLAPGEVPQTHLTAAEYAETFDVDLTTAYEALQSAAKTLYE
+                     RSITFYEAAHRRRGKSLSLAKVQMRWVGSVKYHEKEGWVELHWWPALLPHLTGLKKQFT
+                     SHQLKQASALRSVYSWRLLELLTRFGSTGRAEYTVEDFAASMDATEKQQADFAAIRRKI
+                     IEPAVRELVEKDGWQIEWKPIKAGRKVKAVRFDFMRDPQGQLF"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 ttcttgtttt taagggcgaa aacgcctttg gaatcatggg gttatacccc cctattctgc
+       61 ctttttccgg gttatctctg cctttttccg ggttatctct gcctttttcc gggtgttttc
+      121 cacagtctgc cgttgcgttc caagacggca gaattcacct attctgccct tcaagacttg
+      181 cggcagaagt acccggaaca tggcagagtt gacgagaaaa ccggcggcga aattccgggt
+      241 cgagcgctat gatccagccg ccccggagcg ccctgcggag gagcgatggg tgtccatgag
+      301 caatgccctg acgcgggcag ggcatgggct gaccctggcc gagaagcgca tcatcgcgca
+      361 tgccgcctcg aagctggaca gccggcggcc cttggcgccg ggcgaggtcc ctcagaccca
+      421 tctgacggcg gccgagtatg ccgagacctt cgacgtggat ctcaccaccg cctacgaggc
+      481 tctgcagagc gcggccaaga ccctctacga gcgatccatc accttctacg aggcggcgca
+      541 ccgccggcgc ggcaagtcgc tgtctctggc caaggtgcag atgcgctggg tcggctcggt
+      601 gaagtaccac gagaaggaag gctgggtgga gctgcactgg tggccggcgc tgctgccgca
+      661 cctgacgggg ctcaagaagc agttcacgag ccaccaactc aaacaggctt cggcgctgcg
+      721 ctcggtctat tcctggcggc tcctggagct tctgacgcgg ttcggctcga cgggccgggc
+      781 cgaatacacg gtggaggact tcgcggcttc catggacgcg accgagaagc agcaggcgga
+      841 ctttgccgcc atccggcgca agatcatcga gcccgcggtg cgcgagctcg tggaaaagga
+      901 cggctggcag atcgagtgga agccgatcaa ggcgggacgc aaggtgaagg cggtgcgctt
+      961 cgacttcatg cgcgatccgc agggtcagct gttctgacgg cgatggctcg atcgggccta
+     1021 cctcgatgcg ccgcgcgcct gggacgccgc gatcgtcgcc tccggtgtgg ccttgaggtt
+     1081 ttgtgacgtc agcgcagcgc caccatccaa ttgggacagg aatgggcgtt gaattcaaaa
+     1141 atcctcataa atcgccgctg acgtgcgctt caatccgaaa gctacccatc taggaaa
+//

@@ -1,0 +1,79 @@
+LOCUS       NZ_CP136857_1           2322 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Oceanisphaera_sp._IT1-181 | RIP:
+            RctB_central | 2,322 bp.
+ACCESSION   NZ_CP136857
+VERSION     NZ_CP136857.1
+KEYWORDS    .
+SOURCE      Oceanisphaera_sp._IT1-181
+  ORGANISM  Oceanisphaera_sp._IT1-181
+            Pseudomonadota; Gammaproteobacteria; Aeromonadales; Aeromonadaceae;
+            Oceanisphaera.
+FEATURES             Location/Qualifiers
+     source          1..2322
+                     /organism="Oceanisphaera_sp._IT1-181"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP136857.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     RctB_central | Tier: Tier 5: Diversity fill"
+     CDS             complement(201..2122)
+                     /product="RctB_central"
+                     /locus_tag="NZ_CP136857.1_orf1"
+                     /translation="MMDGPKTYISLGTVKVDVDTLLNMFGNATKATKGLITKTFRAAHQ
+                     LPLEPASIGLHKNTLVAELSMVSQLLQIQNKSLIRRLSRSSIFAKTDSDHGTVWILEYD
+                     NETGSLGADHSQLKRSVSLNARKSVEDKHRKRPPLKDCPDMNLMVSLPLGDISALSVPS
+                     KTIVHTRRFMINMGKDKAVVLASGGNGIIDKDDMKTLYALISQTIQYHTVYQGSFSRDG
+                     EMSNNVTPIYADTILNIIGRKQGDVANRKYLWRQIVKIRTTEYDVHSLTPFFDDNDRSL
+                     FKNNQFRFIIDTPSLSESALDLANDQDASPSVYEIIWHPVVFKAIFNNKSLFAFPESVF
+                     REPTQIFSLYLELRNRMQYAGPAGIKINKQELMDILLDGGCEYDFQKSFFSSFAKTASK
+                     SLREELKKARDQAKRLTPIEVERDFFGFNITLIVTGKTTFSEMIITFILKDVLQHCGVK
+                     MNTRGGNSSPSLPNKLYSTGQALSKLNTKEPVPAKELTGMQLWRKAKKIFDAINAVLER
+                     TPYALRLTVESIELDLIIIDTTGDNTIVETLASIEQRFSIDPSEVSQYLISAKNGLRGL
+                     SFNYKQITKEQVIELRRALNKEGRQMSIEEMVYHLATNDLLRKRIAEHGVTPETVDVIS
+                     YILPA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 acaatcgtca acagacccta ataaaggttt atgtaaaaaa ctctatcgcc ggtcgctctg
+       61 aaggccgccc taacttaaaa gggatgtaga aagccaaatg cctcactaga aatagtgcag
+      121 gcatttggct ttttacatag tgagtttaaa ataacagtta aaaaactaaa aaattatcta
+      181 agagataaaa caaataaatt tatgctggca atatgtaaga aataacatcg acagtctctg
+      241 gggtaacacc gtgctcggct attcgctttc ttagtaagtc gttagtagct aagtgataga
+      301 ccatctcttc aatagacatc tgccggcctt ccttgtttag cgcccttctc aattcaatga
+      361 cttgctcttt agtgatctgc ttataattaa atgataaacc gcgaaggcca tttttggctg
+      421 atatcagata ttgacttact tcacttgggt cgatagaaaa cctttgctct attgaagcta
+      481 aggtttcaac tatagtgtta tcacccgtgg tatctattat aattaaatct agctctatgg
+      541 actcaacggt tagtcttagc gcgtagggcg ttctttctaa cacagcattt atagcgtcaa
+      601 atatcttttt agccttacgc cagagctgca tacccgttag ttcttttgct ggcacaggct
+      661 ctttagtgtt caacttgctc agtgcttgcc ccgtagaata aagcttattc ggcaatgagg
+      721 ggcttgaatt tccccctcta gtgttcattt tcacaccaca atgttgcagt acatctttta
+      781 agataaaggt gataatcatt tcggagaagg tggtcttacc tgttactatt agcgtgatat
+      841 taaaaccaaa gaaatctcgt tcaacttcga ttggagttaa tctttttgcc tgatcgcggg
+      901 cttttttaag ttcttctctc aatgatttac ttgcagtttt agcgaaagag gagaaaaaac
+      961 ttttctgaaa gtcgtactca cagccgccat caagcaagat atccattagt tcttgcttgt
+     1021 ttatcttaat gccggcgggc cctgcatatt gcattctgtt tcttagctct aaatagaggc
+     1081 taaatatttg ggttggctct ctaaatacgc tttcaggaaa agcaaataac gacttattat
+     1141 taaatatcgc tttaaaaaca acaggatgcc aaattatttc gtaaacagaa ggcgatgcat
+     1201 cttgatcgtt agccaaatcg agcgcacttt ctgataaaga tggcgtatca atgataaaac
+     1261 gaaactggtt attcttaaat aaacttcggt cattgtcatc aaaaaaaggc gttaaggaat
+     1321 gaacatcata ttccgtagtt ctaattttta ctatctgtct ccacaagtac tttctattag
+     1381 ccacgtcacc ttgctttctg ccgatgatat ttaaaatagt gtcagcatat atgggggtga
+     1441 cgttattgga catttccccg tctctgctaa aagatccttg gtagacagtg tggtactgaa
+     1501 tagtttgtga gatcagggca tacaaggtct tcatgtcatc tttgtctatg atgccgttgc
+     1561 cacccgatgc cagcaccact gctttgtctt tacccatgtt gatcataaat cgccgagtat
+     1621 ggacgattgt tttagacggc acagacaagg ctgatatatc acccagtggc aggctaacca
+     1681 tcaagttcat atcagggcag tcttttagcg gtggacgttt tctgtgcttg tcttcaacgg
+     1741 attttctagc attgagcgat acgctgcgtt ttagttgcga gtgatcagcg cctaaacttc
+     1801 cagtttcatt gtcgtactca agtatccaga cggtgccatg atcactatca gtttttgcga
+     1861 aaatagacga tctgctcaag cgacgtatca acgacttgtt ttggatttgc agtagctgtg
+     1921 agaccatgct gagttcggca acgagcgtat ttttatgcag gcctattgat gcaggctcta
+     1981 atgggagctg gtgtgctgca cgaaaagttt tggtgatcag ccctttggtt gccttggtag
+     2041 cattaccaaa catgttcaag agagtatcta catcaacttt taccgtgcca aggctaatgt
+     2101 aggtcttagg gccgtccatc attatttaac cgtccacagc atcattaacg tatcgcttga
+     2161 atgctaagcg atcgggaatg gtttgtgaag cctgttttgc aaaaagttgt cactagataa
+     2221 aatgagctga gataatttat ttcacttact tattaaatga tctttgttct taagttaact
+     2281 atgttcttaa tgatactgat agggtgaaaa acatttgtca gt
+//

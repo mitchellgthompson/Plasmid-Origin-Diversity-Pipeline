@@ -1,0 +1,80 @@
+LOCUS       NZ_CP042421_1           1584 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Leuconostoc_lactis | RIP: MobT | 1,584 bp.
+ACCESSION   NZ_CP042421
+VERSION     NZ_CP042421.1
+KEYWORDS    .
+SOURCE      Leuconostoc_lactis
+  ORGANISM  Leuconostoc_lactis
+            Bacillota; Bacilli; Lactobacillales; Lactobacillaceae; Leuconostoc.
+FEATURES             Location/Qualifiers
+     source          1..1584
+                     /organism="Leuconostoc_lactis"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP042421.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: MobT |
+                     Tier: Tier 5: Diversity fill"
+     CDS             1..219
+                     /product="hypothetical protein (93 aa)"
+                     /locus_tag="NZ_CP042421.1_orf1"
+                     /translation="TNGRTYDSSYAFLFCRFDEITDEVDQAQTYLIQADKLPPKLEMLD
+                     IVVPEKVYQEGGGDWVMSFKPVDNNQRIERLEYWKDIAERLRYVRELH"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             201..1384
+                     /product="MobT"
+                     /locus_tag="NZ_CP042421.1_orf2"
+                     /translation="MSENYTNLSFEQMSGHDLIAFREHYNLSRLQMASFLMISKRTYGR
+                     MEMSEDNLMTVLNADQRYVLKTYVGSQGLSLWLDYLGMSFKMRTPEMLIKLFFDNRLDL
+                     FVKRDSGRYGYNVAYSFGGLSYITIYGKRDSPESFIDFSGSGIRLMETLLIGQGLVWSH
+                     FINIALLNGGKATRMDFAFNDMSRMFEIPELYQKLMADEYTQKFKSDPQYYADGKNGGS
+                     TIYFGSRSSEVFFRFYEKDKEQAKKHFVEPEAIPVKNRYEVELKQKRAQTMAEHVANGQ
+                     DVAGELLAYLRDYLQFYNQPVVGLDKKEIAKLDLWQPWVVFLEQASIVDFQAEPKEVSM
+                     DRSLSWFINQVAPTLKGLIEYYGQEKIDEILDDTELSQRQKKLLSVAEKVNLPF"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1411..1584
+                     /product="hypothetical protein (99 aa)"
+                     /locus_tag="NZ_CP042421.1_orf3"
+                     /translation="MSEQGTQFKKALSATATEVANFKALSKIEDGNLYAAVNKAKEIME
+                     NDPKWSDLIGDDLASLRRNLAVLNKQYKSLPKVADNVINLAEEITQKVDRFGGM"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 gatgaggttg atcaggcgca aacatattta attcaagcgg acaaattacc gccaaagcta
+       61 gagatgttag atattgttgt gcctgaaaaa gtttatcagg agggaggtgg cgattgggtg
+      121 atgtcattta aacctgttga taataaccaa cgtattgaac gattggaata ttggaaagac
+      181 attgccgaac ggttaaggta tgtcagagaa ttacactaat ttaagttttg aacagatgtc
+      241 aggacacgat ttaatagcat ttcgtgagca ttataattta tcccgacttc aaatggcttc
+      301 atttttgatg atttcaaagc gtacttatgg acgtatggaa atgagtgaag ataacttgat
+      361 gacagtttta aatgctgatc aacgatatgt tttgaaaacc tatgtcggta gtcaaggttt
+      421 gtcactttgg ttggattatc ttggtatgtc atttaaaatg cgcacaccgg aaatgctaat
+      481 taagctattt tttgataatc gccttgacct atttgttaag cgtgacagtg gacgatacgg
+      541 ttacaatgtt gcttattcat ttggtggctt atcttacatt acgatttatg gtaaacgtga
+      601 tagccctgaa agttttatcg acttttcggg tagtggtatt cgcttaatgg aaacgttgtt
+      661 gatagggcag gggctggttt ggtctcactt tatcaatatt gccctgttaa atggtggtaa
+      721 ggcaacacgt atggattttg cgtttaatga tatgtcacgt atgtttgaaa ttccagaatt
+      781 atatcaaaag ctcatggcag atgagtatac gcagaaattt aagagtgatc cacaatatta
+      841 tgcggacggt aaaaatggtg gttcaacgat ttattttggt tcacgttcat cagaagtctt
+      901 ttttagattt tatgaaaagg ataaagagca agccaaaaaa cactttgttg agccagaagc
+      961 cattcctgtt aaaaaccgtt atgaagttga gttgaaacaa aaacgtgcgc agactatggc
+     1021 ggagcatgta gccaatggtc aagatgttgc tggtgagttg ttagcctatt tgcgtgatta
+     1081 tttacagttt tataatcagc ccgtggttgg tttggataaa aaagaaattg ctaaattaga
+     1141 tctatggcaa ccctgggtag tatttttaga acaagccagt atcgttgatt ttcaagcaga
+     1201 gcctaaagag gtgtcaatgg atcgttcatt gtcttggttt attaatcagg tagcaccgac
+     1261 tttaaaaggg ctgattgaat attatggtca ggaaaaaatt gatgaaattc ttgatgatac
+     1321 ggaattgagt caacgtcaaa agaaattgtt atcagttgct gaaaaggtca acctaccttt
+     1381 ttaaaagtta aaaattggag gacacacaga tgtcagaaca aggaacacaa ttcaaaaaag
+     1441 cacttagcgc tactgcaaca gaagtcgcta actttaaggc attatcaaaa attgaagacg
+     1501 gtaatttgta tgctgctgtg aacaaggcta aggaaatcat ggaaaatgat ccaaagtgga
+     1561 gtgatttaat cggtgatgac ttag
+//

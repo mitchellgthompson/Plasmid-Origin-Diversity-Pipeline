@@ -1,0 +1,106 @@
+LOCUS       NZ_CP108622_1           1915 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Streptomyces_xanthophaeus | RIP:
+            rep_init_RepSA | 1,915 bp.
+ACCESSION   NZ_CP108622
+VERSION     NZ_CP108622.1
+KEYWORDS    .
+SOURCE      Streptomyces_xanthophaeus
+  ORGANISM  Streptomyces_xanthophaeus
+            Actinomycetota; Actinomycetes; Kitasatosporales; Streptomycetaceae;
+            Streptomyces.
+FEATURES             Location/Qualifiers
+     source          1..1915
+                     /organism="Streptomyces_xanthophaeus"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP108622.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     rep_init_RepSA | Tier: Tier 4: Phylum-exclusive"
+     CDS             1..30
+                     /product="FtsK_SpoIIIE: FtsK/SpoIIIE family"
+                     /locus_tag="NZ_CP108622.1_orf2"
+                     /translation="MLLGWDEDGTPVVLNLVYSAHALIAGVTRSGKSITVNTLLAYASL
+                     MRDVRLIVIDSNLGAVAPWWRTAYKVSDSIHPDEPTEILRWVREEMQRRERLFWSDRTD
+                     RITNFSPDMPLIVLAIDEVANYTRHPDRKARERFEAELLAIASQGAKFGVRLWLLTQKP
+                     SADVLTTAVRTNLSARICHRVDTTEDFLHLFPDGRELDITAADREMPPGVSIASVGDMR
+                     TPVRLRSVYLPTEACWQINDLMCADGFQIRDLPDHIDLGKAA"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=FtsK_SpoIIIE (PF01580.25)"
+                     /db_xref="Pfam:PF01580.25"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+     CDS             201..1540
+                     /product="rep_init_RepSA"
+                     /locus_tag="NZ_CP108622.1_orf3"
+                     /translation="MPSHDRTATTPRPEPTTADLAAFTSYRDLPGLVRQLSSLGGCAQP
+                     IRLEGHRAEINPTTGEILRELKSKELPAGHLLLRCGNRRTTRCPSCAELYRQDTYQLIA
+                     AGLRGGKKIPEQVASHPRVFATLTAPSYGPVHGRRSSSSARCGCGRTHARDAPALGTPL
+                     DPDRYDYKGAVLWNAHAPALWARFMLHLRRTIAAVAGISQRLLPKVARVSYAKVAEYQR
+                     RGLIHFHAVIRLDGPGGGHTPPPAWATPEMLADAVHAAAARAHVDGPKNNDRTYSFGFG
+                     KELDVKVIRSAAFQDETTITEGKVAGYVAKYATKGAESAAGTLDHRLKLIAELGQETIP
+                     DHAARMIRTAWALGARRDLEHLKLRTWAHMLGFRGHFSTKTRTYSTTLGALREARAAWH
+                     RRHTPTPEATTLVLAHWAFDGTGLTPDLERLARLVGGTHPEAVTARA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1534..1715
+                     /product="HTH_17: Helix-turn-helix domain"
+                     /locus_tag="NZ_CP108622.1_orf4"
+                     /translation="MRDDELLTVPEVMARLKIGRSALYDLIRTRSLASLTIGRARRIPA
+                     HALDDYILRHLEGAA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="Pfam=HTH_17 (PF12728.14)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF12728.14"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1716..1915
+                     /product="hypothetical protein (67 aa)"
+                     /locus_tag="NZ_CP108622.1_orf5"
+                     /translation="MTASRKKTRANGEGTIYQRKDGRWEAAGYVLAADGSRKRVRVYGT
+                     TRKGAADKLAEKITDSNRGLPV"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 gaccacatcg acctcggcaa ggcagcgtga cccacgccgg ccatccaccc gagcaacgaa
+       61 gacccggacc accccggtcc cgtaccgcag tgatccccgg cagaggcgtg tagtcgccaa
+      121 accctcgccc ctgccggggc ccttctcccc ttcatccacg gcacacacgt gtgccggaac
+      181 gcagagaggt cctgccagca tgccatcgca cgaccgcacc gccacaaccc cccggccgga
+      241 gccgaccacc gccgacctgg cggcgttcac ctcctaccgg gacctgcccg gcctcgtccg
+      301 acagctctcc tccctcggcg ggtgcgccca gcccatccgc ctcgaaggcc accgcgccga
+      361 gatcaacccc accaccggcg aaatcctccg agaactgaag tccaaggagc tgcccgccgg
+      421 acacctcctg ctccgctgcg gcaaccgccg caccacccgc tgcccctcct gcgccgagct
+      481 ctaccgccag gacacctacc agctcatcgc cgcggggctc cgcggtggca agaagatccc
+      541 cgagcaggtc gcctcccacc cgcgggtttt cgccaccctc accgcaccct cgtacggtcc
+      601 ggttcacggt cggcgctcca gttcttccgc gcgctgcggg tgcgggcgca cccacgccag
+      661 agacgccccg gccctcggca ccccgctcga cccggatcgg tacgactaca agggcgcggt
+      721 cctgtggaac gcccacgcac ccgccctatg ggcccgcttc atgctccact tgcgccgcac
+      781 catcgccgcc gtagccggaa tctcccagcg cctgctcccc aaggtcgccc gcgtctcgta
+      841 cgccaaggtc gccgagtacc agcgacgcgg actgatccac ttccacgctg tgatccgcct
+      901 cgacggcccc ggaggcggcc acaccccgcc acccgcgtgg gccacacccg agatgttggc
+      961 cgatgccgtc cacgctgccg ccgcccgcgc ccacgtcgac gggccgaaga acaacgaccg
+     1021 gacctactcc ttcggcttcg gcaaggagct ggacgtcaag gtcatccggt ccgccgcctt
+     1081 ccaggacgag accaccatca ccgagggcaa ggtcgccggg tacgtggcga agtacgccac
+     1141 caagggagcc gaaagcgcgg ctggcaccct cgaccaccgc ctgaagctga tcgccgaact
+     1201 cgggcaggag accattcccg accacgcggc ccgcatgatc cgcactgcct gggccctcgg
+     1261 cgcccgccgc gacctcgaac acctgaaact gcggacctgg gcccacatgc tcggcttccg
+     1321 cggccacttc tccaccaaga cccgcaccta ctccaccacc ctcggcgcac tccgcgaggc
+     1381 ccgcgcagcc tggcaccgcc gccacacccc cacacccgag gcaaccactc tcgtactcgc
+     1441 ccactgggcc ttcgacggca ccggcctcac acccgacctc gaacgactcg cccgcctcgt
+     1501 cggtggcact catcccgagg cggtgacggc ccgtgcgtga cgacgaactc ctcaccgtgc
+     1561 ccgaagtgat ggcccgcctc aagatcggac gctccgcgct ctacgacctg atccgcaccc
+     1621 ggagcttggc ctcactgacc attggccgcg cccgccgcat cccagcccac gccttggacg
+     1681 actacatcct gcgccacctg gaaggggcag cctgatgacc gcttcccgca agaagacccg
+     1741 cgcgaacggc gaaggcacca tctaccagcg caaggacggc cgctgggaag ctgccggcta
+     1801 cgtactggcc gccgacggca gccgcaaacg cgtccgcgtc tacggcacca cccgcaaggg
+     1861 cgccgccgac aaactcgccg agaagatcac cgacagcaac cgcggcctcc ccgtc
+//

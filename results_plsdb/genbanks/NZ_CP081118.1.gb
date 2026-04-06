@@ -1,0 +1,82 @@
+LOCUS       NZ_CP081118_1           1485 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Sulfitobacter_pontiacus | RIP: DnaA_N |
+            1,485 bp.
+ACCESSION   NZ_CP081118
+VERSION     NZ_CP081118.1
+KEYWORDS    .
+SOURCE      Sulfitobacter_pontiacus
+  ORGANISM  Sulfitobacter_pontiacus
+            Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+            Roseobacteraceae; Sulfitobacter.
+FEATURES             Location/Qualifiers
+     source          1..1485
+                     /organism="Sulfitobacter_pontiacus"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP081118.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: DnaA_N |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             4..203
+                     /product="IclR_C: Bacterial transcriptional regulator IclR
+                     C-terminal"
+                     /locus_tag="NZ_CP081118.1_orf1"
+                     /translation="RDGFAQVQNEFVLGEVAIGVPVVNRQGRPLGAIHIAGSLSEWSAE
+                     DFARRAAPIAQEAARAISGSF"
+                     /codon_start=1
+                     /function="structural"
+                     /note="category=structural; color=#FF8F00"
+                     /note="Pfam=IclR_C (PF01614.25)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF01614.25"
+                     /ApEinfo_fwdcolor="#FF8F00"
+                     /ApEinfo_revcolor="#FF8F00"
+     CDS             complement(201..895)
+                     /product="DnaA_N"
+                     /locus_tag="NZ_CP081118.1_orf2"
+                     /translation="MNPLRLTGPEAGVIKYDLLTALSVAGLNGSPTLQTSLMRLIAAVT
+                     SRYNWRADELSVGQRDLARMWSVNERTVKREIKRLTDAQLLICTRGGVRGRVAAYRLNY
+                     AQIARLSEPCWPLVGPDYDARMKERYRSETPVKVVQLADYAKPEASEPAQGGPGTWQRA
+                     MVNLSRENADQFKAWFSQLEYVAFEGGVLELRTPSKFAQRYIETHLLRPLVAAVEAELG
+                     PVTRIEFRA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1286..1485
+                     /product="hypothetical protein (67 aa)"
+                     /locus_tag="NZ_CP081118.1_orf3"
+                     /translation="MRNHNDLLNMNERSLEQQAAVRRATFSPGEIKALRPFSIWEISQF
+                     MFDVPADTLRKKLADDPTLPQG"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 gtagagacgg atttgcgcag gtccagaatg aattcgtatt gggcgaagtc gccattggtg
+       61 tgcccgtcgt caaccgtcaa ggccgtccct tgggggccat ccacatcgcc ggctcgctct
+      121 ctgaatggag cgccgaagac ttcgcccgcc gcgcggcccc catcgcccaa gaagccgccc
+      181 gcgccatcag cggcagtttc taggccctaa attcgatccg cgtcaccggc cccagctctg
+      241 cctccaccgc cgcgacaagt gggcgcagaa gatgtgtctc tatatagcgt tgcgcgaatt
+      301 tgctcggcgt gcgcagctca agcacgcccc cttcgaacgc cacatattca agctgcgaga
+      361 accacgcctt gaactgatcc gcgttctccc gcgataggtt caccatcgcg cgttgccacg
+      421 tacccggccc gccctgcgcg ggctctgatg cctcgggttt cgcataatcg gccagttgca
+      481 ccaccttgac cggcgtttcg ctgcgatacc gctctttcat ccgcgcatcg taatccggcc
+      541 cgaccagcgg ccagcacggc tctgacagcc gcgcgatctg cgcgtagttc aaccgatagg
+      601 ccgccaccct gccccgcacg ccgccgcgcg tacaaatcaa cagctgggca tccgtcagcc
+      661 gtttgatctc gcgtttcacc gtgcgttcat tcactgacca catccgcgcc aaatcccgct
+      721 ggcccacgct cagctcgtca gcgcgccaat tataccgcga ggtcaccgcc gcgatcagcc
+      781 gcatcaacga ggtctgcaag gtcggtgatc cgttcaaccc cgccacgctc aaagcggtca
+      841 aaaggtcgta cttgatcacc ccggcttcag ggccggtcag ccgcaatggg ttcatggttt
+      901 tgcctactcg atgtatcgtc ttatttttat cggtcagctt ctttgagccg attccgttta
+      961 tgctttctac aaagctctaa atcccgtctt ctgtcaaccc gctgggaaaa acaggaatta
+     1021 cccttttcct taatccaaat tcaatttggt aaaggttaat aggttaaggg ggacgctaag
+     1081 gtgtcaccat atcaggggat cgctgtcacc aaaacagccc catatgcccc ctgcctgtca
+     1141 ccaaaatctc tttgccccgc gttaacccca gcgaaataaa cccgttcttc aggaacggcg
+     1201 cgcgaatttc gggaaaatta ggttttgcca aattgccgaa ttcgcgttat tcgaaattcg
+     1261 aggcttaaaa acgcgagtag atagatgaga aatcacaacg accttcttaa catgaacgag
+     1321 cgcagcttgg aacaacaggc cgccgtgcgc cgcgccacct tctcccccgg agagatcaag
+     1381 gccctgcgcc ccttctctat ctgggagatc agccagttca tgttcgacgt ccccgccgac
+     1441 accctgcgca agaagctggc ggacgacccg accctgcccc agggg
+//

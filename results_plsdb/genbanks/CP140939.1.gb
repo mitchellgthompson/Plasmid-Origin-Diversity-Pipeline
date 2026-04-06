@@ -1,0 +1,72 @@
+LOCUS       CP140939_1              1614 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Sinorhizobium_meliloti | RIP: PRK13824.1 |
+            1,614 bp.
+ACCESSION   CP140939
+VERSION     CP140939.1
+KEYWORDS    .
+SOURCE      Sinorhizobium_meliloti
+  ORGANISM  Sinorhizobium_meliloti
+            Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales; Rhizobiaceae;
+            Sinorhizobium.
+FEATURES             Location/Qualifiers
+     source          1..1614
+                     /organism="Sinorhizobium_meliloti"
+                     /mol_type="genomic DNA"
+                     /plasmid="CP140939.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: PRK13824.1
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             complement(201..1414)
+                     /product="RepABC_RepC"
+                     /locus_tag="CP140939.1_orf2"
+                     /translation="MQSGNVTTPFGRRPMTLALVRRQIAAAEIKPGKAADKWKVFRDAS
+                     EARELLGLQDRSLAVLDALLSFYPDNELRQDAQLVVFPSNAQLTLRAHGIAGATLRRHL
+                     ALLVEAGLIVRKDSANGKRYARKDRAGEIESAFGFDISPLLLRSEELAGLAQQVAADRA
+                     AFRRAKESLTICRRDVRKLITAAIEEGASGDWEAIEGAYIGLISRIPRAPTLSDVTSIL
+                     GEMELLQRGIINVLEMQQEDGNISTNAAQNERHIQNSNPESFHEFEPSSRKEQGAKPAD
+                     DNRTKREPVRTFPLRMVLRACPEIAMYGPGGAIGGWRDMMSAAVVVRSMLGISPSAYQE
+                     ACEVMGSESAAVAVACILEREGHISSPGGYLRDLTRKAARGEFSLGPMLMALLRGSGGD
+                     DRRAG"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1512..1612)
+                     /product="hypothetical protein (33 aa)"
+                     /locus_tag="CP140939.1_orf3"
+                     /translation="TLTAVRVGAIEERKRSKRKRPPNVAVVEASLCV"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 aattcaactt tggccactat tgagtgcgtc gcacgtacgc gatctcacac cgccgggtcg
+       61 accttgatac cgcgacaagg ataaatcgga aggaaaagcg gcacctaatc ctgtcagctg
+      121 acaggctact ccgttggagg cctcacttca aaaaggagtc aagcacctcc gccgccacac
+      181 tgtgtcacac acatacagtc tatcccgctc gtcgatcgtc gcccccactc cctcgcagca
+      241 gcgccatcaa cattggtcca agcgaaaact cacccctcgc tgccttgcgc gtaagatctc
+      301 ggagatatcc accgggcgag cttatgtgcc cttcacgctc aaggatacaa gcgaccgcca
+      361 cggccgcgct ttccgacccc atcacctcgc aagcctcctg ataggcggat ggactgatgc
+      421 caagcatcga cctcacgacg accgcggccg acatcatgtc gcgccaccca ccaatggcgc
+      481 cacctggacc gtacattgca atttcagggc acgccctcaa caccatacga agcggaaaag
+      541 tccggaccgg ctcccgcttc gttcgattat catccgccgg cttcgccccc tgctcttttc
+      601 gagagctagg ttcaaattca tggaaggatt cggggtttga attctgtatg tgacgctcat
+      661 tctgagcagc attggtgcta atatttccat cttcttgctg catttccagg acgttgatga
+      721 tcccccgctg caggagctcc atctccccca ggattgacgt cacgtcgcta agtgtagggg
+      781 cacgcggaat tctgctgata aggcctatgt aggccccttc gatagcttcc cagtcgcccg
+      841 atgccccttc ttcgatcgcg gcggtgataa gcttgcggac gtcgcgacgg cagatcgtca
+      901 ggctctcctt ggctctgcgg aaggcagccc gatcagctgc aacctgctgc gccaagccgg
+      961 cgagttcttc cgagcgcaac agaagcggtg agatgtcgaa gccgaaagcg gactcgatct
+     1021 cacctgccct gtcttttctg gcataccgct taccgttggc gctatctttc cgcacgatca
+     1081 agcccgcctc tacgagcagg gcaagatgcc tccggagcgt cgcaccagct atgccatggg
+     1141 cgcggagtgt caattgcgca tttgatggga agacaacgag ctgagcatcc tggcgtagct
+     1201 cattatcagg atagaaactc agtagcgcgt caagcacagc caagctgcga tcctgcaatc
+     1261 caagcaattc tctcgcttcc gaggcgtccc taaagacttt ccatttatct gccgccttgc
+     1321 cgggcttgat ctcggccgcc gcaatctgcc gccgaaccaa ggcaagcgtc atcggccgcc
+     1381 gcccgaaggg cgtcgtcaca tttccactct gcattttctt caccttctaa aaggcaaaag
+     1441 aaatccgctc accaaaaaac ggcgtcaaag actcttgact gggattcggg gaaatgcgat
+     1501 tctctagttg tcacacacag agagaggctt ccacgacggc gacgtttggg ggcctttttc
+     1561 ttttgctacg cttcctttcc tcaattgctc cgaccctgac agctgtcagg gttt
+//

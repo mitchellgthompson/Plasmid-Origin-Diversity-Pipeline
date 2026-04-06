@@ -1,0 +1,119 @@
+LOCUS       NZ_CP019642_1           3490 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Planococcus_lenghuensis | RIP: RepA_N |
+            3,490 bp.
+ACCESSION   NZ_CP019642
+VERSION     NZ_CP019642.1
+KEYWORDS    .
+SOURCE      Planococcus_lenghuensis
+  ORGANISM  Planococcus_lenghuensis
+            Bacillota; Bacilli; Bacillales; Planococcaceae; Planococcus.
+FEATURES             Location/Qualifiers
+     source          1..3490
+                     /organism="Planococcus_lenghuensis"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP019642.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RepA_N |
+                     Tier: Tier 4: Phylum-exclusive"
+     CDS             complement(4..200)
+                     /product="AAA_31: AAA domain"
+                     /locus_tag="NZ_CP019642.1_orf1"
+                     /translation="MTAKTIVVGNFKGGVGKTKVSVMASWEYATLLNKKVLLVDMDPQG
+                     NASTLVARSAGIDAIDKTIFE"
+                     /codon_start=1
+                     /function="structural"
+                     /note="category=structural; color=#FF8F00"
+                     /note="Pfam=AAA_31 (PF13614.13)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF13614.13"
+                     /ApEinfo_fwdcolor="#FF8F00"
+                     /ApEinfo_revcolor="#FF8F00"
+     CDS             complement(1678..2030)
+                     /product="HTH_3: Helix-turn-helix"
+                     /locus_tag="NZ_CP019642.1_orf2"
+                     /translation="MDFQTPEPKTERNRSMTSKNEHDIYEKIGSAMKAIRKEQKLTLQD
+                     IEARSELKPSTVSLIERGKQNFSIGWLVHYCNTLDVDPAEVFTRAFRDDFQNQQLDKIF
+                     ERFDAYEAKKDEK"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="Pfam=HTH_3 (PF01381.29)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF01381.29"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             2293..3290
+                     /product="RepA_N"
+                     /locus_tag="NZ_CP019642.1_orf3"
+                     /translation="MTRKYNIQEETAERFYRLPKLFFTSSRYKKMSNDAKIAFAILQDR
+                     LELSIRNAWFDEEGNIYFLYGNEHLGEILNCSKPTVIKIKKELQKAELLEEKRMGLSQS
+                     NRLYLLKPLADEQDVEELHKPEKDAETVGAQQKLKNLTSRSKTSLPQEVKNFNPNDTDF
+                     SDPEFKETEEKINPSPKDADIPQVLQQVLDKNQKRLMDDQINMDEIVLHYHAHKDVLTD
+                     HQYANAVQYSLERTPGRIQNITARLTKAVADKKKWLQQQAQQGPRQAPGRQEVLPDWFK
+                     KKYEETDPGEEKKPTSADGDEQKATSRDLEAEKRAMLKALDEKRNNRRLSQ"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 ccttcgaaaa ttgttttatc gattgcatca atgcccgcag aacgagcaac caaggtactg
+       61 gcattccctt gcgggtccat atctaccaat aacactttct tattgagtaa tgttgcgtat
+      121 tcccaactcg ccatgacaga tacctttgtt ttccctactc cgcctttaaa attacccaca
+      181 acgatggttt ttgcagtcac ttactgtccc ccctctttcc taattacttt cacgaatttc
+      241 cacctaacaa agttccacct tcgtatatat ctgataataa cacaagtaga agaatgtgta
+      301 aaaaagaatt tatttgtaac acaaatgtaa tattctaatt ttgttataaa cagaagtgga
+      361 aaagtagaat tttctacttc tgtgagaaag atgaagaaaa aacagaagtg gaaaagtaga
+      421 attttctact tctgtgagaa agatgttgca aataatcaga ggtagaaaag tggaaatatc
+      481 tacttacgcg agaatgaggt cataaataag aagaagtaga aaagtagaaa tatctacttc
+      541 tgctgaaatg aagttgcaga taatcgaagg tggaaaagtg gaaatatcta cttacgcgag
+      601 aatgaggtca taaataagaa gaagtagaaa agtagaaata tctacttctg taaaagtgat
+      661 aaaagaaata acaaaagtag aaatatctac ttttgttata aaaaggatta attatgccat
+      721 tgtttcgttg ttgatttaac aacgttattg agatcaaaaa gaaaataaag aactatagtg
+      781 taaataacga aagtagaaaa gtagaaatat ccacttatgt gagaacagag gcttaagtat
+      841 gtagaagtag aaaagtagaa atatccactt gtgtgagaac agagacttaa gtatacaaaa
+      901 gtggaaaagt agaaatatct acttgtgtga gaacagagac ttaagtatac aaaagtggaa
+      961 aagtagaaat atctacttgt gtgagaacag agacttaagt atacaaaagt ggaaaagtag
+     1021 aaatatctac ttgtgtgaga acagagactt aaatatacaa aagtagaaaa gtggaaatat
+     1081 ctacttatac gactaatcga accattctcg cagaggtgga aaagtggaaa catctaccca
+     1141 aaaagcgctg aaagccttgc tataaagggc tttacagcgc ttttggtttg ctataggttt
+     1201 acaaagaagt cttattttcc agcaatgaaa ataaggaaag gatctgttgg tagaaaacaa
+     1261 aagagataac cgttcaagac ctaaagaaag tagaagattt ctaactacaa gctcatgtga
+     1321 gctttcctga atagccagtg actgccgtca ggagcagttg aaccaaaaag ggcttcttat
+     1381 gcctcatatg gtctttgtga gggtcttaga gctcctgacg gagcaaatgg ctgccccaat
+     1441 ttgagtacag tgccgtggtt tcttagttgt ggtttttggt gagaagtaag ataccttctg
+     1501 tataaaatta caaaaggttt ataaaaataa aaaaaccgca acaaggagaa gtaatctcat
+     1561 aaacacacgc attgaaatga ttaagcatcg ttttcattgg gcgaatcctg ctcatccacg
+     1621 tattccgctc tagttacata caaaaaccct ctactggttg agagggcagg gaagcgttac
+     1681 ttttcatcct ttttggcttc atacgcatca aagcgttcga agatcttatc cagctgctga
+     1741 ttctgaaaat cgtcacggaa tgcgcgggtg aacacctcag ccgggtcaac atcaagcgta
+     1801 ttgcaataat ggaccagcca tccgatagaa aaattctgtt ttccccgctc gatgagggaa
+     1861 accgtagacg gcttcaattc actgcgggct tcgatgtcct gcagcgtcag cttttgctct
+     1921 ttccgaatcg ctttcatggc gctgccgatt ttttcgtaaa tatcgtgctc atttttagaa
+     1981 gtcatcgaac gattcctttc ggttttcggt tccggtgtct gaaaatccat gttatactca
+     2041 aacaaatctt aatatatata taaaaattta tgtatatata aaaaaatccc tactaactct
+     2101 gctgccgttt tgtttggcga cagccggcag cagagtttcc acgtagagag attacaagga
+     2161 aaacttgatt acgcttatta tagcataatt cacgcagctt tgaacaggct tatctgcctg
+     2221 ttcggcggct atgaactcct tcgtaatttc tctttccaaa aatttattga cgcaatggaa
+     2281 ggagatccac catgaccaga aagtacaaca tccaggaaga aaccgccgaa cgcttttacc
+     2341 ggctccccaa actctttttc accagctccc gctacaaaaa aatgagcaat gacgcgaaaa
+     2401 tcgcctttgc gatcctgcag gaccggctgg aactgtccat ccgcaatgcg tggtttgacg
+     2461 aagaaggaaa catttacttt ctctacggaa atgagcacct gggggagatc ctcaactgca
+     2521 gcaaacccac cgtcatcaag atcaaaaaag aactgcagaa agcggagctc cttgaagaaa
+     2581 agcggatggg gctctcacag tcaaaccggc tgtatttgct gaaacctttg gccgatgagc
+     2641 aggatgtgga agaactacat aagcctgaaa aagacgctga aaccgttggg gcgcaacaga
+     2701 agttaaaaaa tttaacttca agaagtaaaa cttctttacc tcaagaagtt aaaaatttta
+     2761 accctaatga tactgacttt agtgatcctg aatttaaaga gactgaagaa aagatcaatc
+     2821 catccccaaa agatgccgat attcctcaag tacttcagca ggtcttggat aaaaaccaaa
+     2881 agcgattgat ggatgatcaa attaacatgg acgagatcgt tcttcactac catgcccata
+     2941 aagacgtctt gaccgaccat cagtacgcca atgccgttca gtactcgctg gagcgcacgc
+     3001 cgggccgcat ccaaaacatc accgcgcgcc tgacgaaagc ggtagccgac aagaagaaat
+     3061 ggctccagca gcaagcccag caaggaccga gacaagcacc tggcagacag gaagtgctcc
+     3121 cagactggtt caaaaagaaa tacgaggaaa cagaccccgg cgaggaaaaa aagccgactt
+     3181 cagctgatgg agacgaacaa aaggcaacct cacgcgacct tgaagccgag aaaagagcca
+     3241 tgctgaaagc actggatgaa aagcggaaca atcgacgtct cagccaataa ttttatatat
+     3301 aaataaatat tttaagttaa aaccgtctga tttcgagacg gctgcattct caaatatcta
+     3361 tcacactaaa aaaacattga tagactaggg gcccaaaaag ggaaaatccg actaacgaat
+     3421 ttcgtctcgt ttccgttgcc atttttacgg caattctaat atactggaaa cagcaggaaa
+     3481 tagagggagg
+//

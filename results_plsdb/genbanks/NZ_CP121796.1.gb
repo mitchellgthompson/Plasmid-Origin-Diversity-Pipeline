@@ -1,0 +1,52 @@
+LOCUS       NZ_CP121796_1           1113 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Aeromonas_hydrophila | RIP: PRK13742.1 |
+            1,113 bp.
+ACCESSION   NZ_CP121796
+VERSION     NZ_CP121796.1
+KEYWORDS    .
+SOURCE      Aeromonas_hydrophila
+  ORGANISM  Aeromonas_hydrophila
+            Pseudomonadota; Gammaproteobacteria; Aeromonadales; Aeromonadaceae;
+            Aeromonas.
+FEATURES             Location/Qualifiers
+     source          1..1113
+                     /organism="Aeromonas_hydrophila"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP121796.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: PRK13742.1
+                     | Tier: Tier 5: Diversity fill"
+     CDS             201..913
+                     /product="repM_Acin"
+                     /locus_tag="NZ_CP121796.1_orf2"
+                     /translation="MKTTTPKVAWQSNALLNSAYSMSRDEKRLLWLCLSQLNGNETTIP
+                     DEFTVTLADYTRLFDIDSSNASSDIRVALEKLRLREVIFYLPDEDGENGDRAFDAKNIV
+                     IGRGVRPKRGVYTLELNPKLGKFLLGLSREFTKLQLLDVADLRNPHAMRLYENLIQFES
+                     TQTFCQKVEWFIERYQLPASYSRYANFKQKFLEVAVEEINAKTPLSVAYVENKTGRKVT
+                     SILFSFSRKKTGEAA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 tgggctagag agccatgaag gcaacttttc gaccccaaca agccctgaaa ggcaactttt
+       61 cgacgtgagc cacgtctcaa aggcaacttt ccgacccgaa taatatccac aaaggcaact
+      121 ttccgacccg agcaccactt gacgatgtag aggctgttga taacaatggc aactcattta
+      181 gaaatgggtt gccgtaggga tgaaaacaac cacaccaaag gtcgcttggc agagcaatgc
+      241 cctcctcaat tcagcctact cgatgagtcg agacgaaaag cgcttgttgt ggctttgtct
+      301 gagccagctg aatgggaacg agacaacgat tcccgatgag tttaccgtca cgctggctga
+      361 ctacactcgg ctcttcgaca tcgacagctc taacgcatca tccgatatcc gagtcgccct
+      421 tgagaagctg cggcttagag aggtgatttt ctatttgcct gatgaagatg gtgaaaatgg
+      481 cgaccgggca ttcgacgcca agaatatcgt gattggccgc ggggttaggc cgaagcgtgg
+      541 cgtttacacc ctggagttga acccgaaact cggaaagttt cttcttggcc tcagcaggga
+      601 gtttaccaag ctgcagctgc tcgacgtggc cgacttgaga aacccacacg ctatgcggct
+      661 ttacgagaac ctgatccagt tcgagagtac ccagacgttt tgccagaaag tggaatggtt
+      721 cattgagcgg tatcagctgc cggcttccta tagccgctac gccaacttca agcagaaatt
+      781 cctggaggtg gcggtggaag agatcaacgc caagaccccg ctatctgtgg cgtatgtcga
+      841 gaacaagacc ggacgcaagg tgacatctat cctgttcagt ttttcccgca agaaaaccgg
+      901 tgaagctgcg tgagctttca gtatcgaaag cgagttcggc ttctcccctt cttgtggctc
+      961 aacttgtcaa aaacaggctg gtcgctgacg ttccgtttcg gcccgctctc ctatagtgct
+     1021 gggccgaagg ggcgacgggt ttccgcgtca ctccctggta ccggcctgtc atatcgaaag
+     1081 acgatcatca aaaggccggc aggccccaaa aca
+//

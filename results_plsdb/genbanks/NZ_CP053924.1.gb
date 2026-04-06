@@ -1,0 +1,77 @@
+LOCUS       NZ_CP053924_1           1812 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Defluviicoccus_vanus | RIP: RepABC_RepC |
+            1,812 bp.
+ACCESSION   NZ_CP053924
+VERSION     NZ_CP053924.1
+KEYWORDS    .
+SOURCE      Defluviicoccus_vanus
+  ORGANISM  Defluviicoccus_vanus
+            Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+            Rhodospirillaceae; Defluviicoccus.
+FEATURES             Location/Qualifiers
+     source          1..1812
+                     /organism="Defluviicoccus_vanus"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP053924.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     RepABC_RepC | Tier: Tier 2: Alphaproteobacteria"
+     CDS             complement(201..592)
+                     /product="RepABC_RepC"
+                     /locus_tag="NZ_CP053924.1_orf1"
+                     /translation="MRTDSGTVMKLSTAELAHLAPRLRPYLRSSDPTWPDIVDAADWLR
+                     HDLGVSKSLWGEACLAMGREKAAVALAIVSAKPAEHFRTTPGGYFHGMVAKAKTGELHL
+                     NRTIWGLRDAVGPGRRDRQGREGDRP"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(708..1612)
+                     /product="RepABC_RepC"
+                     /locus_tag="NZ_CP053924.1_orf2"
+                     /translation="MVELCPSRSNREEDHDDDAGRPCGATGNFAGRPTGFRRLTLGLLK
+                     ADHAAESFAGLPDGVAVQGQLLAAFKAAAPSLGLSPRIIHAIDWLFRFTQPQDWARGGR
+                     PIVWPSARLQQTELGLGASQVKALNRQLIETGLVTMKDSPNGKRYGRRDGEGRIVEAYG
+                     FDLSPLAARHAEFVRLAKXRQKAERAELARLRRRATIARNGIAQILETAAEYGFQGQEW
+                     EQLAHDSRTLTKALRKVERSDEMALGVESLERRQRSAREHLENLLSAVTPDVSEAVNSN
+                     PREPENRPHXNIPTNQTLXS"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 cgccgctttc gttcgcgagg gggctcatta ccgccccctc gccctccccg ctaggatatt
+       61 tgcagcacgc tgatatcgag ggtgggattc ccccaggtac aggcgatgac cgtgcaaggt
+      121 gatacgcacc aggcaaagcc tcacgggtcc gctcgccggg gacaacttgc gatacgctcg
+      181 atctccggtg cgccaaagtt cacggccggt caccctccct cccctgccgg tcccggcggc
+      241 cgggcccaac ggcatcgcgc aaaccccaga tggtgcggtt gagatgcagc tcgccggtct
+      301 tcgccttcgc caccatgccg tggaaatacc caccgggcgt cgtccggaaa tgctccgcgg
+      361 gcttggccga gacgatcgcc agcgcgaccg ccgccttctc gcggcccata gcgaggcagg
+      421 cttcgcccca cagggatttc gagacgccga ggtcgtggcg gagccagtcg gcggcatcga
+      481 cgatatccgg ccaggtggga tctgaactgc gcaggtaggg cctcaaccgc ggcgccagat
+      541 gcgcgagctc ggcggtgctg agcttcatca ccgtgccgct gtcggttcgc accggccgct
+      601 cgttttcgtc cttctgtgct ccttgcagca gcgcggctgg tatgtgttcg gtccctgccc
+      661 cgcccctcgg cctactactt tcctggaagg caattaccgt atccttttag ganntcaggg
+      721 tttggtttgt aggtatattn nggtggggcc ggttttccgg ctccctgggg ttagaattca
+      781 ctgcttcgga tacatcgggc gtcaccgcgg acagcagatt ttccaggtgc tcccgcgctg
+      841 accgctgccg ccgctccagg ctttccacgc caagcgccat ctcgtcggac ctctcgacct
+      901 tcctgagcgc ctttgtgagc gtccggctgt catgggcgag ctgctcccac tcctggccct
+      961 ggaagccgta ctcggccgcc gtctcaagga tctgggcgat gccgttgcgg gcgatcgttg
+     1021 cccgccgccg caaccgcgcc agttcggcgc gctcggcttt ttgcctnngc ttcgccagcc
+     1081 gcacgaattc ggcgtggcgg gcggcaagcg gcgacaggtc gaagccgtag gcctcgacga
+     1141 tgcggccctc gccgtcacgg cggccgtagc gcttgccgtt ggggctgtcc ttcatggtga
+     1201 cgaggccggt ttcgatgagc tggcggttga gcgccttgac ctggctcgcg ccgaggccga
+     1261 gctcggtctg ctgcaggcgg gccgacggcc agacgatcgg tcgccctccc ctcgcccagt
+     1321 cctgcggctg ggtgaagcgg aacagccagt cgatcgcatg gataatccgc ggtgaaaggc
+     1381 cgaggctggg agcggcggcc ttgaaagcgg ccagcaactg cccctgcacg gctacgccgt
+     1441 ccgggagccc ggcgaagctc tccgccgcat ggtcggcttt cagcaggcct agcgtgagcc
+     1501 ggcggaatcc ggtggggcgg ccggcaaagt tccccgttgc gccgcatggg cgccctgcgt
+     1561 cgtcatcgtg atcctcctct cggttggatc gcgacgggca aagctcgacc atccaaggaa
+     1621 aagctgattt cccttgccag ccaggccgga actgtctaga ttgaggtcgt cacaccgttt
+     1681 ctagatagtt ttgtctgtca cgaagttttc gaagcccgcc cggcaaggcg ggctttcgca
+     1741 tttctaggcg gtttgccgga tagcctccct ccccagctcg atcagttgca acaatgcctg
+     1801 gctgcggctt cg
+//

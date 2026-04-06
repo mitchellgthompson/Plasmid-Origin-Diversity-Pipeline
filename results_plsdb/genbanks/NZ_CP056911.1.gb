@@ -1,0 +1,68 @@
+LOCUS       NZ_CP056911_1           1419 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Citrobacter_freundii | RIP: RepA_IncFII_LM |
+            1,419 bp.
+ACCESSION   NZ_CP056911
+VERSION     NZ_CP056911.1
+KEYWORDS    .
+SOURCE      Citrobacter_freundii
+  ORGANISM  Citrobacter_freundii
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Citrobacter.
+FEATURES             Location/Qualifiers
+     source          1..1419
+                     /organism="Citrobacter_freundii"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP056911.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     RepA_IncFII_LM | Tier: Tier 5: Diversity fill"
+     CDS             201..1219
+                     /product="RepA_IncFII_LM"
+                     /locus_tag="NZ_CP056911.1_orf1"
+                     /translation="MTERHNPQHWSQLSTEDQIRFWERVDEGDTSSFLVTPEKKRTRRR
+                     RGEHSTKPKCENPSWFRPAHYKALGGQLGHAYNRLVKKDPATGQYSLRMHMSLHPFYVR
+                     ERQRAGRKYAFRPEKQRLLDALWPMLISFCDAGKHTVGMCVSRLARELSPKDAKGNVIP
+                     ETEVTVSRLSCLISEQVRFGTLGVSEETSWDRESRKRLPKYVWITTTGWQMLGVDLMKL
+                     QEQQMKRLRESEERRRLIEEGILGEDEDISVHAARKRWYLQRSHEALKYRREKGAARKR
+                     ANRLARLPQDRQIYEMTLFLKRTLPADEAYQCSDDHLRRLAIKHLYQLELSLAAPPPH"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1236..1419)
+                     /product="hypothetical protein (82 aa)"
+                     /locus_tag="NZ_CP056911.1_orf2"
+                     /translation="MQGINKGGLDYFPGLLISVCEKLYLFVCGNVWITQSCRQYERSCD
+                     RKNGRTQGDYEEKAMDCRKMGERNQHHKPRKGLATEN"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 tgaggtgtct acccggagcc agaaaagcaa aaaccccgat aatctctcta atcttggcgg
+       61 gtcaggagat taccggggcc tacttaaact gtatagccat caatcaggct atgcagggag
+      121 tatagtttta tgctcagaaa agttcaatac ctgtttctgt gcccattact ccttccgtgc
+      181 attgtaagta caggaagaag tgactgaaag gcacaatccg caacactgga gtcagctgtc
+      241 gaccgaagac cagatccgtt tctgggagcg tgttgatgag ggcgatacat cctcttttct
+      301 ggttacgcca gagaagaagc gtacacgtcg ccgccgtggc gaacactcca ctaaacccaa
+      361 atgcgaaaat ccgtcctggt tccgtcctgc gcactataaa gcgctgggtg gacagcttgg
+      421 tcatgcctat aaccgtctgg tgaagaaaga tccggcgaca gggcagtaca gtctgcgcat
+      481 gcatatgtcc ctgcaccctt tttatgtccg cgaacggcag cgtgctgggc gtaagtacgc
+      541 ctttcgtccg gaaaaacaac gactgcttga tgccctgtgg ccgatgctga tcagtttctg
+      601 cgatgccggc aaacatactg tgggcatgtg tgtgtccagg ctggccagag aactcagccc
+      661 aaaggacgca aaggggaatg tcatacccga aacggaagtc accgtctccc gtctttcctg
+      721 ccttatttct gagcaggtgc gctttggcac gctgggtgtg tcagaagaaa cctcctggga
+      781 ccgtgagtcc cgtaagcggc tgcccaaata cgtctggata accaccaccg gctggcagat
+      841 gctgggcgtg gacctgatga agctacagga acagcagatg aagcggctgc gtgagagtga
+      901 agaacgtcgc cggctcatcg aggaaggtat tctgggggaa gatgaagata tttctgtcca
+      961 tgctgccaga aagcgctggt acctgcagcg cagccatgaa gcactgaaat atcgccggga
+     1021 gaaaggtgcg gcgcgtaaac gcgccaaccg gctggccagg ctgccacagg accggcaaat
+     1081 ttacgagatg acgctcttcc tcaaaaggac tcttcctgca gatgaggctt accagtgctc
+     1141 tgatgaccat ctgaggagac tggccattaa acatctgtac cagctggagc tgtcgctggc
+     1201 tgctccacca ccacactagc gatatcagcc cccgttaatt ttctgtcgcc agccccttac
+     1261 ggggcttgtg gtgctggttc cgttcgccca tttttcggca gtccatcgct ttttcttcat
+     1321 aatctccctg tgttctccca tttttacggt cgcaggagcg ttcatattga cgacaggact
+     1381 gagttatcca cacatttccg caaacaaata agtaaagct
+//

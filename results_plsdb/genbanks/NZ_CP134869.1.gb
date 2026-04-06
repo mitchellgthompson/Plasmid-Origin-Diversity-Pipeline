@@ -1,0 +1,66 @@
+LOCUS       NZ_CP134869_1           1383 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Dyella_sp._BiH032 | RIP: RepA_IncFII_LM |
+            1,383 bp.
+ACCESSION   NZ_CP134869
+VERSION     NZ_CP134869.1
+KEYWORDS    .
+SOURCE      Dyella_sp._BiH032
+  ORGANISM  Dyella_sp._BiH032
+            Pseudomonadota; Gammaproteobacteria; Lysobacterales;
+            Rhodanobacteraceae; Dyella.
+FEATURES             Location/Qualifiers
+     source          1..1383
+                     /organism="Dyella_sp._BiH032"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP134869.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     RepA_IncFII_LM | Tier: Tier 5: Diversity fill"
+     CDS             3..100
+                     /product="hypothetical protein (32 aa)"
+                     /locus_tag="NZ_CP134869.1_orf1"
+                     /translation="LAALEGVVATAALARRSDRRQFRAVAVACGQF"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(201..985)
+                     /product="RepA_IncFII_LM"
+                     /locus_tag="NZ_CP134869.1_orf2"
+                     /translation="MPALGSPHHAIAYYLPTGEKRPHVIIDALHVIDRAERGRGALGAL
+                     LGRIGVRGKSRQRALRKDARTNRCALLSAILSHADVSTGVVVSESPTPLPDGTRYLVPM
+                     SVATLAKKAYGELIADEISIARVIRGLRDLRELGLIDLTPQFERLSNGDILNMPSVKAV
+                     TTHFWEVARLWDKLVKVRGSKAAERSVQRLQTILAAVARRQGRKRAERALTHQTRGAVN
+                     GTPASRAAAAEYRAKAERMGLTGAALERSVAAYMSRWRG"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 cctcgccgcg ctcgagggcg tggtggccac cgcggcgctg gccaggcgca gcgatcgccg
+       61 gcaatttcgc gcggttgccg tcgcgtgtgg gcagttttag cgtgcgaaaa gaggtggatt
+      121 tggcctgttt ttaggccttc gggcacgcct gtatcgagcc aggagctctg cggccgtcaa
+      181 actgaggggt tggggcgcct tagcctcgcc agcggctcat ataggccgcc acggagcgct
+      241 ctagcgcagc gcccgtgagg cccatgcgct cagccttggc gcgatattca gcggcagcgg
+      301 cacgcgatgc cggcgtgcca ttgacggcgc cgcgcgtttg gtgcgtcaga gcgcgctcag
+      361 cacgcttgcg gccctgtcgc ctggcgacgg ccgctaggat ggtctgcaag cgctgcacag
+      421 agcgttcggc ggcctttgag ccgcggactt tgaccagctt gtcccacagc cgcgcaacct
+      481 cccaaaaatg ggttgtaacg gctttgacgc tgggcatgtt cagaatgtcg ccattcgaca
+      541 ggcgctcgaa ctgcggcgtc aggtcaatta atcccagctc ccgcaaatca cgtaatccac
+      601 ggatcacgcg cgcaatcgaa atttcgtcgg ctatgagctc gccataggcc ttttttgcca
+      661 gggtcgcgac gctcatagga actaaatacc gcgtgccgtc aggaagcggg gtaggggact
+      721 cggaaactac tacgccggtc gaaacatcgg cgtgcgacag gatcgcgctc agaagcgcac
+      781 aacggttcgt cctggcgtcc ttacggagcg ccctttggcg actctttcca cgcacgccaa
+      841 tacgcccgag aagcgcccca agggcgcccc ggccgcgttc cgcccggtcg atcacgtgga
+      901 gcgcgtcaat aatgacgtgc ggacgctttt cgcccgtggg gaggtaatac gcgatggcgt
+      961 gatgggggga gcctagtgcc ggcaatgcca acccctttcg gggggcatgg cacctgacca
+     1021 aaggtaatcc atgagttccc tcgtacccgt tttgcggttg caaacctccg ggcaaggggc
+     1081 taccatgatc gcaaatctca ctgagcgatc tgagagtttg cccctctccg gtcctgttcc
+     1141 aaaaaccctc gacgcgccaa cgtcgggggt tttgtttttg ggttgtcggc tacttcgtca
+     1201 gttgccgtct ctcccctaca tattgtgtcg tggctagtct agcggcctaa acccttgtgc
+     1261 agcaaggggt tcgacagcac tcctaaaaac ttgaggggtc gcatgctaaa attcttgcgc
+     1321 gggtgaaaac tcgctctctc gggtgccggc gatcgccaag gaaggtgatc gaccggcacc
+     1381 aat
+//

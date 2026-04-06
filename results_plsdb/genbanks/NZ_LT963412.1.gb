@@ -1,0 +1,65 @@
+LOCUS       NZ_LT963412_1           1713 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Pseudomonas_syringae | RIP: Replicase |
+            1,713 bp.
+ACCESSION   NZ_LT963412
+VERSION     NZ_LT963412.1
+KEYWORDS    .
+SOURCE      Pseudomonas_syringae
+  ORGANISM  Pseudomonas_syringae
+            Pseudomonadota; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+FEATURES             Location/Qualifiers
+     source          1..1713
+                     /organism="Pseudomonas_syringae"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_LT963412.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Replicase
+                     | Tier: Tier 5: Diversity fill"
+     CDS             201..1513
+                     /product="Replicase"
+                     /locus_tag="NZ_LT963412.1_orf3"
+                     /translation="MSHDHAISLARATSHTANADPLASSTHLPPARFFEDGTALNRLLL
+                     EAPYMARCSDDKTATRVRPREYALRYPYMQVNRPGMVSWLVFDLDHANALAWDDAGLPA
+                     PNLMVRNRKSGHSQLFYAVPSVCTTENARTKPIQYMKAIYAAFAARLDADVDYHGGPVA
+                     KTPGHPWWETTEFHSHVYELGELASAVELTVKPWATGPKLDQVSHSRHCILFEQLRYFA
+                     YSIVNRERELGSFESFMRSLDAYAYNHNSFLKQGFSENLPLSSIRATVKSVGRWTWDRY
+                     TGDRRCHRGAMQLDGSLSLTERQSLAARRTHELRHKATESKIRAACRQLQDQGKALVRS
+                     AIAALAGVSASTVARYAHILSEVTKPATVSVLKVSADAMPTVTPGDQAAPRKAVQCLKK
+                     QALTDRAQGVSYAVHQIPAVPQGPQAGESLTTEHEDGS"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 gagctgatta tggcgttcac tgcggctttg tgcaagccgt caaaagtgaa gccttcagtt
+       61 caccgctgaa cggtggactt atggaaaaga ttcttcagcg gctgtgcgtc ctcgatgaca
+      121 gcaccctgcc cccccacttg acgccttgcg tcacaccctc tcacgccgtt ggccaaccag
+      181 ttggccaagg cggtgaggca tgagccacga ccacgcgatc agtcttgccc gcgcgacctc
+      241 gcacacggcc aacgccgatc cgctggccag cagcacccac ctgccgcctg cccgtttctt
+      301 cgaagacggc actgcgctca accggttatt gctggaagcg ccgtacatgg cgcggtgcag
+      361 tgacgacaaa accgcgactc gcgtccgtcc tcgtgaatac gcgctgcgtt atccctatat
+      421 gcaggtcaat cgccccggca tggtgtcttg gctggtgttc gacctggacc atgccaacgc
+      481 attagcctgg gacgatgctg ggttgcccgc gcctaacctg atggtgcgca accgcaagag
+      541 cggtcactcc cagctgttct atgcggtgcc gtccgtatgc accactgaga atgcacggac
+      601 caagcccatt cagtacatga aagcgatcta tgccgcgttt gccgctcgcc tcgacgcgga
+      661 cgtggactac cacggtggcc ctgtggccaa aacacctggc cacccttggt gggagacgac
+      721 cgaatttcat agccacgtgt acgaactggg cgaactggcg agcgcggtgg agttgaccgt
+      781 caaaccctgg gccacaggtc ccaagcttga ccaggtcagc cattcgcggc actgcatcct
+      841 gttcgagcag ctgcgttatt ttgcgtacag catcgtcaat cgcgagcgcg agctgggttc
+      901 gttcgagtca ttcatgcgct cgctcgatgc gtatgcctac aaccacaaca gctttctaaa
+      961 gcaggggttt tcggaaaacc tgccgctgtc gtcgatacgc gccacggtca aatccgtagg
+     1021 ccgctggacg tgggatcggt acaccggtga tcgtcgctgc catcgaggcg caatgcagct
+     1081 cgatggcagc ctgtcgctca ccgagcggca gagcctggcg gccaggcgca cccatgaact
+     1141 gcggcacaaa gccacagaat cgaagatacg cgccgcgtgc cgtcagctcc aagaccaggg
+     1201 caaggcactg gtgcgatctg cgattgcagc actcgccggc gtttctgcga gtacggtggc
+     1261 caggtacgca cacatcctgt ctgaggtgac caagcctgcc actgtgagtg tgctcaaggt
+     1321 gagcgcagac gcgatgccaa ctgtaacccc gggcgaccaa gcggcacccc gaaaggccgt
+     1381 tcagtgcctg aaaaaacagg ccctgacgga tcgcgcccag ggggtgtcat atgctgtaca
+     1441 tcagatacct gcggtcccgc aggggccgca agccggagag tccttaacaa cagaacatga
+     1501 ggatggttca tgatggggag tgagcgtatg aattcagtgc gtggagcctt cacagtattg
+     1561 cgctgcatag cccgccagca ctgctgccag tgagtgttca tgcataggaa tttcaaaatg
+     1621 cctatgcatc aagctgacgc tatggaagga ggcgtcatgc cttcatagcg atgggtagga
+     1681 agacgctgat gcgttactta tgcagtgaaa atc
+//

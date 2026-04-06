@@ -1,0 +1,80 @@
+LOCUS       NZ_CP127166_1           1561 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Marivivens_sp._LCG002 | RIP: DnaA_N | 1,561
+            bp.
+ACCESSION   NZ_CP127166
+VERSION     NZ_CP127166.1
+KEYWORDS    .
+SOURCE      Marivivens_sp._LCG002
+  ORGANISM  Marivivens_sp._LCG002
+            Pseudomonadota; Alphaproteobacteria; Rhodobacterales; Paracoccaceae;
+            Marivivens.
+FEATURES             Location/Qualifiers
+     source          1..1561
+                     /organism="Marivivens_sp._LCG002"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP127166.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: DnaA_N |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             complement(3..160)
+                     /product="hypothetical protein (53 aa)"
+                     /locus_tag="NZ_CP127166.1_orf1"
+                     /translation="MEQDNAIERPSGLVTSPRAVRAKRRGWRLAASFAVMVVAPTVLGG
+                     WYYGKVAS"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(201..883)
+                     /product="DnaA_N"
+                     /locus_tag="NZ_CP127166.1_orf2"
+                     /translation="MQVAKPVGRSASVKKYDILSALAAFGLSQDKHVQRQVLRLMALIT
+                     TRYNWQKDELTIGQNEIAKLWACDTRTVKREMSKFRASGWLVEKRGAARGRVAVHGLCL
+                     EKIMGDTKPVWENIGPDFVARAETPIEAETPSNVVKFAPSRVQAPSDDGSLWSGICKSF
+                     YDDDPASFAAWLSRLDPVGREDDRFVISAPTRFHANYVESHFGDRLLREMRRLDPTVRT
+                     LRIVH"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1362..1561
+                     /product="hypothetical protein (67 aa)"
+                     /locus_tag="NZ_CP127166.1_orf3"
+                     /translation="MFTHEDLANLQAQSLKMQTWIRRQTFSPQMEKTLRRFSSWEVSEL
+                     IFKINQSTFRGRLAAEPDLPGG"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 ccgaggcgac cttgccgtaa taccagccgc caagaacggt cggcgcgacg accatcaccg
+       61 cgaaactcgc ggccagacgc catccacgcc gcttggcccg caccgcacgc ggcgaggtca
+      121 caaggcccga aggtctctct atggcgttgt cctgctccat aggcggcagc ctacctccca
+      181 agccctaagc aatggttgac tagtgaacga tccgaagtgt tcgcaccgtc gggtcaagtc
+      241 gtctcatctc gcgcaacagc cgatccccga aatggctctc gacataattt gcatggaacc
+      301 gcgtcggggc ggaaattaca aacctgtcgt cctcgcgccc gacaggatca agccgcgaga
+      361 gccacgccgc aaaacttgcg ggatcatcgt cgtaaaagct cttgcaaatt ccggaccaga
+      421 gcgagccgtc gtcactcggc gcctgaacac gagagggcgc gaatttgacg acattgctcg
+      481 gtgtctctgc ctcaatcggg gtttcggcac gggcgacaaa gtcggggccg atgttttccc
+      541 agacgggctt ggtatccccc atgatctttt cgagacagag gccatgcacc gcaacccgcc
+      601 cccgcgccgc accgcgtttc tcgacaagcc agccgcttgc gcggaacttg gacatctcgc
+      661 gtttgaccgt tcgcgtgtca caggcccaga gcttggcaat ctcgttctgt ccgatggtaa
+      721 gctcgtcctt ttgccagtta tagcgcgtgg tgatcaaagc cataagccga agcacttgac
+      781 gctggacgtg cttatcctga gacagaccaa aggcagccaa tgcagagagt atgtcatatt
+      841 tcttgacgga cgctgaacgc ccgacgggtt tggcaacctg cactttgctg ctcctcgtat
+      901 ggccctaggg ccgcgcctct gttcgggatc ttggtcgtcc catttgccgg atcacaacgt
+      961 tcttccgatc tgttggctta tttgcgtcct gacgttcgat tctgtcaagc gctttgactc
+     1021 cgccgagagg tcgaggcccg tccccaatac caaaatctga atggattttc aggttaaata
+     1081 ggtaataggg gacattcagg ctgtcaccct aaatgaaact tttgtcaccc caatagcagt
+     1141 ggtctgcccc aaggtgtccc cctaaatctg gcacgttcat cggggcctgc ccccgcccac
+     1201 aaacgcccct ccgccgaatc gcttccggcc ttattttcat ggcccgccaa cggatttgca
+     1261 ctttttgcgt tttcactaaa cttcactttt gcatttttgg caaattcagc gtatttccga
+     1321 tctagaagaa tatttacgtc caataagaaa gacagcaggc atgtttaccc acgaggattt
+     1381 ggcaaacctt caggcgcagt cgctcaagat gcagacctgg atccgccgtc agacgttcag
+     1441 cccccagatg gaaaagacgc tccgtcgctt ctcgagctgg gaagtctccg agcttatctt
+     1501 caagatcaac cagtccacct tccgcggccg tcttgccgcc gaacccgatc ttccgggggg
+     1561 c
+//

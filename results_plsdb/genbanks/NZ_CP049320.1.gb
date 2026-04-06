@@ -1,0 +1,78 @@
+LOCUS       NZ_CP049320_1           1803 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Caballeronia_sp._SBC2 | RIP: Rep3_C | 1,803
+            bp.
+ACCESSION   NZ_CP049320
+VERSION     NZ_CP049320.1
+KEYWORDS    .
+SOURCE      Caballeronia_sp._SBC2
+  ORGANISM  Caballeronia_sp._SBC2
+            Pseudomonadota; Betaproteobacteria; Burkholderiales;
+            Burkholderiaceae; Caballeronia.
+FEATURES             Location/Qualifiers
+     source          1..1803
+                     /organism="Caballeronia_sp._SBC2"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP049320.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Rep3_C |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             complement(4..200)
+                     /product="hypothetical protein (66 aa)"
+                     /locus_tag="NZ_CP049320.1_orf1"
+                     /translation="MCLKGIANHSASLSFAASLRRKRDAALVEARRSKSNALMVASMLR
+                     ADAELSRREYSRLTDQKEPPM"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(201..1603)
+                     /product="repM_Acin"
+                     /locus_tag="NZ_CP049320.1_orf2"
+                     /translation="MAADNPEESKSRVTPRQMALALFEDLFDLGMPISEATREIGYQRN
+                     NFFTQIVNMGLPARRFLDAAYFIVAQEQEARDQYDVELNYFKWLMRYDSRNLKHLRTIA
+                     EEAQDAKIQVTDTPLDRDPNEDDLWVSVQLLGMVGFHRGRIRFDVHPRLVPHIRDPKKS
+                     HWLSLRISTAFTRSLARAIYDQILPSVPDGRTEWIPLEEMRNWPGKMGANAAIFKYFKR
+                     DWLEPAVREINEVSDIDLTYETRTESTTSKKIDRIRFLLKRKDTADAVLASLADASHLY
+                     KILKDEFNLSTKQFTEISENREVWTDTHIQQAVEYTRFKINRGQVKRSPAGYLMRALRD
+                     NWKMSEAERTMVDVQSKLLTDETEAEVAKNETRSSVARTMASREEEVRARMNEESLKGR
+                     EHFNAADLKTRKDLVRSWVTSSQGKLMLRRMKLEASTVTEQDILANADLGWYLGQFVFG
+                     RMNSSRTSP"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 tccatcggcg gttccttctg atcggttaag cgcgaatact ctctcctact gagttctgcg
+       61 tcggcgcgca acatgctggc caccatcaaa gcgttactct tagagcgccg tgcctcgacg
+      121 agggctgcat cgcgtttccg gcgaagactc gctgcgaagc tcaggctggc actatgattg
+      181 gcaatgccct tcaggcacat cagggcgatg tccgagacga attcatgcgc ccgaacacaa
+      241 attgtcccag gtaccaaccg aggtccgcat tcgcgaggat gtcctgctcc gttactgttg
+      301 atgcctcaag tttcatacgc cggagcatga gtttgccttg gctcgacgtg acccatgagc
+      361 ggaccagatc tttgcgcgtt ttcaagtcag cagcgttgaa gtgttcacgt cctttaagcg
+      421 attcttcatt catgcgtgca cggacttctt cctcacgcga tgccatggtg cgtgcgaccg
+      481 aactccgggt ttcattcttt gcgacctctg cttctgtttc gtcggtaagc agttttgact
+      541 gaacgtctac catggtccgt tcggcttcag acattttcca gttatcgcgg agagctctca
+      601 tcaagtagcc agctggactc cttttcacct gtccgcgatt aatcttgaag cgagtgtatt
+      661 caacagcttg ctggatgtgc gtatcggtcc agacctcacg gttctcggaa atctccgtaa
+      721 actgtttagt cgacaagttg aattcatcct tgagaatctt gtacaggtgg ctggcgtcag
+      781 ccaagctggc caagacagca tcggcggtat ccttgcgctt gagcagaaac cttatgcggt
+      841 cgattttttt cgatgtggtg gactcggtcc tggtttcata cgtcaaatcg atgtccgata
+      901 cctcattgat ttcacgcacc gccggctcaa gccagtcccg tttgaagtat ttgaagatag
+      961 ccgcgttcgc acccattttc ccgggccaat ttcgcatttc ttcaagcggt atccattccg
+     1021 ttctgccatc ggggacgctc ggcagtatct ggtcataaat cgctcgcgcc agactgcgtg
+     1081 taaaagccgt cgaaatgcgc aagcttagcc agtgagactt tttggggtca cggatgtgtg
+     1141 ggaccaatcg aggatgtacg tcgaatcgga tccgtcctct gtggaaccct accatcccca
+     1201 gcagctggac tgagacccat aggtcgtctt cattggggtc acggtcgagc ggcgtatcgg
+     1261 tcacctggat cttcgcgtcc tgcgcttcct ctgcgattgt gcgcaggtgc tttagattgc
+     1321 ggctgtcata gcgcatcagc catttgaagt agttcagttc aacgtcatac tgatctcgtg
+     1381 cttcctgttc ctgggcaacg atgaaatatg cagcgtcaag aaatcgccgc gccggcaggc
+     1441 ccatgttgac gatctgcgtg aaaaaattgt tccgctgata gccgatctca cgggtggctt
+     1501 cgctgatggg catgcccagg tcgaacaggt cctcgaacag cgcgagcgcc atctggcgag
+     1561 gtgttaccct cgacttgctt tcttcaggat tgtccgccgc cataagctca tcagctgatc
+     1621 atttcaattg ttgcgaatgt agcatgcatg ggtgagctgt caacacatac aacctcaccc
+     1681 tcctccggtc gcacgcggat gtttgtagtg gtcaagcttg caccaccttg ccgatttcgc
+     1741 acaattaacc tcacctatgc acaatcaacc tcaccacgtt gaacctgtgc cccacggtaa
+     1801 cgc
+//

@@ -1,0 +1,85 @@
+LOCUS       NZ_CP084091_1           2613 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Halomicrobium_urmianum | RIP:
+            RNA_helicase__RCR | 2,613 bp.
+ACCESSION   NZ_CP084091
+VERSION     NZ_CP084091.1
+KEYWORDS    .
+SOURCE      Halomicrobium_urmianum
+  ORGANISM  Halomicrobium_urmianum
+            Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae;
+            Halomicrobium.
+FEATURES             Location/Qualifiers
+     source          1..2613
+                     /organism="Halomicrobium_urmianum"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP084091.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     RNA_helicase__RCR | Tier: Tier 4: Phylum-exclusive"
+     CDS             201..2413
+                     /product="RNA_helicase__RCR"
+                     /locus_tag="NZ_CP084091.1_orf3"
+                     /translation="MALIVKSIEKRDAGRGLAAIPETELAHRNLSKNDYILIENPRSDE
+                     KAIARVWPGYDGDSGEPVIRIDGDLRQEADVNIDDTVEITKLDIDEARYVSVELPGRFD
+                     FKGDIRPHVLDELTGKAAKAGKSTTIQFGFGQLANAPGQDVTVEFVETDPEGPVVVTNS
+                     TEIDVAKADIEGGDRQRGAVDEGDSVGSITYEDIGGVGKELEQVREMIELPLQYPEVFQ
+                     ALGIEPPKGVLLHGPPGTGKTMIAEAVANEVDASLHSIRGPEVMSRYVGESSEHLRQIF
+                     EEAEENSPAIIFMDEVDAIASDREEVDTDADQRVVTQLLSLMDGIEDRGDVVVIGATNR
+                     PDKIDDALRRGGRFDREIEVDAPDKDGRREVLHIHTREMPLTPAVDLEKYAEVTHGFVG
+                     ADLQTLVKEAAMNAVRRIRPEIEIESDTIDARFLNSLEVRDDDFERALQEVEPSAMREV
+                     FVEVPTVSWNDVGGLEETKGALQETVQWPLEYDYLFDRVDNDGASGILLYGPPGTGKTL
+                     LAKAVANEAKANFISINGPEIMSKWVGESEERVREVFDKARSNAPAVVFFDEIDAIAGQ
+                     RSGGTQSNDVSERVVSQLLTELDGLEALENVVVIATTNRPDLIDDALKRHGRFDKQIEV
+                     PQPNEETRRRIFEVHTKDKPLTNGVDLDKLAQETGGYVGADIEAICEEAGMIAMREYVR
+                     NTPQSELEERQDTLFLRPEHFEQALEEVERSVDEQTISDYDGL"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 accaggccgt tcgaggcccg gagctatgcg atcgcccccg tgaagacacc gatcccgatt
+       61 cagatcgggt tcacttcaac ctgcagtaca agtactagtc ttcggacagg tatactacag
+      121 tagcgatgag gtcgctaacg ttccagtcac gtcggaacac gggatttatg atagaaaaat
+      181 acatacttat gacgtaaaaa tggcactgat cgtcaagtcg atcgagaagc gggatgccgg
+      241 ccgcggactc gctgcgattc ctgaaacgga actcgcccat cgtaacctct caaagaacga
+      301 ctatatcctc atcgagaatc cccgaagcga cgaaaaagcc atagcgcgcg tttggcccgg
+      361 atacgacgga gacagcgggg aaccagtcat ccgcatcgac ggtgacctcc gtcaagaggc
+      421 cgacgtgaat atcgacgaca ccgtcgagat cacgaaactc gacatcgacg aggcccggta
+      481 cgtctcggtc gagttgcccg gtaggttcga cttcaaggga gatatcaggc ctcacgtcct
+      541 cgacgagctc acgggcaaag ccgctaaagc aggcaagtca accactattc agttcggctt
+      601 cggccagctt gctaacgctc ctggacagga cgtcaccgtc gagttcgtcg agaccgaccc
+      661 cgaaggaccg gtggtcgtca ccaactcgac ggagatcgac gtcgccaagg cggacatcga
+      721 agggggtgac cggcagcgtg gcgcggtcga cgagggcgac tccgtcgggt cgatcacgta
+      781 cgaagacatc ggcggagtcg gcaaggaact agagcaagtc agagaaatga tcgagctgcc
+      841 cctgcagtat cccgaggtct ttcaggcact gggcatcgag ccgcccaagg gcgtcctctt
+      901 gcacggtccg ccggggactg gcaaaacgat gatcgccgag gccgtcgcca acgaggtcga
+      961 cgcctcgctc cattcgatcc gcggtcccga agtaatgtcg agatacgtcg gcgagtcctc
+     1021 cgaacacctt cgacagatct tcgaggaggc agaggagaat tcgccggcaa tcatcttcat
+     1081 ggacgaggtg gatgcgatcg cttccgaccg cgaagaggtg gacaccgatg ctgaccagcg
+     1141 ggtcgtcacc caacttctca gcctgatgga cggcatcgaa gatcgcggcg acgtcgtagt
+     1201 catcggggcg accaaccgcc cggacaagat tgacgacgcc cttcgacgtg ggggtcgatt
+     1261 tgatcgcgaa atcgaggtcg acgcgcccga caaggacggt cgccgcgaag tcctccacat
+     1321 ccacacgaga gagatgccgc tcacaccggc tgtcgatctc gaaaagtacg ccgaggtgac
+     1381 gcatggattc gtcggtgccg acctccagac actcgtcaag gaagccgcga tgaacgctgt
+     1441 ccgccgaatt cggccggaaa tagagatcga atccgatact atcgacgccc gtttcctcaa
+     1501 ctcgctggag gtgcgtgacg acgatttcga gcgtgcactg caagaggtcg aaccctccgc
+     1561 gatgcgcgag gttttcgtcg aggtgcctac cgtctcgtgg aacgacgtcg gcggcctcga
+     1621 ggagacaaaa ggcgccctac aggagactgt gcagtggcca ctggagtacg actacttgtt
+     1681 cgaccgggtg gataatgatg gcgccagtgg tatcctcctg tacggcccgc cggggaccgg
+     1741 caagacgtta ctggcgaagg ccgtcgccaa cgaggcgaag gccaacttca tcagtatcaa
+     1801 cggtcccgag atcatgtcca agtgggttgg ggagtccgaa gagcgcgttc gagaggtatt
+     1861 cgacaaggct cggtcgaacg ctccagccgt ggttttcttc gacgaaatcg acgcgatcgc
+     1921 tggccagcgc agtggtggta cccagtcgaa cgacgtctcc gaacgagtcg tcagtcagct
+     1981 ccttaccgaa ctagacggcc tcgaggcgct ggaaaacgtc gtggtcatcg ccaccacgaa
+     2041 tcgccctgat ctgatcgacg atgcgctcaa acgccacggt cgattcgaca agcaaatcga
+     2101 ggtccctcag ccgaacgagg agactcgccg ccggatattc gaggttcaca ccaaggacaa
+     2161 gccgctcaca aatggcgtcg acctcgataa attggcccaa gagactgggg gttatgtcgg
+     2221 agcagatatc gaggcgatct gtgaggaagc cggcatgatt gcgatgcgag agtacgtccg
+     2281 caacacacct cagtcggaac ttgaggagcg acaggatacc ctgttcctcc gtcccgaaca
+     2341 cttcgaacag gccctcgaag aagtcgagcg aagcgtcgat gaacagacga tttccgacta
+     2401 cgacggtctc tgagaccgac tcgtgagact cactgccggt gttcacagtg cgttcccgct
+     2461 atcccgaagg tagctctttc cagcccggta tctacagtag aaattgctct attgaacccg
+     2521 aggacggcgg caggataacg tcgctgtgaa ggtcgaagcg gagaggtgaa tgtgcctcaa
+     2581 ctcctcttcc gcttcattaa gcaagcggcg tcg
+//

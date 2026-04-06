@@ -1,0 +1,100 @@
+LOCUS       NZ_CP091178_1           1935 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Aeromonas_caviae | RIP: RepL__RCR | 1,935
+            bp.
+ACCESSION   NZ_CP091178
+VERSION     NZ_CP091178.1
+KEYWORDS    .
+SOURCE      Aeromonas_caviae
+  ORGANISM  Aeromonas_caviae
+            Pseudomonadota; Gammaproteobacteria; Aeromonadales; Aeromonadaceae;
+            Aeromonas.
+FEATURES             Location/Qualifiers
+     source          1..1935
+                     /organism="Aeromonas_caviae"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP091178.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RepL__RCR
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             complement(4..122)
+                     /product="RelB: RelB antitoxin"
+                     /locus_tag="NZ_CP091178.1_orf1"
+                     /translation="MSTADTYVRARIDTSTKERAADALEAMGLSISDAIRLLML"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=RelB (PF04221.19)"
+                     /db_xref="Pfam:PF04221.19"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+     CDS             complement(201..625)
+                     /product="RepL__RCR"
+                     /locus_tag="NZ_CP091178.1_orf2"
+                     /translation="MDSSSYETPESHKNHNANFVQLSRAYLAQMRNLARKNPVAHEILY
+                     YLVENMGRTTNAIVCSYKTLCEVTGVSRPTVGRAIKTLKEDNWIDTVKIGNASAYCVNE
+                     RVFWQAGRNLRQYAVFSATVIAAASEGSSQKTDNKAR"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             966..1306
+                     /product="RepB-RCR_reg: Replication regulatory protein
+                     RepB"
+                     /locus_tag="NZ_CP091178.1_orf3"
+                     /translation="MKDLHDHQTADLLPEKRPRGRPRTGAAKTGAERQRAYRKQSRARD
+                     RANLNVMISVEARVSLDALARHHGCSLAEVLEPLLIAEKDKIVARIYATGAEAEQEAAM
+                     GAFFGTADL"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="Pfam=RepB-RCR_reg (PF10723.16)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF10723.16"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1736..1935
+                     /product="hypothetical protein (67 aa)"
+                     /locus_tag="NZ_CP091178.1_orf4"
+                     /translation="MSYQFGHIEGYARSSKKSYSIHDVCKEAERVPGYCDHVKNPMPPT
+                     IIHGCTPSEAVEMAETWAEQAK"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 cgcagcatca gcaagcggat ggcgtcagag atggacaacc ccattgcttc gagcgcatca
+       61 gcggcacgct ccttggtgct ggtgtcgatg cgagcgcgga cataggtatc ggcggtgctc
+      121 atggtcattt cccttgaagg tttcagaggc tctattgtag tcgcaatgtg actacagctt
+      181 aagggcaatg ccggtttgct taccgtgctt tgttgtccgt tttctgagac gacccctctg
+      241 aggctgccgc gatgacagtg gcagagaaaa cggcatactg gcggaggttt ctaccagcct
+      301 gccagaacac tcgttcattg acgcagtagg cggacgcatt cccaatcttc acggtgtcga
+      361 tccagttgtc ctctttgagc gttttgattg ctctgccgac cgttggccga ctcaccccag
+      421 taacctcgca aagggtcttg taactgcata cgatagcgtt tgtggtgcgc cccatgttct
+      481 ccactaggta gtacaggatc tcatgcgcta cggggttctt acgggctaga ttgcgcattt
+      541 gggcaaggta cgctcgcgag agctgcacaa agttggcgtt gtggtttttg tgagactctg
+      601 gggtctcata gcttgaacta tccatgctca catcctgatt caaccgaact cataaaatga
+      661 gacaacactg tgccatttgt gagtttagtt gtaaatcaga gtctcatagc tgatgagact
+      721 gggtagtctc atggggtgag actacccccc ctagcaactc attgttttta aaccattctg
+      781 aatttatccc tttctatgtc tgatcaggcc ccctccgtgc ccaccaactg ccgcgctccg
+      841 cttgcctgct ggcagggtcg tcagggcgaa ccgatgccct tcctctctgc ccagcctgag
+      901 cttgcattta tcgtcacatg tgacgtatat tttatctgtc acatgtaaca aaaaagggct
+      961 cgccatgaaa gacctgcacg atcaccaaac cgccgaccta ctcccagaaa aacgcccacg
+     1021 gggccgcccc agaacaggcg cagcaaagac gggcgcggaa cggcaacggg cctaccggaa
+     1081 gcagtctcgg gcgcgggatc gggccaattt gaacgtgatg atcagcgtcg aggcacgggt
+     1141 gtctctggat gcgctggcac ggcatcatgg ctgctcgctg gcggaggtac tggagcccct
+     1201 gctgatcgcg gagaaggaca agatcgtggc ccggatctac gccacaggcg cggaggccga
+     1261 gcaggaggcc gccatgggag cattttttgg gactgctgat ttatagttac ttgtaacgga
+     1321 atatattttg acagtggacg ggggcggtag cccccacaag ccgcccacag gggcctctag
+     1381 gggcctctag gggcaggcgg cgggacacgc cgatgcctac ccgtggcagt gccccccccc
+     1441 ttcctaaaaa caggctttgg aggcgttcag cgcgtgaggg aggaaaacgc cgcagcgccc
+     1501 cccgaactgg cagcctgtat tttgtcacat gtgacgctaa ataatgcctc gtacccagcc
+     1561 cccgcagggg gagctatcag cgccgtaggc gcatgtttag ccccgcaggg ccgacactta
+     1621 tcacctcccc agcgaagcgg ggaaggtgat aagttatagt cggttgatat tacttaccac
+     1681 ttcgcggcaa aatcggccta tgatgacttc aaatgcgacc tatcaggagt caccatgtcc
+     1741 taccaattcg gacacattga gggctatgcc agatcatcga aaaagagcta cagcatccac
+     1801 gatgtttgca aagaggctga gcgtgtgccg ggctactgcg accatgtaaa aaatccgatg
+     1861 ccaccgacga tcatccacgg ctgcacaccg agtgaggccg ttgagatggc ggagacatgg
+     1921 gcggagcagg cgaag
+//

@@ -1,0 +1,126 @@
+LOCUS       NZ_CP085707_1           2400 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Bacillus_velezensis | RIP: Phg_2220_C |
+            2,400 bp.
+ACCESSION   NZ_CP085707
+VERSION     NZ_CP085707.1
+KEYWORDS    .
+SOURCE      Bacillus_velezensis
+  ORGANISM  Bacillus_velezensis
+            Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+FEATURES             Location/Qualifiers
+     source          1..2400
+                     /organism="Bacillus_velezensis"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP085707.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Phg_2220_C
+                     | Tier: Tier 5: Diversity fill"
+     CDS             complement(201..589)
+                     /product="HTH_3: Helix-turn-helix"
+                     /locus_tag="NZ_CP085707.1_orf3"
+                     /translation="MNKNIGKNIKILREKKGLGLVEAAEAIGISKSYLSKLERGLQDPS
+                     MKKLDIIADFFSVDRSYFFTDLDNIEHFSEEEKQLAFEKDLSIENLRKNYNITLDGKEV
+                     SDDEINVMLEVLKAYRKSKGSSDTD"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="Pfam=HTH_3 (PF01381.29)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF01381.29"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             760..950
+                     /product="HTH_3: Helix-turn-helix"
+                     /locus_tag="NZ_CP085707.1_orf4"
+                     /translation="MNFSKFRSKIKSIRGEQTVREFASHLGFSPSFISKIENGKVNPSL
+                     NSIERISKKLDIPMSDFF"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="Pfam=HTH_3 (PF01381.29)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF01381.29"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             992..1308
+                     /product="hypothetical protein (105 aa)"
+                     /locus_tag="NZ_CP085707.1_orf5"
+                     /translation="MKIELEQSDIDTITSEVITNVSAALVPKIQEMIMVLSAQDQLLTK
+                     KEVYEGILKCTAATAEELYFSRPDFPSFEPPQRPGGTKTQRRFSRRAVEAWIAKNCISN
+                     A"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             1323..2200
+                     /product="Phg_2220_C"
+                     /locus_tag="NZ_CP085707.1_orf6"
+                     /translation="MANFRQVYVEFWQDPKVLEELTPEDKYFYLYLLTNPNTTQIGVYR
+                     ITKKRMAFDMGYSPESVNSLLDRFQHHHKLVVYNSETREIAIIKWGKYNLKKAGKPMMD
+                     CIEKELKQIEDKTLLELIYPHIPNDAIREAFSRCVNDTCYDTSSCSGQEKEKEEEEEKE
+                     LKDILSGKPDDASSSKNEKDEIPYTLIIDLLNKVAGKRYRPTTPRTKKDIKARWNEGFR
+                     FEDFKHVILVKTEEWLNDPAMNRYLRPETLFGTKFESYLNQKGGSAHGGFYKGASSRSP
+                     GRNISQDDIPY"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             2185..2400
+                     /product="IstB_IS21: IstB-like ATP binding protein"
+                     /locus_tag="NZ_CP085707.1_orf7"
+                     /translation="MTFHTDEHGNPVYCDKHTRIIGGEEKPYPVQLMELRDGSVKCPMC
+                     EREQRNKEIEQEAEVWRRQVERRVLSTHSLIADPTLEKATFETYHCYNQEDEQNKRRML
+                     ELVDQIKVGVIMNIFITGASNAGKSHLAISALKELNKKSQEAYAKSALFVNSDALMRRI
+                     KNSFNDDSEKLTESKAIELLTRVDYLVIDDLGSEVGDTDNEKRTAPDFIQRVWYGISTG
+                     RQGKVTIVTTNLTGLALAKLYDKKTVNRLTAHLEQIEFEEAQKGKGRKTPASLV"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=IstB_IS21 (PF01695.24)"
+                     /db_xref="Pfam:PF01695.24"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+ORIGIN
+        1 gcatcgtctt tcgtgttttt aagaaggatt tcctgtttta aaaaaatgaa aaataggaaa
+       61 tccttactta ccgatttatt tttaaccatc aatacattat aatagaacaa aagttcgcat
+      121 gaagggattg cataaaatga agacagatat tacactcgat gaatttttgg agaaaataaa
+      181 gcaattagca gaccaagaat caatcagtat cagaactgcc ctttgatttt ctgtatgctt
+      241 ttaggacttc taacatcaca tttatttcgt cgtcggaaac ttctttgcca tcaagagtta
+      301 tattataatt tttcctaagg ttttcaattg acaagtcttt ttcaaacgct aattgttttt
+      361 cttcttccga gaaatgttct atattatcta agtctgtaaa aaaataagag cgatcaacag
+      421 aaaaaaagtc tgcaattata tccagctttt tcattgaggg gtcttgcaat cctctttcga
+      481 gtttggatag atagctttta gagataccta ttgcttcagc ggcttcaact aatccaagac
+      541 cttttttttc acgcaagatt tttatatttt ttcctatgtt tttattcaaa aaatcacctt
+      601 atttctcccg tttattaacg tataatcact atagtcatta taccatcgag agttgacaaa
+      661 taatacacaa aaaactataa agggggttgc aaaggagaaa acaagatgtt atattttatt
+      721 tagtttcctg atgggaaacc aagagagagg tgaagaaaat gaatttctct aaatttagaa
+      781 gtaagattaa aagcatcaga ggtgaacaga ctgtaaggga gtttgcttct catttgggtt
+      841 tttctccatc tttcatatct aaaattgaaa atgggaaagt caatccaagt cttaatagca
+      901 ttgaaagaat ttctaaaaag ctcgacattc caatgagcga ttttttttga aaatgggttt
+      961 cctgtaggga aactagaggg ggtataaaca ttgaaaatcg aacttgaaca atcagatatc
+     1021 gacacaatta caagcgaagt aatcacaaat gtcagcgcgg cgctggttcc taaaattcaa
+     1081 gaaatgatca tggtactgtc tgcacaggat cagttgctaa caaagaagga ggtttacgaa
+     1141 gggatactta aatgtactgc tgctaccgcg gaagagttat atttcagtag gccggacttt
+     1201 ccttcgtttg aaccacctca gcgcccaggc gggacaaaaa cccagcgaag attttcgcga
+     1261 cgtgctgttg aggcttggat cgcaaagaac tgcatttcga acgcataagg agggggagca
+     1321 gatggctaat ttccggcaag tctatgtgga attttggcaa gacccaaaag tattagaaga
+     1381 attaacaccg gaggataaat acttttattt gtatctttta actaacccaa acaccaccca
+     1441 aataggtgtt taccgtatta ccaaaaagcg aatggctttt gatatggggt attcacccga
+     1501 atcagtaaac agtcttttgg accggtttca acatcatcat aagttagtcg tttataactc
+     1561 agaaaccaga gaaatagcga ttatcaaatg gggaaaatac aacctcaaga aagccggaaa
+     1621 gcccatgatg gactgcatcg aaaaagagtt aaaacagatc gaggataaaa cgttgcttga
+     1681 attgatttac cctcacattc ctaatgacgc tattagagaa gcattttcac gttgcgtgaa
+     1741 cgatacgtgc tacgatacgt cgtcgtgtag tggacaagaa aaagaaaaag aagaagaaga
+     1801 agaaaaagaa ttaaaagata tattgtcggg taaacccgac gacgcatctt cttccaaaaa
+     1861 cgaaaaggac gagattcctt acacactgat cattgatctg ctgaacaaag tagcgggtaa
+     1921 acggtaccga cctactacac caagaacaaa aaaagacatc aaggcacgct ggaacgaagg
+     1981 ttttcgcttt gaagatttta aacatgtcat tctagtaaaa actgaggaat ggctcaatga
+     2041 tcctgctatg aatagatatt tacgtcctga aacattgttc ggtacaaaat ttgaatctta
+     2101 cctaaaccaa aaaggaggat cggcgcatgg aggattttac aaaggagcga gcagccgcag
+     2161 tccagggcga aatatctcgc aggatgacat tccatactga tgagcacggt aaccctgttt
+     2221 actgcgacaa acacacccgg ataatcggcg gagaggaaaa accgtatcca gttcagctca
+     2281 tggaacttcg ggacggctct gtaaagtgtc ctatgtgcga aagggaacag cgcaacaagg
+     2341 agattgagca agaagctgag gtttggcgcc gtcaggtaga gagaagggtt ctttctacac
+//

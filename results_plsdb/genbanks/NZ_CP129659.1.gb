@@ -1,0 +1,69 @@
+LOCUS       NZ_CP129659_1           1881 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Lactiplantibacillus_pentosus | RIP: PriCT_1
+            | 1,881 bp.
+ACCESSION   NZ_CP129659
+VERSION     NZ_CP129659.1
+KEYWORDS    .
+SOURCE      Lactiplantibacillus_pentosus
+  ORGANISM  Lactiplantibacillus_pentosus
+            Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+            Lactiplantibacillus.
+FEATURES             Location/Qualifiers
+     source          1..1881
+                     /organism="Lactiplantibacillus_pentosus"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP129659.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: PriCT_1 |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..1681
+                     /product="PriCT_1"
+                     /locus_tag="NZ_CP129659.1_orf1"
+                     /translation="MRKTDAADAIKTILGETLSTRRYKHSVLVPDGTARKNGAVFVCWS
+                     KDLLRAAQGVVMTSQEAVLDADGASHWTPNVFRYGTYEQRGPKFGTIRGHMERNLKAIT
+                     TFVVDVDYPAGEKPDYADFDSSCFTIQQGEALFEPTYILSTPHGYQAYYVMAAPVWIRR
+                     SEDGRYPALASAKRVSQAIRTAVANQNVYTDTGANDFGFFRLPSSDNLVEVDEDARPTF
+                     AALQAWSMAVGGRQQAAPAKRVTDQVHTQWFEALTQAQVPCAQGSGYGRNNTLLTLCLA
+                     QYASGVSEAEAFDYADQWSSFQHQPLRDSEVRAIVRSAYSGRYQGANMSYVRELCERYA
+                     PDTIIKSGAQAWSHFRKPRAQRQYSHQQEWAQDLLRLAERSTDRVLGHARFTYLQLQQA
+                     LGISRQSLVRLLNELANRAQMSIRRVRGRNGGVYLATARMIAQYVQSEKGTAQHKPERL
+                     VTQAEPVQMNLQIVGIFDGVMRHIKWSQSPIHISS"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 acaaaaaaac accaccgacg gcaatcggta gcgcccacaa aaatagttat caagttattg
+       61 tcattttaac tccgtttggg atcgatggca agggtgcgcg gtgttttctg ctttttgcgt
+      121 acacacttcg cccaagggcc cagtatacgc aaaagcggta ctgggccttt gttgtatctc
+      181 aacaacggga gcgagtagga tgcgcaagac ggatgcagcc gatgcaatca agactattct
+      241 aggcgaaacc ttatctaccc gacgctacaa gcattcagtg ttggtgccag acgggactgc
+      301 ccggaaaaac ggggcggttt ttgtgtgctg gagcaaggac ttgctgcggg cagcgcaagg
+      361 agtcgtgatg acttctcaag aggccgtact ggatgcagat ggcgcttcac actggacacc
+      421 taatgttttt cgctacggca cttacgagca gcgagggccc aagtttggca ccattcgcgg
+      481 gcacatggaa aggaacctca aggcaatcac tacatttgtc gttgatgtcg attatcctgc
+      541 cggtgaaaag cctgattacg ctgattttga tagcagttgc tttaccattc agcaaggtga
+      601 ggcgttgttt gagccaacct atatcttgtc gactccgcat ggctatcagg cttactacgt
+      661 gatggcggcg ccggtttgga tccggcgtag tgaagatggg cgatacccag ctttggcttc
+      721 ggcaaaacgc gtctcacaag cgattcggac tgcggtggct aatcagaatg tctatacgga
+      781 cactggggcc aatgattttg gtttctttcg gctaccatcg agcgataacc tggtcgaggt
+      841 tgatgaagat gctcggccga cgtttgctgc gctgcaagca tggtcgatgg cagttggtgg
+      901 gcgacagcaa gctgcgccag ccaagcgggt cactgatcag gtacatacac agtggtttga
+      961 agcattgact caggctcagg tgccatgcgc gcaggggagc ggttacgggc gtaacaatac
+     1021 acttttgacg ctatgtctgg cccagtatgc ttctggcgta tctgaagcgg aagcattcga
+     1081 ctacgccgat cagtggtcca gttttcagca ccagccgttg cgtgacagtg aagtgcgggc
+     1141 catcgtgcgc tctgcatatt ctgggcgtta tcaaggcgcg aacatgagct acgtgcggga
+     1201 actgtgcgag cggtatgcgc ctgacaccat cattaagagt ggggcgcagg cgtggtcgca
+     1261 ttttcgcaag ccacgcgccc agcggcagta ctcccatcag caagagtggg cccaggatct
+     1321 gctacggctt gctgaacggt cgactgaccg cgtgcttggg catgcgcggt ttacttattt
+     1381 gcagttgcag caggcgcttg gcatcagccg gcagtcatta gtgcggctgc tgaacgagtt
+     1441 agctaaccgt gcgcagatga gtattcgccg ggtgcgggga cgcaatggtg gggtttattt
+     1501 ggcgacggcg cggatgattg cgcagtatgt tcagagtgag aaggggactg cgcagcataa
+     1561 gccagaacgg ttggtgacgc aagctgagcc ggtgcagatg aacttgcaga ttgtagggat
+     1621 ttttgacggg gttatgcggc atattaaatg gtctcaatcg ccaatacata tatctagtta
+     1681 ggccattttg ggtgcctccg ttaggtgctg gttgttccta ccctggcgtg ctaggctctt
+     1741 gatagcgtgg ctgtgtttct atcggttctg gtgcaaattt tactcaggga gagtgcatct
+     1801 tgtatcatga attgaaactg gaggttttca gatgactgat cattttaaag gacggcaatt
+     1861 caatcaatca gtgattactt t
+//

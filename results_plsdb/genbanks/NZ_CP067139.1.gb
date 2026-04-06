@@ -1,0 +1,60 @@
+LOCUS       NZ_CP067139_1            939 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Paracoccus_fistulariae | RIP: RepL__RCR |
+            939 bp.
+ACCESSION   NZ_CP067139
+VERSION     NZ_CP067139.1
+KEYWORDS    .
+SOURCE      Paracoccus_fistulariae
+  ORGANISM  Paracoccus_fistulariae
+            Pseudomonadota; Alphaproteobacteria; Rhodobacterales; Paracoccaceae;
+            Paracoccus.
+FEATURES             Location/Qualifiers
+     source          1..939
+                     /organism="Paracoccus_fistulariae"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP067139.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RepL__RCR
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             complement(3..103)
+                     /product="HTH_17: Helix-turn-helix domain"
+                     /locus_tag="NZ_CP067139.1_orf1"
+                     /translation="MKYTAGQAAKATGVATATITRALKAGKISGKKDE"
+                     /codon_start=1
+                     /function="structural"
+                     /note="category=structural; color=#FF8F00"
+                     /note="Pfam=HTH_17 (PF12728.14) E=6.3e-03"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#FF8F00"
+                     /ApEinfo_revcolor="#FF8F00"
+                     /db_xref="Pfam:PF12728.14"
+     CDS             complement(201..739)
+                     /product="RepL__RCR"
+                     /locus_tag="NZ_CP067139.1_orf2"
+                     /translation="MTSEINLRKLEYSPSDNPFVQGAEIVTRYKTVRTRTSPRELMDPE
+                     TGEVVGQSIIHVIEEKDEQHFVKVFADGVKAAFDLTRTGARVFQAVLMEYQKAKMTGGF
+                     SDTIRLVWFDDGLNGHSIGMSDRTFHNGLKELIGKGFLKPRMPGEFWVNPALFFKGDRV
+                     AFLREYRRRPAIAAPE"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 tttcgtcctt ctttccacta atcttaccag ctttcaaagc tctggtgatg gttgcagtgg
+       61 cgacacctgt ggcttttgcg gcctgtcctg cggtgtattt catcccttgc gcacctcttt
+      121 cctgccctgt tgcgtcgcgt ttcatgttgc tattgcgcaa ggcttaccat gaaatgcccc
+      181 tgtcgagtag ggacagaggt cattcaggag ctgcaatggc tggcctgcga cggtattcac
+      241 gcagaaacgc aacccggtcg cccttgaaga acagagccgg gttcacccag aattcccctg
+      301 gcattctggg cttcaggaag cccttgccga tcaactcttt caggccgttg tgaaaggtcc
+      361 ggtcgctcat gcctatcgaa tgcccgttta gcccatcatc gaaccaaacc agcctgatgg
+      421 tgtctgagaa gccgcccgtc atttttgcct tctggtactc catcagcacc gcctgaaaga
+      481 cacgggcccc ggtgcgcgtc agatcaaagg cggctttcac gccgtctgca aacactttga
+      541 cgaaatgctg ctcgtccttc tcctcaatca catggatgat cgactgccct acgacctcgc
+      601 cggtctcggg gtccatcagc tctcgggggc tggttcgcgt tcgcaccgtt ttatacctgg
+      661 tcacgatctc tgctccctga acgaaggggt tgtcggacgg gctgtattcc agctttcgaa
+      721 ggttgatttc ggaggtcatt tcgtccctgt ttaggtaaat ataaagacgc gttttcttcg
+      781 ctcgggcgaa ggcagcttaa cacatgaacg aagaaaaaga aggtaaaact ttcgcgtaaa
+      841 cgtcagtaac tttcgctcga cgtcaaaatt tcttcgctca tgactcagca aaacaagggg
+      901 attcttgatc atccctttct cactcttatt taggcaggc
+//

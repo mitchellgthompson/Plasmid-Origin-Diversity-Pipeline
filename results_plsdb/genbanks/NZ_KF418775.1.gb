@@ -1,0 +1,169 @@
+LOCUS       NZ_KF418775_1           3762 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Burkholderia_pseudomallei | RIP: RPA | 3,762
+            bp.
+ACCESSION   NZ_KF418775
+VERSION     NZ_KF418775.1
+KEYWORDS    .
+SOURCE      Burkholderia_pseudomallei
+  ORGANISM  Burkholderia_pseudomallei
+            Pseudomonadota; Betaproteobacteria; Burkholderiales;
+            Burkholderiaceae; Burkholderia.
+FEATURES             Location/Qualifiers
+     source          1..3762
+                     /organism="Burkholderia_pseudomallei"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_KF418775.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RPA |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             4..551
+                     /product="AAA_31: AAA domain"
+                     /locus_tag="NZ_KF418775.1_orf1"
+                     /translation="PVEPMKIIDGVSMIGATPELADVLTWPLDSALVARESLKKLTAGF
+                     DLCVIDTPPTMSNLVLGGLICSQYIVLPTDLSIDSMTGLLETSLKLELVQQEWNPDLEL
+                     IGVLLNKVNPRRADDLSMRTTVRNVFDGAVLDDELQDRAGVRLTSFHPVWKYRRGESDR
+                     RAAREMQAVCTTIFDRVGL"
+                     /codon_start=1
+                     /function="structural"
+                     /note="category=structural; color=#FF8F00"
+                     /note="Pfam=AAA_31 (PF13614.13)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF13614.13"
+                     /ApEinfo_fwdcolor="#FF8F00"
+                     /ApEinfo_revcolor="#FF8F00"
+     CDS             582..1942
+                     /product="ParB_N: ParB N-terminal domain"
+                     /locus_tag="NZ_KF418775.1_orf2"
+                     /translation="MQQANSGRFASLSALTRAATASARAAEIEKATGAVTKVILIAKVR
+                     VKPQVRNDFSDVADFAERAKVVGHMHTPILVREIKDDDGYELIAGERRIRASTLNGWAE
+                     IQAKVFPADTPDVIIRMYQVSENVDRKPLSLLETATGLAADVERFGRDEAARIWTAPNG
+                     KQRSASWISKHLRYLKYGSITRALFDANLFDDVEAANKLADIESISAETAAELAEEMRA
+                     GRKIGRLTLDARLNMLKHGGEPAPAANPQQGKPAAALPEASSNPALAAAALPSGGADAG
+                     VGRPAEPDASHISATSSASPGRLTGAPVAPTAVSGSAPPSASPRVKQQRAVGTDPKKTV
+                     VWRVEEIYEIGTGSIERFRNLSADLNAAGLDPEDVEWKLWVGFVDLAASALVGMGTEIA
+                     GKIINRFSAELNSRGPLELLNRLHPSRTTSVMPDDFRYDTDREIHPLAPGDWAL"
+                     /codon_start=1
+                     /function="partition"
+                     /note="category=partition; color=#1565C0"
+                     /note="Pfam=ParB_N (PF02195.27)"
+                     /db_xref="Pfam:PF02195.27"
+                     /ApEinfo_fwdcolor="#1565C0"
+                     /ApEinfo_revcolor="#1565C0"
+     CDS             1943..2415
+                     /product="KORA: TrfB plasmid transcriptional repressor"
+                     /locus_tag="NZ_KF418775.1_orf3"
+                     /translation="MQRIGADRLLYVACQPFRIATLATFRLTAKNFSALDAAMRKQASE
+                     FGTKTFSEQTRNIARAVIVDGRPAVEVANEFGVTRQRVNQLVTRYYEGLLASNLMDGDV
+                     ILWLKRGFEVPSTIIEPLELFLATARRSKDTNKVQSALSALVNSLRTQTSKLE"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=KORA (PF16509.12)"
+                     /db_xref="Pfam:PF16509.12"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+     CDS             2439..3562
+                     /product="RPA"
+                     /locus_tag="NZ_KF418775.1_orf4"
+                     /translation="MSTVEQASSYSTRGSNPGRRSVPARSVPDLGKGVVLRDTPEADVD
+                     ASLSEEGEFDPEQLELFFGEQLNPTWKPREDLHSLEFPLFSLQKGKDTRVRIYRNGEQL
+                     VRIIPSVVGAANIFDKDLLVYAATLICKAADAQLPVSRRIRFKVRDFLKYTRRSTGGAS
+                     YERIVDSCRRLKGTIIETNFDTSRPGANAAGIHPTLRGYGLIEEYTVITYTGNKKGALE
+                     VELILSTWTFDSLLNRRVLTIHPGYFGLGQGLERRLYDLAKKHCGEKLWFKIGLGKLYE
+                     KSGSAQALKYFRRDLVDAMKADKLPEFHIAIDDEKAMVVFFRCDRDNRRQDEQLIAGIH
+                     RELLSRKLLKWYYALRRWDSGSQVDAQYELIPTA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(3565..3762)
+                     /product="DNA_pol3_alpha: Bacterial DNA polymerase III
+                     alpha NTPase domain"
+                     /locus_tag="NZ_KF418775.1_orf5"
+                     /translation="PNAERHLRSRLRLANLYPAGALEETVRVARRCTFSLDDLKYEYPD
+                     EVVPAGYDAATYLREQTYIGARRRFPAGIPVDVQAQIEHELQLIADLKYEAYFLTVYDI
+                     VQFAREQGILCQGRGSAANSSVCYCLGVTEVDTSRQSMLFERFISKERNEPPDIDVDFE
+                     HQRREEVMQYIYRKYGRDRAALTAAVTTYRPRSALREAGKALGVDPAIVDRVAKQHHWF
+                     DSRADLLQRFAEAGLDPESPLNQQWAGFAAQLLGYPRHLSQHSGGFVISRGKLTRLVPV
+                     ENAAMGDRTIIQWDKDDIESLGILKIDILALGMLSMVRRALDMISEKRGETFELQDIPS
+                     EDKATYDMLCDGDSMGVFQVESRAQMSMLPRLRPQCFYDLVIEVAIVRPGPVQGGMVHP
+                     FLRRRQGLEPVTYPSPDVEKALKRTLGVPIFQEQVMQVAMLAAGFSAGEADQLRRAMAA
+                     WKRKGGLEPYHERLVSGMLTRGYDHEFAEAIFAQIKGFGDYGFPESHAASFALLVYSSA
+                     WLRRHEPAVFLAALLNSQPMGFYTPSQLLQDARRRGVQVLPVDVNVSTWDSTIEGPTTS
+                     APVRLGFSLLRGMREDVAARIEFARAVRPFVDVADLARRAQLDRHDLQVLARANALRSL
+                     AGGNRRAALWLAAAAVPDRDLLRGTERDDAVPALPQASEGKEIVTDYNAMGFTLGRHPL
+                     ALLRERLALDRLQSAEQLATLRSGQLARACGLVTVRQRPGTANGVLFMTLEDETGQVNV
+                     ILWPGLLEKFRKEALGAALLAVYGVWQAEGKVRHLIASKLVDRTELLGALPTTAREFC"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=DNA_pol3_alpha (PF07733.19)"
+                     /db_xref="Pfam:PF07733.19"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+ORIGIN
+        1 aacctgtcga accgatgaag atcattgacg gtgtatcgat gatcggcgcg acgccggaac
+       61 tggcggacgt gctgacgtgg ccgctcgata gcgcgctggt cgcgcgggag tcgctgaaaa
+      121 agctgacggc cggattcgac ctctgcgtga tcgacacccc gccgacgatg agcaatctcg
+      181 tgctcggggg cctgatttgt tcccagtaca tcgttttgcc caccgacctc agcatcgaca
+      241 gcatgaccgg tctgttggag acctcgctca aattggagct cgtgcaacaa gagtggaacc
+      301 ccgatcttga gctgataggc gtcctgctga ataaggtcaa cccgcgtcgc gccgatgacc
+      361 tttcgatgcg gaccaccgtc cgaaatgtct ttgacggcgc cgtccttgac gatgaactgc
+      421 aggatcgcgc gggagtgcgc ctgacgagct ttcatccggt ctggaagtac cggcgtggcg
+      481 agagcgacag gcgagcagca agggaaatgc aggcggtatg tacgacgatt ttcgatcgag
+      541 tcgggctgta acaatcaata cgcattacgg ggtggatgga atgcagcagg caaatagtgg
+      601 gagattcgcg tccctgtcgg cactcacgcg tgcggcgacc gccagtgcgc gggcggcgga
+      661 gatcgagaag gcgactggcg cggtcaccaa ggtcatcctg atcgccaagg tccgagtcaa
+      721 accgcaggtg cgaaatgact tttctgacgt ggccgatttc gcggagcggg ccaaagtggt
+      781 gggccatatg catacgccga tcctggtccg cgagatcaag gacgacgacg ggtatgagtt
+      841 gatcgccggc gagcggcgaa tccgcgcgag caccctcaac gggtgggcgg agattcaggc
+      901 caaggtcttc ccggcggata ccccagacgt gatcatccgc atgtaccagg tgtcggaaaa
+      961 cgtcgaccgc aagccgcttt cgttgctgga gacggcgacc gggcttgcag ccgacgtcga
+     1021 gcgtttcggc cgggatgagg ccgcgcgcat ctggactgcg ccgaacggca agcaacgcag
+     1081 cgcttcgtgg atctccaagc atcttcgtta cctgaaatac ggatcgatta cccgggcgct
+     1141 gttcgatgcg aacctgttcg atgacgtcga ggcggccaac aagctggcgg acatcgagtc
+     1201 gatcagcgcc gagacggcgg ccgaactcgc ggaggagatg cgggcaggcc ggaagatcgg
+     1261 ccggctgacg ctcgacgcgc ggctgaacat gctgaaacac ggtggcgagc ccgctcccgc
+     1321 agcgaatccg cagcaaggga agccggctgc ggccttgccg gaagcgagtt cgaaccctgc
+     1381 ccttgccgcg gcggctctgc cgagcggggg cgccgacgcg ggcgtcggcc gtccggctga
+     1441 acccgacgcc tcccatattt cggcgacttc ttccgcatcc ccggggcgtt tgaccggagc
+     1501 cccggtcgca ccgactgccg tgtctgggtc ggcgccgccg agcgcgtccc cgcgcgtgaa
+     1561 gcagcagcgg gcagtgggca cggacccgaa aaagaccgtg gtttggcgag tagaggaaat
+     1621 ctacgagatc ggtacggggt cgatcgagcg cttccgcaac ttgtccgctg atctcaacgc
+     1681 agctggcctc gatcccgagg acgtcgaatg gaagttgtgg gtgggcttcg tggacctcgc
+     1741 cgcgtcggcg ctagttggca tgggaaccga aatcgcgggt aaaataataa acaggtttag
+     1801 tgctgaatta aattcgagag gaccactcga gctgttgaac agattgcatc cgagccggac
+     1861 cactagcgtg atgccagatg acttcaggta cgataccgac cgcgaaattc atcctctggc
+     1921 cccgggcgac tgggcgctgt aatgcaacgg attggggcgg acaggctcct gtacgttgcc
+     1981 tgtcaaccct ttcggatagc aaccttggca actttccgcc taacagcaaa gaatttttcg
+     2041 gcgcttgacg ctgccatgcg caagcaggca agtgagttcg ggacgaagac gttttcggag
+     2101 caaacccgca atatcgcacg agctgtgatc gtagatggac ggccggcggt ggaggttgcg
+     2161 aacgagttcg gtgtgactcg acagcgtgtc aatcagttgg tgacgcgcta ctacgaggga
+     2221 ttgctggcat cgaatctgat ggacggcgac gtcatcctgt ggttgaagcg cggctttgag
+     2281 gtgccgagca cgatcattga accgcttgag ctgtttctcg cgacggcgcg acgttcgaaa
+     2341 gacacaaata aagtgcagtc ggctctatcg gcgctcgtca attccctgag gacacagacg
+     2401 agcaagctgg agtgaaacac ggggatcgca ggagagaatg agtacagtcg agcaagcaag
+     2461 cagttactca acgagagggt caaatccggg acgtcggtct gttccggcac gatcggtgcc
+     2521 ggacctcggc aagggtgtcg tactgcggga caccccagaa gcggacgtcg acgcgtcgct
+     2581 gtcagaagag ggcgagtttg accccgaaca actcgagctt ttcttcggcg agcaactgaa
+     2641 tccaacctgg aagccgcgcg aagaccttca ctctctcgaa ttcccgctct tctccctgca
+     2701 aaaaggcaag gacactcggg tccggattta ccgtaatggc gaacagctcg tcagaatcat
+     2761 tccgagcgtc gtcggtgccg ccaatatctt cgacaaggat ctgctggtct atgccgcgac
+     2821 gctgatctgc aaggcggccg acgcccagtt gccggtgtca cgccgcattc ggttcaaggt
+     2881 ccgagacttc ctgaaatata cgcggcgtag cacgggcggg gcgtcgtacg agcgcatcgt
+     2941 cgacagctgc cggcgtctga aggggacgat tatcgaaacc aatttcgata cgtcgcggcc
+     3001 cggggcaaat gcggcgggga ttcaccccac gctgcggggg tacgggttga tcgaggagta
+     3061 cacggtgatc acctacacgg gcaacaagaa aggggccctc gaagtcgaac tgatcctgtc
+     3121 gacgtggaca ttcgactcgt tgctgaatcg ccgcgtgctg accatccacc ccggctattt
+     3181 cggcctgggt cagggtctcg aacgccgcct ttacgatctg gccaagaagc actgcggcga
+     3241 gaagctctgg ttcaagatcg gtctgggcaa gctttatgaa aagtcggggt ctgcgcaagc
+     3301 gctcaaatac tttcgacgcg atctggtcga tgcgatgaag gcggacaagc taccggaatt
+     3361 ccatatcgcg atcgatgacg aaaaggcgat ggtcgtgttc tttcgctgtg atcgcgacaa
+     3421 tcgccgacag gacgagcaac tcatcgccgg tattcatcgc gagctgctgt ccagaaaact
+     3481 tctaaagtgg tactacgcat tgcgtcgctg ggactcaggc tcgcaggtcg atgcgcagta
+     3541 tgagttgatc ccgacggcat agttcagcag aactcccgcg ctgtcgtcgg cagcgcgcca
+     3601 agcaactcgg tccgatcgac gagcttgctc gcgatcaggt gccggacctt cccctctgcc
+     3661 tgccacacgc cgtagacggc gagcagcgcg gccccgagcg cttccttccg aaacttctcc
+     3721 agcaggccgg gccacaggat cacgttcacc tggcccgtct cg
+//

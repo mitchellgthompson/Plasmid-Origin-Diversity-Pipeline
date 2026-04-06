@@ -1,0 +1,68 @@
+LOCUS       NZ_CP094538_1           1401 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Hymenobacter_monticola | RIP: repM_Acin |
+            1,401 bp.
+ACCESSION   NZ_CP094538
+VERSION     NZ_CP094538.1
+KEYWORDS    .
+SOURCE      Hymenobacter_monticola
+  ORGANISM  Hymenobacter_monticola
+            Bacteroidota; Cytophagia; Cytophagales; Hymenobacteraceae;
+            Hymenobacter.
+FEATURES             Location/Qualifiers
+     source          1..1401
+                     /organism="Hymenobacter_monticola"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP094538.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: repM_Acin
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..1201
+                     /product="repM_Acin"
+                     /locus_tag="NZ_CP094538.1_orf5"
+                     /translation="MSVRTTAKSIVTSAALAPASSHQSKPVEIRQSNAITTARYDMTSL
+                     EMDIMFALLSRLNKDDKPGTMYQLRVQELEQLTGREWNYHRLGPSVEALVGRCYHIEED
+                     NSWLKVTMLASAEYIKGQGVIELEISEKLRPYLIDLKNNFTSYRLQSVLSLTSKYAKRI
+                     YELASQWKDIGATKTYSLDEFKYMLSLKDPTNKEPEQYLQISNLKKFVLDIAVQQINDH
+                     TDLTISYKLGKVGRSYQNVCFYVVRHQPQQLPIPFELSAEDARTQTARKNLEELGIKDQ
+                     TLVKQILTTETLLTELFAFMYKYKTGKIKATSNAGGLFLKMHSLAGHKKSMS"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1203..1399
+                     /product="hypothetical protein (66 aa)"
+                     /locus_tag="NZ_CP094538.1_orf6"
+                     /translation="MVLWTYEQIKAGSFGEHEPDKGQIVELLQTDGQSFVITGQALVTG
+                     TPTQTALHDPAAGQQHEAPFG"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 caattcgata tagcacataa aaaacaggtt ttgtccgtta actaacagga aattgctcct
+       61 taaaaacagg ttttgtccgt taactaacag gttttgtccg tcaaactaac aggttttgtc
+      121 cgttaactaa cagggataaa ttatttacag ttaatttggg ttcgcgaagc gtttctggta
+      181 tcctatctcc ttccaaccta tgtccgtcag aacaactgct aaatctattg tgacaagtgc
+      241 tgctcttgca ccagcttcat cccatcagtc caagccggta gaaatcaggc aaagcaacgc
+      301 cattacaact gctcggtatg acatgacttc gttggaaatg gatattatgt ttgccctgct
+      361 ctcccgattg aacaaggacg ataagccggg cactatgtat cagcttaggg ttcaggagtt
+      421 ggagcaactc accggccggg aatggaacta tcacaggctg gggccatccg ttgaggcatt
+      481 ggtcggtcga tgctaccaca ttgaagaaga taattcttgg ctgaaggtga caatgttggc
+      541 ctcggccgag tacatcaaag ggcaaggcgt tattgagtta gagatttcgg aaaagttacg
+      601 tccttacctc atcgacttaa agaataactt caccagctac cgactgcagt cggtgcttag
+      661 cctgaccagc aaatatgcaa agcggatata tgaactggcc tcgcagtgga aagacattgg
+      721 ggctactaaa acgtactcgc tggatgagtt caagtatatg ctcagcctga aagacccgac
+      781 gaataaggaa ccggaacaat atctccagat ttccaacctg aaaaaattcg tgctggacat
+      841 tgctgtccag caaatcaatg accatacgga tttaaccata tcctacaagc tgggcaaggt
+      901 aggccgttct taccaaaatg tatgtttcta tgtggttaga caccagccgc agcagctgcc
+      961 tattccgttt gagctaagcg ccgaggatgc ccggacgcaa acggcgcgta agaacctcga
+     1021 ggaattgggg attaaggacc agacactggt taaacaaatt ctcacaaccg agacgctatt
+     1081 gacagagctg tttgcgttta tgtacaagta caagacgggt aaaatcaaag ccactagcaa
+     1141 tgccggagga ctcttcctta aaatgcacag tttagccggt cacaaaaagt ccatgagcta
+     1201 gatggtgtta tggacttatg agcaaattaa ggctggtagc tttggcgagc atgagcccga
+     1261 caaaggccaa atagtggagt tgttgcaaac tgacggccaa tcgttcgtaa tcacgggcca
+     1321 ggcgcttgta acgggcactc caactcaaac tgcgctccac gacccagcgg cggggcagca
+     1381 gcacgaagcc ccgtttggcg t
+//

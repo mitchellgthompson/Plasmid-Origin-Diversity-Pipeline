@@ -1,0 +1,69 @@
+LOCUS       AP027374_1               807 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Sulfitobacter_pontiacus | RIP: DnaA_N | 807
+            bp.
+ACCESSION   AP027374
+VERSION     AP027374.1
+KEYWORDS    .
+SOURCE      Sulfitobacter_pontiacus
+  ORGANISM  Sulfitobacter_pontiacus
+            Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+            Roseobacteraceae; Sulfitobacter.
+FEATURES             Location/Qualifiers
+     source          1..807
+                     /organism="Sulfitobacter_pontiacus"
+                     /mol_type="genomic DNA"
+                     /plasmid="AP027374.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: DnaA_N |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             complement(1..125)
+                     /product="hypothetical protein (99 aa)"
+                     /locus_tag="AP027374.1_orf2"
+                     /translation="MRSFTDHIRAKSRWPTLSSSARQLYREVTAAISRINEVCKVGDPF
+                     NPATLKAVKRSYLITPASGPVSRNGFMVLPTRCIVLFLSVSFFEPIPFMLYTKL"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             201..607
+                     /product="DnaA_N"
+                     /locus_tag="AP027374.1_orf3"
+                     /translation="MAAYRLNYAQIARLSEPCWPLVGPDYDARMKERYRSETPVKVVQL
+                     ADYAKPEASEPAQGGPGTWQRAMVNLSRENADQFKAWFSQLEYVAFEGGVLELRTPSKF
+                     AQRYIETHLLRPLVAAVEAELGPVTRIEFRA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(605..807)
+                     /product="IclR_C: Bacterial transcriptional regulator IclR
+                     C-terminal"
+                     /locus_tag="AP027374.1_orf4"
+                     /translation="RRDGFAQVQNEFVLGEVAIGVPVVNRQGRPLGAIHIAGSLSEWSA
+                     EDFARRAAPIAQEAARAISGSF"
+                     /codon_start=1
+                     /function="structural"
+                     /note="category=structural; color=#FF8F00"
+                     /note="Pfam=IclR_C (PF01614.25)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF01614.25"
+                     /ApEinfo_fwdcolor="#FF8F00"
+                     /ApEinfo_revcolor="#FF8F00"
+ORIGIN
+        1 ccgaccttgc agacctcgtt gatgcggctg atcgcggcgg tgacctcgcg gtataattgg
+       61 cgcgctgacg agctgagcgt cggccagcgg gatttggcgc ggatgtggtc ggtgaatgaa
+      121 cgcacggtga aacgcgagat caaacggctg acggatgcgc agctgttgat ttgtacgcgc
+      181 ggcggcgtgc ggggcagggg tggcggccta tcggttgaat tatgcgcaga tcgcgcgcct
+      241 gtcagagccg tgctggccgc tggtcggccc ggattacgat gcgcggatga aagagcggta
+      301 tcgcagcgaa acgccggtca aggtggtgca actggccgat tatgcgaaac ccgaggcatc
+      361 agagcccgcg cagggcgggc cgggtacgtg gcaacgcgcg atggtgaacc tgtcgcggga
+      421 gaacgcggat cagttcaagg cgtggttctc gcagcttgaa tatgtggcgt tcgaaggggg
+      481 cgtgcttgag ctgcgcaccc cgagcaaatt cgcgcaacgc tatatagaga cacatcttct
+      541 gcgcccgctt gtcgcggcgg tggaggcaga gctggggccg gtgacgcgga tcgaatttag
+      601 ggcctagaag ctgccgctga tggcgcgggc ggcttcttgg gcgatggggg cagcgcggcg
+      661 ggcgaagtct tcggcgctcc attcggaaag cgagccggcg atgtggatgg cccccaaggg
+      721 acggccctga cggttgacga cgggcacacc aatggcgact tcgcccaaga cgaattcatt
+      781 ctggacctgc gcaaaaccgt ctctacg
+//

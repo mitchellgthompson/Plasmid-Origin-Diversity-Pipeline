@@ -1,0 +1,84 @@
+LOCUS       NZ_CP100405_1           2571 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Haloarcula_marina | RIP: RNA_helicase__RCR |
+            2,571 bp.
+ACCESSION   NZ_CP100405
+VERSION     NZ_CP100405.1
+KEYWORDS    .
+SOURCE      Haloarcula_marina
+  ORGANISM  Haloarcula_marina
+            Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae;
+            Haloarcula.
+FEATURES             Location/Qualifiers
+     source          1..2571
+                     /organism="Haloarcula_marina"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP100405.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     RNA_helicase__RCR | Tier: Tier 4: Phylum-exclusive"
+     CDS             complement(201..2371)
+                     /product="RNA_helicase__RCR"
+                     /locus_tag="NZ_CP100405.1_orf1"
+                     /translation="MKLIVKPLDRQSAGKGIAAIDREAMSELGIESGEFVRIDGDGGTA
+                     VVRVRPGQTDERQRGVLGIDGQTRKAIGARLDRLVSVGAADVEPAATLSIALPEGLQIR
+                     GNLSSYLREKLANRAVQEGQTIPLSLGLGAAMGRSNRRIPIRVVGTDPEGTVVVTGSTD
+                     VEVVDRSTEAVDAAGDVESSAAELPGVTYEDVGGLDDELDQVREMIELPMTHPELFQAL
+                     GIEPPQGVLLHGPPGTGKTLIAKAVANEIDANFSTISGPEIMSKYHGESEERLREVFEE
+                     AAENEPAIIFIDEIDSIAPKRDDTQGEVERRVVAQLLSLMDGLEERGQVTVIGTTNRVD
+                     SIDNALRRGGRFDREIEIGAPDTQGRKEVLQIHTREMPIAEDVDLDTYADNTHGFVGAD
+                     LESLVRESAMNALRRVRPDLDLEGDEISAETLETLEVTEGDFRSALREIDPSALREVFV
+                     EKPDVTWDDVGGLAETKERLQEAIEWPLAYPDAYKQVDLQSTKGILLHGPPGTGKTLLA
+                     KAVANEAQSNFISVKGPELFDKYVGESEKGVREIFEKARSNAPTVIFFDEIDAIASKRG
+                     SGGGDNQVGERVVSQLLTELDGLEELEDVVVVAATNRPDLIDDALTRAGRIERKIAVGV
+                     PDEATRREILTIHTRKRPLADDVDLDQLAADMDGLVGADVAALCRGAATAAVREHVRSQ
+                     SGDEPTAVEDIVLTQAHFDAALTEVTDES"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 ccagactcgt catgggagtg gcaccggcaa caatcgcgcc ggtggccagc actgcagctg
+       61 aaaggataac gaagggtgac gcggacgcat aacctgtgcc cgctacgctt tcacagcgcc
+      121 agccgcccaa caatttcctt ccgaagagcg tacagggaaa actcagccca cgcgatgagt
+      181 ggactacgcc tgtcccagcc tatgactcgt ctgtcacctc ggtgagtgcc gcgtcgaaat
+      241 gtgcctgggt gaggacaata tcctcgacgg ccgtcggttc gtcgccggac tgggagcgaa
+      301 cgtgttcgcg aacggcggcg gtagccgcgc cgcgacacag cgcggccaca tccgccccca
+      361 cgagaccgtc catgtcggca gctagctggt ccaggtccac gtcgtctgcc agcggtcgct
+      421 tgcgggtgtg aatcgtcaga atctcgcgcc gagtcgcctc gtcgggtacc ccgaccgcta
+      481 tcttgcgctc gatgcggccc gctcgcgtca gcgcatcgtc gatgaggtct ggccggttcg
+      541 tggcggcgac cacgaccacg tcttcgagtt cctctaaccc atcgagttcg gtcaacagct
+      601 gcgagacgac gcgttcgccg acctgattgt ccccgccacc gcttccgcgc ttgcttgcga
+      661 tggcatcgat ttcgtcgaag aatatcacgg tgggcgcgtt cgagcgcgcc ttctcgaata
+      721 tctcccggac gcctttctca ctctcaccga cgtacttatc gaacagttcg gggcccttca
+      781 ccgaaatgaa gttcgactgt gcctcgttcg cgactgcctt ggcgagcagg gtcttgccgg
+      841 tgccgggcgg tccgtgcagc agaatcccct tcgtcgactg gaggtcgact tgtttgtagg
+      901 cgtcggggta ggcgagcggc cattcgatgg cttcctgcag tcgctctttg gtctcggcga
+      961 ggccaccgac atcgtcccat gtcacgtcgg gcttctcgac gaacacctct cggagcgcgc
+     1021 tcgggtcaat ctcccgaagc gccgaacgga aatccccttc agtgacttcg agcgtctcga
+     1081 gcgtttcggc gcttatctcg tcgccttcga ggtctaagtc cgggcggacg cgccggagtg
+     1141 cgttcatcgc cgactcccgg accaagcttt cgaggtccgc gccgacgaag ccgtgcgtgt
+     1201 tatcggcgta cgtgtcgagg tcgacgtcct ctgcgatggg catctcgcgg gtgtgaatct
+     1261 ggagaacttc cttccgtccc tgtgtgtcgg gcgcgccgat ctcgatttcg cggtcgaatc
+     1321 gcccgccgcg ccggagggcg ttgtcaatgg agtcgacgcg gttcgtcgtc ccgatgaccg
+     1381 tcacctggcc gcgctcttcg aggccgtcca tcagcgagag cagttgggcg actacccggc
+     1441 gctctacctc gccctgggtg tcgtcgcgct tcggagcgat ggagtcgatc tcgtcgatga
+     1501 agataatcgc gggctcgttc tcggcggcct cttcgaacac ctcacggagc cgctcctcgc
+     1561 tctcgccgtg gtatttcgac atgatctccg gcccgctgat agtcgagaag ttggcgtcta
+     1621 tctcgttggc gaccgccttc gctatcagcg tcttcccagt ccccggcggg ccgtgaagca
+     1681 agacgccctg gggcggctcg ataccgagcg cctggaacag ttcggggtgt gtcatcggca
+     1741 actctatcat ctcccgcact tggtcgagct cgtcgtccag cccaccgacg tcttcgtacg
+     1801 tgacgcccgg tagctcggca gccgaactct cgacgtcgcc cgccgcgtcg acggcctcgg
+     1861 tagatcggtc gacgacctcg acgtcggtcg accccgtgac gacgacggtt ccctcggggt
+     1921 cggtaccgac gacgcgtatc ggaatccggc ggttcgagcg ccccatcgcc gcgccgagtc
+     1981 cgagcgagag cgggatggtc tggccctcct gtacggcccg gttggcgagc ttctcgcgga
+     2041 gatacgagga gaggttccct cgaatctgga gaccctcggg gagcgcaatc gacagcgtcg
+     2101 ccgctggttc cacgtcggcg gccccgaccg agacgagtcg gtcgaggcgt gcgccgatag
+     2161 ccttccgcgt ctgcccgtcg ataccgagga ccccacgctg tcgctcgtcg gtctgtcccg
+     2221 gtcggacacg gacgactgca gtgccgccgt cgccgtcgat gcggacgaac tcaccgcttt
+     2281 cgatgccgag ttccgacatc gcctcgcggt ctatcgctgc gatacccttg cctgcactct
+     2341 gcctgtcgag cggcttcaca atcaatttca tcagtagtca ccgtccaggc tgcactcgaa
+     2401 aggaatgacg cggctatcca cgtcgtcgag acagatacag aactggaact acacagacta
+     2461 ctgttccgcg acggaaatat ctgtgcgtct acattcctga caggcgccga gccaccagcc
+     2521 gtacagctgc tcccgggcgt ccggatttgg atgcttcttc gaatggccgt a
+//

@@ -1,0 +1,60 @@
+LOCUS       NZ_OQ821148_1           1455 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Klebsiella_oxytoca | RIP: RepA_IncFII_LM |
+            1,455 bp.
+ACCESSION   NZ_OQ821148
+VERSION     NZ_OQ821148.1
+KEYWORDS    .
+SOURCE      Klebsiella_oxytoca
+  ORGANISM  Klebsiella_oxytoca
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Klebsiella.
+FEATURES             Location/Qualifiers
+     source          1..1455
+                     /organism="Klebsiella_oxytoca"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_OQ821148.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     RepA_IncFII_LM | Tier: Tier 5: Diversity fill"
+     CDS             201..1255
+                     /product="RepA_IncFII_LM"
+                     /locus_tag="NZ_OQ821148.1_orf1"
+                     /translation="MNQKNPYLQLSDIESVEGLSPEFISWLESQSPKESPLQLLLDEGT
+                     KPVRKTRRRRGTHSTACLCPEPSWYRPDNFKKLPGQLGHAYNRLVRRDRKTGALSLRMR
+                     ISRHPYFVQLREQAGRQRDFRPEREKLLDAIVPLLVSTVDRATHIDTINLSKMAWQLSE
+                     KDSEGNVIRKVTVPRVCRLLQHMMEFGLLALPEGVTWDPFNRKWFPKHVVLTERLWKMI
+                     GVDLDKLYAEQAEQVAAEAAGWITRDEHGQAEEISVKAARRRWYEKMMHATLVRRREAA
+                     LKGKREKKLKALAEQPYDDRAYAMSVHLIRTLPKDELHALSPEQFTQRVRSHLYQLDLG
+                     LERESGPPDYH"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 tttagcacgg gaagagcggc ccggagatgt accgcttagg agtggcagga gccacaaaaa
+       61 gtaaaacccc ctgatcctga caggtacttt ggccggtctc tttcaggaat cagggggtgc
+      121 aaactgccca ctggcagaaa ggattatagc aaatgcgtac cctattgcaa tacagcccgg
+      181 ccaatatgtg caggggctgg tgaatcaaaa gaatccatac ctacagcttt ctgacattga
+      241 gtcagtagaa ggtctttcgc cggagttcat ctcctggctt gaaagccagt cccctaaaga
+      301 atcgcccctg cagctgcttc tcgatgaagg caccaagccc gtgcgcaaaa cccgccgtcg
+      361 tcgcggtacg cactcaacgg cgtgtctctg cccggaaccc agctggtacc gaccggacaa
+      421 tttcaaaaag ctcccgggcc agcttggcca tgcctacaac cgccttgttc gccgcgatcg
+      481 caaaaccggc gcgttaagtc tgcgtatgcg gatcagccgc cacccgtact tcgtgcagct
+      541 gcgcgagcag gctggcaggc agcgcgactt ccgcccggag cgggagaaat tactcgatgc
+      601 gattgtgccg ctcctggtca gcaccgttga ccgggctacc catattgaca ctatcaacct
+      661 cagtaaaatg gcgtggcagc tcagcgaaaa ggacagcgaa gggaacgtga tccggaaagt
+      721 gacggtaccg cgggtttgcc ggctgctgca gcacatgatg gaattcgggt tactggcgct
+      781 gcctgaaggc gtcacatggg acccgtttaa ccgcaagtgg ttccccaagc atgtcgtgct
+      841 gacggaacgc ctctggaaga tgatcggtgt tgatctcgat aagctgtatg cggagcaggc
+      901 cgaacaggtg gccgctgaag ctgcaggctg gataacccgt gatgaacatg gccaggcgga
+      961 agaaatctct gttaaagccg cgcgccggcg ctggtatgaa aaaatgatgc acgccacgct
+     1021 ggttcgccgg cgtgaagccg ccctgaaggg gaagcgcgag aagaagctga aagcgctggc
+     1081 agaacagccc tatgacgacc gggcttacgc catgtccgtt catctgatac ggacgctgcc
+     1141 gaaagacgaa ctgcacgcgc tgtcgcctga gcagtttacc cagcgagtac gcagccacct
+     1201 gtatcagctc gatctggggc tggagaggga atccggtcct cctgattatc actgattttc
+     1261 tccccctgta attctcttac cgccgcctgg cggttttcgt gctggccagc cggcgcgacc
+     1321 tgctcaaatt tcctccagtt ttaacgtgtg gccatcgtga ttttttgacg ttctggcgcc
+     1381 gccggtggat aaccggcagc gagatcacca ctatccacag ttatccgcaa aggaagaaat
+     1441 aaagtcacct gcaat
+//

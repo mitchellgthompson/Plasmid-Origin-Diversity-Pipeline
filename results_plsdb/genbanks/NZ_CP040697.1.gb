@@ -1,0 +1,54 @@
+LOCUS       NZ_CP040697_1           1203 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Citrobacter_freundii | RIP: PRK13742.1 |
+            1,203 bp.
+ACCESSION   NZ_CP040697
+VERSION     NZ_CP040697.1
+KEYWORDS    .
+SOURCE      Citrobacter_freundii
+  ORGANISM  Citrobacter_freundii
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Citrobacter.
+FEATURES             Location/Qualifiers
+     source          1..1203
+                     /organism="Citrobacter_freundii"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP040697.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: PRK13742.1
+                     | Tier: Tier 5: Diversity fill"
+     CDS             complement(201..955)
+                     /product="repM_Acin"
+                     /locus_tag="NZ_CP040697.1_orf1"
+                     /translation="MAEIAVINHKKRKNSPRIVQSNELTEAAYSLSRDQKRMLYLFVDQ
+                     IRKSDGSLQEHDGICEIHVAKYAETFGLTSAEASKDIRQALKGFAGKEVVFYRPEEDAG
+                     DEKGYESFPWFIKRAHSPSRGLYSVHINPYLIPFFIGLQNRFTQFRLSETKEITNPYAM
+                     RLYESLCQYRKPDGSGVVSLKIDWIMERYQLPQSYQRMPDFRRRFLQASVDEINSRTPM
+                     RLSYIEKKKGRQTTHIVFSFRDITSMTIE"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 aaatctagtg tgacaaacta ccctcaggat agggtgacaa attgccctca attctggctc
+       61 cactaccggt tacagccaaa aaaactatga gtaagcgcag gatgccaggg agggaacagc
+      121 aaaactgtga caaatcaccc tcaactttcc agatcaaatg tgacgaacca cccttaaatc
+      181 tgtgacagat agccctcaac tattcaatcg tcatggaggt tatatcacgg aaggaaaata
+      241 cgatatgcgt cgtctggcgg cctttctttt tctcgatgta agaaaggcgc attggtgtcc
+      301 ggctgttgat ctcgtcaaca cttgcctgca ggaaacggcg gcgaaagtcc ggcatacgct
+      361 ggtaactttg aggtagctgg tagcgttcca tgatccagtc gattttcagg gacacgacac
+      421 ctgagccatc aggtttacgg tactggcaca gagattcgta taaacgcatg gcgtacggat
+      481 tggtaatctc ttttgtttca ctgagccgga actgcgtaaa ccggttctgt aacccgatga
+      541 agaagggaat cagatatggg ttgatatgta cgctgtaaag ccctctggat gggctgtgcg
+      601 cacgtttaat aaaccaggga aaggattcat accctttttc atcgccggca tcctcttcag
+      661 ggcgatagaa aaccacttcc ttacccgcaa aaccttttaa agcctgtcgt atatccttac
+      721 tggcttcagc ggaggtcagc ccgaatgttt cagcgtattt agcaacgtga atttcgcaga
+      781 tgccgtcatg ttcctgcagg gagccgtcgg attttctgat ctggtcaacg aacagataca
+      841 gcatacgctt ttgatccctg gagagactat atgccgcctc agtcagctcg ttagactgga
+      901 caatccgcgg gctattttta cgttttttat ggtttataac cgctatttcc gccatgacag
+      961 gtccatgcga agtgtgacag actttaagat tgtcacactt cataaaacag agtcaacagg
+     1021 gatggataac tttgtgaaaa gcaacgcttc ctgagggcaa tttgtcacag ggttaagggc
+     1081 aacttgtcac agaaatggcg gctatttgag ggtgatttgt cacactgaaa gggcgttttg
+     1141 tcacagatcc ctctctggaa cccgcatgga taaaggcctg tgggcattct aaaaataaaa
+     1201 atc
+//

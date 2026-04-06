@@ -1,0 +1,90 @@
+LOCUS       OY725836_1              1606 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Subdoligranulum_variabile | RIP:
+            REP_ORF2-G2P__RCR | 1,606 bp.
+ACCESSION   OY725836
+VERSION     OY725836.1
+KEYWORDS    .
+SOURCE      Subdoligranulum_variabile
+  ORGANISM  Subdoligranulum_variabile
+            Bacillota; Clostridia; Eubacteriales; Oscillospiraceae;
+            Subdoligranulum.
+FEATURES             Location/Qualifiers
+     source          1..1606
+                     /organism="Subdoligranulum_variabile"
+                     /mol_type="genomic DNA"
+                     /plasmid="OY725836.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     REP_ORF2-G2P__RCR | Tier: Tier 3: Cross-phylum BHR"
+     CDS             complement(2..222)
+                     /product="hypothetical protein (74 aa)"
+                     /locus_tag="OY725836.1_orf1"
+                     /translation="MKNVKRNKRTACVDCSDFYEQLLQTLLPAVAADFKIVRADIDDIP
+                     VYLAVDSAADMVLSLQCFAPMDGLQIDLQ"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(201..376)
+                     /product="hypothetical protein (58 aa)"
+                     /locus_tag="OY725836.1_orf2"
+                     /translation="MNLMVLVDADTSSLLMALSASLDVPPAFIVSKALECGLVSFSGLA
+                     SCLVETDEKRQTQ"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(374..1131)
+                     /product="REP_ORF2-G2P__RCR"
+                     /locus_tag="OY725836.1_orf3"
+                     /translation="MDESLSRTRRRIKDTLLCNRFVLFCTFTFDENKVPDRYDFKSLRK
+                     SLSSFFNDYKKRVDTNFRYLFVPEHHKDGAIHFHGVTSYINDLICPEKIWKRMDDGTIA
+                     MVPNTKGYLDWPRYSKRFGFFSCSLIKDRERCATYVSKYITKDLTDWGKNAQLVLKSKG
+                     LLKPELVYDSDSDFLQIPADDVNNEWCKAAWADEEYTARFYKHWSCPGDLISWDDYWKY
+                     QQWPDFEADESGCIPVTVEQMEFLKGVKPV"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1407..1606)
+                     /product="hypothetical protein (66 aa)"
+                     /locus_tag="OY725836.1_orf4"
+                     /translation="VCGHSLFVSYHDDNVTGEATDKLWVKPDLMDTAVRDAGLLTAGEC
+                     VGMEIDPTYNKYGKICAVAFM"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 ttgcaaatca atttgcaatc cgtccatagg ggcaaaacat tgcaacgaaa gcaccatgtc
+       61 agccgcagaa tccacagcaa gataaaccgg aatatcatct atatcggccc ggacgatttt
+      121 aaaatcggca gcgacagcgg gaagaagcgt ttgcaaaagc tgttcataga agtcactgca
+      181 atccacgcat gcagtgcgtt tattgcgttt gacgtttttc atctgtttcc accaggcacg
+      241 aagccagacc ggaaaaggag acaaggccgc actccaacgc cttactgaca ataaaagctg
+      301 gcggaacatc aagcgaagcc gagagagcca tgaggagaga agaagtatca gcatcgacga
+      361 gcaccatcaa attcatacag gttttacccc tttcaaaaat tccatctgtt caactgttac
+      421 aggaatacaa ccgctttcat ccgcttcaaa atcgggccat tgttgatatt tccaataatc
+      481 atcccaagaa atcaaatcgc cgggacaaga ccagtgttta taaaaacggg cggtatattc
+      541 ttcatcggcc caagccgctt tacaccattc attattcaca tcatcggctg gaatctgtaa
+      601 aaagtcggaa tcactgtcgt aaaccaattc aggctttagc agtcctttgc ttttcaaaac
+      661 aagctgggcg tttttacccc aatccgtcaa atcttttgtt atgtacttgc taacataggt
+      721 tgcacagcgt tcccggtctt taatgagtga acaggaaaag aatccgaacc gttttgaata
+      781 gcgcggccaa tccaaatatc ccttagtatt cggaaccatt gcaattgtcc cgtcatccat
+      841 ccgtttccat atcttttcag ggcatatcaa atcgttaata tacgaagtaa cgccgtgaaa
+      901 gtggatggca ccatctttgt gatgctccgg aacaaaaaga tagcggaaat tggtatctac
+      961 ccgtttttta taatcattaa aaaacgatga aagggacttt cgcaaagatt taaaatcata
+     1021 acggtcagga accttgtttt catcgaatgt aaaagtacag aacaaaacga atcggttaca
+     1081 caacaaagta tctttgattc ttcgccgcgt tcgtgaaaga ctttcgtcca tgcgtccctc
+     1141 atggggctgg gattcagaac gttcagagta cagactgggg ggccggttca actgtatatg
+     1201 ccgatagggt acttcttttt ggtcatatct gtatatccga tacaaaccat caccccaacg
+     1261 cgttatagtt tcctttcccg gtctgcctga aaagtgttac ggtgtcaagt atccccccag
+     1321 ccccccttac aggaggccgg gggagctttc gcgcgtggcg gtggggccgg gggcatagcc
+     1381 cccgcgcccc caccgcccgc cgcgcttaca tgaacgcaac tgcgcaaatt ttgccgtact
+     1441 tgttatatgt cgggtcaatt tccatgccca cgcattcacc tgccgtgagc aacccggcat
+     1501 ctctgacagc agtgtccatc aggtcaggtt taacccacag cttgtccgtc gcttcacctg
+     1561 ttacattatc gtcgtgatag cttacaaaca gggaatggcc gcacac
+//

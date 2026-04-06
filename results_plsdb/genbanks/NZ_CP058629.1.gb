@@ -1,0 +1,63 @@
+LOCUS       NZ_CP058629_1           1620 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Chitinibacter_bivalviorum | RIP: Replicase |
+            1,620 bp.
+ACCESSION   NZ_CP058629
+VERSION     NZ_CP058629.1
+KEYWORDS    .
+SOURCE      Chitinibacter_bivalviorum
+  ORGANISM  Chitinibacter_bivalviorum
+            Pseudomonadota; Betaproteobacteria; Neisseriales;
+            Chitinibacteraceae; Chitinibacter.
+FEATURES             Location/Qualifiers
+     source          1..1620
+                     /organism="Chitinibacter_bivalviorum"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP058629.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Replicase
+                     | Tier: Tier 5: Diversity fill"
+     CDS             complement(201..1420)
+                     /product="Replicase"
+                     /locus_tag="NZ_CP058629.1_orf2"
+                     /translation="MAGTTAQTRDNQTADRFFQSGTALNRVLTEAPYLPRCSDDKTATR
+                     VRPREYAIRYPYMQVNRPGFVSWLIFDLDHTKAMIWEDAGLPAPNLIVRNRQSGHSHLY
+                     YAIPPVCTTEAARSKPIAYMKAVYEAFAARLDADTDFHSGPVAKTPGHPWWLTHELHAH
+                     VYELGELADYVDLAVSSPWGKGPQFDEVSHSRHCILFEHLRHYAYSIVNRERERGSFAT
+                     FTRLLEAYAHNRNSFQKLGFMDNLAQSSLKATVKSVARWTWDRYTGCGRCHRGVMQLDK
+                     DLPLIERQRLAAARTHDVRHKATESKVRAACRLLQQKGEALTQAAIGRVAGLTRQTVAT
+                     YKHVLEEVLKPVAVAILGGASGKAEDVKHGAHQVTAAPQGAGVPGAASVSLELFPAGPG
+                     VVPVLDG"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 ctccgaactc cattcaaccg acacggccgc cacgccgaaa agtgacaggg gggccgcgct
+       61 gacgcgcggc gaaacaccct ccgggcttcg ccctgcgcgc gggatgatgg ataagtcctg
+      121 cggacttacc cacaacccac ttgcggctac tcgcgtttga aaaacgctgg ggctactcaa
+      181 aaccaaaacc agctccatct cagccatcca gcacaggcac gacacccggc ccagcaggaa
+      241 acagctcaag ggacaccgaa gcagcacccg gaaccccggc cccctgcggg gcggcagtta
+      301 cctgatgtgc accatgttta acatcctcgg ccttgcccga agcgcccccc aaaatcgcca
+      361 cggcgacggg cttgagcact tcttcgagca catgcttgta ggtggccacc gtctgccttg
+      421 tgaggcccgc cacgcggccg atagcggctt gcgtgagggc ttcgcccttc tgttgcagca
+      481 ggcggcacgc ggcgcgcacc ttggactcgg tggccttgtg gcgcacgtcg tgggtgcggg
+      541 cggcggcgag gcgctgccgc tcgatcagcg gcaagtcctt gtcgagctgc atcacgcccc
+      601 ggtggcaccg gccgcagccg gtgtagcgat cccacgtcca gcgggcgacc gacttcaccg
+      661 tggccttgag tgaggactgg gccaggttgt ccatgaagcc cagcttctgg aagctgttgc
+      721 ggttgtgcgc ataggcttcg agcagccgcg tgaaggtggc aaaagagccg cgctcgcgct
+      781 cacggttcac gatggaatag gcgtagtggc gcaggtgctc gaagaggatg cagtgccggg
+      841 aatggctcac ctcgtcgaac tgcggcccct tcccccacgg gctggacaca gccaagtcca
+      901 cgtagtcggc caactccccc agctcgtaga cgtgggcgtg cagctcgtgc gtcagccacc
+      961 aaggatggcc gggcgtcttg gccacggggc cgctgtggaa gtcggtgtcg gcatcgagcc
+     1021 gggcagcgaa ggcctcgtag acggccttca tgtacgcgat gggcttgctg cgggcggcct
+     1081 cggtcgtgca gaccggggga atcgcgtagt agaggtggct gtggccgctt tggcggttgc
+     1141 ggacgatcag attgggagca ggaagcccag cgtcctccca gatcatcgcc ttggtgtggt
+     1201 cgaggtcgaa gatcagccag ctcacaaagc cgggccgatt gacctgcatg taggggtagc
+     1261 gaatggcgta ttcgcgcggc cggacgcggg tggccgtctt gtcgtcagag caacgcggca
+     1321 gatagggcgc ttccgtgagc acgcgattga gcgcggtgcc cgactggaaa aagcgatctg
+     1381 cggtctggtt gtctcgtgtc tgtgccgttg tacctgccat aacccctcat cacacgtccc
+     1441 gtaggggcgt gcgcacgctt gcgtgcaggg gctaagactc gtacaatgga agcactttca
+     1501 gtcgctttat tgcactggta cagagttcac ccgccaaagc gaacgctgta tttgtctggg
+     1561 caccctgccc ggtttatctg tcaaggcccg ctcgccaaag cgggctttgt cgtttctgac
+//

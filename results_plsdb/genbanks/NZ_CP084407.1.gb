@@ -1,0 +1,75 @@
+LOCUS       NZ_CP084407_1           1686 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Sphingobium_sp._CFD-2 | RIP: RPA | 1,686 bp.
+ACCESSION   NZ_CP084407
+VERSION     NZ_CP084407.1
+KEYWORDS    .
+SOURCE      Sphingobium_sp._CFD-2
+  ORGANISM  Sphingobium_sp._CFD-2
+            Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+            Sphingomonadaceae; Sphingobium.
+FEATURES             Location/Qualifiers
+     source          1..1686
+                     /organism="Sphingobium_sp._CFD-2"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP084407.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RPA |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..1486
+                     /product="RPA"
+                     /locus_tag="NZ_CP084407.1_orf1"
+                     /translation="MAASPPSLGRQVQLSFEMFTPLPDFGDMSLRDYQETMQRPFFSLA
+                     KKRIKPIQYLSPNGQVSVHVSANPHYGMATIWDADIMIFFASYLNEQRQRSNQLSPTIR
+                     VHPADIMKLIRRDTSGRAYERLRDALDRLQATTIKTNICAKGKSREVTFSWIDSWTQLI
+                     DERRNKVLCIEVTLAKWFFDGVLDQKSVLSVDPAYFDLKGGIERWLYRAARKHAGGNGP
+                     EGFTIGFDTLLQKSGSEQVPAKFKASLLAIARADALPELHIEVRDEKSANPKLWMVMRK
+                     DWLASMPQPAPAPAPVAPAAGTRTARPAPQRYRPEPPPTPEDLVSPADMAALVASTANA
+                     FRVSSDGKQRATPERSRNRAAKARDVIDAATYEAIRRDFPGWDLDILMNRFDNYIANNL
+                     PELPANYSKRFYFFMKSHHQRNKHSLPGQ"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1580..1686)
+                     /product="hypothetical protein (121 aa)"
+                     /locus_tag="NZ_CP084407.1_orf2"
+                     /translation="MHVARARLGRGRSRVINSQVVRARRTESETASIGQEVWIAESMPC
+                     GSLNSPPLDMNEAAIRNADLISGAGEGRPLPPLMTGGGHIAAGRIDKRWDDARRALGAE
+                     PALLSYVGLRWRSIYRS"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 gtcgacgaga tggtggaaag cttgagatcg atcatcgaga aagctcgcat ccgttccagg
+       61 gggaaggcgt gacaggcgag gctgccttat ggttttccga cgcgtggaat gcatgattta
+      121 gtacgcaaaa acatggagtt atggaaaatg ttgccgtcgg caacatggtt ctccggagct
+      181 tgaaacaggc acattgaata tggcagcgtc ccctccctct cttggccggc aagtgcaact
+      241 cagcttcgag atgttcacgc cgctgcctga ttttggagac atgtcgctgc gtgactatca
+      301 ggagacaatg cagcgcccgt ttttttccct ggccaaaaag cgcatcaagc cgatccagta
+      361 tctcagtccc aatggacagg tcagcgttca cgtctcggct aacccccatt atggcatggc
+      421 caccatatgg gacgcggaca tcatgatctt ttttgcgtcc tatctgaacg aacagcggca
+      481 acgctcgaac cagttgtcac ccaccatccg ggtgcatccc gccgacatca tgaagctcat
+      541 tcggcgtgac acgtcgggac gggcgtacga gcggctgagg gatgcgcttg atcgtctcca
+      601 agccaccacg atcaagacga atatctgcgc caagggcaaa tcaagggaag tgaccttctc
+      661 ctggatcgac agctggacac agctgatcga tgagcgtcgc aacaaggttt tgtgcatcga
+      721 ggtcacgctc gccaaatggt tttttgacgg agttctcgac cagaaatcgg tgctctcggt
+      781 cgacccagcc tatttcgatc tcaagggcgg gatcgagcgc tggctctacc gcgctgcccg
+      841 gaaacatgct ggagggaacg gcccggaagg ttttaccatc ggcttcgaca cattgcttca
+      901 aaagagcggc agcgagcagg tgccagccaa gttcaaggcg tcacttcttg ccatcgcgcg
+      961 cgccgatgca ttgccggaac tccatattga agtgcgagac gagaaatccg ccaaccccaa
+     1021 gctctggatg gtcatgcgca aggattggct tgcatccatg ccgcagcccg cccctgcccc
+     1081 tgcccccgtc gcgcctgctg ccgggacgcg aacggcccgt ccagcgcccc aaagatacag
+     1141 accagaaccg ccccctacgc cggaggacct tgtttctccc gctgatatgg cagcactcgt
+     1201 cgcaagtacg gccaatgcat ttcgcgtcag cagcgacggt aagcagcgag caacgccaga
+     1261 gcgctcccgc aaccgcgccg cgaaggccag ggatgtcatc gatgcagcga cctatgaagc
+     1321 cattcggcgc gatttcccag gctgggatct cgatatattg atgaaccggt tcgacaatta
+     1381 tatcgcgaac aacctgcctg agctgcctgc aaattattcc aagcgtttct atttcttcat
+     1441 gaaaagccat caccagcgca acaagcatag ccttcccggt cagtaggagc gctgcgccga
+     1501 tgggtcgtaa cgcctttttg gcggtcacga tcactccctt cttgtagcaa acgcccttcc
+     1561 cgcggtgcca aagacccgtc atgaccggta gatggaccgc caccgaaggc caacatagga
+     1621 gagaagcgca ggctccgctc caagcgccct ccttgcgtcg tcccatctct tgtcaatgcg
+     1681 accggc
+//

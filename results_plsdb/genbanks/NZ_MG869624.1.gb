@@ -1,0 +1,62 @@
+LOCUS       NZ_MG869624_1           1584 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Polaromonas_sp._W11N | RIP: Rep_1__RCR |
+            1,584 bp.
+ACCESSION   NZ_MG869624
+VERSION     NZ_MG869624.1
+KEYWORDS    .
+SOURCE      Polaromonas_sp._W11N
+  ORGANISM  Polaromonas_sp._W11N
+            Pseudomonadota; Betaproteobacteria; Burkholderiales; Comamonadaceae;
+            Polaromonas.
+FEATURES             Location/Qualifiers
+     source          1..1584
+                     /organism="Polaromonas_sp._W11N"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_MG869624.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Rep_1__RCR
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..1384
+                     /product="Rep_1__RCR"
+                     /locus_tag="NZ_MG869624.1_orf2"
+                     /translation="MARSLLCVEGKKQCLEHSADIHRTAKCMHTPIGQVSVLRDKLRGS
+                     AFYGGLATCGSTLSCPICATKVQERRRVEIAQAFDWAYNVAHLQPVMVTLTFPHKIWHD
+                     LYELILQQRQALKLLRYGKPWKKLTAEIDYQGLIRALEISRGGHGWHPHTHEVWFVGRH
+                     VKAEDLQVQVLKQWMSACIRAGLLDPADVKTVAAFMEHAVHVKGWCQDSDYLAKSADDK
+                     NWGIDREMAKGATKLGKLKGLHPFQLLALAAEGDTKAGQLYVSFAMTMKRTRSRPLFWS
+                     PGLKGRVGINDSTDEQLASEQREEADVLGLLTHAHWQLVRASKSRAQLLDAAETGGWPA
+                     VMALLDRLALAVVKRVKPPLKQPEACPGPQSVSSGGNPTGYERSRSGAFTESPF"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 ttcgcgccat gcgtaacccc gaaactctgg gtgtcgtccc cgaattcctc ggaagataca
+       61 cgggatcctc tgaccccccc cacttgtttc gagttcagaa agacgagcag ctgtagggcc
+      121 ggacaggccc gcaagcagca aaccagcatc caatattggg cgaactgaga gccgggcccg
+      181 acgttacgag ctgctgtcag tggcgcgttc gctgctctgc gtggagggga aaaagcagtg
+      241 tctagagcac tccgcagaca ttcatcgcac cgcgaaatgc atgcacacgc cgatcggcca
+      301 agtctctgtg ctgcgcgaca agctgagagg ttcggcgttt tatggtgggc tggctacctg
+      361 tggctccacg ctttcctgcc cgatctgcgc cacgaaagtt caagaacgcc gccgggtgga
+      421 gatcgcccag gcttttgact gggcctacaa cgtcgctcat ttgcagccag tgatggtgac
+      481 gctcacgttc ccgcacaaga tttggcatga cctgtacgag ctgattttgc agcagcgcca
+      541 ggcgctcaag ctgcttcgct acggcaaacc gtggaagaaa ctcactgctg aaattgatta
+      601 tcaagggctg attcgtgcgc ttgaaatcag ccgcggcggt cacggctggc atccgcacac
+      661 gcatgaggtt tggttcgtcg gccggcatgt aaaagctgaa gatctgcaag tgcaggtcct
+      721 caaacagtgg atgtcggcct gcatccgcgc cgggctgctt gacccggccg acgttaaaac
+      781 tgtcgcagct ttcatggagc acgctgtgca cgtcaagggc tggtgccagg acagcgacta
+      841 cctggccaaa agtgccgacg acaaaaactg gggcattgat cgggagatgg ctaagggcgc
+      901 cacgaagctg ggaaagctca agggcctgca cccgtttcag ctgctggcct tggccgctga
+      961 gggggacacc aaagctggcc agctttatgt ctcattcgcc atgaccatga agaggacccg
+     1021 ttcgcgcccc ctgttctggt cgccagggct gaagggccgc gtcggcatca acgactccac
+     1081 tgatgagcag ctggcgtctg agcagcgcga ggaggccgac gtcttgggct tgctgacgca
+     1141 tgcgcactgg cagcttgtgc gcgcgtcgaa gtctcgcgct cagctgctcg atgccgcgga
+     1201 gactggaggc tggccggctg tcatggcgct tttggaccgg ctggccttgg ctgtggtgaa
+     1261 gcgggtgaaa ccaccgctga agcagcctga ggcctgtcca gggcctcaga gcgtatccag
+     1321 tgggggcaac cccactggat acgaacgcag ccgttcaggc gcgtttacag agtccccgtt
+     1381 ttagggctgt tcgttccccc attatcgtac acagtgcgat aatggggggt gtttgaaaag
+     1441 tctgtagcaa agcggaagat tttcgaacac ctgcgtctat agccaacgga gatatttatg
+     1501 aacagcgata aaaacgaggt tttgcgcggc caggtgatgc ggtcactgat ggcctccagg
+     1561 acagcaggac cgccaccgat gcca
+//

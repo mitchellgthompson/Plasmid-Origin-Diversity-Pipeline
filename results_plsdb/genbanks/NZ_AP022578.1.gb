@@ -1,0 +1,85 @@
+LOCUS       NZ_AP022578_1           1662 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Mycolicibacterium_aubagnense | RIP:
+            rep_init_RepSA | 1,662 bp.
+ACCESSION   NZ_AP022578
+VERSION     NZ_AP022578.1
+KEYWORDS    .
+SOURCE      Mycolicibacterium_aubagnense
+  ORGANISM  Mycolicibacterium_aubagnense
+            Actinomycetota; Actinomycetes; Mycobacteriales; Mycobacteriaceae;
+            Mycolicibacterium.
+FEATURES             Location/Qualifiers
+     source          1..1662
+                     /organism="Mycolicibacterium_aubagnense"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_AP022578.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     rep_init_RepSA | Tier: Tier 4: Phylum-exclusive"
+     CDS             complement(4..155)
+                     /product="hypothetical protein (51 aa)"
+                     /locus_tag="NZ_AP022578.1_orf1"
+                     /translation="MATGGAGMHQLPGVPGIEIRTRWADVGTAIVAAGPRHLRTPEAVD
+                     TGQLDG"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             456..1462
+                     /product="rep_init_RepSA"
+                     /locus_tag="NZ_AP022578.1_orf2"
+                     /translation="MIWIRCASVSSKSSKSKLAPSRTSTLSFASTRQRRDHGIAITVPN
+                     PHRAVAGHTIHTPGDEDTAAAVAVRFGTQIDTQSLTAESSVIHDASNAGLASGFSARRV
+                     ACYLAKYVTKSLQDFGIAARRLSTEAIAALDVTEHTRSILFAIAALDHHAVTDAARESP
+                     WTGIGRWLHTLGYRGHITTKSRHYSTTMTALRVHRAEWTATKTPKPQQRNMIRWIPRTR
+                     LDGKSIALVMLRQATESWLFRPACDISRPGAPDWWRSVTSNRIDQGAVMIDNSNTAHPH
+                     SEGGDQVSARILSEGGAEIVVPEDYVLPCEANRALIRVILAIRDRTLGGDRGVA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1466..1662
+                     /product="Resolvase: Resolvase, N terminal domain"
+                     /locus_tag="NZ_AP022578.1_orf3"
+                     /translation="MRFAFYGRVSTEDAQDREASRSWQKRRAVDLIAPHGGAIVTDYFD
+                     IGQSRSLPWKRRPEASRLLAD"
+                     /codon_start=1
+                     /function="recombinase"
+                     /note="category=recombinase; color=#7B1FA2"
+                     /note="Pfam=Resolvase (PF00239.27) E=1.1e-03"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#7B1FA2"
+                     /ApEinfo_revcolor="#7B1FA2"
+                     /db_xref="Pfam:PF00239.27"
+ORIGIN
+        1 accccatcca actggccggt gtcgaccgct tcgggcgtgc gcaggtggcg tggacccgct
+       61 gcaacaatcg ccgtgcccac atctgcccat cgtgttcgga tctctatgcc cgggacacct
+      121 ggcagctggt gcatgccggc gccgccggtg gccaccacaa cgtcccgcca gcgtcagtgt
+      181 ccgcccgcag gtgtttctga cgttgactgc gcctggcttc ggcgccgtgc atggcgccac
+      241 accggccagc ccgaacggtg catccatggg aaactgttgt cgtgcaacca cattcacgac
+      301 cacactgatc cacttgtcgg ccagcccttg tgcggaccct gctacgacta cctgtcccac
+      361 gtgctgtttt tcagctggca cctgcccgaa ccgtggcggc gctttacgat cgccctgcgc
+      421 cgcgccgttc ggcaggaact gaaggtccta ggttgtgatc tggattcggt gcgcgtcagt
+      481 ttcgtcaaag tcgtcgaaaa gcaagctcgc gccgtcccgc acatccacgc tctcattcgc
+      541 ctcgacccgc caacgacgag accacggcat cgcgatcacc gtcccgaacc cgcaccgggc
+      601 agttgctggt cacaccattc acactcccgg cgatgaggac actgctgccg cggttgccgt
+      661 gcggttcggc actcagatcg acactcaatc gctgactgcc gaatcatcgg tcatccacga
+      721 tgcttcaaat gccggcctgg ccagcgggtt ttctgcgcgc cgcgtggcct gctacctcgc
+      781 caaatacgtc accaagagcc tgcaggactt cgggatagcc gcccgccgcc tgtccaccga
+      841 agccattgcc gcccttgatg ttaccgagca cacccggtct attctgttcg cgattgctgc
+      901 tcttgatcac cacgccgtca ccgatgccgc gcgcgagtcg ccatggaccg ggataggccg
+      961 gtggctacac accctgggct accgcggcca catcaccacc aaatctcgcc actactcgac
+     1021 caccatgaca gcactacgtg tccaccgcgc tgaatggacc gcaaccaaga cgccaaaacc
+     1081 gcagcagcgc aacatgatca gatggatacc gcggaccaga ttggatggga aatcgatcgc
+     1141 gctggtcatg ctacgacagg cgaccgagtc ctggctgttt cggccagcct gcgacatatc
+     1201 aagaccaggc gcaccggatt ggtggaggtc cgtgaccagc aatcggatcg accaaggcgc
+     1261 cgtgatgatt gacaactcca acaccgcgca cccgcactcc gaaggcggcg accaagtcag
+     1321 tgctcggatt ttgtcagagg gaggtgctga aatcgtggtg cccgaagact atgtcctccc
+     1381 gtgcgaagct aaccgcgccc tgatccgcgt aatactggct atacgggacc ggacgctcgg
+     1441 aggagacagg ggagtcgcgt gagcatgagg ttcgcctttt atggccgagt aagcaccgag
+     1501 gacgctcaag atcgagaggc gagccgtagt tggcagaagc gacgggcagt cgatctgatc
+     1561 gctccgcacg ggggcgcaat cgtcactgat tacttcgata tcggacagag tcgttctctc
+     1621 ccgtggaagc gcaggcccga ggcctcgcga ctcctcgctg at
+//

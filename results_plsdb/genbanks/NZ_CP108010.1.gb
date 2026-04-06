@@ -1,0 +1,78 @@
+LOCUS       NZ_CP108010_1           1316 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Streptomyces_sp._NBC_00334 | RIP:
+            rep_init_RepSA | 1,316 bp.
+ACCESSION   NZ_CP108010
+VERSION     NZ_CP108010.1
+KEYWORDS    .
+SOURCE      Streptomyces_sp._NBC_00334
+  ORGANISM  Streptomyces_sp._NBC_00334
+            Actinomycetota; Actinomycetes; Kitasatosporales; Streptomycetaceae;
+            Streptomyces.
+FEATURES             Location/Qualifiers
+     source          1..1316
+                     /organism="Streptomyces_sp._NBC_00334"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP108010.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     rep_init_RepSA | Tier: Tier 4: Phylum-exclusive"
+     CDS             201..892
+                     /product="rep_init_RepSA"
+                     /locus_tag="NZ_CP108010.1_orf1"
+                     /translation="MLADAVRAAAARVRVTVESDAVGERELGWGEQLDVREIAAFGTDA
+                     EFTDQAVAAYVAKYATKSADASGTLDHTLLCRPCQGRGATLLPHGTPLPCTACDGTGQA
+                     RPLPRLAVTRHVRQMIRTCWELGNLPEFAHLKLWKWAHMLGFRGHFSTKSRSYSTTLGA
+                     LRDARRTWRTEQAHAHAGLPDLDPATTLVVGQWDYLGSGYSPGAALLAAHVWHRRELER
+                     QFAAEGGC"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             893..1116
+                     /product="HTH_17: Helix-turn-helix domain"
+                     /locus_tag="NZ_CP108010.1_orf2"
+                     /translation="MASPLLTAPRAEAAPALDLLTVPQVMARLQLGRSAVYDLLRSGQL
+                     ASITLGRARRIPTHALTDFIRTRLEQEAA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="Pfam=HTH_17 (PF12728.14)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF12728.14"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1117..1316
+                     /product="hypothetical protein (67 aa)"
+                     /locus_tag="NZ_CP108010.1_orf3"
+                     /translation="MTTPRPTPSRRSRTRANGDGTVYPRKDGRWEAAGYVLAPGNTRRR
+                     VRVYGTTRKDAMTKLTEKIAAS"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 gcccgcttca ccacctacct gcgccgcgag atcgccgccg ggctcggcat gacccagaag
+       61 gccgcccacg cggtcctgcg ggtctccttc gccaaggtcg ccgagtacca gcagcgcggc
+      121 ctggtccact tccacgccgt tccgactcga cggccccgac ggcaccagcc agcccccgcc
+      181 gccgtacgcc accgtcgccg tgctcgccga cgccgtacgc gccgccgccg cgcgagtccg
+      241 cgtcacggtc gagtcggatg cggtcgggga acgcgaactc ggctggggcg aacagctcga
+      301 cgtacgcgag atcgccgcct tcggcaccga cgccgaattc accgaccagg ccgtggccgc
+      361 ctacgtggcc aagtacgcca ccaaatccgc cgacgcctcc ggcaccctcg accacaccct
+      421 cctctgccgc ccctgccagg gacgcggcgc caccctcctg ccccacggca ccccgctccc
+      481 gtgcaccgcc tgcgacggca ccgggcaggc ccggcccctg ccccgcctcg ccgtcacccg
+      541 ccacgtccgg cagatgatcc gcacctgctg ggaactgggc aacctgccgg agttcgccca
+      601 cctcaagctc tggaagtggg cccacatgct cggcttccgc ggccacttct ccaccaagtc
+      661 ccgcagctac tccaccaccc tcggcgcgct gcgcgacgcc cgccgcacct ggcgcaccga
+      721 acaggcccac gcgcatgccg gcctgcccga cctcgacccg gccaccacgc tcgtcgtcgg
+      781 ccagtgggac tacctcggct cgggctacag ccccggcgcc gcactcctcg ccgcccacgt
+      841 ctggcaccgc agggaactgg aacggcagtt cgcagccgaa gggggttgct gatggcctcg
+      901 cccctgctca cggctccccg cgcggaggcg gcaccggcgc tggacctgct cacggtgccc
+      961 caggtgatgg cccgcctcca gctcggtcgc tccgccgtct acgacctgct ccgctccggc
+     1021 cagctcgcct cgatcaccct cggccgcgcc cgccgcatcc ccacccacgc gctcaccgac
+     1081 ttcatccgca cccgtctcga acaggaagcc gcctgatgac cacgccccga cccactccgt
+     1141 cccgccgctc ccgtacccgt gcgaacggcg acgggaccgt ctacccgcgc aaggacggac
+     1201 gctgggaggc cgccggatac gtgctggccc ccggcaacac ccgcaggcgc gtccgggtct
+     1261 acggcaccac ccgcaaagac gcgatgacca agctcaccga gaagatcgcc gccagc
+//

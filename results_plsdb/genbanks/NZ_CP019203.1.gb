@@ -1,0 +1,121 @@
+LOCUS       NZ_CP019203_1           2682 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Salmonella_enterica | RIP: REP_ORF2-G2P__RCR
+            | 2,682 bp.
+ACCESSION   NZ_CP019203
+VERSION     NZ_CP019203.1
+KEYWORDS    .
+SOURCE      Salmonella_enterica
+  ORGANISM  Salmonella_enterica
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Salmonella.
+FEATURES             Location/Qualifiers
+     source          1..2682
+                     /organism="Salmonella_enterica"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP019203.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     REP_ORF2-G2P__RCR | Tier: Tier 3: Cross-phylum BHR"
+     CDS             2..210
+                     /product="DUF5405: Domain of unknown function (DUF5405)"
+                     /locus_tag="NZ_CP019203.1_orf1"
+                     /translation="HEKKRAESGKNAGQEWLAVVGYYPKLSQLVSGLMHHDILTGSAKS
+                     FADLNAQVEQLSKRCSEALGSYDR"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=DUF5405 (PF17399.8) E=1.9e-07"
+                     /db_xref="Pfam:PF17399.8"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+     CDS             201..2482
+                     /product="REP_ORF2-G2P__RCR"
+                     /locus_tag="NZ_CP019203.1_orf2"
+                     /translation="MTVKASGRFVPPSAFAAGTGKTFTGAYAWNAPREAVGRERPLTRD
+                     EMRQVQGVLSTINRLPYFLRSLFTSRYDYIRRNKSPVHGFYFLTSTFQRRLWPRIERVN
+                     QRHEMNTDASLLFLAERDHYARLPGMNDKELKKFAARISSQLFMMYEELCDAWVDAHGE
+                     KESLFTDEAQDHLYGHVAGAARAFNISPLYWKKYRKGQITTRQAYSAIARLFNDEWWTH
+                     QLKGQRMRWHEALLIAVGEVNKDRSPYASKHAIRDVRARRQANLEFLKSCDLENRETGE
+                     RIDLISKVMGSISNPEIRRMELMNTIAGIERYAAAEGDVGMFITLTAPSKYHPTRQVRK
+                     GESKTVQLNHGWNDEAFNPKDAQRYLCRIWSLMRTAFKDNDLQVYGLRVVEPHHDGTPH
+                     WHMMLFCNPRQRNQIIEIMRRYALKEDGDERGAARNRFQAKHLNRGGAAGYIAKYISKN
+                     IDGYALDGQLDNDTGRPLKDTAAAVTAWASTWRIPQFKTVGLPTMGAYRELRKLPRGVS
+                     IADEFDERVEAARAAADSGDFALYISAQGGANVPRDCQTVRVARSPSDDVNEYEEEVER
+                     VVGIYAPHLGARHIHITRTTDWRIVPKVPVVEPLTLKSGIAAPRSPVNNCGKLTGGDTS
+                     LPAPTPSVHAAAVLNLVDDGVIEWNDPEVVRALRGALKHGLRRPNRQQRNGSPLKPHEI
+                     APSARLTRSERMQITRIRVDLAQNGIRPQRWELEALARGATVDYNGKKFTYPVADEWSW
+                     FYCYSEQ"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             2498..2682
+                     /product="DUF7380: Domain of unknown function (DUF7380)"
+                     /locus_tag="NZ_CP019203.1_orf3"
+                     /translation="MLHNSKIAVYLHVLTIDNYVANNVCKFILKKVKTMNDIFVLTREE
+                     LETLDYSVFMHIPVTFHAHKIKKYLDGIAESSENPKEKKLASLFGMLYSFNLQVVNNTP
+                     SFEPQMIWGNKRSILPEDFDEQVNDCLLYVSQKITNPFLLSRIYDVVWCNNRKNKDVAI
+                     KAIDSYAEMLNIAIEKLIIKNESMDESDLNCFIFARDYIARALHINKMVYPRKSEGNMA
+                     IKNAIHSLYSIQNERLIFEGFNNLTWFMVRDFDGYNLQYAENAEKMAEQHKDKKYYDAV
+                     KSLYMTSAVIYEKNGEYERAKRCKLASANITIKVATDRPDNMGKISWLRTAISELRQYG
+                     GDSQQIEDLKEQLANLREEVRSEYVTLSHSIDISDLVAESEKKLTGRSLPDIFKVLMRE
+                     TPIENIESMREQVLRLSEKSLFSSFVGTEINDESGRKVYTIPPLDNKKDISDDVVIDQY
+                     LRNFEITHKIFVNGVFEPARYVLSQEHGLTLSTFVKLVTTSPIVKPEFREIFNLGFYKL
+                     WQGDYISAAYLLIPQMEGMVRYYYELSGKDATRYLDKGLEESTSISQLLDKCRDDLESI
+                     FSKNLVLTIDVLFNRKSGATLRHKLAHGNLYTNACYDETTTYACILIFFLCAYPLLPYF
+                     DTVFEQGSV"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=DUF7380 (PF24098.2) E=5.2e-39"
+                     /db_xref="Pfam:PF24098.2"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+ORIGIN
+        1 cacgagaaaa agagagcgga aagcggtaaa aacgccggtc aggaatggct ggcggtggtt
+       61 ggttattacc cgaaattaag ccagctcgtt tccggcctga tgcatcacga tattctgacc
+      121 ggaagcgcaa agtcttttgc tgatttaaac gcgcaggttg agcaactcag caagcgttgt
+      181 tcagaggctt tgggctcata tgaccgttaa agcctccggg cgttttgtcc ctccgtcagc
+      241 atttgccgca ggcaccggta agacgtttac cggtgcttat gcatggaacg cgccacgcga
+      301 ggctgtcggg cgcgaaagac cccttacacg tgacgagatg cgtcaggtgc aaggtgtttt
+      361 atccacgatt aaccgcctgc cttacttttt gcgctcgctg tttacttcac gctatgacta
+      421 cattcggcgc aataaaagcc cggtgcacgg gttttatttc ctcacatcca cttttcagcg
+      481 tcgtttatgg ccgcgcattg agcgcgtgaa tcagcgtcat gaaatgaata ccgacgcgtc
+      541 gttgctgttt ctggcagagc gtgaccacta tgcgcgcctg cctggaatga atgacaagga
+      601 gctgaaaaag tttgctgccc gtatctcatc gcagcttttc atgatgtatg aggaactctg
+      661 cgatgcctgg gtggatgcgc atggcgaaaa agaatcgctg tttacggatg aggcgcagga
+      721 tcatctgtat ggtcatgttg ctggcgctgc acgtgctttc aatatttccc cgctctactg
+      781 gaaaaaatac cgtaaaggac agataaccac gaggcaggca tattctgcca ttgcccgtct
+      841 gtttaacgat gagtggtgga ctcatcagct taaaggccag cgtatgcgct ggcatgaggc
+      901 gttactgatt gctgtcgggg aggtgaataa agaccgttct ccttatgcca gtaaacatgc
+      961 cattcgtgat gtacgtgcac gccgccaggc aaatctggaa tttcttaaat cgtgtgacct
+     1021 tgaaaacagg gaaaccggcg agcgcatcga ccttatcagt aaggtgatgg gcagtatttc
+     1081 taatcctgaa attcgccgga tggagctgat gaacaccatc gccggtattg agcgttacgc
+     1141 tgccgcagag ggtgatgtgg ggatgtttat cacgctgacc gcgccgtcaa agtatcatcc
+     1201 gacacgtcag gtcagaaaag gcgaaagtaa aaccgtccag ctaaatcacg gctggaacga
+     1261 tgaggcattt aatccaaagg atgcgcagcg ttatctctgc cgtatctgga gcctgatgcg
+     1321 cacggcattc aaggataatg atttacaggt ctacggtttg cgtgtcgtcg agccacacca
+     1381 cgacggaacg ccgcactggc atatgatgct tttttgtaat ccacgccagc gtaaccagat
+     1441 tatcgaaatc atgcgtcgct atgcgctcaa agaggatggc gacgaaagag gagccgcgcg
+     1501 aaaccgtttt caggcgaaac accttaaccg gggcggtgct gcggggtata tcgcgaaata
+     1561 catctcaaaa aatatcgacg gctatgcact ggatgggcag ctcgataacg ataccggcag
+     1621 accgctgaaa gacactgcag cggctgttac cgcatgggcg tcaacgtggc gtatcccgca
+     1681 atttaaaacg gttggtctgc cgacaatggg ggcttaccgt gaactacgca aattgcctcg
+     1741 cggcgtcagc attgctgatg agtttgacga acgcgtcgag gctgcacgcg ccgccgcaga
+     1801 cagtggtgat tttgcgttgt atatcagcgc gcagggcggg gcaaatgtcc cacgcgattg
+     1861 tcagactgtc agggttgccc gtagcccgtc ggatgacgtt aacgagtacg aggaagaagt
+     1921 cgagagagtg gtcggcattt acgcgccgca tctcggcgcg cgtcatattc atatcaccag
+     1981 aacgacggac tggcgcattg tgccgaaagt tccggtcgtt gagcctttga ctttaaaaag
+     2041 cggcatcgcc gcgcctcgga gtcctgtcaa taactgtgga aagctcaccg gtggtgatac
+     2101 ttcgttaccg gctcccacgc cttctgtgca cgccgcagca gtgcttaatc tggttgatga
+     2161 cggtgttatc gaatggaatg acccggaggt cgtgagggcg ctcaggggcg cattaaaaca
+     2221 cggcctgaga agaccaaacc gtcagcaaag aaacggaagc ccgttaaaac cgcatgaaat
+     2281 agcgccatcg gccagactga cccggtcgga aagaatgcaa attacccgta tccgcgttga
+     2341 ccttgctcag aacggtatca ggccgcagcg atgggagctt gaggcgctgg cgcgtggtgc
+     2401 gaccgtagat tacaacggga aaaaatttac gtatccggtc gctgatgagt ggagttggtt
+     2461 ttattgttat tcagagcaat aaacatctga tttaatttgt tgcataatag taaaattgct
+     2521 gtttatctgc atgtgttaac tattgataat tatgttgcta ataatgtgtg caaatttata
+     2581 ctgaaaaagg tgaaaacgat gaatgatatc tttgttctta caagggaaga gcttgaaaca
+     2641 ctagattata gtgtttttat gcatatacca gttacatttc at
+//

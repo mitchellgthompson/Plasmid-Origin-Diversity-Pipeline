@@ -1,0 +1,129 @@
+LOCUS       NZ_CP070335_2           3292 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Halobacterium_sp._BOL4-2 | RIP:
+            RNA_helicase__RCR | 3,292 bp.
+ACCESSION   NZ_CP070335
+VERSION     NZ_CP070335.2
+KEYWORDS    .
+SOURCE      Halobacterium_sp._BOL4-2
+  ORGANISM  Halobacterium_sp._BOL4-2
+            Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae;
+            Halobacterium.
+FEATURES             Location/Qualifiers
+     source          1..3292
+                     /organism="Halobacterium_sp._BOL4-2"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP070335.2"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     RNA_helicase__RCR | Tier: Tier 4: Phylum-exclusive"
+     CDS             21..193
+                     /product="hypothetical protein (57 aa)"
+                     /locus_tag="NZ_CP070335.2_orf1"
+                     /translation="MSLSSLSGRFRGRQTQFHIELVYGILFIAGFAFLVFRVDPRVAAF
+                     EGGLVIGYLLRI"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             201..367
+                     /product="hypothetical protein (55 aa)"
+                     /locus_tag="NZ_CP070335.2_orf2"
+                     /translation="MSIYEWILEETISSEAERQVEAEVVDIDEQIDQRVTEQLEEAGEP
+                     RSDQADDSTT"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(385..2597)
+                     /product="RNA_helicase__RCR"
+                     /locus_tag="NZ_CP070335.2_orf3"
+                     /translation="MRLTVKQLKNRDPGSGMAVIDRDALQEIGVSSGDFVAIEGRNGGR
+                     TVARVWPSNTSDAGRGIIRIDGQLRQAANVSIDDRVEVEKTEVEPADRVTVSLPQNLQI
+                     RGDLGSHLREHLVDQAVRAGQTVAFPIGFGMFSGRSGRRIPLRVVDTQPSGTVVVQNTT
+                     EIEIADQSAQEVSVESGEPENTTAPALTYEDIGGLDDELEQVREMIELPMRHPELFGTL
+                     GIEPPKGVLLHGPPGTGKTLIAKAVANEIDAHFQTISGPEIMSKYYGESEEQLRDVFEE
+                     AEENAPAIVFIDELDSIAPKREDVSGDVERRVVAQLLSLMDGLEERGQLTVIGTTNRVD
+                     AVDPALRRPGRFDREIEIGVPDHDGREKILQIHTRGMPLGDGVDLDRYAENTQGFVGAD
+                     LENLVKESAMHALRRIRPDLDLDEEEIPADILDSIEVTENDFKEALRGIEPSALREVFV
+                     EVPDVTWDHVGGLDDAKERLQETVQWPLEHADAYEQVALEPAKGVLLYGPPGTGKTLLA
+                     KAVANEANSNFISIKGPELFNKYVGESERGVREVFSKARENAPTVVFFDEIDAIASERG
+                     QGVGDSNVGERVVSQLLTELDGLEELEDIVVIATTNRPDLIDDALLRPGRLDRHVAVDE
+                     PDEAARREIFEIHTEDKPLAEDVDVDELVERTDGYVGADIEAVCREAATVAVREYVRAT
+                     ASAESANVDEIELSIEHFEQALEEVDSNAGSETQAFEKPAEAV"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(2664..3034)
+                     /product="HSP20: Hsp20/alpha crystallin family"
+                     /locus_tag="NZ_CP070335.2_orf4"
+                     /translation="MPLPTGSTSSWLQNSGFPSRLFETGRNDYELYEEDDEFVLSVEMP
+                     GFDPEEITVSWDEGVLNIAAEHEDETRSQRKTYHRRFRFPKNVEDDDIEAQYNNGILEV
+                     RLPVLTGATTRGKQIEVQA"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=HSP20 (PF00011.28)"
+                     /db_xref="Pfam:PF00011.28"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+ORIGIN
+        1 tcgaagataa gaaacaacga tgtcgctgag ttcgctcagt ggtcgcttcc gaggaagaca
+       61 gacgcaattt cacatcgaac tcgtgtacgg catcctcttt attgccggct ttgcttttct
+      121 cgtcttccgc gtcgatcccc gggtggcagc gttcgaagga ggtctcgtca ttggttactt
+      181 attgagaatt taggggaaaa tgtcaatcta cgagtggatc cttgaagaga cgatttcaag
+      241 cgaggccgaa cgacaggtcg aggccgaggt cgtggatata gatgaacaga ttgaccaacg
+      301 tgtgaccgaa caactcgaag aagccggtga acctcgatcg gatcaagccg acgattcaac
+      361 tacgtaaggg agagtcacca gtgctacacg gcttcagctg gcttttcgaa cgcctgcgtt
+      421 tcggatccag cgtttgagtc gacctcttcg agcgcctgct cgaagtgctc tattgacagc
+      481 tcgatttcgt cgacgttggc cgattcggca ctcgcagtcg cacggacgta ttcgcggacg
+      541 gcgaccgtcg cagcctcgcg gcagaccgcc tcgatatcgg caccgacgta gccgtcagtc
+      601 cgctcgacga gttcgtcgac gtcgacatct tcggccagcg gcttgtcctc ggtgtggatc
+      661 tcgaagatct cacgccgtgc cgcttcgtcg ggctcgtcga ctgcgacgtg acggtcgagc
+      721 cgtcccggtc ggagcaaggc atcgtcgatg aggtctgggc ggttcgtcgt ggcgatcact
+      781 acgatgtcct cgagttcttc gagaccgtcg agttcggtca gcagctgtga gaccacgcgt
+      841 tcgccgacgt tcgagtcgcc aacgccctgg ccacgttccg aggcgatcgc gtcgatctcg
+      901 tcgaagaaca ccaccgtggg ggcgttctcg cgggccttcg agaacacttc acgaacgccc
+      961 ctctcggact cgccgacgta cttgttgaac agctcaggcc ccttgatcga gatgaagttc
+     1021 gagttcgcct cgttagcaac ggccttcgca agcagcgtct tcccggtgcc gggcggcccg
+     1081 tagagcaaga cgcccttcgc cggttcgagt gcgacttgct cgtaggcgtc ggcgtgttcg
+     1141 aggggccact ggacggtctc ctggaggcgt tccttcgcat catcgagacc accgacgtgg
+     1201 tcccaggtga catcggggac ctcgacgaat acctctcgca gcgcggaggg ttcgatgccc
+     1261 ctcagcgcct ctttgaagtc gttctcggtc acctctatcg agtcgaggat gtcggcgggg
+     1321 atctcttctt cgtcgagatc cagatcgggc cgaatccggc gaagcgcgtg catcgcgctc
+     1381 tctttcacga ggttctcgag atctgcgccg acgaaacctt gagtattctc agcgtaccgg
+     1441 tcgagatcga cgccgtcgcc gagaggcatc ccgcgcgtgt ggatctgaag gatcttttcg
+     1501 cgcccgtcat ggtcggggac gccgatctcg atttcacgat cgaaccgacc gggacggcgg
+     1561 agcgccggat ccacggcatc gacgcggttg gtcgtgccga taaccgtgag ctggccgcgc
+     1621 tcttcgaggc cgtccatcag cgagagcaac tgggcgacga cccggcgttc gacatcgcca
+     1681 ctgacgtctt cgcgcttggg cgcgatggag tcgagttcgt caatgaagac gatcgcgggc
+     1741 gcgttctcct cggcctcctc gaacacgtcg cgaagctgct cttcgctctc gccgtagtac
+     1801 ttgctcatga tctccgggcc agagatcgtc tggaagtgag cgtcgatttc gttggcgacg
+     1861 gccttggcga tcagggtctt ccccgtcccg ggaggaccgt ggaggagaac gcccttcggc
+     1921 ggttcgatgc cgagcgtccc gaacagctcg gggtggcgca tcggcaactc gatcatctcc
+     1981 cgaacctgct cgagttcgtc gtcgaggccg ccgatgtcct cgtacgtgag ggctggagcg
+     2041 gtcgtatttt ccggttctcc cgattcgacg gagacctcct gggcgctctg gtcggcgatc
+     2101 tcgatctcgg tcgtgttctg cacgacgacc gtcccgctgg gctgcgtatc gaccacccgt
+     2161 aggggaatgc gtcgaccaga ccgaccggag aacataccaa acccgatcgg gaacgcgacc
+     2221 gtctgtcctg ccctcaccgc ctggtcgacg agatgttcgc ggaggtgcga gccgagatct
+     2281 cctctgatct gaagattctg tggtagggag acggtaactc ggtccgccgg ctcgacctcc
+     2341 gttttctcga cctcgacgcg gtcgtcgatg ctgacgttcg ctgcctgtcg gagctggccg
+     2401 tcgattcgga tgataccgcg acccgcgtcg ctcgtgttac taggccagac gcgggcgacc
+     2461 gttcgtccgc cgttgcggcc ctcgatcgcg acgaagtcgc cactgctgac gccgatctcc
+     2521 tgaagcgcat cgcggtcgat gacggccata ccgctccctg gatcgcggtt cttgagttgt
+     2581 ttgaccgtaa gtcgcatggc tctcacctcg attactcacg gaagaaagcg gctgtcggtc
+     2641 agtactcctg tccgaggcga tgtcaggcct ggacctcgat ctgcttgccg cgggtggtgg
+     2701 cacccgtcag taccggcagc cggacttcga ggatcccgtt attgtactgg gcctcgatat
+     2761 cgtcgtcctc gacgttcttt gggaagcgga agcgacggtg gtaggtcttg cgctggctcc
+     2821 gcgtctcatc ctcgtgttcg gcggcgatgt tgaggacacc ctcgtcccag gaaacggtga
+     2881 tctcctcggg atcgaagccc ggcatctcga cgctcaggac gaactcgtcg tcctcctcgt
+     2941 acagttcgta gtcgttgcga ccggtttcga acagtcggct cgggaatccg gagttctgta
+     3001 gccacgaact ggttgaacct gtcggaaggg gcatggctaa tcaccttgac tccagccaaa
+     3061 actatgtccg catttcgtaa aaaattttct atcaaaacac aaatatgtat gtattattac
+     3121 attggtgtgg cgtggcataa acggggtgat ttgttgtcgg aatcgaaagg aatcgatgga
+     3181 tcgagcagcg tagaatatat tttgaaacaa cctgtagttt actcgtatag tgctcgagcg
+     3241 cgatgttctt cgtcgacgaa tcggccagta gtgcaattgc gagctgatcg at
+//

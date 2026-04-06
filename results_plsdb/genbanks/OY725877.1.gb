@@ -1,0 +1,115 @@
+LOCUS       OY725877_1              2567 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Subdoligranulum_variabile | RIP: RepA_N |
+            2,567 bp.
+ACCESSION   OY725877
+VERSION     OY725877.1
+KEYWORDS    .
+SOURCE      Subdoligranulum_variabile
+  ORGANISM  Subdoligranulum_variabile
+            Bacillota; Clostridia; Eubacteriales; Oscillospiraceae;
+            Subdoligranulum.
+FEATURES             Location/Qualifiers
+     source          1..2567
+                     /organism="Subdoligranulum_variabile"
+                     /mol_type="genomic DNA"
+                     /plasmid="OY725877.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RepA_N |
+                     Tier: Tier 4: Phylum-exclusive"
+     CDS             complement(3..163)
+                     /product="Wzz: Chain length determinant protein"
+                     /locus_tag="OY725877.1_orf1"
+                     /translation="MKKWLLIISATVICVAAAFLYFFSLTPKRDTITSRESILNTAISK
+                     GNEWTIAKE"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=Wzz (PF02706.21) E=3.7e-03"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+                     /db_xref="Pfam:PF02706.21"
+     CDS             complement(201..1000)
+                     /product="HTH_3: Helix-turn-helix"
+                     /locus_tag="OY725877.1_orf2"
+                     /translation="MELSIQERLKDLRVERGLTLEQLAEKTHLSKSALGSYEGDNLKDI
+                     SHYALIELAKFYEVTVDYLLGRSQTKNHPNADLADLRLSDDMIELLKSGRVDNSLLCEL
+                     ATHPDFPRLMADLEIYVNGVAGKQVQSANAIVDAVSATIMKQHNPGLTDPQLRQLIAAH
+                     IDDDSFCRYVIQQDINKIAFDLREAHKDDFFSVPEDNPLEDFLQTAEETTREDSDPEQA
+                     AMAFICKRLKLNYGKLSEEEKKWLKKIAQKSDLLKNPKPQRGRK"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="Pfam=HTH_3 (PF01381.29)"
+                     /note="origin_relevant=yes"
+                     /db_xref="Pfam:PF01381.29"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1448..1860
+                     /product="Cys_rich_VLP: Cysteine-rich VLP"
+                     /locus_tag="OY725877.1_orf3"
+                     /translation="MRDNPYKDLPPLERKPDGSLYRMTPAQKKQAASLIRRECCCCEDG
+                     NCIALDDGDTCTCPQTISFSVCCKWFRWAVLPLDGTLEAEIFRDKDLKRCAVCGGVFVP
+                     KSNRAKYCPGCAARVHRRQKTESERKRRSAVDS"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=Cys_rich_VLP (PF14194.13)"
+                     /db_xref="Pfam:PF14194.13"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+     CDS             1973..2367
+                     /product="RepA_N"
+                     /locus_tag="OY725877.1_orf4"
+                     /translation="MTNTIYIHQPEKAFSFTRLPNFLFEAPTFKPLSNEAKVLYAFILR
+                     RTELSRKNGWADDCGRIFLYYPICEVVDLLHCGRQKAVNTLRELQYAGLVEIQKQGCGK
+                     PNRIFPKSYEAVPNTDFKKSRSGTRSD"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 gttcttttgc gatagtccat tcattccctt ttgaaattgc ggtgttcaat atgctttctc
+       61 tgctggtaat ggtatctctt ttgggagtta aactaaagaa atataaaaaa gcggcagcaa
+      121 cgcaaataac agtcgctgaa attatcagta accacttttt cataaccaat acctccatat
+      181 aatctgattt attattctct tacttgcgtc cccgctgcgg ctttggattt ttcagcaaat
+      241 ccgatttctg tgcaatcttt ttcaaccact tcttttcttc ctctgacagt ttcccatagt
+      301 tcagcttgag ccgcttacag ataaatgcca tagccgcctg ctccgggtcg ctgtcctctc
+      361 tggtggtttc ctctgcggtc tgcaaaaaat cttccagagg attgtcctcc gggacgctga
+      421 aaaaatcgtc cttgtgggct tcccgcaggt cgaaggctat cttgtttatg tcctgctgta
+      481 tcacatagcg gcaaaagctg tcatcgtcaa tatgggcggc gataagctgt cgcagctgtg
+      541 ggtcagtcaa gccgggattg tgttgtttca taatcgttgc actcacagcg tccacaatgg
+      601 cgtttgcgct ctgcacctgc tttcccgcta cgccgttcac atagatttca aggtcggcca
+      661 tgagccgggg aaaatccggg tgggtcgcca gttcacacaa gagggaattg tccacccgcc
+      721 cgcttttcaa tagttcaatc atatcgtcgc tcaaacgcag gtctgcaaga tcggcgtttg
+      781 ggtgattttt tgtttgggaa cggcccagca gataatcaac agtcacttcg taaaactttg
+      841 ctaactcaat aagggcgtaa tggctgatgt ccttgagatt atccccctca taactcccta
+      901 aagcggactt ggagaggtgg gttttctccg caagctgttc cagcgtcaga ccgcgttcca
+      961 cacgcaggtc tttcaatcgt tcttgtatgg atagttccat gcgctccccc ccttgtctgc
+     1021 aaatatcatt tttattatac cacaattccg aaagcgtgga aatagcctgt tttttaggcc
+     1081 aatttcctac ctttcggata tacgggacgg gcggtcattt aggtgtagac ttagggtagt
+     1141 tcatcgatgg acagcacctt gaaaacagaa tgaccgtctg aaaagggata ccccggctgg
+     1201 ggaagcaccg caaggagccg gacttcggga caaaatgtcc cgaagctgcg gggagcgtgc
+     1261 ctcgtcgccg caagctgcgt atcattcgct tccgccagat ggcgaaagct cactcgctcc
+     1321 gctgcggctc ctctccccac aaagtctgac gactttgcgg gggcccctgt tgggaacacg
+     1381 ccgcaggaat ggggcaggaa accttttcgg ggaaaacggc aacggaaagc aaaatggagg
+     1441 gaacgcatga gagataaccc ttataaagac ttgccgccgc tggaacgcaa gccggacggt
+     1501 tccctttacc gcatgacacc ggcgcagaag aaacaggcgg ccagcctgat acgccgggag
+     1561 tgctgttgct gtgaggacgg caactgcatt gcccttgacg atggggacac ctgcacctgc
+     1621 ccgcagacga tttctttctc ggtctgctgt aagtggttcc gctgggcggt cttgccgctg
+     1681 gacgggacgc tggaagcgga aattttccgg gataaggact tgaaacgctg tgcggtctgc
+     1741 ggcggtgtgt tcgtccccaa atccaaccgg gcaaaatact gccccggctg tgccgccaga
+     1801 gttcacaggc ggcagaaaac agaaagtgaa cggaaaagga ggtctgctgt ggacagttag
+     1861 gagcggaaaa agccttgatt tataaggctt tgcaagcccc aaaccggggc aggtggtata
+     1921 aagtatcgcc caccccggaa aaagggcttc taaccgtcca caaaacacga tatgacaaac
+     1981 acgatttaca ttcatcagcc ggaaaaggcg ttcagcttca cccggctccc gaatttcctc
+     2041 tttgaagccc ccacattcaa gcccctgtcc aacgaggcaa aggttctgta cgcctttatc
+     2101 ctgcgccgga cagagttatc ccgcaagaat gggtgggcgg atgactgcgg acggattttc
+     2161 ctgtattacc ctatctgtga agtggttgac ctgctccact gtgggcggca gaaagctgtg
+     2221 aacaccctgc gggaactgca atatgccgga ctggtggaga tccagaagca gggctgtggc
+     2281 aaacccaacc gcattttccc aaaatcctat gaagcggttc caaacaccga cttcaagaaa
+     2341 tcccgttctg gtacgcggtc ggactgaaaa ccgtaccctt gaagtacgga aatcaatctt
+     2401 gagaagtacg aaaaccagac ggtatataga aatacaaaga ttaaaatgat tgatttatat
+     2461 ccattccatt cctatcgtat cagagataat tccggcggga ttttccctat ggaaaacccc
+     2521 ggataggaaa ggaatgggga aaggagcaga atggcacaac acgcaat
+//

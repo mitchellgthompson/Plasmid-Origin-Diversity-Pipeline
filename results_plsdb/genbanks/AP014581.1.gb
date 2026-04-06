@@ -1,0 +1,63 @@
+LOCUS       AP014581_1              1602 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Burkholderia_sp._RPE67 | RIP: Rep3_C | 1,602
+            bp.
+ACCESSION   AP014581
+VERSION     AP014581.1
+KEYWORDS    .
+SOURCE      Burkholderia_sp._RPE67
+  ORGANISM  Burkholderia_sp._RPE67
+            Pseudomonadota; Betaproteobacteria; Burkholderiales;
+            Burkholderiaceae; Burkholderia.
+FEATURES             Location/Qualifiers
+     source          1..1602
+                     /organism="Burkholderia_sp._RPE67"
+                     /mol_type="genomic DNA"
+                     /plasmid="AP014581.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Rep3_C |
+                     Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..1402
+                     /product="repM_Acin"
+                     /locus_tag="AP014581.1_orf2"
+                     /translation="MLAERQGLSLELRKHVGTVHVGGALGLLDRKLVNVLLANAYDNLL
+                     KEQVHRIPVALLSEMLGFDSKNTAALKKSLKQIATTPVEFDLLNAGDDAPWGVTTMLSA
+                     ADIRDGICTYEYSRALSQRLANPDVYLIVNVGMQKRFNGKFALALWENCLRFKRTGSTG
+                     WIPVEIWRKLLNAEASVYDTFKHFNRDVIGRAVTEVNAVSNILVQPEYQRESRKVTKIR
+                     FLVEENPQKSMYDNADSEDVQRLKESELYARLRALNIADRLAVAWLQEDQEKVARAVDY
+                     VERQLKNKRNIKNAGGYMRAVWESGNDVTDVDVARTGQQPTAVNLSAPVEVETPPELRI
+                     FERPELDTFVAAYAANGGSVSSYRSGRFASIREKLLFGQWLVDQHSITRWKLNEDESSN
+                     L"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 ccacaaaccc cgacctttcg gtaagtcttg gctcgttgca atgacagccc ccagctttgg
+       61 ccccgttcga agcgtaaaag gtcgggattt gtcattgaga tctcgacctt cccgctctaa
+      121 aatcaccgac gagcgacaac gaacctgacg gcccgtggcg accaatacca gcaaaaagcg
+      181 actaccaagc acattgaaca tgctcgccga acggcagggg ctgtcactgg agctgcgcaa
+      241 acacgtcggg accgtacacg tcggtggtgc cctcggtttg ttagaccgca aattggtcaa
+      301 cgtgctattg gccaacgctt acgataacct tcttaaagaa caggttcatc gcattcccgt
+      361 tgctctcttg agcgaaatgc tggggttcga ttcgaagaac accgctgcgc taaagaagtc
+      421 ccttaagcag atagcgacga caccggtcga gttcgatctg ctgaacgcgg gcgacgacgc
+      481 gccgtggggc gtgacgacga tgctgagcgc ggccgatata cgtgatggca tttgcacgta
+      541 tgagtacagt agggctcttt ctcaaagact tgccaacccg gacgtgtatt tgatcgtgaa
+      601 cgttgggatg cagaagcgtt tcaacgggaa gtttgcgttg gcgctgtggg agaactgcct
+      661 acgattcaaa aggaccggat cgactggttg gatcccggtc gaaatatgga gaaagctgct
+      721 caacgccgag gcgagcgttt acgacacctt caagcacttc aatcgcgacg tcatcgggcg
+      781 agcagtgacc gaggtgaacg cagtgtcgaa catccttgta cagccggaat accagcggga
+      841 gagcaggaaa gtcacaaaga tccggttcct ggtcgaagag aatccgcaga agtcaatgta
+      901 cgacaacgct gactccgaag acgttcagcg actgaaggag tcggagcttt atgcgcgact
+      961 acgcgcgctg aacatcgctg atcgccttgc cgttgcttgg ctgcaagaag atcaagagaa
+     1021 agttgcgcgg gccgttgatt acgtcgaaag acaactcaaa aacaagcgaa acataaaaaa
+     1081 cgccggcggg tacatgcgtg cagtatggga gagcggaaac gacgtgacgg acgtcgatgt
+     1141 cgcgagaacc gggcaacagc cgactgccgt taatttgagc gcgcccgtgg aagtcgagac
+     1201 accaccggaa ctccgcatat tcgaacgtcc agagctggac acgttcgtcg ctgcgtacgc
+     1261 cgctaacggc ggttcggtat cgtcgtatag gtcgggacgt ttcgcatcca tcagagaaaa
+     1321 gctgctattc ggacagtggc tggttgacca acacagcatt actcggtgga agctcaacga
+     1381 ggacgagtcg tccaatctct agcctgcaac attggtagct agaacttgcg gcggcggtga
+     1441 tttctcttag gcgaatccaa cgggcattat cactgataat tcactttgcg cgagtgagtt
+     1501 cgcgctaagt cactgattgt aaatgagaaa aaagaaaaac gcgactgtga caaatggtaa
+     1561 ccttttgctc gattgtcaca ctcttgtgtc gtcgcaacgg ga
+//

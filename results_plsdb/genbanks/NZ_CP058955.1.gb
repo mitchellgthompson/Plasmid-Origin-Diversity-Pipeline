@@ -1,0 +1,84 @@
+LOCUS       NZ_CP058955_1           2182 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Limosilactobacillus_mucosae | RIP: RepA_N |
+            2,182 bp.
+ACCESSION   NZ_CP058955
+VERSION     NZ_CP058955.1
+KEYWORDS    .
+SOURCE      Limosilactobacillus_mucosae
+  ORGANISM  Limosilactobacillus_mucosae
+            Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+            Limosilactobacillus.
+FEATURES             Location/Qualifiers
+     source          1..2182
+                     /organism="Limosilactobacillus_mucosae"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP058955.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RepA_N |
+                     Tier: Tier 4: Phylum-exclusive"
+     CDS             201..1735
+                     /product="RepA_N"
+                     /locus_tag="NZ_CP058955.1_orf1"
+                     /translation="MTSKFVKVELDLLQNDNYRKLDGNSMLMYSLYRSRLDGSIRNAQN
+                     GNPRFIDSNGQPFIYFTNDEMADLLHTSRHTVTNARKKLIKFGLIHVERTGMSEYRVYV
+                     NNYVRSAKCEHRENTQNSYQTSSYQQFTRSTESERRNVQNVNTSKTKLLHNYLDNVDSI
+                     DSSAKNREEKIQNEAINIASAKSDDTHQPTAADDQKTKPSNEPVEERSLGLVDDNDLDF
+                     AFALYRSQFGHLTNYTARYLESLQKQFGARMLSCAIKLSKRYSISNPPAYIAQILYTDR
+                     ANGITNLDDMVYDHLKAAEFLDASFSTMNQNRKKFRIMTQEMLSQFRSAPKIPILKLPE
+                     DDAPSPAQSHAASESEYEFREVPIMPSKQNWQSSNPVDANSSNFTCNFDRNAQTSNAMN
+                     DAITQPSAQNNQFADYPVDWLTKRIANEKNVPQSNDAQQRIVEKAIGQTAAEFMDAYPK
+                     AAPDDKRRFASSANTEQQSPSSEHEKFQPPFSLKDFKKQIFGFKQNGLNPGMA"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1983..2182
+                     /product="hypothetical protein (67 aa)"
+                     /locus_tag="NZ_CP058955.1_orf2"
+                     /translation="MVLIMLTNDPDEMIDLAKRLRPEILHVAGDGYTADEEFAKRLKEV
+                     APDTELMQAVLVDGKGAIERVK"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 ctataatgta aagattgaat gtaaagattg agatatccag tttgatttat tttttaatgt
+       61 agtcacatta tagcattatt gagtgcgttc atcaaaggca attggcttgg tcgcatgact
+      121 tttgcgaatt gctgaaagtg cttgagtgtt tttgagatag tctctttcac tgccgctggt
+      181 aaggaaggag atttttttta tgacttcaaa atttgttaaa gtcgagctgg acctgctcca
+      241 aaatgacaac tatcgaaaac tcgatggcaa ttcaatgctg atgtattctc tctaccgctc
+      301 acggcttgat ggctcaatcc gcaacgcgca aaacggcaac ccacgcttca tcgatagcaa
+      361 cggccagcca tttatctact tcaccaacga tgagatggcc gacttgctgc acacgtctcg
+      421 ccataccgtg accaacgctc ggaaaaagct gatcaagttt ggtctgattc atgttgaacg
+      481 aaccggaatg agtgaatatc gggtgtatgt caacaattac gtgcggagtg caaaatgtga
+      541 acaccgcgaa aacacccaaa acagctatca aacctcgtca tatcaacaat tcacccggag
+      601 tacagaatct gaacgccgta acgtgcaaaa tgtgaacaca agtaagacaa agctattaca
+      661 taactatcta gacaacgtag attcgattga ttcctccgcg aaaaatcgcg aggaaaaaat
+      721 tcaaaacgaa gccatcaaca tcgcgtccgc aaaatctgac gacacgcacc agccaacagc
+      781 cgctgatgat caaaaaacga agccatcgaa tgagccggtt gaagaacgct ctttaggact
+      841 cgttgacgat aatgatctgg acttcgcgtt cgccctgtat cgttcgcagt ttgggcatct
+      901 taccaactac acggctcgtt atctggaaag tctgcagaag cagtttggcg ccagaatgct
+      961 gagctgtgcc atcaaactca gcaaaagata ttcaatcagc aatccaccgg cctatatcgc
+     1021 ccagattctc tacacggatc gcgccaatgg catcaccaat ctggacgaca tggtctatga
+     1081 tcatctcaag gctgctgaat tcctggacgc aagcttttcg actatgaacc agaatcgcaa
+     1141 gaaattccgg atcatgacgc aggagatgct tagccagttc cgcagcgcgc ctaagattcc
+     1201 aattctcaaa ctgccggaag acgacgcgcc aagtcccgca caaagccatg cagcatctga
+     1261 atcagaatac gagttccgtg aagtgccgat catgccgtca aagcagaatt ggcagtccag
+     1321 caatcccgtt gacgcaaaca gctcaaattt cacgtgtaac tttgatcgga acgctcagac
+     1381 atctaacgcg atgaacgatg ccattaccca gccaagcgct caaaacaatc aatttgccga
+     1441 ctatccggta gactggctga cgaagcggat cgccaacgaa aaaaacgtgc cgcaatccaa
+     1501 cgacgctcaa cagcgaatcg tggaaaaggc cattgggcag accgcggctg aatttatgga
+     1561 cgcctatcct aaagccgcgc cagatgacaa gcgtcgtttc gcgtcatcag caaacacgga
+     1621 gcagcagtcg ccaagttcag agcatgagaa attccagccg ccattttcgc ttaaggattt
+     1681 caaaaagcag attttcggct tcaagcaaaa cggtctcaat ccgggaatgg cataggtaaa
+     1741 aatcggcaat aaaattctcg tcgggcgact agaccagtgg acgcttactg aacgtggagc
+     1801 gacggtactc ggaactgatc agcgagctgt cccaggagta tcatgtctat cgcaacacca
+     1861 tggcgacctt gtacaagaag accaatgctc agtcggtggg tgcatctcga gtcgacatcg
+     1921 gctggtaccg ctgtaccggg ttgaccagat tcatgaagaa tgtcggctgc gcggagccaa
+     1981 gatggttctg atcatgctga cgaacgatcc agatgagatg atcgacctgg ccaagcgcct
+     2041 gcggccagag attctgcacg tggcagggga tggctacacg gctgacgagg aattcgccaa
+     2101 gcgtttgaaa gaagtcgctc ctgacactga actgatgcag gcagtgctgg ttgatggcaa
+     2161 gggagccatt gagcgcgtca ag
+//

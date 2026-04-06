@@ -1,0 +1,90 @@
+LOCUS       NZ_CP040905_1           1623 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Enterococcus_faecium | RIP: MobT | 1,623 bp.
+ACCESSION   NZ_CP040905
+VERSION     NZ_CP040905.1
+KEYWORDS    .
+SOURCE      Enterococcus_faecium
+  ORGANISM  Enterococcus_faecium
+            Bacillota; Bacilli; Lactobacillales; Enterococcaceae; Enterococcus.
+FEATURES             Location/Qualifiers
+     source          1..1623
+                     /organism="Enterococcus_faecium"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP040905.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: MobT |
+                     Tier: Tier 5: Diversity fill"
+     CDS             1..41
+                     /product="FtsK_SpoIIIE: FtsK/SpoIIIE family"
+                     /locus_tag="NZ_CP040905.1_orf2"
+                     /translation="MKTIQQINWQDLDLLQVDKIDIPYLVISFSVAILVCLLGAFIFRR
+                     YKYDMFKQLQHRQKLAKMILENKWYESEQVKTDGFFKDSTSRTKEKITYFPKMYYRLKD
+                     GLISIRVEIMLGKYQDQLLHLEKKLESGLYCELTDKELKDSYVEYTLLYDTIANRLSID
+                     EVQAKDGKLRLMTNVWWEYDKLPHMLIAGGTGGGKTYFILTLIEALLHTNSKLTILDPK
+                     NADLADLGSVMGNVYYRKDDMLSCIDRFYDEMMKRSEVMKKMENYKTGENYAYLGLPAH
+                     FLIFDEYVAFMEMLGTKENTAVLNKLKQIVMLGRQAGFFLILACQRPDAKYLGDGIRDQ
+                     FNFRVALGRMSEMGYGMMFGSDVQKDFFLKQIKGRGYVDVGTSVISEFYTPLVPKGHDF
+                     LEEIKRLSHSKQDTQATCEAEVAGVD"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=FtsK_SpoIIIE (PF01580.25)"
+                     /db_xref="Pfam:PF01580.25"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+     CDS             201..1423
+                     /product="MobT"
+                     /locus_tag="NZ_CP040905.1_orf3"
+                     /translation="MTYAFLIGGISLNEQTWVQHLKEKRLSYGLSQNRLAIATGITRQY
+                     LSDIETGKVKPSEDLQQSLWEALERFNPDAPLEMLFDYVRIRFPTTDVQHVVEDVLRLK
+                     LSYFLHEDYGFYSYSEHYALGDIFVLCSHELDKGVLVELKGRGCRQFESYLLAQQRSWY
+                     EFFMDVLVAGGVMKRLDLAINDKTGILNIPVLTEKCQQEECISVFRSFKSYRSGELVRK
+                     EEKECMGNTLYIGSLQSEVYFCIYEKDYEQYKKNDIPIEDAEVKNRFEIRLKNERAYYA
+                     VRDLLVYDNPEHTAFKIINRYIRFVDKDDSKPRSDWKLNEEWAWFIGNNRERLKLTTKP
+                     EPYSFQRTLNWLSHQVAPTLKVAIKLDEINQTQVVKDILDHAKLTDRHKQILKQQSVKE
+                     QDVITTKK"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1467..1621
+                     /product="hypothetical protein (52 aa)"
+                     /locus_tag="NZ_CP040905.1_orf4"
+                     /translation="MNFGQNLYNWFLSNAQSLVLLAIVVIGLYLGFKREFSKLIGFLII
+                     AIIAVGL"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 cgcaggcgac gtgcgaagcg gaagtcgcag gtgtggactg atcttgctgg ctggtgtggc
+       61 aatagccacg ccagcactta accccccgta tctaacaggg gggtacaaat cgacaggaaa
+      121 caggcaaaaa aatagtagaa aatcctttgg ttacaaggga tttagaaaat ttcggtgtat
+      181 gtcaaatgag ctttaaaagt tgacatacgc ctttttgatt ggaggaattt cactgaatga
+      241 acaaacttgg gtacagcatt taaaggaaaa acgcttatct tatggacttt ctcaaaaccg
+      301 actggctatt gctacaggca ttacaaggca atatcttagc gacattgaaa ctggcaaggt
+      361 caagccatca gaggatttac agcagtccct ttgggaagct ctggaacgct tcaatcccga
+      421 cgctcccctt gaaatgctgt ttgattatgt aaggattcgg tttccaacaa cagacgtaca
+      481 gcatgtggtc gaggacgttt tacgattgaa actttcctat tttcttcatg aggactatgg
+      541 tttctattct tattcagagc attatgcttt aggcgacata ttcgtccttt gctcccatga
+      601 actggacaaa ggagttctgg tggaattgaa aggtcgtggg tgcagacaat ttgaaagcta
+      661 tcttctggca caacaaagaa gctggtatga gttctttatg gacgttttgg tggctggcgg
+      721 tgtgatgaaa cgccttgacc ttgccattaa cgataagaca gggattttga atatccctgt
+      781 actcactgaa aagtgccaac aggaagaatg tatctccgtc ttccgcagtt ttaaaagcta
+      841 tcgcagtggc gaactggtac gcaaagagga aaaggaatgt atgggaaaca ccctctatat
+      901 cggttcatta caaagtgaag tttatttctg tatctatgaa aaggactacg agcagtacaa
+      961 gaaaaatgat attcccattg aagacgcaga agtaaaaaac cgttttgaga ttcgattgaa
+     1021 aaatgagcgt gcctattatg cagtccgtga tttactcgtc tatgacaatc cagagcatac
+     1081 cgcctttaaa attatcaatc ggtatatccg ttttgtagat aaagacgatt ccaaacctcg
+     1141 ttctgattgg aaactgaatg aagaatgggc ttggtttatt gggaacaatc gtgaacgatt
+     1201 aaaactaacc acaaaaccag agccttactc cttccaaagg acgctgaact ggctatctca
+     1261 tcaagttgcc ccgaccttaa aggttgcgat taaacttgat gaaatcaacc agacgcaggt
+     1321 tgtaaaagac attctcgacc atgcgaaact gacagaccga cacaagcaga ttttgaagca
+     1381 acagtcagta aaagaacagg acgtgataac aacaaaaaaa taactcaaat acaaattcat
+     1441 tgaatataga gaggagaaca tttttatgaa ttttggacaa aacctttata actggtttct
+     1501 atcaaacgct caatcactgg tgcttttagc aatcgttgtg attggcttgt atcttggctt
+     1561 caagcgtgag tttagcaaac tgattggctt tttaattatt gcgattattg cggttggctt
+     1621 agt
+//

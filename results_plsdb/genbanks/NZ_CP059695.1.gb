@@ -1,0 +1,94 @@
+LOCUS       NZ_CP059695_1           1658 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Gordonia_rubripertincta | RIP:
+            rep_init_RepSA | 1,658 bp.
+ACCESSION   NZ_CP059695
+VERSION     NZ_CP059695.1
+KEYWORDS    .
+SOURCE      Gordonia_rubripertincta
+  ORGANISM  Gordonia_rubripertincta
+            Actinomycetota; Actinomycetes; Mycobacteriales; Gordoniaceae;
+            Gordonia.
+FEATURES             Location/Qualifiers
+     source          1..1658
+                     /organism="Gordonia_rubripertincta"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP059695.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     rep_init_RepSA | Tier: Tier 4: Phylum-exclusive"
+     CDS             complement(40..203)
+                     /product="hypothetical protein (54 aa)"
+                     /locus_tag="NZ_CP059695.1_orf1"
+                     /translation="MTAPATDDRASAQVPRRDEEEFRVWLTESCARQGVPLTITDPTII
+                     NQVAVLLKH"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(201..598)
+                     /product="rep_init_RepSA"
+                     /locus_tag="NZ_CP059695.1_orf2"
+                     /translation="MSPHIRQIWRTLHDLADQQPDEYAAMVRWLHTLGYRGHVTTKSRR
+                     YSTTLGHLRQIRALWRQQQTPADNADESTSHQDDTDAIGERNCDPWEFAGTGHLTHGDY
+                     QLTLAAAHQHLEQLWARRDNSVPPGGPP"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(596..1458)
+                     /product="rep_init_RepSA"
+                     /locus_tag="NZ_CP059695.1_orf3"
+                     /translation="MPSLSSPVLLPTPAADLDAATVREMLRRAGGQHYLRWAARVRATC
+                     YCLHPIHLHRRHGLVAADRFTIRCGNRRAAVCISCSRLYAADTWQLVHAGIVGGHHNIP
+                     DTITAHPQVFLTLTAPSFGQVHPPEHRTRGGQPRRPGTYDYRGHVLFSWWAPTLWQRFT
+                     MRLRRLLAAQLTTLGLPKDTVRLSFLKVHENQTRLIPHYHAVIRLDRPDTTRRQCDAVD
+                     FPVSSSELAALAVEAARWTRQSRSGSVARSPDTSPSTSPNQSPIQGSAHAPSAQPPATT
+                     RPSRPK"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1472..1656)
+                     /product="hypothetical protein (61 aa)"
+                     /locus_tag="NZ_CP059695.1_orf4"
+                     /translation="LGPAAADRGGPAHQIPDDLPGVGYLALDGAAAPILVRAFHYTDRH
+                     IDDLVRRYGRAADDAK"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 agcggtgact tgccctcgac gattgtggtc cagcccagtc agtgtttgag gaggacagcg
+       61 acctggttga tgatggtggg gtcggtgatg gtcagtggga ctccttggcg tgcacaggat
+      121 tcggttagcc agacacggaa ttcctcctca tcacggcggg gcacctgcgc cgaagcgcgg
+      181 tcgtcggtgg cgggcgcggt catggcggtc cacccggcgg gacggagtta tcgcggcgtg
+      241 cccagagttg ttcgaggtgt tggtgcgcgg cggctagtgt gagttggtag tcaccgtggg
+      301 tgagatgtcc tgtgcccgcg aattcccatg gatcacaatt tctctcaccg atagcgtcgg
+      361 tgtcgtcttg gtggctggtg ctctcgtctg cgttgtcggc cggagtctgc tgctggcgcc
+      421 agagggcacg aatctggcgc aggtgtccaa gggtggtgga gtagcggcgg gactttgtgg
+      481 tgacgtgccc gcggtagccg agggtgtgca gccaccggac catcgctgcg tattcgtcgg
+      541 gctgctgatc ggcgaggtcg tgcagggtgc gccagatctg gcggatgtgc gggctcactt
+      601 gggtcgcgat ggtcgggtcg tcgcaggcgg ctgggctgat ggggcgtggg ctgatccctg
+      661 tatcggtgac tgatttggtg acgtacttgg cgaggtatcc ggcgatcttg cgacgctgcc
+      721 ggaccgggat tgacgagtcc agcgggcggc ttcgacggcg agtgcggcaa gttcgctgct
+      781 gctgaccggg aaatcgactg cgtcgcattg ccttctggtg gtgtcggggc ggtcgaggcg
+      841 gatgaccgcg tggtagtgcg gaatgagtcg agtctggttc tcgtgcacct tcaggaatga
+      901 cagccgcaca gtatctttcg gcaaccccaa cgtcgtcagc tgagcggcca gcagtctccg
+      961 taggcgcatg gtgaagcgtt gccacagggt cggcgcccac cagctgaaca gcacatgccc
+     1021 gcggtagtcg taggtgccgg ggcggcgggg ctgcccgccg cgggtgcggt gctcaggagg
+     1081 gtgcacctgc ccaaacgagg gtgcggtcaa cgtcaggaac acttgggggt gggcggtgat
+     1141 cgtgtcgggg atgttgtggt gcccgccgac aatgccggcg tgcaccagtt gccaggtgtc
+     1201 tgcggcatat aggcgcgagc aggagatgca gacagcggca cggcggttgc cgcagcggat
+     1261 ggtgaaccgg tcagcggcga ccaggccgtg gcggcggtgc aagtgaatcg ggtgcaggca
+     1321 gtagcaggtc gcccgaaccc gtgctgccca ccgcaggtag tgctgaccgc cggcgcggcg
+     1381 cagcatttcc cgcacggtgg cggcgtccaa gtccgctgcc ggtgtgggca gcagtacggg
+     1441 tgacgatagt gacggcactg tcccgatctc ctatttggcg tcgtcggcgg cgcggccgta
+     1501 gcggcggacc aggtcgtcga tgtgacggtc ggtgtagtgg aaggcacgca ccaggattgg
+     1561 tgcggcggca ccatcaaggg ccaggtagcc gaccccgggc agatcgtccg gaatctgatg
+     1621 cgccggcccg ccgcggtcag ccgcggctgg acccagga
+//

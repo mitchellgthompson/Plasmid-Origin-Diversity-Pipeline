@@ -1,0 +1,127 @@
+LOCUS       NZ_CP095244_1           2527 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Klebsiella_pneumoniae | RIP: Phg_2220_C |
+            2,527 bp.
+ACCESSION   NZ_CP095244
+VERSION     NZ_CP095244.1
+KEYWORDS    .
+SOURCE      Klebsiella_pneumoniae
+  ORGANISM  Klebsiella_pneumoniae
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Klebsiella.
+FEATURES             Location/Qualifiers
+     source          1..2527
+                     /organism="Klebsiella_pneumoniae"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP095244.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Phg_2220_C
+                     | Tier: Tier 5: Diversity fill"
+     CDS             complement(3..190)
+                     /product="hypothetical protein (63 aa)"
+                     /locus_tag="NZ_CP095244.1_orf1"
+                     /translation="MKLTLPFPPSVNSYWRAPSKGPLKGRHLVSETGRKFQQAARAAII
+                     EQLRAVPRPSSDLAEVHI"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(201..994)
+                     /product="MethyltransfD12: D12 class N6 adenine-specific
+                     DNA methyltransferase"
+                     /locus_tag="NZ_CP095244.1_orf2"
+                     /translation="MKWAGGKYTQLADLFVHIPAGKRLIEPFVGGGAVFLNSDKHADYL
+                     LADVNPDLINLYQMLAVVPDEVELKARWMFEHMRSPDGYELIRSEFNAQTLDATERAAA
+                     FLYLNRHCFNGLMRYNQANKFNVGWGGYKAPYYPMDEMKAFAAMAHNCVFMTADYRRTI
+                     SLAGKGDVVYCDPPYEPMPGTTGFTAYAAGGFSWENQVDLAKQCVSAFHRGARVVISNS
+                     SAPKVLDLYREHGFNLQFIKARRSISCKSSTREVAKDVVAIL"
+                     /codon_start=1
+                     /function="mobilization"
+                     /note="category=mobilization; color=#2E7D32"
+                     /note="Pfam=MethyltransfD12 (PF02086.22)"
+                     /db_xref="Pfam:PF02086.22"
+                     /ApEinfo_fwdcolor="#2E7D32"
+                     /ApEinfo_revcolor="#2E7D32"
+     CDS             complement(1007..1920)
+                     /product="Phg_2220_C"
+                     /locus_tag="NZ_CP095244.1_orf3"
+                     /translation="MSLLMPSRPIVINPDLAYSIGLNEAIALQQLNYWLQETNSGLERD
+                     GVRWIYNTTEQWLEQFPFWSKSTLKRTFSRLKSLGVLKVEKLNKSQRDMTNYYTINYES
+                     ELLDEVKVTKSKKSKCTVPSGQNDTMEEVNVKRSTGSKRTAVIRSNWHDDLTENTTEST
+                     TEITGKDSCPVALQPDQTDPADLVLDHFNRVTNSTYGKGGRTKTTLGYIRGRLAEDYSP
+                     EDLMLVVDYLNAKWAQDPKMSDYLRPKTLFAPENCVEYFDKAKKWEAAGRPAWTGGKWV
+                     KQDTAFKSSYSDVDYSVPAGFRS"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1878..2089)
+                     /product="DUF4222: Domain of unknown function (DUF4222)"
+                     /locus_tag="NZ_CP095244.1_orf4"
+                     /translation="MRELNRWFRDHYGVPVRVIRWEPQTQRVIYLREGYKHECFSPLEQ
+                     FRRKFREIEGSYEPVNAIKADSHQS"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=DUF4222 (PF13973.13) E=5.9e-18"
+                     /db_xref="Pfam:PF13973.13"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+     CDS             complement(2328..2527)
+                     /product="Phage_CP76: Phage regulatory protein CII (CP76)"
+                     /locus_tag="NZ_CP095244.1_orf5"
+                     /translation="RVDLFSRAMRTSAARGQVDQIIEQALEDGVIERHEAEEIMVHHRR
+                     HLAAREEEIAAIITLFSRKKK"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=Phage_CP76 (PF06892.17)"
+                     /db_xref="Pfam:PF06892.17"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+ORIGIN
+        1 cgatgtgaac ctcggccaga tcagaggatg gccggggaac ggcccgcagt tgctcaataa
+       61 tcgccgctct cgctgcctgc tggaacttgc gccctgtctc gcttaccaga tgcctgcctt
+      121 tcagcggtcc cttgctcggg gcgcgccagt aactatttac gctcggtgga aatggtaaag
+      181 tcagtttcat ttagccccct taaaggatcg ctacaacgtc ttttgcgact tcccgcgtac
+      241 tgcttttgca ggagatcgaa cggcgcgctt tgatgaattg caggttaaaa ccatgctccc
+      301 ggtacaggtc gagaaccttc ggtgcagatg agttagaaat cactacccga gccccacggt
+      361 gaaaggcaga tacacattgc ttcgccaggt ctacctggtt ctcccagcta aaaccaccag
+      421 cagcataggc ggtgaatccg gttgttcccg gcatcggttc gtaaggcgga tcgcagtaaa
+      481 ccacatcccc tttcccggcc aggctgattg tccgacggta atcagcggtc atgaagacgc
+      541 agttatgcgc catagccgcg aaggctttca tctcatccat cgggtaatac ggagccttgt
+      601 agcctcccca gcccacattg aacttgttcg cctggttgta gcgcatcagg ccattgaagc
+      661 aatgccggtt gagatacagg aatgcagctg cgcgttcagt agcatccagc gtctgagcgt
+      721 tgaactcgga acggatcagc tcatagccat ctggtgaccg catgtgctca aacatccagc
+      781 gggcctttaa ttccacttca tccggcacca ccgctaacat ctgatacaga ttaatcaggt
+      841 ccgggttaac gtccgccagc aggtaatctg cgtgcttatc gctgttcagg aataccgccc
+      901 caccaccaac gaatggctct atcaggcgtt tccctgccgg gatatgcacg aacaggtcag
+      961 ccagctgggt atactttcca ccagcccatt tcataaatgg cttgctcatg aacggaaccc
+     1021 cgctggcact gaataatcca cgtcggaata actggacttg aacgccgtgt cttgtttaac
+     1081 ccactttccg ccagtccagg ctgggcgccc ggctgcttcc cattttttgg ccttgtcgaa
+     1141 atactcgacg cagttctcgg gagcaaacag cgttttgggc cgcaggtagt cgctcatctt
+     1201 cggatcctga gcccatttcg cgttcaggta gtcaaccacc agcatcaggt cttcagggct
+     1261 gtaatcttcg gcaagccgtc cccggatata acccagcgtc gttttggttc gccccccctt
+     1321 gccataggtc gagttggtta cccgattgaa atgatccaga acgagatctg ccggatctgt
+     1381 ctggtctggt tgcagcgcaa ccggacaaga gtctttacct gtaatctctg tagtactctc
+     1441 tgttgtattc tctgtaagat catcgtgcca atttgacctg atgacagcgg ttcgttttga
+     1501 cccggtggag cgtttcacat tgacctcttc catcgtgtca ttttgacctg atggaacggt
+     1561 gcattttgac ttcttcgatt tggtcacttt gacctcatct aaaagctcgc tctcgtagtt
+     1621 gatcgtgtag tagttcgtca tgtcgcgctg ggacttgttc aacttctcaa ctttaagcac
+     1681 gcccaggctc ttaaggcggg agaatgtgcg cttcagcgtc gacttagacc agaaggggaa
+     1741 ttgctccagc cattgctctg tcgtgttgta gatccagcgt acgccgtcac gctccagccc
+     1801 tgagttagtc tcctgcagcc agtagttaag ctgctgcagc gcaatggctt cattcaggcc
+     1861 tatgctgtac gcaaggtcag gattgatgac tatcggcctt gatggcatta acaggctcat
+     1921 aagacccctc tatttccctg aattttcgtc tgaactgctc gagggggctg aaacactcgt
+     1981 gcttataccc ttcgcgcagg tatataacgc gctgtgtttg gggctcccag cgtatgaccc
+     2041 tgaccgggac gccgtagtga tctctgaacc atcggttaag ttctcgcata ctttctccgc
+     2101 ctggccgtta aagtccccta ccacccactg agcaaactgg tagcagacag gttcgaatcc
+     2161 gcctggtact cttaccccat acacgaactg caccggccct gctccaccag gaactggccg
+     2221 cgctacaagt tgcgacctgc ggtattgtgt tgataaactg ttcatgcgtt agtaatctcc
+     2281 actgataacg acacgccacg acgccaggag ctgcaactcg ctggcgtcac ttctttttgc
+     2341 gtgaaaaaag cgtgatgatt gcggcaatct cttcttcacg agctgccagg tggcggcggt
+     2401 gatgcaccat gatttcttcg gcctcatgcc tttcaataac gccatcttca agtgcctgtt
+     2461 cgataatctg atcaacctgc cctctggcgg cagaggtacg cattgcccgg ctaaacaagt
+     2521 ccacgcg
+//

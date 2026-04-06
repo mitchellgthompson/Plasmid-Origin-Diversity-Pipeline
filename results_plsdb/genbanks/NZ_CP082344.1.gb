@@ -1,0 +1,56 @@
+LOCUS       NZ_CP082344_1           1266 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Pantoea_dispersa | RIP: incFII_RepA | 1,266
+            bp.
+ACCESSION   NZ_CP082344
+VERSION     NZ_CP082344.1
+KEYWORDS    .
+SOURCE      Pantoea_dispersa
+  ORGANISM  Pantoea_dispersa
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales; Erwiniaceae;
+            Pantoea.
+FEATURES             Location/Qualifiers
+     source          1..1266
+                     /organism="Pantoea_dispersa"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP082344.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     incFII_RepA | Tier: Tier 5: Diversity fill"
+     CDS             201..1066
+                     /product="incFII_RepA"
+                     /locus_tag="NZ_CP082344.1_orf1"
+                     /translation="MTEQVSENTSYYRQVKNPNPEFIPEKGKDTLPFCEKIREKAAGFT
+                     RRMEFQTLVAMSIARGERKRRPPELRMRALEASLQALCHYFNPLANRVGASLTTMSIRC
+                     GLATEKKRLSITRFTGAVQFMAQLKLLTYNTEYDKEIGCNIPTDITFTPLMWQVLDVSE
+                     EAVAAARRSRIQWENRKRKKKGLPSADADELINAAWAFVRERFREDQKSRREHGMKRHR
+                     ARKDAPRTRKEIEQLVRLQIQKEIRNGRFFGGLDAVRAEIGRRVTERMKLSRGHYARLS
+                     DDLLVTT"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 ggtactgact gattagttaa ggccagaaaa aacgaaaccc cgataatctt cctcagtttg
+       61 gcgactcagg cgaagactaa cggggctcac ttattctgca tagaagctgt tgctctatgc
+      121 ggggagtata gattcatgcc cgaaaaactg caataccctc ggtgcgtact ccttctgtgc
+      181 aacataagcg caggaaggcg tgactgaaca ggtatctgaa aacacttcat attaccggca
+      241 ggtaaagaat ccgaatccgg aattcattcc ggaaaaaggc aaagatacgc tgccgttctg
+      301 cgaaaaaatc cgtgaaaagg cggccggctt tacgcgtcgc atggagttcc agacgctcgt
+      361 agcgatgtcg atcgcccggg gtgagcgcaa acgccgtcca ccggagctgc gcatgcgtgc
+      421 tctggaagcc tcgctgcagg cgctttgcca ctacttcaat ccgctggcca accgcgtggg
+      481 cgcttcgctc accaccatga gcatccgctg cgggctggcc accgagaaga aacgtctctc
+      541 gatcacccga tttaccggcg ccgtgcagtt catggcccag cttaaactcc tcacctacaa
+      601 caccgaatac gataaagaga tcggctgcaa tatcccgacc gacatcacct ttacgccgct
+      661 gatgtggcag gtgctggatg tctccgagga agcggtcgcc gccgcccgcc gcagccgcat
+      721 tcagtgggaa aaccgtaagc gcaagaagaa aggtctgccg agcgccgatg ccgacgaact
+      781 catcaatgcc gcctgggcgt ttgtgcgcga acgcttccgc gaagaccaga agtcgcgccg
+      841 tgaacatggc atgaagcgtc atcgcgcccg gaaggatgcg ccacgtaccc ggaaagagat
+      901 cgagcagctg gttcgcctgc agatccagaa agaaatccgt aacggccgct tctttggcgg
+      961 gctcgatgcg gttcgcgcgg agataggtcg tcgcgttacg gaacgcatga agctctcgcg
+     1021 tggccattat gcgaggctgt ctgacgatct gcttgtcaca acctgacggc tgctgatacc
+     1081 cggctgaatc atctggcgca cagcgccggc tttgccctgc ctgaaatccg gcctttctgg
+     1141 ccatcctgac ccccttcctg cccctgttaa agctagccgg ttcgcgccgg aggccttcgc
+     1201 acgtctgctg aaaaaatcct gaataaatat tgtccaaatc agtcgcttac acagcgtact
+     1261 tttctg
+//

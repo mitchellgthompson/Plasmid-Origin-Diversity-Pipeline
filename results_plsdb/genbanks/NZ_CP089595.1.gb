@@ -1,0 +1,115 @@
+LOCUS       NZ_CP089595_1           2619 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Halobacterium_zhouii | RIP:
+            RNA_helicase__RCR | 2,619 bp.
+ACCESSION   NZ_CP089595
+VERSION     NZ_CP089595.1
+KEYWORDS    .
+SOURCE      Halobacterium_zhouii
+  ORGANISM  Halobacterium_zhouii
+            Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae;
+            Halobacterium.
+FEATURES             Location/Qualifiers
+     source          1..2619
+                     /organism="Halobacterium_zhouii"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP089595.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     RNA_helicase__RCR | Tier: Tier 4: Phylum-exclusive"
+     CDS             complement(1..69)
+                     /product="Radical_SAM: Radical SAM superfamily"
+                     /locus_tag="NZ_CP089595.1_orf2"
+                     /translation="MANAPEQRTNIPRQRFDFTHQPETDQSFENALDKARSGERLTVAD
+                     GVELMTTGSDRQGIDPTRKEAVLEAADRRRAEQVGEEVTFVANLNNNVTTACNTGCLFC
+                     NFKDRSEQFRTSYQDDHGGFTKTPAESRAIVRDALEKGIYEVTSVSGLHPAFALDDEHR
+                     EILESNERGDLNYRPPSEYEKNPGTYCAQMEAMDVGGVHVHSMTPEEAYHAQRGADWGY
+                     REVYSRLQDAGLDSVPGTAAEILVDEVRSVICPGKISTDEWLDAMTAAADVGLPMTSTI
+                     MYGHVENEMHRVLHLKRIRELQDRTGNITEFVPLSFVHQETPLYERGMVSTGASHVEDE
+                     LMIAVARLFLDNIDHIQSSWVKFGSAKGLKLLSCGADDFMGTILSEEITKRAGGEYGEF
+                     RSFQDYVDMITAIGRIPVERSTDYQQFRRLDPDDPPYGPALGPEADGTPMLPTA"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=Radical_SAM (PF04055.28)"
+                     /db_xref="Pfam:PF04055.28"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+     CDS             201..2419
+                     /product="RNA_helicase__RCR"
+                     /locus_tag="NZ_CP089595.1_orf3"
+                     /translation="MTEIQLTVEKAYPTDTGKGIARIAPSSLEELELSPGAFVAIEGEQ
+                     TAVMKAQRADPEDWEEDIIRIDGFARDNAGVALGERATVRSASIQFADEVTLAPTDEIQ
+                     IPLNPDVVGIVKQQLLHRSVTQNNLVPITAQSTQPFLRSPGDTLTFVATDVDPATVVEV
+                     TDDTTIKVRETPVSQNPEVRTEDGITYDEIGGLQDELDRVREMIELPLNHPKLFDRLGI
+                     EPPKGVLLYGPPGTGKTLLAKAVANETAASFHSIAGPEIISKYYGESEQELRDTFEEAQ
+                     AEAPAIIFIDELDSIAPSREEVTGEVERRVVAQLLSLMDGLDDRGEVVVIGATNRHDAV
+                     DAALRRPGRFDREIEIDVPNEADREEILRIHTRAMPLAKDVHPSDLATQTQGFVGADLE
+                     SLTKEAAMHALRRYLPEIDIEEDEIPPSLVEQIVVKAVDFERALSGIEPSALREVDVRI
+                     PEVTWKHVGGLDTVKQELRESVVWPLDSPEKFERLGIDAVSGVLLYGPPGTGKTLLAKV
+                     VANETDANFIPVRGPELLSKWVGESEEAIREVFQKARNVSPSIVFFDELDSLATSRAQG
+                     PDGGSSDRVVNQLLTELDGLQSMEDVVVIGATNRPDMLDAALLRTGRFGRLIKVEEPTF
+                     EDREQILKVHTEETPLASDVSFRELAEQTDGYVGSDLENLTREAAIEALRDDMEVISMR
+                     HFDRAIDRIRPTMTDATSEYYERIDEELDRERWPNTTGSGPRGFQ"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             2477..2619
+                     /product="ABM: Antibiotic biosynthesis monooxygenase"
+                     /locus_tag="NZ_CP089595.1_orf4"
+                     /translation="MIVLHASFPIDPDRREEALELVDDLVEQSQAEDGMIEYRATTDVQ
+                     DSN"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=ABM (PF03992.23)"
+                     /db_xref="Pfam:PF03992.23"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+ORIGIN
+        1 ctcgggctgg tgagtgaaat cgaaccgctg ccgcgggatg tttgtccgtt gttcgggtgc
+       61 gttcgccacg gaagccgatt ctcgcagtag tagtaaaaag tctgcgtggc cgtcgctttg
+      121 agagccgttg tctccctcca cacccttttt cagtatcggt tgccgaccta cacgtgatta
+      181 ctgccgaaga gtttgggata tgaccgagat tcagctcaca gtcgagaaag cgtatccgac
+      241 cgacactggg aaagggattg ctcgaatcgc cccgtctagc ctcgaggaac tcgaactgag
+      301 tcctggcgca ttcgttgcta tcgaggggga gcagacggcg gttatgaaag cacagcgggc
+      361 cgatcccgag gactgggagg aggatattat tcgtatcgat ggttttgctc gggacaatgc
+      421 gggcgtcgct ctcggggagc gagctactgt acggtcagcg tcgattcagt tcgccgacga
+      481 ggtcacgctc gcaccgaccg acgagataca gatcccgctc aatcccgatg ttgtcggtat
+      541 cgtcaaacag cagttactcc accgctctgt cacccaaaat aatctcgttc caataactgc
+      601 ccagagcacg cagccgttcc tgcgctcgcc cggagatacg ctcaccttcg ttgcgaccga
+      661 tgtcgatcct gcaacggtcg tcgaagtcac tgacgacact actattaaag ttcgcgaaac
+      721 gccagtctcg cagaatcccg aagtccgaac agaggacggc ataacgtacg acgagatcgg
+      781 cggacttcag gacgaactcg accgcgtccg ggagatgatc gaactcccac tcaatcatcc
+      841 caagctcttc gaccggctgg gtatcgaacc accgaaaggt gtcctcctgt atgggccgcc
+      901 tggcacagga aagacgctcc ttgcaaaagc cgtcgccaac gagaccgccg cgagcttcca
+      961 ctcgattgcc gggccggaga tcatctcgaa gtactacggc gaatccgagc aagagctccg
+     1021 tgacaccttc gaggaggcgc aagcagaggc ccccgcgatc attttcatcg acgaactgga
+     1081 ctcgatcgct ccgagccgag aggaggtcac gggagaggtc gaacgccggg ttgtcgccca
+     1141 gctactctcg ttgatggacg gacttgacga ccgcggggag gtcgtggtta tcggtgcgac
+     1201 gaatcgacac gatgcggtcg atgcagcgct tcgacgccct ggccgcttcg accgggaaat
+     1261 cgagattgat gttcccaacg aagccgaccg ggaggagatc ctccgtattc atacccgagc
+     1321 gatgccactg gcgaaagacg tccatccaag tgatctcgcg acgcagacgc agggcttcgt
+     1381 cggtgcagat ctcgaatcac tcacgaagga ggccgcgatg cacgccctcc gacggtatct
+     1441 tccggagatc gatatcgagg aggacgagat accgccgtct ctcgtcgagc agatagtcgt
+     1501 caaagcggtc gacttcgaac gtgccctttc cggaatcgag ccctctgcgc tccgcgaggt
+     1561 cgacgttcgg attccagagg taacgtggaa gcacgtcggg gggctcgata ccgtcaagca
+     1621 agagcttcgc gagagtgttg tctggccact cgatagcccg gagaagttcg aacgactcgg
+     1681 gatcgatgca gtgtcgggcg tccttctcta tggacctccc ggaacgggga agacgctcct
+     1741 cgcgaaagtc gtcgccaacg aaacggacgc gaatttcatt ccggttcgcg ggccggaact
+     1801 cctctcgaaa tgggtcggcg aatctgaaga agcgatccgg gaggtcttcc agaaagcacg
+     1861 aaacgtctcg ccctcgatcg tcttctttga cgaactcgat agtctcgcga cgagccgtgc
+     1921 ccagggtccg gacggtggga gttccgaccg cgtcgtcaac cagctcctga cggaactcga
+     1981 cggcctccag tcgatggaag acgtggtcgt aatcggggcg acgaaccggc cggatatgct
+     2041 cgatgcggca ctcctgcgga cgggacggtt cggccggttg atcaaagttg aggaaccaac
+     2101 attcgaggat cgcgaacaga tcctcaaggt gcataccgaa gaaacgccgc tcgcctccga
+     2161 cgtgagtttc cgcgagttag ccgaacagac cgacggctac gtggggagcg atctcgagaa
+     2221 tctcacccga gaggccgcaa tcgaagcgct acgagatgac atggaggtca tttcgatgcg
+     2281 tcatttcgat cgcgctatcg accggatccg accgacgatg accgatgcga ccagtgagta
+     2341 ttacgagcgg attgatgaag aactcgaccg agaacgctgg ccgaacacga ccgggagcgg
+     2401 tccccgtggc ttccagtaag caacgggagg tatcaggaga acttttgggc tggcagtttg
+     2461 tggcccgggc tgtcgatgat cgtacttcac gcgagttttc cgatcgatcc ggatcggcgt
+     2521 gaggaagcgc tcgaactggt cgacgacctc gtcgagcagt cgcaggcaga ggacgggatg
+     2581 atcgagtacc gggcgacgac ggatgtccaa gactcgaac
+//

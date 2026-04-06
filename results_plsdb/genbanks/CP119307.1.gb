@@ -1,0 +1,70 @@
+LOCUS       CP119307_1              1545 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Candidatus_Phytoplasma_pruni | RIP:
+            Gemini_AL1__RCR | 1,545 bp.
+ACCESSION   CP119307
+VERSION     CP119307.1
+KEYWORDS    .
+SOURCE      Candidatus_Phytoplasma_pruni
+  ORGANISM  Candidatus_Phytoplasma_pruni
+            Mycoplasmatota; Mollicutes; Acholeplasmatales; Acholeplasmataceae;
+            Candidatus_Phytoplasma.
+FEATURES             Location/Qualifiers
+     source          1..1545
+                     /organism="Candidatus_Phytoplasma_pruni"
+                     /mol_type="genomic DNA"
+                     /plasmid="CP119307.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     Gemini_AL1__RCR | Tier: Tier 4: Phylum-exclusive"
+     CDS             2..129
+                     /product="hypothetical protein (42 aa)"
+                     /locus_tag="CP119307.1_orf1"
+                     /translation="TGANVGKFILGAGEAMADGAIDGMKIGALAGGAAIGGLPTII"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             201..1345
+                     /product="Gemini_AL1__RCR"
+                     /locus_tag="CP119307.1_orf2"
+                     /translation="MKKTNSKIKENKNKFQFNSKDIFLTYSKCSLGKEVIHKHLKNLMN
+                     EKKKNIIYIISNTENHADHKEIHTHVLLQLEKRFNIMNARFFDIEGFHPRIENAQHIEK
+                     AIDYIKKDGDFIEEGTPRIKKYVRQNQKEERKQLIYDEIDRLQIEYYENEKLKMHEIKK
+                     TLDEFIKKMDRDFYYEQIELIKRILKEKFIKKEEENMNEEITENETESIYDFESFKDNE
+                     ITRKIIAAIQKEKDVSHRPLSIVIEGLSRIGKTEFIISYLNKNKLPFNYIRGSLDFNKE
+                     VYKNEYKINVFDDISVFEIKKYGLLKNIIGGQRGFIADIKYAPKRRIAGNKLNIFLCNE
+                     DISFVHFCEKNKEIGGKEYEYIEKNCLFFNVKEKLYKENEK"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 acaggagcta atgtaggaaa atttatatta ggagctggag aagcaatggc tgatggagca
+       61 atagatggca tgaaaattgg agcattagcg ggaggagcag ctatcggagg tttacctaca
+      121 attatataaa aattaaataa aaaaaataac cctctaattt taattagggg gttaaaaaaa
+      181 cagaaagaaa aataataaaa tgaaaaaaac aaattcaaaa attaaagaaa ataaaaataa
+      241 atttcaattt aattcaaaag atattttttt aacttatagt aaatgttcct taggaaaaga
+      301 agtcattcat aaacatctta aaaatttaat gaatgaaaaa aagaaaaaca ttatttatat
+      361 tatttctaat acagaaaacc atgcggatca taaagaaatt catacccatg ttttattaca
+      421 attagaaaaa agatttaata taatgaatgc gagatttttc gatattgaag ggtttcatcc
+      481 acgaattgaa aacgcacaac atatagaaaa agcgattgat tacatcaaaa aagacggtga
+      541 ttttattgaa gaaggaacac caagaattaa aaaatatgta cgtcaaaacc aaaaagagga
+      601 acgtaaacaa ttaatttatg atgaaataga tagattgcaa attgaatatt atgaaaacga
+      661 aaaattaaaa atgcatgaaa ttaaaaaaac tttagatgaa tttataaaaa aaatggatcg
+      721 tgatttttat tatgaacaaa ttgaattaat taaaagaata ttaaaagaaa aatttattaa
+      781 aaaagaagaa gaaaatatga atgaagagat aacagaaaac gaaacggaat caatttatga
+      841 ttttgaaagt tttaaagaca atgagataac aagaaaaata attgcggcta tacaaaaaga
+      901 aaaggacgtt tcccatcgtc cattatccat tgttattgaa ggtcttagtc gcattggaaa
+      961 gaccgaattc attatcagtt atcttaataa aaataaactt ccctttaatt atatcagagg
+     1021 aagtctagat tttaacaaag aagtatataa aaacgaatat aaaataaatg tttttgatga
+     1081 tatttctgtt tttgaaatta aaaaatatgg cttattaaaa aatattatcg gggggcaaag
+     1141 aggatttata gctgatatta aatatgcccc aaagagacga atagctggga ataaattgaa
+     1201 tattttttta tgtaatgaag acatttcttt tgttcatttt tgtgagaaaa acaaagaaat
+     1261 aggtggaaaa gaatatgaat atatagaaaa aaactgtctt ttctttaatg ttaaagaaaa
+     1321 attatataaa gaaaatgaaa aataataatt tactacacat tgcaatgtgt agtaaatgtg
+     1381 tagtaaattt aaataaccta aaaatcatac tctaaaaaat gtgtagtaac aaaagctcgt
+     1441 cgggaatctt atccgactcg catacgttac gcgctgaaaa atggttaaaa ataaaaaaaa
+     1501 atcaataatc aaattataaa atatactaca catatgactt tgctt
+//

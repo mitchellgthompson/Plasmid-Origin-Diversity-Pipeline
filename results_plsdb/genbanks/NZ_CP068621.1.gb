@@ -1,0 +1,56 @@
+LOCUS       NZ_CP068621_1           1266 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Klebsiella_pneumoniae | RIP: PRK13742.1 |
+            1,266 bp.
+ACCESSION   NZ_CP068621
+VERSION     NZ_CP068621.1
+KEYWORDS    .
+SOURCE      Klebsiella_pneumoniae
+  ORGANISM  Klebsiella_pneumoniae
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Klebsiella.
+FEATURES             Location/Qualifiers
+     source          1..1266
+                     /organism="Klebsiella_pneumoniae"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP068621.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: PRK13742.1
+                     | Tier: Tier 5: Diversity fill"
+     CDS             201..1066
+                     /product="repM_Acin"
+                     /locus_tag="NZ_CP068621.1_orf3"
+                     /translation="MGKRSSSVLNYPLVDKVQIFPVDKYRDSLQFLFSLSLWVGKNLPI
+                     GIEMDTQALLPATKTFKKRASIKQSNELTEAAYYLPLQAKRVLWLCLMQAYFNDSQEDD
+                     SDVLPLFKISVSDYVKYFNVATSVASRDVKAGVNALGESTVTFYPKEGEFEEVKRPWLA
+                     EAGMKRGRGSWQIEFNYKVMPFLVGLTSQFTTYSLYDCGQLNSVRVIRLYESLCQFRST
+                     GVWITTHDWLCERFMLPASQKNNIAEMKRTFLEPALKKINEKTPLKVTYTTEEDGRLLF
+                     NFLDKKQ"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 cacttatcca cgggcatatt tttataaagt acttttttat tctttttctt tattttacat
+       61 cttttaggga gcctgaaagc cgcgtacagt gcggcctgag agggggcctg tatgggcaac
+      121 tggtaaacat aatatgggaa attaatcacg tatcagtggg ttttgtgtca acaagctatg
+      181 ggatacgcat caacaagcta tgggaaagag gtcaagttca gttctcaatt atccacttgt
+      241 ggataaagtg cagatttttc cggtggataa gtatcgcgat agcttgcaat ttctgttttc
+      301 actgtcatta tgggtgggta aaaatttacc cataggcatt gaaatggata ctcaagcact
+      361 cttgccagct actaaaacgt ttaaaaaacg cgccagtata aagcaatcta acgaattgac
+      421 cgaagctgca tattacctgc ctcttcaggc aaaacgtgtg ctgtggttat gcctcatgca
+      481 ggcctatttt aatgacagcc aggaagatga ctctgacgta ttgccgctct tcaaaatcag
+      541 cgtttccgat tacgtcaaat acttcaatgt cgctacgtct gtcgccagtc gtgatgtgaa
+      601 ggctggggta aatgctctgg gcgaatcaac ggttaccttt tatccaaaag aaggtgagtt
+      661 tgaagaagtt aaacgtccgt ggctggctga agcaggaatg aagcgaggcc ggggttcctg
+      721 gcagattgaa tttaactaca aggtcatgcc attcctggtc ggcttaacct cccagttcac
+      781 tacctattct ctctatgact gtggccagct taatagtgtt cgtgtcatcc ggctttatga
+      841 aagcctgtgt cagttccgga gcactggtgt ctggatcacc acacatgact ggttatgtga
+      901 aaggtttatg ctccctgcct cgcagaaaaa caatattgct gaaatgaagc gtaccttcct
+      961 ggaacctgct ctgaagaaaa ttaatgagaa gacgccatta aaggtaacat ataccactga
+     1021 agaagatggt cgcttgctgt ttaattttct tgataaaaaa caatagtctg taatttttat
+     1081 ttcctccccc cttagtttgt tgctgacata tggggggata ctgaacttgc tgtgtttccc
+     1141 atagtgcttg cctaacttga cctgtttccc acactcccga ccgtccgaga agttgacctg
+     1201 tttcccatag tccgggccgt ccgagaagct gacctgtttc ccttagtccg ggccgtccgc
+     1261 gaagtt
+//

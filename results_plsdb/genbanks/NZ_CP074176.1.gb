@@ -1,0 +1,96 @@
+LOCUS       NZ_CP074176_1           1736 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Enterobacter_asburiae | RIP: Phg_2220_C |
+            1,736 bp.
+ACCESSION   NZ_CP074176
+VERSION     NZ_CP074176.1
+KEYWORDS    .
+SOURCE      Enterobacter_asburiae
+  ORGANISM  Enterobacter_asburiae
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Enterobacter.
+FEATURES             Location/Qualifiers
+     source          1..1736
+                     /organism="Enterobacter_asburiae"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP074176.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: Phg_2220_C
+                     | Tier: Tier 5: Diversity fill"
+     CDS             complement(4..203)
+                     /product="hypothetical protein (67 aa)"
+                     /locus_tag="NZ_CP074176.1_orf1"
+                     /translation="MSFLKTIQLFVANNPGLTNKQIAAALPEYALHSVQRAVCRLVMLN
+                     RAERKGVRPNFRYYAKAPVGPI"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(201..1126)
+                     /product="Phg_2220_C"
+                     /locus_tag="NZ_CP074176.1_orf2"
+                     /translation="MSLLMPSRPIVINPDLAYSIGLNEAIALQQVNYWLKETTSGLERD
+                     GVRWIYNTNEQWLEQFPFWSESTLKRTFTRLKNLGVLKVEQLNKSQRDMTNYYTINYES
+                     ELLYEVKVTNSKSSKCTLPLGQNEPMEEVKVKRSIGSKRTALIRSNCTDVLTENTTENT
+                     TDIKKPICPVASQPDGDVFITDQAKQVLTHLNQVTSSRYQVSTTSLQNIRARIGEGYTV
+                     EELSLVVDYCNAKWSEDLTMSAYLRPQTLFQPTKFPGYLKSAKSWAKAGCPPRVNGEWA
+                     REDGVFRSSFKNTDYSKVPNGFRGANS"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(1137..1474)
+                     /product="hypothetical protein (112 aa)"
+                     /locus_tag="NZ_CP074176.1_orf3"
+                     /translation="MNSLNRLRPAKQFRCLPLVGKDSPFGYVERLNDQPGENNYQPENA
+                     MVEAFAQMNEKGREEWLKLTGDSKTTTASRSVSSDGSHRLDALYTFAKGTIMSASALLS
+                     NSSVNLQS"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(1537..1736)
+                     /product="Phage_CP76: Phage regulatory protein CII (CP76)"
+                     /locus_tag="NZ_CP074176.1_orf4"
+                     /translation="LFTRAMRTAAARGQVDQIIQKALEDGVIEPHEAEEIHEHHRRHLA
+                     AREEEIRAIVALFSRKKSQKK"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=Phage_CP76 (PF06892.17) E=1.3e-03"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+                     /db_xref="Pfam:PF06892.17"
+ORIGIN
+        1 ccaattggac caacaggtgc ctttgcgtag taacggaagt tagggcgcac acctttgcgc
+       61 tcagcacggt taagcatgac caggcggcat accgcacgct gaacactgtg caatgcgtac
+      121 tccggcagtg ctgcggcgat ctgcttgttc gtcagtccgg ggttattggc cacgaacaac
+      181 tgaattgttt tgagaaagct catgagttcg ctcctctgaa accgttgggg actttgctgt
+      241 agtcagtgtt cttgaagctg gaacgaaaca cgccatcctc tcgggcccac tctccgttga
+      301 cgcgaggagg acacccagct ttggcccagc ttttcgctga cttcagatag ccagggaact
+      361 ttgttggctg gaaaagagtc tgggggcgaa ggtaggcaga catggtcagg tcttcgctcc
+      421 acttggcgtt gcagtagtcc accaccagcg ataactcttc aacggtgtaa ccttccccga
+      481 ttcgggcacg aatgttttgc agcgatgttg ttgaaacctg ataacgcgaa ctggtcacct
+      541 ggttcagatg ggttaaaacc tgtttagcct gatcggtgat aaacacatca ccgtctggtt
+      601 gcgatgcaac cggacaaata ggttttttaa tatctgtagt attctctgtt gtattctctg
+      661 taagaacatc agtgcaattt gacctgatga gagcggttcg ttttgacccg atggagcgtt
+      721 tcactttgac ctcttccatc ggttcatttt gacctaatgg aagagtgcat tttgaactct
+      781 tcgagttggt cactttgacc tcatataaaa gttcgctttc gtagttgatc gtgtagtagt
+      841 tcgtcatgtc gcgctgagac ttgttcagct gctcaacttt gagcacgccg aggttcttca
+      901 ggcgggtgaa cgtacgcttc agagtggact cagaccagaa cgggaactgc tccagccact
+      961 gctcgttggt gttgtaaatc cagcgcacgc cgtcacgctc cagtccggag gtggtttctt
+     1021 taagccagta gttcacctgc tgcaacgcaa tagcctcgtt caggccaatg ctatacgcaa
+     1081 ggtcagggtt aatcactatc ggccgggatg gcattaacag gctcatggtc gtcctttaac
+     1141 tctgtaaatt tacgctggaa ttgctcaaga gggctgaagc actcatgatc gtacccttcg
+     1201 cgaaggtata taacgcgtcg agtctgtggc tcccatctga tgacacggac cgggacgccg
+     1261 tagtggtctt tgaatcgccg gttaacttca gccattcttc acgccccttc tcgttcatct
+     1321 gagcaaaagc ctctaccatc gcgttctcag gctggtagtt gttctcacca ggctggtcgt
+     1381 ttaatctctc cacatagccg aacggggagt cttttcccac cagtggaagg catctgaatt
+     1441 gcttcgctgg tctcaatcgg tttaaactgt tcatgcgtta gtttctccac tgaatacgac
+     1501 acgccacgac gcccggagct gcacactcgc gggcgtcact tcttttggct tttcttacgg
+     1561 ctaaacagcg cgacaatcgc gcggatttct tcttcacgcg cagccagatg acggcggtga
+     1621 tgttcgtgaa tctcttcagc ttcatgcggc tcaatcactc catcctccag ggctttctgg
+     1681 ataatctgat cgacctgtcc gcgcgccgct gcagttctca tggctcgggt aaaaag
+//

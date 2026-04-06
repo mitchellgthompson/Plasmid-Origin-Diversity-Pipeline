@@ -1,0 +1,82 @@
+LOCUS       NZ_CP036517_1           1087 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Lichenihabitans_psoromatis | RIP: PRK13824.1
+            | 1,087 bp.
+ACCESSION   NZ_CP036517
+VERSION     NZ_CP036517.1
+KEYWORDS    .
+SOURCE      Lichenihabitans_psoromatis
+  ORGANISM  Lichenihabitans_psoromatis
+            Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+            Lichenihabitantaceae; Lichenihabitans.
+FEATURES             Location/Qualifiers
+     source          1..1087
+                     /organism="Lichenihabitans_psoromatis"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP036517.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: PRK13824.1
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             4..230
+                     /product="hypothetical protein (75 aa)"
+                     /locus_tag="NZ_CP036517.1_orf1"
+                     /translation="VEPPRGGVFINMVGIDAVRDQRIALEVVDLATIRLGHPCVTDLRC
+                     HIYVRLRDKAQTPVTMQILCHLTHVPVYAP"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(301..482)
+                     /product="hypothetical protein (60 aa)"
+                     /locus_tag="NZ_CP036517.1_orf2"
+                     /translation="MTEEEADSRLDTSKYLAVSTGTMRGQIRFFDIDERLKAISAKSDD
+                     LERLEALGICRRPTS"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+     CDS             complement(565..887)
+                     /product="RepABC_RepC"
+                     /locus_tag="NZ_CP036517.1_orf3"
+                     /translation="MTINRALAAWQPALGRELESGTVDAPARLGRFDGFRVVDHCVAVA
+                     ERRELAARREALTLLRRDIAKMIELGLEEGIAADRPAFTRLTPPPELYPAPHGFGRRDV
+                     RQH"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(951..1087)
+                     /product="ADH_zinc_N_2: Zinc-binding dehydrogenase"
+                     /locus_tag="NZ_CP036517.1_orf4"
+                     /translation="VPLSKVVEAGEIRLRVTGEYGIHQVADAQRTLEAGGLRGRPVIVL
+                     "
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=ADH_zinc_N_2 (PF13602.13)"
+                     /db_xref="Pfam:PF13602.13"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+ORIGIN
+        1 ttgtcgagcc gccccgaggc ggtgtcttca taaatatggt cgggatcgac gccgtccgcg
+       61 accaacgcat cgcgctggag gtcgtggacc tggctaccat ccgccttgga cacccgtgcg
+      121 taaccgattt gcgttgtcac atatacgttc gtctgcgtga caaagcccaa acacccgtca
+      181 cgatgcaaat actctgtcac ctaacgcatg ttcctgtcta tgctccgtga acctaccaaa
+      241 aagtagattg tgtgacgagt ggcaggtcgt ggtcgataac cggcatgcca gacgctggct
+      301 cagctcgtcg gtcgcctgca gatgcctaat gcctccagcc gctcgagatc gtcgctcttg
+      361 gccgagatcg ccttcagccg ctcgtcaatg tcgaaaaacc taatctggcc acgcatcgtt
+      421 ccggtcgaaa ccgcgaggta tttggaggta tccagtcgag agtccgcttc ttcctcagtc
+      481 aacgtctctc tatttgaact ctgtttgtgc cgctcatttc attcgcattt gcgtgcgcca
+      541 tcaaaacgct acggacccgg atttcaatgc tggcgaacgt cgcgacgtcc gaagccgtgg
+      601 ggagcggggt aaagctccgg cggcggcgta agcctcgtga acgccggccg gtcggccgca
+      661 atgccctcct cgaggccgag ctcgatcatc ttggcgatat cgcgcctcag cagcgtgaga
+      721 gcctcacgtc gcgccgcgag ctcgcggcgt tcggcaacag cgacgcaatg atcgaccact
+      781 cgaaatccgt caaatctccc gagccgggct ggggcgtcca cggtcccgct ctccaactcc
+      841 cgtcccaaag caggctgcca agcggccaat gctcggttga tggtcatatg cgcttcctat
+      901 tatgcgtgga gagattgaag attcagcccg acgatcggcg gaaagatcgc tagaggacga
+      961 tcaccggtct gccacgcagg ccgccggctt caagcgtgcg ttgcgcgtcg gccacctggt
+     1021 ggatgccgta ctcgcccgtc acccgcagac gaatttcacc ggcctctaca accttgctga
+     1081 gcggcac
+//

@@ -1,0 +1,57 @@
+LOCUS       NZ_MK962688_1            924 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Aeromonas_sp. | RIP: RepL__RCR | 924 bp.
+ACCESSION   NZ_MK962688
+VERSION     NZ_MK962688.1
+KEYWORDS    .
+SOURCE      Aeromonas_sp.
+  ORGANISM  Aeromonas_sp.
+            Pseudomonadota; Gammaproteobacteria; Aeromonadales; Aeromonadaceae;
+            Aeromonas.
+FEATURES             Location/Qualifiers
+     source          1..924
+                     /organism="Aeromonas_sp."
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_MK962688.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RepL__RCR
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             201..724
+                     /product="RepL__RCR"
+                     /locus_tag="NZ_MK962688.1_orf1"
+                     /translation="MSAKGETEQSQADENYNFVQISRGYLKAWRGLIRKNGLAAEVLMY
+                     FVEKMGRTTNAVVCSYATLTEVTGYSRRSVATAIKVLKDESWIQTVKIGSATAYCVNER
+                     VFWQAGRNQRKYAIFSATVVAAETEQDSDFHERAKEKLTHIPFVDVQKERLIADSGEQL
+                     PPPDQQDLDLD"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             725..924
+                     /product="hypothetical protein (67 aa)"
+                     /locus_tag="NZ_MK962688.1_orf2"
+                     /translation="MGRFRELTPAEIDALREDMRQSSKWAKAELMRRKGRLNDQSHGSG
+                     LTPAVAPTSAGSPPPACEPDPA"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 agagatagaa tagtgcactc actaagttgt tgttttttaa ggtggtttcc atatccagag
+       61 tgcagtgggg cagcactcca gagtgcaata gctaattgca ctcgggttca cgttgtgtga
+      121 agtaatattg cacatggtgt gcaatgtggt gcaccatggg tgcagttcaa cgacacatag
+      181 tgtgcaggag attacaccga tgagtgcaaa gggtgagact gagcagtctc aggcagatga
+      241 gaactacaac tttgtccaga tatcgagggg atacctcaag gcttggcgag ggttgatacg
+      301 gaagaacggc ctagccgccg aagtgctgat gtatttcgtt gagaagatgg gccgcacaac
+      361 caacgctgtc gtttgcagct atgcgaccct gacagaagtg acaggttaca gccgcaggag
+      421 cgttgcaaca gcaatcaaag tcctcaagga cgagagctgg atccagacag tcaagatcgg
+      481 tagtgcaacg gcatactgcg tgaatgaacg agtcttttgg caggctggcc gcaaccagcg
+      541 caaatacgcg atattcagtg ctacagttgt tgctgcagag acagaacaag acagcgactt
+      601 ccacgaacgg gccaaagaaa aactaaccca catccccttc gttgatgtcc agaaggaacg
+      661 actgattgcc gattcaggcg aacaactgcc accaccggat caacaggact tggatctcga
+      721 ctgatgggta gattccgcga gctaaccccc gcagaaattg acgctctgcg ggaggatatg
+      781 cgccagtcca gcaaatgggc caaagccgag ttgatgcggc gtaaggggcg ccttaacgac
+      841 caaagccacg gctcgggttt gacccctgct gtggccccaa cttccgccgg atctccgcct
+      901 ccagcttgcg agccagatcc tgct
+//

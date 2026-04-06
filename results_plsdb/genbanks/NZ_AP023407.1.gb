@@ -1,0 +1,65 @@
+LOCUS       NZ_AP023407_1            924 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Aeromonas_hydrophila | RIP: RepL__RCR | 924
+            bp.
+ACCESSION   NZ_AP023407
+VERSION     NZ_AP023407.1
+KEYWORDS    .
+SOURCE      Aeromonas_hydrophila
+  ORGANISM  Aeromonas_hydrophila
+            Pseudomonadota; Gammaproteobacteria; Aeromonadales; Aeromonadaceae;
+            Aeromonas.
+FEATURES             Location/Qualifiers
+     source          1..924
+                     /organism="Aeromonas_hydrophila"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_AP023407.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: RepL__RCR
+                     | Tier: Tier 2: Alphaproteobacteria"
+     CDS             1..203
+                     /product="Mob_Pre: Plasmid recombination enzyme"
+                     /locus_tag="NZ_AP023407.1_orf2"
+                     /translation="MYQFGHVESYAIKPSKGHGIEGIWKEAERVDGYCGHVENPQPPVQ
+                     VYGCSPREAANRAANWAGQAKDAKGRKLRCDAPCLLAGVLSYPRAGDDWDSFKEASVRW
+                     LKGKYGDNLVSVIEHQDEAHPHLHFYAVPAPGQTFDDIHQGRAAAATAKRAGERVCIQR
+                     AAHGKAMKVWQDELYQGVSRELGLMRLGPKRLRIPNRREWLSHQTTMREMLNEERRFRD
+                     ELLERESKLQGKEQEHSTRERSLAGREAALDTRSAKIAADIRGLNDLKGEIDDKFSKLS
+                     TQVELERERALAERGRLGVLEAELNEREAKLNEREAKLNEREAEIEAKTPASIKEQNIA
+                     FKGLIHAIVARLPEAQLQKLGQTMNRDHRQHLMMVMTSQGRDYNR"
+                     /codon_start=1
+                     /function="other"
+                     /note="category=other; color=#78909C"
+                     /note="Pfam=Mob_Pre (PF01076.26)"
+                     /db_xref="Pfam:PF01076.26"
+                     /ApEinfo_fwdcolor="#78909C"
+                     /ApEinfo_revcolor="#78909C"
+     CDS             complement(201..724)
+                     /product="RepL__RCR"
+                     /locus_tag="NZ_AP023407.1_orf3"
+                     /translation="MSSDSSRNETPQSHQNHNSNFVQLSRAYLAQMRNLARKNPVAHEI
+                     LYYLVENMGRTTNAIVCSYKTLCEVTGVSRPTVGRAIKTLKDDNWVDVVKIGNASAYCV
+                     NERVFWQAGRNQRQYAVFSATVIAAASDQDSDFHNKAKHKLTYIPVIRDNDIPVTGTDQ
+                     LPPPDQQDLDL"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 tgaatgaacg ggaggccgag atcgaggcga aaacccctgc cagcatcaaa gagcaaaaca
+       61 tagcgttcaa ggggctgatc catgcaatag tcgcccgcct cccagaggct cagctacaaa
+      121 aactcgggca gaccatgaac cgagaccatc gacagcattt gatgatggtc atgacatcac
+      181 aggggcggga ctataaccgc tagaggtcta gatcctgctg gtctggcgga ggtagctgat
+      241 cagttccggt gacgggtata tcgttatctc tgatcaccgg aatgtaggtc agcttgtgct
+      301 tggctttatt gtgaaaatcg ctgtcctgat ctgatgctgc tgcaatgacc gtggcagaga
+      361 acaccgcata ctgacgctgg tttcgccctg cctgccagaa cactcgttcg ttgacacagt
+      421 aggcggaagc attgccgatc ttcacgacat caacccagtt gtcatccttg agagtcttga
+      481 tcgctctgcc gactgtcggc ctactcactc cagtaacctc gcatagggtc ttgtaactgc
+      541 atacgatggc attcgtggtt cgccccatgt tctccactag gtagtacagg atctcgtgcg
+      601 ctacggggtt tttacgggcc aaatttcgca tctgcgcgag ataggcccgc gagagctgca
+      661 cgaaattgga gttgtggttt tggtgagact gaggggtctc attacgtgag ctatccgaac
+      721 tcatattatg atgcaaccta actcatgaga tgatgcaaca ctattgcacg ggtgagactg
+      781 gttgaaaacc atagtctcac ccggtgagac tgggtagtct caccgggtga gactaccccc
+      841 ccaagtaact cgttgttttt aaagtaaatc acaaattccc ctttctatct ctgattaggc
+      901 cccctccgtg ccccacaact gccg
+//

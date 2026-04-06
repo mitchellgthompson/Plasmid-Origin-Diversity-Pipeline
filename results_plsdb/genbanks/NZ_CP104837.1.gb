@@ -1,0 +1,56 @@
+LOCUS       NZ_CP104837_1           1263 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Enterobacter_cloacae | RIP: incFII_RepA |
+            1,263 bp.
+ACCESSION   NZ_CP104837
+VERSION     NZ_CP104837.1
+KEYWORDS    .
+SOURCE      Enterobacter_cloacae
+  ORGANISM  Enterobacter_cloacae
+            Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Enterobacter.
+FEATURES             Location/Qualifiers
+     source          1..1263
+                     /organism="Enterobacter_cloacae"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP104837.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     incFII_RepA | Tier: Tier 5: Diversity fill"
+     CDS             201..1063
+                     /product="incFII_RepA"
+                     /locus_tag="NZ_CP104837.1_orf1"
+                     /translation="MTDAQTLFSHYRQVKNPNPVFTPREGKKTLPFCRKLMAKAEGFTS
+                     RFDFAVHVARMRSEGKRKRMPPLLRRRSIDALLQGMCFHHDPLANRVQRSITNLAIECG
+                     LATESKNGNLSITRATRALKFMAELGLITYQTEYDPQIGCNIPTDITFTPALFSALDVS
+                     DVAVVAARRSRVEWENQQRKKQNLKPLEMDELIAKSWRFVRERFRSYQSERKQHGLKRA
+                     RARRDADRTRKDIVTLVKQQLTREYASGRFTGGLDAMKRELERRVKERMLMSRGNNYTR
+                     LATVPI"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+ORIGIN
+        1 ctgaggtgtc tacccggaac cagaaaagac aaaaccccga taatctttca atgtttggag
+       61 acgtagaaga ttaccggggc ttacctaaac tgtatagaag ctgttgctct atgcagggag
+      121 tatagtttta tgctcagaaa actgcaatac ctgtttctgt gccatttact cctaccgtgc
+      181 aacataagtg cgggaaggtg tgactgacgc tcagaccctg ttctcccatt atcgtcaggt
+      241 caaaaacccg aatccggtat tcacgccgcg agaggggaaa aagaccctgc cgttctgtcg
+      301 taagctgatg gcgaaagccg aaggcttcac gtcccgtttt gattttgctg tccatgtggc
+      361 gcgtatgcgc tcagaaggta aacgcaaacg tatgccaccg ttgttgcgtc gtcggtccat
+      421 tgatgcactg ctgcagggga tgtgtttcca tcatgacccg ctggccaatc gtgtacagcg
+      481 ttccatcacc aatctggcca tcgagtgcgg gctggccacg gaatcgaaaa atggcaacct
+      541 gtccatcacc cgcgccacgc gggcgctgaa gtttatggcg gagctggggc tgattaccta
+      601 tcagaccgag tatgacccgc agattggctg caacatcccg accgatatta ccttcacgcc
+      661 ggcgctgttc tccgcgctcg acgtctctga cgtggctgtg gtggccgccc gccgcagccg
+      721 cgttgaatgg gaaaatcagc agcgcaaaaa gcagaacctg aagccgctgg agatggacga
+      781 gctgatagcg aagtcctggc gctttgtgcg cgaacgcttc cgcagctacc agtccgaacg
+      841 taaacaacat ggtctgaaac gcgcccgtgc acggcgtgat gcggacagaa cccgtaagga
+      901 cattgtaacc ctggtgaaac aacagctgac gcgggaatac gccagcgggc gattcaccgg
+      961 cggtcttgat gccatgaagc gggagctgga gcgccgcgtg aaagagcgca tgctaatgtc
+     1021 gcgtggcaac aactacacgc ggctggccac cgtccccata taacccttcc tgtgtgaaaa
+     1081 atccggctgg cgccggaggg tttcgcacgt ctgctgctcc tggctgacgg ttttctgcac
+     1141 gaaatgacga ccgtccttcc tgacattcac cccatttcgc catcagaatg gccagaaatt
+     1201 gcatcagagt ggccacatct ggtcggcaga ttcagttacc cacaaataac tgcaagggac
+     1261 ctt
+//

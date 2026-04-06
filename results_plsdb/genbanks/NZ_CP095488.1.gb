@@ -1,0 +1,62 @@
+LOCUS       NZ_CP095488_1           1226 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Halorientalis_marina | RIP: MobT | 1,226 bp.
+ACCESSION   NZ_CP095488
+VERSION     NZ_CP095488.1
+KEYWORDS    .
+SOURCE      Halorientalis_marina
+  ORGANISM  Halorientalis_marina
+            Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae;
+            Halorientalis.
+FEATURES             Location/Qualifiers
+     source          1..1226
+                     /organism="Halorientalis_marina"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP095488.1"
+                     /note="Origin region from PLSDB 2025 | RIP type: MobT |
+                     Tier: Tier 5: Diversity fill"
+     CDS             complement(201..694)
+                     /product="MobT"
+                     /locus_tag="NZ_CP095488.1_orf1"
+                     /translation="MYVPTGDDLREARTARGLTQGELADRADVSQPLLSRIENEDVDPR
+                     LPTLHRIAQAINDAEQHLEAAELEVAVPEALKDARTATGLTQAELAERADVSQPLIARI
+                     ENDNVNPRASTLRAILAEVETGTDTHSEESDTSSTAGVSAEEFESDILAEIERSFDQLR
+                     E"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             1027..1226
+                     /product="hypothetical protein (67 aa)"
+                     /locus_tag="NZ_CP095488.1_orf2"
+                     /translation="MTRMDVTARDWAALDSWWESYVDPDRSVVVEETTLALDSRWLTDH
+                     WPELDSWWGSHVDPDRSALVDD"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 aggacactcg attccatcgc agcgtatctc gtgggtgaag ttcgcgtgcg acgccgagaa
+       61 cggaacgaac gaccggccgt agtcaccgac gctgctggcg agcgggaccg agcggacgcg
+      121 actacgagtt cggagcggga gagagcgatc agaacgggcg gtcgggactc gacatgagga
+      181 gtggtgacga tcaatcgaat tattcccgga gctgatcgaa cgaccgctcg atctcagcca
+      241 ggatatcgga ctcgaactcc tcggcactga ctccagcagt cgaggatgtg tcactctctt
+      301 ccgagtgggt gtccgtgcca gtctctactt ccgcgagaat ggctcggaga gtcgacgccc
+      361 gcggattgac gttgtcgttc tcgatccggg caatgagcgg ctgcgagaca tccgcccgct
+      421 ctgcgagctc cgcctgggta agtccggttg ccgttcgggc gtctttgagc gcctccggaa
+      481 cggctacttc gagctccgcc gcttcgagat gctgctcagc gtcgttgatc gcctgtgcga
+      541 tccggtggag tgtcggcagt cgcgggtcaa cgtcctcgtt ttcgatgcga gacaacaggg
+      601 gctgggaaac gtccgcacgg tctgcgagtt cgccttgggt tagcccgcgt gccgtccgtg
+      661 cttcacggag gtcgtcgcca gttgggacat acatcgctcg gcgtctggta gatcgtgggt
+      721 gggctggtaa aagaaacggt cgactgatcc gagtgctcga tacaggagta tggatacacc
+      781 caacccattc actcactcca gtctgggatg tgagtggact gcacggtcga gtactgctgg
+      841 cggtaccggc ttgtattccc gattccagcg gttccgaaac ggggatgcgg gagaactagc
+      901 ggatgcgtgt accgcactgc cggagatggg gaaacggtcg cgtcgtttcc gcccggtagc
+      961 tcgacagtat gtatcagccc tcgtcccgat acgaggctat taagccccgg gctgacaggc
+     1021 tggcaatgac gaggatggac gtcaccgcac gcgattgggc ggctctcgat tcctggtggg
+     1081 agtcatacgt cgatcccgac cggtcggtcg tcgttgagga aaccaccctc gcgctggaca
+     1141 gccggtggct taccgatcac tggcccgagc tggattcctg gtgggggtcc cacgtcgacc
+     1201 ccgaccgatc ggcgctggtc gacgac
+//

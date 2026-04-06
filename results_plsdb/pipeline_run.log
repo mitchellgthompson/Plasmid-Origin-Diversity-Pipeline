@@ -1,0 +1,336 @@
+
+======================================================================
+S1: Load PLSDB 2025 metadata
+======================================================================
+Loaded PLSDB 2025: 72,556 entries (nuccore+taxonomy+typing joined)
+
+======================================================================
+S2: Metadata filter
+======================================================================
+
+Metadata filtering (72,556 → 47,382):
+  After circular filter:      66,511
+  After size filter:          65,024
+  After repABC removal:       47,428  (removed 17,596)
+  After NHR E. coli removal:  47,382  (removed 46)
+After metadata filter: 47,382 plasmids
+
+======================================================================
+S3: Load plasmid sequences from PLSDB FASTA
+======================================================================
+
+======================================================================
+S3+S4+S5: Streaming ORF prediction + HMM + OriVFinder (batch=2000)
+======================================================================
+  Using 7 parallel workers for ORF prediction (fork pool)
+  reading: 500 sequences accepted (0.8% of FASTA)
+  reading: 1,000 sequences accepted (1.6% of FASTA)
+  reading: 1,500 sequences accepted (2.5% of FASTA)
+  reading: 2,000 sequences accepted (3.4% of FASTA)
+  flushing batch at 2,000 seqs …
+    ORF prediction: 107.8s  (178,752 ORFs total)
+    Write proteins: 0.1s  (47,196 KB)
+    hmmsearch: 10.8s  (1,300 seqs with hits)
+    OriVFinder scoring: 15.5s  (1196 scored → 1196 total hits)
+  [2,000 seqs / 1,196 origins so far]
+  reading: 2,500 sequences accepted (4.4% of FASTA)
+  reading: 3,000 sequences accepted (5.4% of FASTA)
+  reading: 3,500 sequences accepted (6.5% of FASTA)
+  reading: 4,000 sequences accepted (7.5% of FASTA)
+  flushing batch at 4,000 seqs …
+    ORF prediction: 801.2s  (191,869 ORFs total)
+    Write proteins: 0.1s  (49,733 KB)
+    hmmsearch: 11.8s  (1,356 seqs with hits)
+    OriVFinder scoring: 15.4s  (1265 scored → 2461 total hits)
+  [4,000 seqs / 2,461 origins so far]
+  reading: 4,500 sequences accepted (8.7% of FASTA)
+  reading: 5,000 sequences accepted (9.2% of FASTA)
+  reading: 5,500 sequences accepted (10.1% of FASTA)
+  reading: 6,000 sequences accepted (11.1% of FASTA)
+  flushing batch at 6,000 seqs …
+    ORF prediction: 100.6s  (164,985 ORFs total)
+    Write proteins: 0.1s  (43,093 KB)
+    hmmsearch: 12.0s  (1,444 seqs with hits)
+    OriVFinder scoring: 17.2s  (1314 scored → 3775 total hits)
+  [6,000 seqs / 3,775 origins so far]
+  reading: 6,500 sequences accepted (12.0% of FASTA)
+  reading: 7,000 sequences accepted (12.7% of FASTA)
+  reading: 7,500 sequences accepted (13.8% of FASTA)
+  reading: 8,000 sequences accepted (14.5% of FASTA)
+  flushing batch at 8,000 seqs …
+    ORF prediction: 96.6s  (159,142 ORFs total)
+    Write proteins: 0.1s  (41,521 KB)
+    hmmsearch: 10.1s  (1,201 seqs with hits)
+    OriVFinder scoring: 621.4s  (1124 scored → 4899 total hits)
+  [8,000 seqs / 4,899 origins so far]
+  reading: 8,500 sequences accepted (15.2% of FASTA)
+  reading: 9,000 sequences accepted (16.2% of FASTA)
+  reading: 9,500 sequences accepted (18.4% of FASTA)
+  reading: 10,000 sequences accepted (20.6% of FASTA)
+  flushing batch at 10,000 seqs …
+    ORF prediction: 114.3s  (185,964 ORFs total)
+    Write proteins: 0.1s  (49,567 KB)
+    hmmsearch: 11.1s  (1,250 seqs with hits)
+    OriVFinder scoring: 13.3s  (1086 scored → 5985 total hits)
+  [10,000 seqs / 5,985 origins so far]
+  reading: 10,500 sequences accepted (22.3% of FASTA)
+  reading: 11,000 sequences accepted (22.9% of FASTA)
+  reading: 11,500 sequences accepted (23.4% of FASTA)
+  reading: 12,000 sequences accepted (24.1% of FASTA)
+  flushing batch at 12,000 seqs …
+    ORF prediction: 102.1s  (155,848 ORFs total)
+    Write proteins: 0.1s  (41,890 KB)
+    hmmsearch: 10.5s  (1,270 seqs with hits)
+    OriVFinder scoring: 13.8s  (1175 scored → 7160 total hits)
+  [12,000 seqs / 7,160 origins so far]
+  reading: 12,500 sequences accepted (24.9% of FASTA)
+  reading: 13,000 sequences accepted (26.9% of FASTA)
+  reading: 13,500 sequences accepted (27.7% of FASTA)
+  reading: 14,000 sequences accepted (28.4% of FASTA)
+  flushing batch at 14,000 seqs …
+    ORF prediction: 121.7s  (179,247 ORFs total)
+    Write proteins: 0.1s  (46,682 KB)
+    hmmsearch: 12.7s  (1,505 seqs with hits)
+    OriVFinder scoring: 21.5s  (1377 scored → 8537 total hits)
+  [14,000 seqs / 8,537 origins so far]
+  reading: 14,500 sequences accepted (29.3% of FASTA)
+  reading: 15,000 sequences accepted (30.2% of FASTA)
+  reading: 15,500 sequences accepted (31.6% of FASTA)
+  reading: 16,000 sequences accepted (32.7% of FASTA)
+  flushing batch at 16,000 seqs …
+    ORF prediction: 137.8s  (198,576 ORFs total)
+    Write proteins: 0.2s  (52,175 KB)
+    hmmsearch: 13.1s  (1,340 seqs with hits)
+    OriVFinder scoring: 16.0s  (1190 scored → 9727 total hits)
+  [16,000 seqs / 9,727 origins so far]
+  reading: 16,500 sequences accepted (34.0% of FASTA)
+  reading: 17,000 sequences accepted (34.9% of FASTA)
+  reading: 17,500 sequences accepted (35.8% of FASTA)
+  reading: 18,000 sequences accepted (36.9% of FASTA)
+  flushing batch at 18,000 seqs …
+    ORF prediction: 174.9s  (175,161 ORFs total)
+    Write proteins: 0.2s  (46,017 KB)
+    hmmsearch: 38.6s  (1,351 seqs with hits)
+    OriVFinder scoring: 296.3s  (1208 scored → 10935 total hits)
+  [18,000 seqs / 10,935 origins so far]
+  reading: 18,500 sequences accepted (37.6% of FASTA)
+  reading: 19,000 sequences accepted (38.8% of FASTA)
+  reading: 19,500 sequences accepted (40.0% of FASTA)
+  reading: 20,000 sequences accepted (40.9% of FASTA)
+  flushing batch at 20,000 seqs …
+    ORF prediction: 152.9s  (173,154 ORFs total)
+    Write proteins: 0.2s  (45,077 KB)
+    hmmsearch: 10.7s  (1,349 seqs with hits)
+    OriVFinder scoring: 14.2s  (1214 scored → 12149 total hits)
+  [20,000 seqs / 12,149 origins so far]
+  reading: 20,500 sequences accepted (41.7% of FASTA)
+  reading: 21,000 sequences accepted (42.5% of FASTA)
+  reading: 21,500 sequences accepted (43.2% of FASTA)
+  reading: 22,000 sequences accepted (44.2% of FASTA)
+  flushing batch at 22,000 seqs …
+    ORF prediction: 122.2s  (179,487 ORFs total)
+    Write proteins: 0.1s  (46,614 KB)
+    hmmsearch: 11.7s  (1,355 seqs with hits)
+    OriVFinder scoring: 16.1s  (1266 scored → 13415 total hits)
+  [22,000 seqs / 13,415 origins so far]
+  reading: 22,500 sequences accepted (45.5% of FASTA)
+  reading: 23,000 sequences accepted (46.3% of FASTA)
+  reading: 23,500 sequences accepted (47.2% of FASTA)
+  reading: 24,000 sequences accepted (48.2% of FASTA)
+  flushing batch at 24,000 seqs …
+    ORF prediction: 124.5s  (187,547 ORFs total)
+    Write proteins: 0.2s  (49,238 KB)
+    hmmsearch: 12.0s  (1,282 seqs with hits)
+    OriVFinder scoring: 14.5s  (1173 scored → 14588 total hits)
+  [24,000 seqs / 14,588 origins so far]
+  reading: 24,500 sequences accepted (49.2% of FASTA)
+  reading: 25,000 sequences accepted (50.1% of FASTA)
+  reading: 25,500 sequences accepted (51.1% of FASTA)
+  reading: 26,000 sequences accepted (52.2% of FASTA)
+  flushing batch at 26,000 seqs …
+    ORF prediction: 138.5s  (191,393 ORFs total)
+    Write proteins: 0.2s  (52,313 KB)
+    hmmsearch: 13.1s  (1,403 seqs with hits)
+    OriVFinder scoring: 15.0s  (1176 scored → 15764 total hits)
+  [26,000 seqs / 15,764 origins so far]
+  reading: 26,500 sequences accepted (53.1% of FASTA)
+  reading: 27,000 sequences accepted (54.0% of FASTA)
+  reading: 27,500 sequences accepted (54.9% of FASTA)
+  reading: 28,000 sequences accepted (56.0% of FASTA)
+  flushing batch at 28,000 seqs …
+    ORF prediction: 117.9s  (178,985 ORFs total)
+    Write proteins: 0.1s  (46,985 KB)
+    hmmsearch: 11.7s  (1,301 seqs with hits)
+    OriVFinder scoring: 14.0s  (1183 scored → 16947 total hits)
+  [28,000 seqs / 16,947 origins so far]
+  reading: 28,500 sequences accepted (56.8% of FASTA)
+  reading: 29,000 sequences accepted (57.5% of FASTA)
+  reading: 29,500 sequences accepted (58.3% of FASTA)
+  reading: 30,000 sequences accepted (59.3% of FASTA)
+  flushing batch at 30,000 seqs …
+    ORF prediction: 1506.4s  (194,650 ORFs total)
+    Write proteins: 0.4s  (50,056 KB)
+    hmmsearch: 11.6s  (1,446 seqs with hits)
+    OriVFinder scoring: 15.0s  (1335 scored → 18282 total hits)
+  [30,000 seqs / 18,282 origins so far]
+  reading: 30,500 sequences accepted (60.3% of FASTA)
+  reading: 31,000 sequences accepted (61.3% of FASTA)
+  reading: 31,500 sequences accepted (62.1% of FASTA)
+  reading: 32,000 sequences accepted (63.0% of FASTA)
+  flushing batch at 32,000 seqs …
+    ORF prediction: 122.5s  (192,812 ORFs total)
+    Write proteins: 0.2s  (50,694 KB)
+    hmmsearch: 12.3s  (1,421 seqs with hits)
+    OriVFinder scoring: 18.3s  (1317 scored → 19599 total hits)
+  [32,000 seqs / 19,599 origins so far]
+  reading: 32,500 sequences accepted (64.3% of FASTA)
+  reading: 33,000 sequences accepted (65.7% of FASTA)
+  reading: 33,500 sequences accepted (66.6% of FASTA)
+  reading: 34,000 sequences accepted (68.0% of FASTA)
+  flushing batch at 34,000 seqs …
+    ORF prediction: 140.0s  (202,851 ORFs total)
+    Write proteins: 0.2s  (53,883 KB)
+    hmmsearch: 12.9s  (1,402 seqs with hits)
+    OriVFinder scoring: 14.4s  (1223 scored → 20822 total hits)
+  [34,000 seqs / 20,822 origins so far]
+  reading: 34,500 sequences accepted (69.1% of FASTA)
+  reading: 35,000 sequences accepted (70.0% of FASTA)
+  reading: 35,500 sequences accepted (70.8% of FASTA)
+  reading: 36,000 sequences accepted (71.7% of FASTA)
+  flushing batch at 36,000 seqs …
+    ORF prediction: 119.2s  (177,730 ORFs total)
+    Write proteins: 0.2s  (47,137 KB)
+    hmmsearch: 11.5s  (1,235 seqs with hits)
+    OriVFinder scoring: 14.7s  (1134 scored → 21956 total hits)
+  [36,000 seqs / 21,956 origins so far]
+  reading: 36,500 sequences accepted (73.0% of FASTA)
+  reading: 37,000 sequences accepted (74.0% of FASTA)
+  reading: 37,500 sequences accepted (75.4% of FASTA)
+  reading: 38,000 sequences accepted (76.6% of FASTA)
+  flushing batch at 38,000 seqs …
+    ORF prediction: 120.5s  (184,893 ORFs total)
+    Write proteins: 0.2s  (48,268 KB)
+    hmmsearch: 12.4s  (1,416 seqs with hits)
+    OriVFinder scoring: 16.0s  (1281 scored → 23237 total hits)
+  [38,000 seqs / 23,237 origins so far]
+  reading: 38,500 sequences accepted (77.8% of FASTA)
+  reading: 39,000 sequences accepted (79.6% of FASTA)
+  reading: 39,500 sequences accepted (80.9% of FASTA)
+  reading: 40,000 sequences accepted (82.2% of FASTA)
+  flushing batch at 40,000 seqs …
+    ORF prediction: 351.0s  (199,486 ORFs total)
+    Write proteins: 0.2s  (54,336 KB)
+    hmmsearch: 11.1s  (1,290 seqs with hits)
+    OriVFinder scoring: 12.4s  (1049 scored → 24286 total hits)
+  [40,000 seqs / 24,286 origins so far]
+  reading: 40,500 sequences accepted (82.8% of FASTA)
+  reading: 41,000 sequences accepted (83.6% of FASTA)
+  reading: 41,500 sequences accepted (84.8% of FASTA)
+  reading: 42,000 sequences accepted (85.9% of FASTA)
+  flushing batch at 42,000 seqs …
+    ORF prediction: 82.0s  (127,795 ORFs total)
+    Write proteins: 0.1s  (34,345 KB)
+    hmmsearch: 8.5s  (1,199 seqs with hits)
+    OriVFinder scoring: 10.7s  (995 scored → 25281 total hits)
+  [42,000 seqs / 25,281 origins so far]
+  reading: 42,500 sequences accepted (86.9% of FASTA)
+  reading: 43,000 sequences accepted (87.8% of FASTA)
+  reading: 43,500 sequences accepted (89.0% of FASTA)
+  reading: 44,000 sequences accepted (90.0% of FASTA)
+  flushing batch at 44,000 seqs …
+    ORF prediction: 118.9s  (188,872 ORFs total)
+    Write proteins: 0.2s  (50,326 KB)
+    hmmsearch: 13.0s  (1,314 seqs with hits)
+    OriVFinder scoring: 14.5s  (1149 scored → 26430 total hits)
+  [44,000 seqs / 26,430 origins so far]
+  reading: 44,500 sequences accepted (91.2% of FASTA)
+  reading: 45,000 sequences accepted (92.6% of FASTA)
+  reading: 45,500 sequences accepted (94.2% of FASTA)
+  reading: 46,000 sequences accepted (95.4% of FASTA)
+  flushing batch at 46,000 seqs …
+    ORF prediction: 130.7s  (204,901 ORFs total)
+    Write proteins: 0.2s  (54,082 KB)
+    hmmsearch: 13.2s  (1,425 seqs with hits)
+    OriVFinder scoring: 16.2s  (1244 scored → 27674 total hits)
+  [46,000 seqs / 27,674 origins so far]
+  reading: 46,500 sequences accepted (96.4% of FASTA)
+  reading: 47,000 sequences accepted (97.8% of FASTA)
+    ORF prediction: 326.0s  (123,059 ORFs total)
+    Write proteins: 0.1s  (32,941 KB)
+    hmmsearch: 7.9s  (1,005 seqs with hits)
+    OriVFinder scoring: 10.3s  (851 scored → 28525 total hits)
+  Loaded 47,382 sequences; identified 28,525 origin candidates
+  Origins identified: 28,525
+
+======================================================================
+S6: Origin windows (≥200 bp Rep-buffer, ≤6000 bp)
+======================================================================
+  After size filter: 28,525 origins
+
+======================================================================
+S7: Local ORF-based origin trimming (no GenBank fetch)
+======================================================================
+  [1/28525] NZ_CP139268.1
+  [5000/28525] NZ_CP145149.1
+  [10000/28525] NZ_CP062764.1
+  [15000/28525] NZ_CP087794.1
+  [20000/28525] CP090276.1
+  [25000/28525] NC_014919.1
+After trimming: 28,525 origins
+
+======================================================================
+S8: Deduplicate by RIP type
+======================================================================
+
+After deduplication: 144 origins (31 RIP types, up to 5 per type)
+
+======================================================================
+S9: Tiered diversity selection (overshooting to ~375kb / ~112 origins to compensate for post-selection trimming)
+======================================================================
+
+Diversity library: 112 origins, 381,404 bp
+  Tier 2: Alphaproteobacteria: 45 origins, 148,828 bp
+  Tier 3: Cross-phylum BHR: 5 origins, 14,302 bp
+  Tier 4: Phylum-exclusive: 18 origins, 55,716 bp
+  Tier 5: Diversity fill: 44 origins, 162,558 bp
+
+======================================================================
+S10: Functional OriV validation + ORF classification
+======================================================================
+
+Step 9a: ORF prediction ...
+Step 9b: Rep-protein HMM (library validation) ...
+  Validation HMM: 112 strict, 0 relaxed, 0 no-hit
+Step 9c: Parsing GenBank CDS features ...
+Step 9d: Scoring Rep, Par, and structural OriV elements ...
+  COMPLETE    : 0/112
+  FUNCTIONAL  : 107/112
+  MINIMAL     : 5/112
+  INCOMPLETE  : 0/112
+  Classifying ORFs for map labels ...
+  Classified 408 ORFs across 112 origins
+
+======================================================================
+S11: Synthesis assessment
+======================================================================
+
+======================================================================
+S12: Writing outputs
+======================================================================
+CSV → results_plsdb/diversity_library_metadata.csv  (112 × 117)
+FASTA → results_plsdb/origin_sequences.fasta  (112 sequences)
+  Maps: 20/112
+  Maps: 40/112
+  Maps: 60/112
+  Maps: 80/112
+  Maps: 100/112
+PDF → results_plsdb/origin_plasmid_maps.pdf
+Overview → results_plsdb/diversity_library_overview.png
+
+======================================================================
+DONE
+======================================================================
+  COMPLETE       0/112
+  FUNCTIONAL   107/112
+  MINIMAL        5/112
+  INCOMPLETE     0/112

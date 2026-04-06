@@ -1,0 +1,94 @@
+LOCUS       NZ_CP100402_1           2604 bp    DNA     linear   SYN 06-APR-2026
+DEFINITION  Plasmid origin region | Halorussus_aquaticus | RIP:
+            RNA_helicase__RCR | 2,604 bp.
+ACCESSION   NZ_CP100402
+VERSION     NZ_CP100402.1
+KEYWORDS    .
+SOURCE      Halorussus_aquaticus
+  ORGANISM  Halorussus_aquaticus
+            Euryarchaeota; Halobacteria; Halobacteriales; Haladaptataceae;
+            Halorussus.
+FEATURES             Location/Qualifiers
+     source          1..2604
+                     /organism="Halorussus_aquaticus"
+                     /mol_type="genomic DNA"
+                     /plasmid="NZ_CP100402.1"
+                     /note="Origin region from PLSDB 2025 | RIP type:
+                     RNA_helicase__RCR | Tier: Tier 4: Phylum-exclusive"
+     CDS             201..2404
+                     /product="RNA_helicase__RCR"
+                     /locus_tag="NZ_CP100402.1_orf3"
+                     /translation="MKLIVKPLDRKSAGKGIAAIDSEAMEELGVSNGDFVTIEGEDGTA
+                     VARVRPGRSGERQWGVVGIDGQTRKTTGARIDQLVRVEQTDVAAADELTIALPGGLQIR
+                     GNLASYLRDKLANRAVRAGQTVPVALGFGSLTGRSSRRIPVRIVDTEPSGTVVVTQSTS
+                     IDVAEQSAEEVDVERGDEASRDSESPGVTYEDVGGLDDELDQVREMIELPMSHPELFQA
+                     LGIEPPQGVLLHGPPGTGKTLIAKAVANEIDANFQTISGPEIMSKYHGESEERLREVFD
+                     EAGENEPAIIFIDEIDSIAPKRDDTQGDVERRVVAQLLSLMDGLEDRGQVTVIGTTNRV
+                     DSIDNALRRGGRFDREIEIGAPDTRGREEILQVHTREMPIAESVDIEQYAENTHGFVGA
+                     DLESLVREAAMNALRRVRPDLDLEGDEIDAETLEALEVTEADFRAALREIDPSALREVF
+                     VETPDVTWDDVGGLAETKARLQEAIQWPMEYPDAYRQVDLQSPKGIMLHGPPGTGKTLL
+                     AKAVANEAQSNFISVKGPELFDKYVGESEKGVREIFEKARSNAPTVIFFDEIDSIATKR
+                     GSGGSDSNVGERVVSQLLTELDGLEELEDVVVIAATNRPDLIDDALTRAGRIERKIEVG
+                     EPDEETRREILKIHTRNRPLADDVDIDHLAAETEGFVGADLAALCREAATAAVREHVRS
+                     QSGEEPMAVEDIVLTQAHFDAALADINPEDADDSSETDEV"
+                     /codon_start=1
+                     /function="rep"
+                     /note="category=rep; color=#E53935"
+                     /note="origin_relevant=yes"
+                     /ApEinfo_fwdcolor="#E53935"
+                     /ApEinfo_revcolor="#E53935"
+     CDS             complement(2477..2604)
+                     /product="hypothetical protein (42 aa)"
+                     /locus_tag="NZ_CP100402.1_orf4"
+                     /translation="GSVFVGVLADEGYFDGAVLILGGLLAVVAIIFAFLPGLSSEE"
+                     /codon_start=1
+                     /function="hypothetical"
+                     /note="category=hypothetical; color=#9E9E9E"
+                     /ApEinfo_fwdcolor="#9E9E9E"
+                     /ApEinfo_revcolor="#9E9E9E"
+ORIGIN
+        1 ctgtcgcgtt tcgcttgttg cgtgcggcca tttgggttta gacgttcgta ccgagcgtgg
+       61 attttgtcgt cggaagtacc cacatctatt tcagtttggt ccgcgtaagt atggtatatc
+      121 cagtgcggta cttgtctcgg tgatttgagg tgtcggcagt tttccgttcg agtacggtct
+      181 ggacagagag acaacattca tgaaactaat tgtcaaaccg ctcgaccgga agagtgctgg
+      241 gaagggtatc gcggccatcg acagcgaggc gatggaggaa ctcggcgttt cgaacggtga
+      301 cttcgtcact atcgaaggcg aggacggtac tgcggtcgcc cgcgtccggc cgggacggtc
+      361 gggcgagcga cagtggggcg tcgtcggcat cgacggccag acccggaaga ccaccggcgc
+      421 acgaatcgac caactcgttc gggtcgaaca gaccgacgtc gccgcggccg acgagctaac
+      481 gatagcactc cccggcgggc ttcagattcg cggcaacctc gcctcgtatc tgcgcgataa
+      541 actcgccaac cgcgcggttc gggcgggaca gaccgtcccc gtcgcgctcg gattcggttc
+      601 cctgacgggc cggtcgagtc gccggattcc ggtccgaatc gtggatactg aaccgagcgg
+      661 gaccgtggtc gtcacgcagt cgacgtccat cgatgtcgcc gagcagtccg ccgaggaagt
+      721 ggacgtggaa cgcggtgacg aggcgtcccg cgactccgag tcccccggcg tcacctacga
+      781 ggacgtcggc ggcctcgacg acgaactcga ccaagtccgg gagatgatag agttgccgat
+      841 gtcccatccc gaactgttcc aagcgctcgg catcgaaccg ccgcagggcg tcctgctcca
+      901 cggcccgccc ggcacgggca agaccctcat cgcgaaggcg gtcgccaacg agatagacgc
+      961 caacttccag accatctccg ggccggagat catgtcgaag taccacggcg agagcgagga
+     1021 gcggttgcgc gaggtgttcg acgaggccgg agagaacgaa ccggcgatca tcttcatcga
+     1081 cgagatagac tccatcgcgc cgaagcgaga cgacacgcag ggcgacgtgg aacgccgcgt
+     1141 ggtcgcccaa ctgctctcgc tgatggacgg actggaggac cgcggtcagg tgaccgtcat
+     1201 cgggacgacg aaccgcgtcg attccatcga caacgcgctg cgccgcggcg gccgcttcga
+     1261 ccgcgagata gagatcggcg cgccggacac gcggggccga gaggagattc tccaagtcca
+     1321 cacccgcgag atgcccatcg ccgagtcggt cgacatcgaa cagtacgccg agaacaccca
+     1381 cggcttcgtc ggcgcggact tggagagcct cgtccgcgag gcggcgatga acgcgctccg
+     1441 acgcgttcgc cccgacctcg acctcgaagg cgacgagatc gacgccgaga cgctcgaagc
+     1501 gctcgaagtg accgaggcgg acttccgggc ggcgctccgg gagatcgacc cgagcgcgct
+     1561 ccgagaggtg ttcgtcgaga cacccgacgt cacgtgggac gacgtcggcg gtctcgcgga
+     1621 gaccaaggcc cgactgcagg aggccatcca gtggccgatg gagtaccccg acgcctacag
+     1681 gcaggtggac ctccagtcgc cgaagggcat catgctccac ggaccgccgg gcactggcaa
+     1741 gacgctgctc gcgaaggccg tcgccaacga ggctcagtcg aacttcatct cggtcaaggg
+     1801 ccccgaactg ttcgacaagt acgtcggcga gtccgagaag ggcgttaggg aaatcttcga
+     1861 gaaggcgcgg tcgaacgcgc cgaccgtcat cttcttcgac gagatcgact ccatcgcgac
+     1921 caagcgcggg agcggtggca gcgattcgaa cgtcggcgag cgcgtcgtct cccaactgct
+     1981 gaccgaactc gacgggttgg aggaactgga ggacgtggtc gtcatcgcgg cgacgaaccg
+     2041 acccgacctc atcgacgacg ccctgacgcg cgcgggccgc atcgagcgca agatagaggt
+     2101 cggcgaaccc gacgaggaga cccgacgcga aatcctgaag attcacaccc ggaaccggcc
+     2161 gctcgccgac gacgtggaca tcgaccacct cgcggccgag acggagggct tcgtgggtgc
+     2221 ggacttggcg gcgctgtgcc gcgaggcggc caccgcggcc gttcgcgagc acgtccggtc
+     2281 gcagtccggt gaggaaccga tggccgtcga ggacatcgtg ctcacgcagg cccacttcga
+     2341 tgctgcactc gcggatatca atccggaaga cgccgacgac tcgtcagaga ccgacgaggt
+     2401 gtaatcggca ctcgggcggt tcgttcgacg ggactgctcc gtcaccgata ctatcctcga
+     2461 ctggggacgc tgacgctact cctcgctgga gagtccgggg aggaaggcga agattatcgc
+     2521 gacgacggcg agcaggccgc cgagtatcag gaccgcgccg tcgaagtacc cctcgtcggc
+     2581 gaggacgccg acgaagaccg accc
+//
