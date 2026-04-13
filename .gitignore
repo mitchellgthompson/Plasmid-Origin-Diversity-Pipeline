@@ -41,5 +41,10 @@ lib_orfs_*
 gb_orfs_*
 pfam_orfs_*
 
+# ── Root-level duplicates of pipeline outputs ──────────────────────────────
+diversity_library_metadata.csv
+origin_sequences.fasta
+RIPs.zip
+
 # ── Conversation logs ───────────────────────────────────────────────────────
 .claude/

@@ -31,12 +31,16 @@ synthetic biology applications.
 
 | File / dir | Purpose |
 |------------|---------|
-| `plasmid_origin_pipeline.py` | Main pipeline (runs steps S1–S12) |
+| `plasmid_origin_pipeline.py` | Main PLSDB pipeline (runs steps S1–S12) |
 | `origins_to_genbank.py` | Pfam annotation, origin trimming, GenBank export |
+| `analyze_repABC_origins.py` | **repABC origin analysis, synthesis ranking & PDF maps** |
+| `ARC_repABC_loci_fna_gbk/` | 118 curated repABC loci (.fna + .gbk) from Agrobacterium/Rhizobium |
+| `ARC_repABC_loci_fna_gbk/parS.table.xlsx` | parS partition-site annotations for repABC loci |
+| `results_repABC/` | repABC pipeline outputs (metadata, FASTAs, PDFs, summary) |
 | `RIPs/RIP.hmm` | Rep-protein HMM profile (35 families) |
 | `RIPs/RIP.fasta` | Source sequences for the RIP HMM |
 | `RIPs/Collected_RIPs.xlsx` | Curated metadata for the RIP families |
-| `results_plsdb/` | Example output from a recent run |
+| `results_plsdb/` | Example output from the PLSDB pipeline |
 | `results_plsdb/genbanks/` | One annotated GenBank per origin |
 | `requirements.txt` | Python dependencies |
 
@@ -98,7 +102,63 @@ python origins_to_genbank.py \
     --buffer      200
 ```
 
-## Outputs
+## repABC Origin Analysis Pipeline
+
+A separate pipeline for characterising **repABC-family replication origins**
+from curated Agrobacterium/Rhizobium loci. It parses annotated GenBank files,
+integrates parS partition-site data, runs Twist synthesis feasibility
+assessment, computes diversity statistics, and prioritises origins into
+**primary** (~125 kb, synthesisable and diverse) and **secondary** (backup)
+synthesis tiers.
+
+### Quick start
+
+```bash
+python3 analyze_repABC_origins.py
+```
+
+No arguments needed — input data lives in `ARC_repABC_loci_fna_gbk/`.
+
+### repABC pipeline steps
+
+1. **Parse** 118 `.fna`/`.gbk` file pairs — extract repA/B/C genes, oriV,
+   ctRNA, S-element annotations, UniRef50 cross-references
+2. **Integrate parS** data from `parS.table.xlsx` (247 parS hits across 106 loci)
+3. **Assign taxonomy** (species, family, class) from strain identifiers
+4. **Compute sequence complexity** — homopolymers, direct repeats, local GC
+   variation, dinucleotide entropy
+5. **Twist synthesis assessment** — GC category, strategy, fragment count,
+   estimated cost, ease score (0–100), homopolymer flag
+6. **Diversity grouping** by RepC UniRef50 cluster, pTi/pRi type, and
+   replicon type (40 unique rep classes)
+7. **Composite ranking** (functional completeness 35%, synthesis ease 30%,
+   sequence complexity 20%, compactness 15%) and tier assignment:
+   - **Primary**: best synthesisable representative per class, budget-capped
+     at ~125 kb, prioritising pTi → pRi → named replicons → other classes
+   - **Secondary**: all remaining origins as backup
+8. **Generate annotated linear plasmid maps** (one PDF page per origin) showing
+   repA/B/C arrows, oriV, parS sites, ctRNA, S-element, AT-rich regions,
+   GC% track, and metadata box
+
+### repABC outputs
+
+After running, `results_repABC/` contains:
+
+| File | Contents |
+|------|----------|
+| `repABC_origins_metadata.csv` | Full metadata for all 118 origins |
+| `primary_synthesis_origins.csv` | Primary tier metadata |
+| `secondary_synthesis_origins.csv` | Secondary tier metadata |
+| `primary_synthesis_origins.fasta` | Primary tier sequences |
+| `secondary_synthesis_origins.fasta` | Secondary tier sequences |
+| `primary_repABC_maps.pdf` | Annotated linear maps for primary tier |
+| `secondary_repABC_maps.pdf` | Annotated linear maps for secondary tier |
+| `all_repABC_maps.pdf` | Maps for all 118 origins |
+| `diversity_summary.txt` | Human-readable ranking and statistics |
+
+---
+
+## PLSDB Pipeline Outputs
 
 After both scripts complete, `results_plsdb/` contains:
 

@@ -1,0 +1,132 @@
+LOCUS       CP000629                3982 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Agrobacterium radiobacter K84 chromosome 2, complete sequence.
+ACCESSION   CP000629
+VERSION     CP000629.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            199..1374
+                     /gene="repAa1"
+                     /locus_tag="Arad_7000"
+     CDS             199..1374
+                     /gene="repAa1"
+                     /locus_tag="Arad_7000"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="plasmid partitioning protein RepAa1"
+                     /protein_id="ACM28591.1"
+                     /db_xref="GI:221725502"
+                     /translation="MTRHLSSLAFMQTFSAKLDTALGNLSLAQFPPHARRTMRKFTSPE
+                     VAALLNVTEAYIRQVSLKEQGPTPEVANGRRLYTLEQILELRMHLAQNGRKKWMNPRRV
+                     GEEQCQILAITNFKGGSSKTSTTIHLGHYLALRGYRVLAVDLDPQASLTSLHGSLPDFD
+                     YRDGDTLYSAIRFEDPIPTEQVIHQTHIAGFDVICAGLELTEFETAVALEMRKSGGTSF
+                     LLRVSQALEQVADRYDIILMDSAPSLNFLTLSSLTAATGVLIPVPAHMLDVDSTAKFLE
+                     LAGSYMQILEQVGTSAQWDFAKFLITKFEPNDHPQANMTALMRQVFGEDLLLNSVIKST
+                     AVADALTWKQSLYEVQRSRFSAPKTYDRAIESINAANAEIEELLSRAWGRE"
+     gene            1359..2393
+                     /gene="repBf2"
+                     /locus_tag="Arad_7001"
+     CDS             1359..2393
+                     /gene="repBf2"
+                     /locus_tag="Arad_7001"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="plasmid partitioning protein RepBf2"
+                     /protein_id="ACM28592.1"
+                     /db_xref="GI:221725503"
+                     /translation="MGTRMSRKDSKGMFANVLIGLGQDTPSVPAATTSPSPHLLKVAAG
+                     VRQLQERGELADKLLQGADHIIQLDVDAVLPSSIRDRFDGAYDADRLQDLVQSMREHGQ
+                     TTPGLVRPMPGEGSRFQIVFGRRRLAAAKLLGIKFRAIVRDLTDEQAIVIQGEENANRD
+                     DLSFIEKCVFALSQEEAGFKREVICSSLATGKSHVSEMLQIAKVFPNTVLTRIGAAPET
+                     GRRRWAQLAERWSANAKAQTVTDRLLEELTVQSLSSDDRFAAVLNAVSKAENAPTAPAD
+                     RAQEVVSKGMTLAVVNYAKAGTKLTFTKAVPDDFVNYLLRRMEGLHEEYLDQSQQTAQN
+                     KTKL"
+     gene            2673..3782
+                     /gene="repCa1"
+                     /locus_tag="Arad_7003"
+     CDS             2673..3782
+                     /gene="repCa1"
+                     /locus_tag="Arad_7003"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="plasmid replication protein RepCa1"
+                     /protein_id="ACM28593.1"
+                     /db_xref="GI:221725504"
+                     /translation="MFRNVCEARPLLNISDRTLAVLNALLTFYPEKELSEDAGLVVFPS
+                     NNQLAVRAHGITGTTLRRHLATLVEAGLILRKDSPNGKRFARKDGAGAVEDAYGFNLAP
+                     LLARSEELADLAQQIAVEKKHLRQAKEKLTISRRDVRKLIGTAIEEGVPGNWQAIERHY
+                     LSLVNTLPRAPTAVDIAPIAEEMEMLRNEIINLLETKLISEKSVANDVQNDRHIQNSNT
+                     ESQIESEASPQAATAVEPDQSAEQISKPSQQPIKAYPLATVLRACPEITNYGPSGAIAS
+                     WRELMTAAVVVRTMLGVTSSAYQDACDTMGPESTAVVMACLLEKAQHISSAGGYLRNLT
+                     SRARRGEFSLAPMLMAQMRGRDAEARKAS"
+ORIGIN
+        1 gcataattga tagcgacaga ccgaaagttc cccgcgggga acgctatttt aggctagttg
+       61 ccccgaatca tagaatcgga gtacttctta tctacggaaa atgccggtag taccgacttt
+      121 ctgcgtaaat aaagaaacca gtcacaaaaa cccaaccata aaggcgctta gtaacgtggc
+      181 caaaaatggg agaaaaccat gacccgacat ctgagcagcc tcgccttcat gcagaccttt
+      241 tctgcgaagc tggataccgc attgggcaat ctcagcctag cccagtttcc cccgcatgcc
+      301 cggcgcacca tgcgcaagtt cacctccccc gaggttgccg cgctgcttaa cgtcaccgaa
+      361 gcctatatta ggcaggtttc cctgaaggag caggggccga cgccggaagt cgccaatgga
+      421 cggcgtctct atacgctcga gcagatcctc gagttgcgta tgcacctggc gcagaacggc
+      481 cgcaagaagt ggatgaaccc gcgcagggta ggcgaggagc aatgccagat cctggcaatc
+      541 accaatttca agggcggctc cagcaagacc tccaccacga tccatctcgg tcattatctg
+      601 gccttgagag gataccgcgt gctggccgtt gacctcgacc cccaggcatc gctgaccagc
+      661 ctgcatggta gtctgccgga tttcgattat cgtgacggcg atacgcttta ttccgccatc
+      721 cgcttcgagg atccgatccc gaccgagcag gtcattcatc agacccacat cgccggcttc
+      781 gatgtcatct gcgccggcct ggaattgacg gagttcgaaa ccgccgttgc gcttgaaatg
+      841 cgcaagtctg gcggcacgag cttcctcttg cgcgtatcgc aggcactgga gcaggtggct
+      901 gatcgctacg acatcatcct gatggattcg gccccgtcgc tgaacttcct caccctgtca
+      961 tccctgaccg cggcgacagg cgtcctgata ccggttccgg cacatatgct cgatgtggat
+     1021 tccacagcga agttcctgga actcgccgga tcctacatgc agatcctcga acaggtcggc
+     1081 acgtcggcgc aatgggattt cgccaagttc ctgatcacca agttcgaacc gaacgaccat
+     1141 ccccaggcca atatgacggc gctgatgcgg caggttttcg gcgaagacct gttgcttaac
+     1201 tccgtgatca aatcgaccgc ggttgccgat gccttgacct ggaaacagag cctttacgag
+     1261 gtgcagcggt cgagattttc cgccccgaaa acctatgaca gggcgattga gtcgatcaat
+     1321 gcggcaaatg ccgaaatcga agagcttctt tcgagagcat ggggacgcga atgagcagga
+     1381 aagattccaa aggcatgttt gccaatgtcc tgatcggtct cggccaggac actccatccg
+     1441 tacccgccgc aacgacatcg ccgtcgccgc atcttctgaa ggtcgccgcc ggcgttcggc
+     1501 agttgcagga acgtggcgag cttgccgaca agctgctgca gggtgccgat cacatcatcc
+     1561 agctcgacgt ggacgcggtc cttccgtctt ccattcggga tcgatttgac ggagcttatg
+     1621 acgccgacag gcttcaggat ctcgtgcagt ccatgcgcga acacgggcaa acgacgcctg
+     1681 gtctcgttcg gcccatgccg ggcgagggca gccggtttca gatcgtcttc ggacgacgac
+     1741 gccttgccgc tgcaaagctt ctcggcatca agttccgcgc catcgtccgc gatctcacgg
+     1801 acgaacaggc aatcgttatc cagggcgaag aaaatgccaa tcgcgacgat ctgtccttca
+     1861 ttgagaaatg cgttttcgct ctcagccagg aagaggcggg cttcaagcgc gaggtgatct
+     1921 gctcatcgct cgcaaccggc aagtcgcatg tttccgaaat gctgcagatc gccaaggttt
+     1981 tcccgaatac ggtcctgacg cgtatcggtg ctgctcccga gaccggccgc cggcgctggg
+     2041 cgcaactggc cgaacgctgg agcgccaatg ccaaagcgca aacggtcacg gatcggctgc
+     2101 tggaagagct gacggttcag tcgctgtcca gcgatgacag gttcgcggcc gtgttgaatg
+     2161 ccgtttccaa ggccgagaat gcccccacag cccctgcgga tcgcgcccag gaagtcgttt
+     2221 ccaagggaat gaccctggcc gttgtgaact acgcgaaggc gggaaccaag cttaccttca
+     2281 cgaaagccgt cccggacgat ttcgtgaatt acctgctgcg tcgaatggag ggattgcacg
+     2341 aggaatatct cgatcaatct caacagaccg cgcagaacaa gaccaagctg taacaggaga
+     2401 ctgaatagca aaagaaaaag gcccccgaac gttgccgtag cggaagccct tctcagtatg
+     2461 tagcaatacg agaatcacat ttccgcgaat catagtcaag agtctttggc accgtttttg
+     2521 gtgagcggtt ttcttttgcc tgttgaaagg tgaaggaaat ggagatgcat atcacgacgc
+     2581 ccttcgggcg gcggtcgatg tcgcttgcct tgatgagaag tcagatcaag gcaacggcca
+     2641 tcagacaagg taaaactgtc gacaagtggc aagtgtttcg caatgtctgc gaagcaagac
+     2701 ccctgctcaa catttcagat cgcacactgg cggttctgaa tgcacttcta acgttttacc
+     2761 ccgagaagga actcagcgaa gacgccgggc tggtagtctt tccgtccaac aatcagctcg
+     2821 ccgttcgcgc ccatggcatc accggaacga cgctgcggcg gcatctggct accttggtcg
+     2881 aggccggcct gatccttcgc aaggatagcc cgaacggcaa gcgctttgcc cgcaaggatg
+     2941 gggcaggggc tgtcgaagac gcctatggct tcaatctggc gccgctcctt gcccgttccg
+     3001 aggagcttgc ggatctggcg cagcagattg ccgtcgagaa aaaacatctc cgacaggcca
+     3061 aggagaagct caccattagc cgccgtgatg ttcgcaagct gattggcacc gcgatcgaag
+     3121 aaggcgttcc cggtaactgg caggcgatcg agagacatta tctcagcctg gttaacaccc
+     3181 tgccacgcgc gccaacagcc gtggatatcg ctcccatcgc cgaagaaatg gaaatgctgc
+     3241 gcaatgagat catcaacctt ttggaaacaa agctgatttc cgaaaaatcg gttgccaatg
+     3301 atgtccaaaa tgaccggcac atacagaatt caaataccga atcccaaata gaatctgaag
+     3361 cgagccctca ggctgcaaca gccgttgagc cagaccaatc ggccgagcag atcagcaagc
+     3421 cctcacagca gccgatcaaa gcctatccgt tggcaacggt gctacgagcc tgcccagaga
+     3481 tcaccaatta cggcccttcc ggtgcgattg ccagctggcg agagctgatg acagcagccg
+     3541 ttgtcgttcg aaccatgctg ggtgtgacat ccagcgctta tcaggatgct tgcgatacca
+     3601 tggggccgga aagcacggct gtcgtcatgg cctgcctcct cgaaaaagcg cagcatatca
+     3661 gctcagccgg tggctatctg cgcaatctca cctcaagggc acgtcgaggc gagttttccc
+     3721 ttgcgccgat gctgatggca cagatgcggg gtcgtgacgc cgaggcgagg aaggcatcat
+     3781 gatcatcgtc atcgaaggga tcagcgccgc cggcaagaca acctggtgcc gacaacacgc
+     3841 ctccaagttt tttgtccagg agacctatcc ggaactacgg ccggacaggg atcacgacgc
+     3901 gcacggagct gcccttctct ggacagattg gaatatgagg cgctggtccg aggccgttga
+     3961 gatcgagcgc gaacaccaaa gg
+//

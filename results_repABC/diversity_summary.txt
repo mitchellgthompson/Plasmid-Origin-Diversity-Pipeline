@@ -1,0 +1,132 @@
+repABC Origin Diversity & Synthesis Prioritization Summary
+============================================================
+
+Total origins analysed: 118
+Primary tier:   32 origins, 130,700 bp
+Secondary tier: 86 origins, 351,555 bp
+
+PRIMARY TIER COMPOSITION
+----------------------------------------
+    1. AF3.44_contig_3_pTi_Type_X_repABC                        4091 bp  GC=0.533  ease=80  $409  func=100  class=pTi Type X
+    2. 15-1187-1-2a_CP123842.1_pTi_Type_III_rep_2_repABC        4047 bp  GC=0.538  ease=80  $405  func=90  class=pTi Type III rep 2
+    3. C58_AE007871.2_pTi_Type_I.a_repABC                       4031 bp  GC=0.564  ease=80  $403  func=90  class=pTi Type I.a
+    4. NCPPB_1641_NZ_LT009777.1_pTi_Type_XI_repABC              3998 bp  GC=0.558  ease=80  $400  func=85  class=pTi Type XI
+    5. 1D1524_plasmid2_pTi_Type_IV.a_repABC                     4390 bp  GC=0.561  ease=80  $439  func=90  class=pTi Type IV.a
+    6. AMS008_plasmid3_pTi_Type_IV.b_repABC                     4392 bp  GC=0.561  ease=80  $439  func=90  class=pTi Type IV.b
+    7. B230_85_contig_5_pTi_Type_VIII.a_repABC                  4070 bp  GC=0.544  ease=80  $407  func=85  class=pTi Type VIII.a
+    8. L51_94_contig_5_pTi_Type_VIII.b_repABC                   4130 bp  GC=0.552  ease=80  $413  func=85  class=pTi Type VIII.b
+    9. B21_90_contig_3_pTi_Type_VII_repABC                      4141 bp  GC=0.560  ease=80  $414  func=85  class=pTi Type VII
+   10. 1D1514_plasmid2_pTi_Type_V_rep_1_repABC                  3734 bp  GC=0.546  ease=80  $373  func=70  class=pTi Type V rep 1
+   11. S7_73_contig_3_pTi_Type_IX_repABC                        4083 bp  GC=0.541  ease=80  $408  func=75  class=pTi Type IX
+   12. 1D1514_plasmid2_pTi_Type_V_rep_2_repABC                  4152 bp  GC=0.523  ease=80  $415  func=75  class=pTi Type V rep 2
+   13. CG474_CG474_3_pTi_Type_I.c_repABC                        4550 bp  GC=0.562  ease=80  $455  func=75  class=pTi Type I.c
+   14. 15-1187-1-2a_CP123842.1_pTi_Type_III_rep_1_repABC        4270 bp  GC=0.548  ease=80  $427  func=70  class=pTi Type III rep 1
+   15. Q15_94_contig_5_pTi_Type_VI_repABC                       4386 bp  GC=0.562  ease=80  $439  func=70  class=pTi Type VI
+   16. CA75_95_contig_3_pTi_Type_IV.c_repABC                    4390 bp  GC=0.566  ease=80  $439  func=70  class=pTi Type IV.c
+   17. K599_CAICSX020000003.1_pRi_Type_I_repABC                 3655 bp  GC=0.536  ease=80  $366  func=90  class=pRi Type I
+   18. T155_95_NZ_JAAMCX010000012.1_pRi_Type_III_repABC         4003 bp  GC=0.550  ease=80  $400  func=85  class=pRi Type III
+   19. NCIB_8196_NZ_JAAMDI010000041.1_pRi_Type_II_repABC        4003 bp  GC=0.553  ease=80  $400  func=85  class=pRi Type II
+   20. 1D1524_pAt_repABC                                        4013 bp  GC=0.514  ease=80  $401  func=85  class=pAt_UniRef50_P05684
+   21. 1D1524_chromid_repABC                                    4902 bp  GC=0.538  ease=80  $490  func=90  class=chromid_UniRef50_A0A6S6NCV8
+   22. Atu_K84_pAtK84b_CP000630.1_repABC                        4409 bp  GC=0.561  ease=80  $441  func=75  class=pAt
+   23. Atu_K84_pAgK84_CP000632.1_repABC                         2965 bp  GC=0.543  ease=90  $296  func=30  class=pAg
+   24. Atu_K84_chromid_CP000629.1_repABC                        3982 bp  GC=0.572  ease=80  $398  func=10  class=chromid
+   25. 1D1514_plasmid1_repABC                                   3984 bp  GC=0.548  ease=80  $398  func=100  class=other_UniRef50_P05684
+   26. NCIB_8196_NZ_JAAMDI010000039.1_repABC                    3983 bp  GC=0.566  ease=80  $398  func=100  class=other_UniRef50_A0A1M3Q1S7
+   27. CA75_95_contig_2_repABC                                  3983 bp  GC=0.572  ease=80  $398  func=100  class=other_UniRef50_A0AA87PY09
+   28. Q15_94_contig_6_repABC                                   4017 bp  GC=0.548  ease=80  $402  func=100  class=other_UniRef50_A0A7Z7LNC0
+   29. B230_85_contig_6_repABC                                  3898 bp  GC=0.559  ease=80  $390  func=85  class=other_UniRef50_W6RJ16
+   30. Rhizobium_etli_CFN_42_CP000135.1_repABC                  3948 bp  GC=0.598  ease=80  $395  func=85  class=other_UniRef50_K0Q2E7
+   31. B230_85_contig_2_rep_2_repABC                            4016 bp  GC=0.538  ease=80  $402  func=85  class=other_UniRef50_A0AAF1KSM8
+   32. S7_73_contig_2_repABC                                    4084 bp  GC=0.543  ease=80  $408  func=85  class=other_UniRef50_P55391
+
+  Total: 130,700 bp  Est. cost: $13,070.00
+
+SECONDARY TIER (86 origins)
+----------------------------------------
+  AMS008_plasmid2_repABC                                   3984 bp  GC=0.547  ease=80  $398  func=100  class=other_UniRef50_P05684
+  T155_95_NZ_JAAMCX010000007.1_repABC                      3983 bp  GC=0.568  ease=80  $398  func=100  class=other_UniRef50_A0A1M3Q1S7
+  AB2_73_contig_3_repABC                                   4065 bp  GC=0.589  ease=80  $406  func=100  class=other_UniRef50_A0AA87PY09
+  T155_95_NZ_JAAMCX010000013.1_repABC                      4070 bp  GC=0.563  ease=80  $407  func=90  class=other_UniRef50_P05684
+  B230_85_contig_4_repABC                                  4096 bp  GC=0.537  ease=80  $410  func=90  class=other_UniRef50_A0A7Z7LNC0
+  Rhizobium_etli_CFN_42_U80928.5_repABC                    3800 bp  GC=0.554  ease=80  $380  func=85  class=other_UniRef50_P05684
+  CG507_CG507_8_repABC                                     3943 bp  GC=0.503  ease=80  $394  func=85  class=other_UniRef50_P05684
+  Q15_94_contig_4_repABC                                   3940 bp  GC=0.557  ease=80  $394  func=85  class=other_UniRef50_P05684
+  L51_94_contig_2_rep_1_repABC                             4016 bp  GC=0.539  ease=80  $402  func=85  class=other_UniRef50_A0AAF1KSM8
+  B21_90_contig_2_rep_2_repABC                             4016 bp  GC=0.537  ease=80  $402  func=85  class=other_UniRef50_A0AAF1KSM8
+  CG958_CG958_3_repABC                                     4014 bp  GC=0.522  ease=80  $401  func=85  class=other_UniRef50_P05684
+  AMS008_pAt_repABC                                        4013 bp  GC=0.510  ease=80  $401  func=85  class=pAt_UniRef50_P05684
+  WS16_contig_4_repABC                                     3957 bp  GC=0.590  ease=80  $396  func=85  class=other_UniRef50_A0A7Z7LNC0
+  1D1514_pAt_repABC                                        4014 bp  GC=0.507  ease=80  $401  func=85  class=pAt_UniRef50_P05684
+  WS192_contig_4_repABC                                    3958 bp  GC=0.592  ease=80  $396  func=85  class=other_UniRef50_A0A7Z7LNC0
+  WS287_contig_6_rep_2_repABC                              4014 bp  GC=0.558  ease=80  $401  func=85  class=other_UniRef50_P05684
+  Q15_94_contig_7_repABC                                   4021 bp  GC=0.558  ease=80  $402  func=85  class=other_UniRef50_A0A7Z7LNC0
+  WS163_contig_7_repABC                                    4020 bp  GC=0.562  ease=80  $402  func=85  class=other_UniRef50_P05684
+  WS16_contig_2_repABC                                     4020 bp  GC=0.560  ease=80  $402  func=85  class=other_UniRef50_P05684
+  CG507_CG507_2_repABC                                     4061 bp  GC=0.517  ease=80  $406  func=85  class=other_UniRef50_P05684
+  1D1524_plasmid1_repABC                                   4065 bp  GC=0.533  ease=80  $406  func=85  class=other_UniRef50_P05684
+  CG474_CG474_4_rep_2_repABC                               4070 bp  GC=0.538  ease=80  $407  func=85  class=other_UniRef50_P05684
+  Q15_94_contig_3_repABC                                   4062 bp  GC=0.558  ease=80  $406  func=85  class=other_UniRef50_A0A7Z7LNC0
+  S7_73_contig_4_repABC                                    4062 bp  GC=0.559  ease=80  $406  func=85  class=other_UniRef50_A0A7Z7LNC0
+  C58_AE007872.2_repABC                                    4065 bp  GC=0.557  ease=80  $406  func=85  class=other_UniRef50_P05684
+  AB2_73_contig_2_repABC                                   4062 bp  GC=0.567  ease=80  $406  func=85  class=other_UniRef50_W6RJ16
+  Q15_94_contig_2_repABC                                   4084 bp  GC=0.543  ease=80  $408  func=85  class=other_UniRef50_P55391
+  15-1187-1-2a_CP123839.1_repABC                           4084 bp  GC=0.544  ease=80  $408  func=85  class=other_UniRef50_A0A0Q5DZ52
+  C58_AE007870.2_repABC                                    4087 bp  GC=0.549  ease=80  $409  func=85  class=other_UniRef50_A0A1S7RDG5
+  K599_CAICSX020000002.1_repABC                            4087 bp  GC=0.549  ease=80  $409  func=85  class=other_UniRef50_A0A0Q5DZ52
+  NCPPB_1641_NZ_LT009776.1_repABC                          4087 bp  GC=0.550  ease=80  $409  func=85  class=other_UniRef50_A0A0Q5DZ52
+  L51_94_contig_4_repABC                                   4097 bp  GC=0.569  ease=80  $410  func=85  class=other_UniRef50_W6RJ16
+  AF3.44_contig_2_repABC                                   4101 bp  GC=0.538  ease=80  $410  func=85  class=other_UniRef50_P55391
+  B230_85_contig_3_repABC                                  4097 bp  GC=0.572  ease=80  $410  func=85  class=other_UniRef50_W6RJ16
+  B21_90_contig_4_repABC                                   4097 bp  GC=0.572  ease=80  $410  func=85  class=other_UniRef50_W6RJ16
+  L51_94_contig_2_rep_2_repABC                             4099 bp  GC=0.596  ease=80  $410  func=85  class=other_UniRef50_W6RJ16
+  L51_94_contig_3_repABC                                   4140 bp  GC=0.563  ease=80  $414  func=85  class=other_UniRef50_W6RJ16
+  WS16_contig_5_repABC                                     4110 bp  GC=0.594  ease=80  $411  func=85  class=other_UniRef50_W6RJ16
+  B21_90_contig_2_rep_1_repABC                             3783 bp  GC=0.594  ease=80  $378  func=80  class=other_UniRef50_A0A7W8UBK0
+  WS192_contig_2_repABC                                    4128 bp  GC=0.593  ease=80  $413  func=85  class=other_UniRef50_W6RJ16
+  Sinorhizobium_fredii_NGR234_U00090.2_repABC              3829 bp  GC=0.574  ease=80  $383  func=80  class=other_UniRef50_P05684
+  B230_85_contig_2_rep_1_repABC                            3497 bp  GC=0.573  ease=80  $350  func=75  class=other_UniRef50_W6RJ16
+  Rhizobium_etli_CFN_42_CP000134.1_rep_2_repABC            3924 bp  GC=0.564  ease=80  $392  func=80  class=other_UniRef50_P05684
+  AMS008_plasmid4_repABC                                   3957 bp  GC=0.560  ease=80  $396  func=80  class=other_UniRef50_P05684
+  AB2_73_contig_5_repABC                                   4010 bp  GC=0.573  ease=80  $401  func=80  class=other_UniRef50_A0A7Z7LNC0
+  1D1514_plasmid3_repABC                                   4035 bp  GC=0.552  ease=80  $404  func=80  class=other_UniRef50_P05684
+  Rhizobium_etli_CFN_42_CP000137.1_repABC                  3757 bp  GC=0.601  ease=70  $376  func=85  class=other_UniRef50_P05684
+  AF3.44_contig_4_repABC                                   4067 bp  GC=0.556  ease=80  $407  func=80  class=other_UniRef50_P05684
+  NCPPB_1641_NZ_LT009778.1_repABC                          4102 bp  GC=0.555  ease=80  $410  func=80  class=other_UniRef50_P05684
+  CG474_chromid_repABC                                     4903 bp  GC=0.530  ease=80  $490  func=90  class=chromid_UniRef50_A0A6S6NCV8
+  1D1514_chromid_repABC                                    4903 bp  GC=0.531  ease=80  $490  func=90  class=chromid_UniRef50_A0A6S6NCV8
+  AMS008_chromid_repABC                                    4904 bp  GC=0.530  ease=80  $490  func=90  class=chromid_UniRef50_A0A6S6NCV8
+  Rhizobium_etli_CFN_42_CP000136.1_repABC                  3907 bp  GC=0.605  ease=70  $391  func=85  class=other_UniRef50_K0Q2E7
+  Rhizobium_etli_CFN_42_CP000138.1_rep_1_repABC            4055 bp  GC=0.618  ease=70  $406  func=85  class=other_UniRef50_K0Q2E7
+  NCIB_8196_NZ_JAAMDI010000042.1_repABC                    4069 bp  GC=0.548  ease=80  $407  func=75  class=other_UniRef50_K0Q2E7
+  B21_90_contig_5_repABC                                   4096 bp  GC=0.540  ease=80  $410  func=75  class=other_UniRef50_A0A7Z7LNC0
+  AB2_73_contig_4_pTi_Type_IX_repABC                       4083 bp  GC=0.541  ease=80  $408  func=75  class=pTi Type IX
+  CG958_CG958_5_repABC                                     4096 bp  GC=0.541  ease=80  $410  func=75  class=other_UniRef50_P05684
+  Sinorhizobium_fredii_NGR234_CP000874.1_repABC            4118 bp  GC=0.615  ease=70  $412  func=85  class=other_UniRef50_K0Q2E7
+  WS16_contig_3_repABC                                     4057 bp  GC=0.596  ease=80  $406  func=75  class=other_UniRef50_W6RJ16
+  WS192_contig_5_repABC                                    4057 bp  GC=0.598  ease=80  $406  func=75  class=other_UniRef50_W6RJ16
+  Rhizobium_etli_CFN_42_CP000134.1_rep_1_repABC            4150 bp  GC=0.538  ease=80  $415  func=75  class=other_UniRef50_J0B6A6
+  CG507_CG507_4_repABC                                     4158 bp  GC=0.518  ease=80  $416  func=75  class=other_UniRef50_J0B6A6
+  WS192_contig_3_repABC                                    4146 bp  GC=0.587  ease=80  $415  func=75  class=other_UniRef50_A0A198YX65
+  Rhizobium_etli_CFN_42_CP000138.1_rep_2_repABC            3945 bp  GC=0.618  ease=70  $394  func=80  class=other_UniRef50_P05684
+  CG474_CG474_4_rep_1_repABC                               4297 bp  GC=0.550  ease=80  $430  func=70  class=other_UniRef50_A0A1V0M5A2
+  WS163_contig_4_repABC                                    3927 bp  GC=0.587  ease=80  $393  func=65  class=other_UniRef50_A0A7Z7LNC0
+  WS287_contig_3_repABC                                    3926 bp  GC=0.594  ease=80  $393  func=65  class=other_UniRef50_A0A7Z7LNC0
+  WS198_contig_3_repABC                                    3926 bp  GC=0.593  ease=80  $393  func=65  class=other_UniRef50_A0A7Z7LNC0
+  WS287_contig_6_rep_1_repABC                              4005 bp  GC=0.578  ease=80  $400  func=65  class=other_UniRef50_A0A7Z7LNC0
+  CG958_CG958_4_pTi_Type_IV.b_repABC                       4390 bp  GC=0.559  ease=80  $439  func=70  class=pTi Type IV.b
+  15-1187-1-2a_CP123841.1_repABC                           4069 bp  GC=0.541  ease=80  $407  func=65  class=other_UniRef50_P05684
+  Atu_K84_pAtK84c_CP000631.1_repABC                        4069 bp  GC=0.548  ease=80  $407  func=65  class=pAt
+  WS163_contig_3_repABC                                    4057 bp  GC=0.595  ease=80  $406  func=65  class=other_UniRef50_W6RJ16
+  15-1187-1-2a_CP123840.1_repABC                           4121 bp  GC=0.554  ease=80  $412  func=65  class=other_UniRef50_P05684
+  WS163_contig_6_repABC                                    4110 bp  GC=0.566  ease=80  $411  func=65  class=other_UniRef50_W6RJ16
+  WS287_contig_5_repABC                                    4111 bp  GC=0.571  ease=80  $411  func=65  class=other_UniRef50_W6RJ16
+  WS198_contig_4_repABC                                    4109 bp  GC=0.593  ease=80  $411  func=65  class=other_UniRef50_W6RJ16
+  WS163_contig_5_repABC                                    4112 bp  GC=0.595  ease=80  $411  func=65  class=other_UniRef50_W6RJ16
+  WS287_contig_4_repABC                                    4109 bp  GC=0.594  ease=80  $411  func=65  class=other_UniRef50_W6RJ16
+  CG1055_contig_3_repABC                                   4016 bp  GC=0.543  ease=80  $402  func=55  class=other_CG1055
+  WS198_contig_2_repABC                                    4056 bp  GC=0.599  ease=80  $406  func=55  class=other_UniRef50_W6RJ16
+  WS287_contig_2_repABC                                    4057 bp  GC=0.599  ease=80  $406  func=55  class=other_UniRef50_W6RJ16
+  WS198_contig_5_repABC                                    4145 bp  GC=0.587  ease=80  $414  func=55  class=other_UniRef50_A0A198YX65
+  CG958_chromid_repABC                                     5005 bp  GC=0.532  ease=70  $416  func=75  class=chromid_UniRef50_A0A6S6NCV8
+  CG1055_contig_2_repABC                                   4641 bp  GC=0.568  ease=80  $464  func=55  class=other_UniRef50_A0A6S6NCV8

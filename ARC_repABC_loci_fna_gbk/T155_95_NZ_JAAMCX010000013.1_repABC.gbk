@@ -1,0 +1,169 @@
+LOCUS       NZ_JAAMCX010000013.1    4070 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Agrobacterium_rhizogenes_T155_95 NZ_JAAMCX010000013.1, whole genome
+            shotgun sequence.
+ACCESSION   NZ_JAAMCX010000013
+VERSION     NZ_JAAMCX010000013.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            200..1396
+                     /locus_tag="KLLAMJ_14100"
+                     /gene="repA"
+     CDS             200..1396
+                     /db_xref="COG:COG1192"
+                     /db_xref="COG:DN"
+                     /db_xref="KEGG:K03496"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniRef:UniRef50_P55393"
+                     /db_xref="UniRef:UniRef90_Q1M9K5"
+                     /product="plasmid partitioning protein RepA"
+                     /locus_tag="KLLAMJ_14100"
+                     /protein_id="gnl|Bakta|KLLAMJ_14100"
+                     /translation="MENPAKLQKAIHKLIAAHARDLSGALHEHRVKLYPPEARKTLRSF
+                     SSTEAAKLIGVNDGYLRHLSLEGKGPQPEVGANGRRSYSVETIQALREYLDENGKGDRR
+                     YSPRRSGREHLQVITAVNFKGGSGKTTTAAHLAQYLALNGYRVLAIDLDPQASMSALHG
+                     FQPEFDVKDNETLYGAVRYDEERRPLKDVIKKTYFTNLDLVPGNLELMEFEHDTAKVLG
+                     SNDRKNIFFTRMDDAIASVADDYDVVVVDCPPQLGFLTISALCAATAVLVTVHPQMLDV
+                     MSMCQFLLMTSELLSVVADAGGSMNYDWMRYLVTRYEPGDGPQNQMVSFMRTMFGDHVL
+                     NHPMLKSTAISDAGITKQTLYEVSRDQFTRATYDRAMESLDNVNNEIEQLIQSSWGRK"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:UniRef:UniRef90_Q1M9K5"
+                     /gene="repA"
+                     /note="antiSMASH cluster:
+                     c00003_NZ_JAAM.._region001:hserlactone"
+                     /note="antiSMASH gene product: other (smcogs)
+                     SMCOG1157:hypothetical protein (Score: 197.4; E-value:
+                     5.1e-60)"
+     gene            1520..2479
+                     /locus_tag="KLLAMJ_14105"
+                     /gene="repB"
+     CDS             1520..2479
+                     /db_xref="KEGG:K03497"
+                     /db_xref="RefSeq:WP_174054306.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI0015746909"
+                     /db_xref="UniRef:UniRef100_UPI0015746909"
+                     /db_xref="UniRef:UniRef50_B9K3B7"
+                     /db_xref="UniRef:UniRef90_A0A2A6J6M3"
+                     /product="plasmid partitioning protein RepB"
+                     /locus_tag="KLLAMJ_14105"
+                     /protein_id="gnl|Bakta|KLLAMJ_14105"
+                     /translation="MARKHLLSDLAPQKLPAGNSENAAGFDSPTPQYAPRGAIGAVSRS
+                     IELLRSQSLTELDPDLIDAPSVVDRLDEDGEQFEEFARNIRENGQQVPILVRPHPSIEG
+                     RYQIAYGRRRLRAVKAAGLQIKAAIRNLTDDELVLAQGQENSARQDLSFIERALYAAEL
+                     EANGFQRTVIMAALSVDKSNLSRLIQAATQMPADVIRAIGAAPKTGRDRWYELATRLGS
+                     EEALLKARASLSEASVKSLTSDERFACVFAAVAPKKGKKEKPQAEIWQADDGVKAASFR
+                     QDKRTLTLMIDKKAAPEFGDYLMSVLPEIYASFKKTKQ"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_174054306.1"
+                     /gene="repB"
+                     /note="antiSMASH cluster:
+                     c00003_NZ_JAAM.._region001:hserlactone"
+     rep_origin      2490..2650
+                     /note="origin of replication"
+                     /inference="similar to DNA sequence"
+     gene            2653..3870
+                     /locus_tag="KLLAMJ_14110"
+                     /gene="repC"
+     CDS             2653..3870
+                     /db_xref="KEGG:K18996"
+                     /db_xref="RefSeq:WP_174054375.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI001574BE76"
+                     /db_xref="UniRef:UniRef100_UPI001574BE76"
+                     /db_xref="UniRef:UniRef50_P05684"
+                     /db_xref="UniRef:UniRef90_UPI001574BE76"
+                     /product="plasmid replication protein RepC"
+                     /locus_tag="KLLAMJ_14110"
+                     /protein_id="gnl|Bakta|KLLAMJ_14110"
+                     /translation="METGYITTPFGRRPMTLALVQRQVATEQSIAASSVDKWRVFRDVC
+                     DARSRLGLQDRALAVLNALLSFFPAVELSSEKNLIVFPSNAQLSARANGIAGTTLRKCL
+                     GMLVEAGIIIRKDSPNGKRYARKGDEGDIEDAYGFSLAPLVARASEFAALAQDVAAEQR
+                     RFRIMKDRLTIVRRDVRKLITVGMEENLPGDWAAAEACFVDVVARFARRPAIEDLTASL
+                     DEMTLLHEEVSRMLERQEETRKSDGNGIVSGCHIQNSNTEYCNESEPRFEVKQGEKSEP
+                     TKRTERKGEPEAFPLSMVLRACPEIGSFGPGGSIGSWREMMSAAVTVRSMLGVSPSAYE
+                     DACEVMGQAGAAIAIACILERTGHISSAGGYLRDLTAKARRGEFSLGPMLFAALRANGK
+                     PTRVSA"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_174054375.1"
+                     /gene="repC"
+                     /note="antiSMASH cluster:
+                     c00003_NZ_JAAM.._region001:hserlactone"
+ORIGIN
+        1 ataccgcgaa caaatcggcg cgtcgaagcc tgtaactatc ggtaaatgtt ggaaaaaggt
+       61 ttttgcgggc tgcgcgtctc gatcgcgccg ttaatggtct gttaacttta aatatcttgc
+      121 aaagatctgt ggaatcgggt gtcctatcca cggtaaatcg ctgtgtttac gaaaattacc
+      181 gtgtgtacaa gaggacgtcg tggagaatcc cgccaagctt cagaaggcta ttcataaact
+      241 gatagcagcg cacgcgcgag atctgtcagg cgcgttgcac gagcatcgcg tgaagcttta
+      301 cccgccggaa gctcgcaaga cgctgcggtc cttctcgtca acagaagctg ctaagctcat
+      361 cggcgtcaac gacggatacc ttcgacatct ctcacttgaa ggcaaggggc cgcagcctga
+      421 ggtgggcgcc aatggtcgtc gatcgtattc agtggaaacc atccaggctc ttcgcgagta
+      481 tctggacgaa aacggcaagg gcgaccgccg ctattcaccc cggcgcagtg gacgggagca
+      541 cctgcaggtc atcactgcgg tcaatttcaa gggcggatca ggcaagacaa cgacagcagc
+      601 tcacctcgct caatacctcg cgcttaacgg ttatcgggtg ctggcgattg atctcgaccc
+      661 tcaggcgagc atgtccgcgc ttcacggctt tcaaccggaa tttgacgtca aggacaacga
+      721 gactctttac ggcgccgtgc gatacgacga ggaacggcgg ccactgaagg acgtcatcaa
+      781 gaagacgtac ttcaccaacc tcgacctggt tcccggcaat cttgagctga tggagttcga
+      841 gcacgatacg gcgaaggtgc ttggctcgaa tgatcgcaag aacatctttt tcacgcgcat
+      901 ggatgacgcg atcgcatcgg tggcggacga ctacgacgtc gtcgtcgtgg actgccctcc
+      961 ccagcttggc tttctgacga tctcggcact ttgtgcagcc acagccgtgc ttgtgaccgt
+     1021 tcatccccag atgctcgacg tcatgtcgat gtgccagttt cttctcatga cgtccgagct
+     1081 gctcagtgtc gttgcagatg ctggcgggag catgaactat gattggatgc gctacctcgt
+     1141 aacgcgctat gagcccggcg acggcccgca aaaccagatg gtatcgttca tgcgaacgat
+     1201 gttcggtgac catgttctga accacccgat gctaaagagc acggcaattt cggacgccgg
+     1261 tatcactaag cagacgcttt atgaggtcag tcgcgatcag ttcactcggg cgacctacga
+     1321 ccgagcgatg gagtcgctcg acaacgttaa caacgagatc gaacagctca tacagtcctc
+     1381 atgggggcgt aaatgatgcc cacttcgttc tctaaaaatc gcctgccggt agaaaagttg
+     1441 ccagccggaa actttctgca agtcgatcta aaaacgccca ttgagctcgc gtttgacgcg
+     1501 gacaaaagag gagcggcaaa tggctaggaa gcatctcctt tcagaccttg cgccacaaaa
+     1561 gttgccagcc ggaaactctg agaatgcggc gggcttcgac agtccaactc cccagtatgc
+     1621 gccgcgaggt gcgattggcg ccgtatcgag atcgattgag ctcctgaggt cgcagtcgct
+     1681 tactgagctt gatccggatt tgatcgacgc gccatcagtg gtggatcgtc tcgatgagga
+     1741 cggcgaacag tttgaagaat ttgctcgcaa cattcgtgag aacggccagc aagttccaat
+     1801 ccttgtgcga ccgcacccct caattgaagg gcggtatcag atcgcctatg gccgcaggcg
+     1861 cttacgtgcg gtcaaggcag ccggactcca gatcaaagca gcgatccgga atttgactga
+     1921 cgacgagttg gtgcttgccc aaggtcagga aaatagcgcc cgtcaggacc tctcgttcat
+     1981 cgagcgagcc ttatacgccg ctgaactcga agccaatggg tttcaacgca cggttatcat
+     2041 ggccgctcta tctgtcgata agagcaatct ttctcgcctc atccaggcgg caacgcaaat
+     2101 gccggcagac gtgatccgag caatcggcgc tgcgccaaag acgggccgtg accgttggta
+     2161 cgagcttgcg acgcggctgg gtagcgagga agcgctcctc aaggctcgcg catcgctatc
+     2221 agaagcctcc gtcaaatcgc tgacgtcgga tgagcgtttc gcctgtgtct tcgctgccgt
+     2281 cgcgccaaaa aaagggaaga aagaaaagcc tcaagctgaa atttggcaag ctgacgacgg
+     2341 cgttaaggcc gcgagtttcc gtcaggacaa gcgaacactc acactaatga tcgacaaaaa
+     2401 ggcggcgccc gagtttggcg actacctgat gtcggttctc cccgaaatct acgcttcgtt
+     2461 caaaaagacg aagcagtagg tgaatcgcga ctaggaaagg atcgatagag caaagaaaaa
+     2521 gccctccgaa acagtgttcc agaaggcctc tctcagtttg gtcgcttaga gaatcgcact
+     2581 tcccggaatc acagtcaaga gtcaacgcca cactggcgta gcctttttct ttgccttgtg
+     2641 aaaggtgaga acatggaaac gggatatata acgacgccct ttgggcggcg gccgatgacg
+     2701 cttgccttgg tacagcgtca ggtggcgacc gagcagagta tagcggcaag ctcggtcgac
+     2761 aaatggcgcg tgtttcgcga cgtatgtgac gcccgctcgc gtcttggcct ccaggatcgg
+     2821 gcactcgccg tcttgaatgc gctcctgtca ttcttccctg ctgtcgagct cagcagcgag
+     2881 aagaacctga ttgtctttcc ttcgaacgcc cagctatcgg cacgggcaaa tgggatcgcc
+     2941 gggacgacgc tacgcaagtg cctggggatg ctcgtggagg ccggtatcat catccgcaag
+     3001 gacagtccaa acgggaagcg atacgctcga aagggcgatg aaggtgacat cgaggacgcc
+     3061 tatggcttca gcctcgcgcc tcttgtcgcg cgcgcgagcg aatttgcggc cttggcccag
+     3121 gacgtagctg ccgaacagcg acggttccgc atcatgaagg accgcctaac gatcgtcagg
+     3181 cgagatgttc gcaaactaat cactgtcggg atggaagaga acctgccagg cgattgggcg
+     3241 gctgcagaag cgtgcttcgt cgacgtcgtg gcacggtttg cgcgccgtcc agcgatcgag
+     3301 gatctgaccg caagcctcga cgagatgacc ctcctacatg aagaagtctc caggatgctg
+     3361 gaaagacagg aagaaacccg aaaaagcgat ggcaatggca tcgtatctgg gtgccacata
+     3421 cagaattcaa ataccgaata ttgcaatgaa tctgaaccgc gcttcgaagt gaagcagggc
+     3481 gagaagtccg agccaaccaa acgaacggag cggaagggcg agccggaagc tttcccgtta
+     3541 tccatggtgc ttcgcgcctg cccggagatt ggaagctttg ggccaggggg atcaattgga
+     3601 agctggcgcg agatgatgtc ggccgcggtc acagtccggt cgatgctcgg tgttagcccg
+     3661 tcggcctacg aggacgcctg cgaggtgatg ggtcaagcgg gagcggcaat cgccatcgcc
+     3721 tgtattttgg agcggacagg ccacatcagt tcggccggcg gctatctcag agacctgacc
+     3781 gcgaaggcgc ggcgagggga gttttcactt ggtccaatgt tgttcgccgc tctcagagcg
+     3841 aatggtaagc caactcgcgt ttccgcgtaa tggattttag gagtggtgcc cctaactggc
+     3901 tgaaatacat agcgcaatag gacctttctg cggaagtttc cggctggcaa cttttgaagc
+     3961 gcgcggatct atttgctttt gggcctcgtg cgtttttgcg cacagggacg tccattgacg
+     4021 gtgcctgagg tcttctagtt ctcgtcaaca tcgggacggc aaccattgct
+//

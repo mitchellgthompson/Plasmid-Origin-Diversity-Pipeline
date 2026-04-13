@@ -1,0 +1,200 @@
+LOCUS       NZ_LT009778.1           4102 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Agrobacterium_deltaense_NCPPB_1641 NZ_LT009778.1, whole genome
+            shotgun sequence.
+ACCESSION   NZ_LT009778
+VERSION     NZ_LT009778.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    complement(41..57)
+                     /note="trabox"
+                     /inference="BEAV"
+     gene            200..1456
+                     /locus_tag="MKLHML_28605"
+                     /gene="repA"
+     CDS             200..1456
+                     /db_xref="KEGG:K03496"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniRef:UniRef50_A0A4Z1Q314"
+                     /db_xref="UniRef:UniRef90_A0A4Z1Q314"
+                     /product="plasmid partitioning protein RepA"
+                     /locus_tag="MKLHML_28605"
+                     /protein_id="gnl|Bakta|MKLHML_28605"
+                     /translation="MTVLGLISAKCRHSGEVMSSVASSAAKKIGFDDIILAQGKDISRK
+                     LNQLRMESYPPDARKTLRQFSMAEAAYFLGVSPSNLKKLHLEGKGVVPTVHAGGRRTYS
+                     AEQIRELRHWLDQNGRSDVKKYVPSRRANEKLQVLAVVNFKGGSGKTTTAAHLGQHLAL
+                     TGHRVLAIDLDPQGSMTALYGIQPEVDDYPSVYEAIRYDEKRCSLADVIKPTNFPDLDI
+                     VPASLELQEYEYDTPLAMQAGTEGKRFWNRLQSALEDVDPRYDVVVLDCPPQLGYLTLT
+                     ALAASTSVLITVHPQMLDLMSMSQFLLMLGDILKTVKQAGGDVDLDWFRYLITRFEPTD
+                     MPQAQMVAFMKSMLIPHMAKHEMVKSTAVSDAGLTKQTLYEVERSAMNRGTYDRAMEAM
+                     EAVNGEIRDLIHEAWGRRK"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA
+                     sequence:UniRef:UniRef90_A0A4Z1Q314"
+                     /gene="repA"
+                     /note="antiSMASH cluster:
+                     NZ_LT009778.1_region001:hserlactone"
+                     /note="antiSMASH gene product: other (smcogs)
+                     SMCOG1157:hypothetical protein (Score: 186.9; E-value:
+                     8e-57)"
+     gene            1519..2526
+                     /locus_tag="MKLHML_28610"
+                     /gene="repB"
+     CDS             1519..2526
+                     /db_xref="KEGG:K03497"
+                     /db_xref="RefSeq:WP_080855465.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI0009B96102"
+                     /db_xref="UniRef:UniRef100_A0A4Z1QK74"
+                     /db_xref="UniRef:UniRef50_A0A316J6K1"
+                     /db_xref="UniRef:UniRef90_A0A4Z1QK74"
+                     /product="plasmid partitioning protein RepB"
+                     /locus_tag="MKLHML_28610"
+                     /protein_id="gnl|Bakta|MKLHML_28610"
+                     /translation="MARKNIFNSVMNDDQAVDETIESAAPVTRFGAAKSLSSSIDALAR
+                     QAERINDGDVVVELDPELLEASFVRDRLSGTAEGSTTTDEEYSELLAAIRERGQDSPIL
+                     VRPIPNKSDRYMIVFGHRRAQVARELGRKVRAVVRQLDEQAHVISQGQENSARANLSFI
+                     ERATFADRLEKLGYSREVIQVALSVDYQTLSKMLTVPGAFGERLIEAIGPAKGVGRDRW
+                     LQLRKLIDVPKNKALAEEFTNEEEFTSLGQVDRFEALFKRLRSGKEKAAVKRSENTQPR
+                     QVWNAKDNAVNVSRKVTPKAVTLVLSSSNGIAFGDWITNNIESLYETFQQQGKN"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_080855465.1"
+                     /gene="repB"
+                     /note="antiSMASH cluster:
+                     NZ_LT009778.1_region001:hserlactone"
+     gene            complement(2538..2583)
+                     /locus_tag="MKLHML_28615"
+                     /gene="ctRNA_p42d"
+     ncRNA           complement(2538..2583)
+                     /db_xref="RFAM:RF00489"
+                     /db_xref="SO:0000655"
+                     /product="ctRNA"
+                     /locus_tag="MKLHML_28615"
+                     /inference="profile:Rfam:RF00489"
+                     /ncRNA_class="other"
+                     /gene="ctRNA_p42d"
+     gene            2688..3902
+                     /locus_tag="MKLHML_28620"
+                     /gene="repC"
+     CDS             2688..3902
+                     /db_xref="KEGG:K18996"
+                     /db_xref="RefSeq:WP_080855466.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI0009BA3C24"
+                     /db_xref="UniRef:UniRef100_A0A4Z1Q3Y3"
+                     /db_xref="UniRef:UniRef50_P05684"
+                     /db_xref="UniRef:UniRef90_M8ACF1"
+                     /product="plasmid replication protein RepC"
+                     /locus_tag="MKLHML_28620"
+                     /protein_id="gnl|Bakta|MKLHML_28620"
+                     /translation="MQIGNVTTPFGRRAISLALVKGQRAAADIKAGKTAEKWKVFRDIS
+                     EARSLLGLQDRALAVLDALLSFYPESQLSEESGMVVFPSNAQLSVRAHGITGTTLRRQL
+                     AALVDAGLIHRRDSPNGKRYAHRGKEGEIEQAFGFSLAPLLARVEELAQLAQLVAEERR
+                     LFKRAKEALTICRRDVRKLITAAVEEGADGDWEAIEAMYVAALAKLPRNPGHDEVVSVL
+                     DEMTLLRDEIVNLLEIQQNAENMASNGSQNGCHIQNSKPESFHESEPRSEKEQDGPIVE
+                     EPKPTAEMKRPFPLGMVLRACPEIAMYGPGGAINHWRELMTAAVVVRSSLGVSPSAYQD
+                     ACDVMGPENAATAVACILERAGHINSAGGYLRDLTRKAARGEFGLGPMLMALLKVQSGG
+                     DRKSA"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_080855466.1"
+                     /gene="repC"
+                     /note="antiSMASH cluster:
+                     NZ_LT009778.1_region001:hserlactone"
+     gene            complement(3951..4013)
+                     /locus_tag="MKLHML_28625"
+     CDS             complement(3951..4013)
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI0009D30755"
+                     /db_xref="UniRef:UniRef100_A0A1S7UCJ2"
+                     /db_xref="UniRef:UniRef50_A0A1S7UCJ2"
+                     /db_xref="UniRef:UniRef90_A0A1S7UCJ2"
+                     /product="Cytochrome P450"
+                     /locus_tag="MKLHML_28625"
+                     /protein_id="gnl|Bakta|MKLHML_28625"
+                     /translation="MRQAIVDTLLKVFDALVLED"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Bakta:1.7"
+                     /inference="similar to AA
+                     sequence:UniRef:UniRef100_A0A1S7UCJ2"
+                     /note="antiSMASH cluster:
+                     NZ_LT009778.1_region001:hserlactone"
+ORIGIN
+        1 gattttcgat cgcaatcgct atcgggaagc gttgatttca tgtgcaaatc tgcacctaca
+       61 gtcggctacc ttgaaactgg cggcgcggcc taaccctata cgattcaagc atgattcatt
+      121 tttcggcaaa gaaaccggac ggctgcgtta acttcctgtt aaccttattc ttcttgccac
+      181 cgtcggggaa tcgccgataa tgacggtact tgggctgatt tcagccaaat gccgtcattc
+      241 gggggaagtt atgagtagtg tcgcttctag cgctgcgaaa aagattggtt tcgacgatat
+      301 tatccttgct caggggaagg atatatcgcg caagcttaac cagttgcgca tggaaagcta
+      361 tccgcccgac gcacgcaaaa ccctccgcca gttttcgatg gcagaggcgg cgtacttctt
+      421 gggagtgtcg ccgagcaatc tgaaaaagct acacttggaa ggcaaaggcg tcgttccaac
+      481 cgtccatgct gggggtcgcc ggacatactc agccgagcaa atacgcgaac taaggcactg
+      541 gctggatcag aatggtcgct cggatgttaa gaaatatgtc ccaagtcgcc gcgcgaacga
+      601 aaagcttcag gtgctcgccg ttgtgaactt caaaggtggc tcgggaaaaa ccacgacagc
+      661 ggcgcatctt gggcaacacc tggcattgac ggggcatcgc gtattagcga tcgatctcga
+      721 ccctcaggga tcgatgacag cgctctatgg catccagcct gaggtggatg actacccgtc
+      781 cgtatacgag gcaattcggt atgatgagaa gcgttgctcg ctcgcagatg tgataaaacc
+      841 taccaatttc cccgaccttg atattgtccc cgcgtcactt gagcttcagg agtacgagta
+      901 cgacacacct ctcgcgatgc aagctggtac cgaagggaag cgtttttgga atcgactcca
+      961 gagcgcgctt gaagatgtgg acccccgcta tgatgtcgtc gtgttggact gcccgccaca
+     1021 gcttggctat ttgacactca ctgcactcgc ggcgtcaact tccgttctta tcacggtgca
+     1081 tcctcagatg ctcgatctga tgtcgatgtc gcagtttctc ttgatgctcg gcgatattct
+     1141 caagactgtg aagcaggctg gcggcgatgt cgatcttgac tggttccgct acttgataac
+     1201 gcggttcgag cccaccgaca tgccgcaggc gcaaatggtc gcgttcatga agtcaatgct
+     1261 gatcccgcat atggcgaagc atgagatggt gaaatccaca gcggtttcgg atgcaggcct
+     1321 gacaaagcag acactgtatg aagttgaacg gtctgcgatg aaccgcggaa cctatgaccg
+     1381 cgctatggaa gcaatggaag ccgtcaatgg ggaaattcgg gacctcattc atgaggcttg
+     1441 ggggcgaagg aaatagactg cggtctaaat cgaatttttt gtttgttttt acagtgactt
+     1501 aaatggcgga gcatgacgat ggcgaggaag aatatcttca acagtgtaat gaatgacgat
+     1561 caagcggtcg atgagacgat tgaatcggct gcgccagtta cacggttcgg agctgccaag
+     1621 tcgctctcat cctccattga tgcgttggct cgacaagctg aacggatcaa tgacggtgat
+     1681 gtggttgtcg agcttgatcc ggaactgctt gaggcgtcct tcgttcgcga ccgactttct
+     1741 gggaccgcag aaggttcgac gacgaccgat gaggagtata gtgaattgtt ggccgccatc
+     1801 cgtgaaaggg gccaggactc gcctattctc gttcggccaa tcccaaacaa atctgatcgc
+     1861 tacatgatcg ttttcggtca tcgccgcgcg caagtagcga gagagcttgg ccgaaaagtc
+     1921 cgggctgttg ttcgtcagct cgatgagcag gcacacgtta ttagccaggg gcaggagaat
+     1981 tctgcacgcg cgaacttaag ttttatcgag cgggcgacgt tcgcggatcg cctcgaaaag
+     2041 cttggttact cccgtgaagt aatccaggta gcgctttcgg ttgattacca aacactgtct
+     2101 aagatgctga ctgttccagg ggcgtttgga gaacggctga tcgaggcgat cggtccggcc
+     2161 aagggcgtag ggcgtgaccg atggttgcaa cttcgcaagc tcatcgacgt ccccaagaac
+     2221 aaggcactcg ccgaggaatt caccaacgaa gaagagttta ccagccttgg tcaggtcgac
+     2281 aggttcgagg cactattcaa gcggcttcga tctggcaaag aaaaggcggc ggtaaagcgc
+     2341 tcagagaaca cccagcctcg gcaggtttgg aatgcaaaag acaacgccgt gaacgtttcg
+     2401 cggaaagtca cgccaaaagc tgtgacgctt gttctctcgt catccaacgg catcgcgttc
+     2461 ggtgactgga tcacgaacaa tattgaaagc ctctatgaga ctttccagca gcaagggaaa
+     2521 aactgagaag aaaaaccgca aaagaaaaag gcccccaatc gacactgtcg tggaagcctc
+     2581 tctcaattcg tagcaggctg agaatcgcat ttccacgaat cgctgtcaag agtcgaaccg
+     2641 tcgtttaggc ggccgggttt cttttgcctt ttgaaaggta aaggcgaatg caaatcggaa
+     2701 atgtgacgac gccctttggg cggcgggcga tatctcttgc cttggtgaaa gggcagaggg
+     2761 ccgcagcaga catcaaggca ggcaagaccg ctgaaaagtg gaaggtgttc cgcgacatca
+     2821 gcgaagcccg cagcttgctc ggtctccagg atcgagctct tgcagtgctg gacgcactgc
+     2881 tcagcttcta tccggaaagc cagttgtcag aagagtccgg catggtggtc tttccgtcca
+     2941 atgctcagct ctcggttcgg gcgcacggga ttaccggcac gacgttgcgc cggcaacttg
+     3001 ccgcactcgt tgatgctggt ctgattcatc gccgcgacag cccgaatgga aagcgttatg
+     3061 cgcatcgcgg caaggaaggc gagatcgagc aagcgttcgg cttcagcctg gcgccgcttc
+     3121 tggcccgcgt cgaagaactg gcccagttgg cgcagctggt tgccgaggaa cgccggctgt
+     3181 tcaagcgtgc caaggaagcg ctgacgatct gccgtcgtga cgttcggaaa ctcatcacgg
+     3241 ctgcggtaga ggagggggcc gacggggatt gggaggcgat cgaggccatg tatgtcgccg
+     3301 ctcttgccaa gctgccacgc aatccgggac atgatgaggt cgtctccgta ctggatgaaa
+     3361 tgacgcttct gcgcgatgag atcgtcaacc tcttggaaat ccagcaaaat gctgaaaata
+     3421 tggctagcaa tggtagtcag aatggctgcc acatacagaa ttcaaaaccc gaatcctttc
+     3481 atgaatctga acctcgctct gaaaaagagc aggacggacc gatagtggaa gaaccgaagc
+     3541 cgacagccga gatgaaaagg cctttcccgt tgggcatggt gttgcgggct tgccccgaaa
+     3601 ttgccatgta tgggccggga ggcgcgatca accattggcg agagttgatg accgcggccg
+     3661 tcgtggtccg gtcgagcctc ggggtcagtc cgtctgcgta tcaggacgcc tgcgatgtga
+     3721 tggggccgga aaatgcggcg acggcggtcg cgtgcatcct cgaaagggct ggccacatta
+     3781 actcggccgg cggatatctg cgcgacctta cccggaaagc ggcccggggt gaattcgggc
+     3841 tcggcccgat gctgatggct ttgctgaagg ttcagtccgg cggagaccgg aagtcggcgt
+     3901 agcgggggag ggcgcgtcag atgcgaaaac ttaggagccg ccgggtcggg tcagtcctcg
+     3961 aggaccagcg catcgaatac cttgaggagc gtatcgacga tggcctgacg catcgcattg
+     4021 gcgctctcgg caattttggt gtcgtcgttg ccgcgtgcag caagcgcaag atctccgccc
+     4081 ttctcggcta tgacggcggt cg
+//
