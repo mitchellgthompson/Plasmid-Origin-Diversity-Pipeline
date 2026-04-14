@@ -648,11 +648,45 @@ df["priority_score"] = df.apply(composite_score, axis=1)
 # Sort by priority score descending
 df = df.sort_values("priority_score", ascending=False).reset_index(drop=True)
 
+# ── Integrate high-priority flags from repABC_list.xlsx ──────────────────
+HP_LIST = BASE / "repABC_list.xlsx"
+if HP_LIST.exists():
+    hp_xl = pd.read_excel(HP_LIST)
+    hp_xl["match_key"] = hp_xl["strain_contig"].apply(
+        lambda sc: sc.replace(".gff3:", "_").replace(".gff3", ""))
+
+    def _find_hp(meta_key):
+        for _, r in hp_xl.iterrows():
+            hk = r["match_key"]
+            if meta_key == hk or meta_key.startswith(hk + "_"):
+                return r["high priority"]
+        return None
+
+    df["high_priority"] = df["locus_id"].apply(
+        lambda x: _find_hp(x.replace("_repABC", ""))
+    ).fillna("no")
+    print(f"\n  High-priority flags: yes={( df['high_priority']=='yes').sum()}, "
+          f"if_possible={(df['high_priority']=='if possible').sum()}")
+else:
+    df["high_priority"] = "no"
+
 # ── Assign tiers ─────────────────────────────────────────────────────────
-# PRIMARY: synthesizable, diverse, ~125 kb total
+# PRIMARY: synthesizable, diverse, ~125 kb total, with high-priority
+#          origins force-included when they add genuine sequence novelty.
 # SECONDARY: everything else (backup)
 
 TARGET_BP = 125_000
+
+# Force-include list: the 3 high-priority origins that 6-mer analysis
+# showed are most sequence-divergent from the rest of the primary set
+# (novelty > 0.49, i.e. < 51% max Jaccard similarity to any primary origin).
+# These are from Sinorhizobium fredii NGR234 (different genus) and a
+# distinct WS163 UniRef50 cluster not otherwise represented.
+HP_FORCE_INCLUDE = [
+    "Sinorhizobium_fredii_NGR234_U00090.2_repABC",     # novelty 0.509, diff genus
+    "WS163_contig_4_repABC",                             # novelty 0.499, unique cluster
+    "Sinorhizobium_fredii_NGR234_CP000874.1_repABC",    # novelty 0.497, diff genus
+]
 
 # Strategy: prioritise rep classes that are most biologically important,
 # then fill to budget. Classes are ranked:
@@ -689,15 +723,29 @@ best_per_class = pd.DataFrame(best_per_class).sort_values(
     ["class_tier", "priority_score"], ascending=[True, False]
 )
 
-# Greedy fill to ~125 kb
+# Phase 0: force-include high-priority divergent origins
 primary_ids = []
 primary_bp = 0
 classes_in_primary = set()
 
-for _, row in best_per_class.iterrows():
-    if primary_bp + row["length_bp"] > TARGET_BP * 1.05:  # allow 5% overshoot
+for lid in HP_FORCE_INCLUDE:
+    row = df[df["locus_id"] == lid]
+    if len(row) == 0:
         continue
-    primary_ids.append(row["locus_id"])
+    row = row.iloc[0]
+    primary_ids.append(lid)
+    primary_bp += row["length_bp"]
+    classes_in_primary.add(row["rep_class"])
+
+print(f"  Phase 0 (force-include HP divergent): {len(primary_ids)} origins, {primary_bp:,} bp")
+
+# Phase 1: greedy fill from best-per-class (skip if already included)
+for _, row in best_per_class.iterrows():
+    if row["locus_id"] in primary_ids:
+        continue
+    if primary_bp + row["length_bp"] > TARGET_BP * 1.10:  # allow 10% overshoot
+        continue                                           # (budget is flexible since
+    primary_ids.append(row["locus_id"])                     #  we pre-spent on HP origins)
     primary_bp += row["length_bp"]
     classes_in_primary.add(row["rep_class"])
 
