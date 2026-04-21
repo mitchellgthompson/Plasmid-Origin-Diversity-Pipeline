@@ -1,31 +1,72 @@
 # Plasmid Origin Diversity Pipeline
 
-End-to-end pipeline for identifying, characterising, and annotating plasmid
-replication origins (oriV) from the **PLSDB 2025** database. Designed to
-produce a small, diverse, broad-host-range library of origins suitable for
-synthetic biology applications.
+End-to-end pipeline that produces a synthesis-ready, barcoded library of
+bacterial plasmid replication origins (oriV) for parallel profiling via
+RB-TnSeq BarSeq. Origins come from two sources — a curated repABC set from
+Agrobacterium/Rhizobium, and a broad-host-range diversity library mined from
+**PLSDB 2025** — and are merged, constraint-filtered, deduplicated, and
+tagged with unique 20 bp barcodes flanked by the canonical Deutschbauer-lab
+BarSeq priming sites (Wetmore et al. 2015).
 
 ## What it does
 
-1. **Loads PLSDB 2025** metadata (72,556 plasmids) and filters to circular,
-   bacterial, non-`repABC`, non-narrow-host-range *E. coli* plasmids ≤ 6 kb.
-2. **Streams** the PLSDB sequence FASTA in 2,000-sequence batches:
-   - Predicts ORFs with `pyrodigal` (parallelised across CPU cores).
-   - Identifies Rep proteins by `hmmsearch` against a curated RIP HMM set.
-   - Scores intergenic sequences flanking each Rep gene with an embedded
-     OriVFinder algorithm (iteron detection, Z'-curve AT-rich regions,
-     DnaA box / Fis / IHF pattern matching).
-3. **Defines origin windows** that contain the Rep gene, the best-scoring
-   IGS, and a ≥ 200 bp buffer around any ORF inside the window.
-4. **Deduplicates** by Rep HMM type (keeps up to 5 representatives per type).
-5. **Selects a diversity library** in tiers (Agrobacterium-native →
-   Alphaproteobacteria → cross-phylum BHR → phylum-exclusive → fill).
-6. **Validates** each origin (Rep + Par + structural element scoring).
-7. **Annotates ORFs** against `RIP.hmm` and `Pfam-A`, then **trims** each
-   origin to its functional core (removing phage / metabolism / AMR ORFs
-   that were padding the 6 kb window).
-8. **Writes outputs** as a FASTA, CSV, plasmid-map PDF, overview PNG, and
-   one annotated GenBank file per origin.
+The pipeline runs in four stages, each with its own script:
+
+**A. Diversity library discovery from PLSDB 2025** — `plasmid_origin_pipeline.py`
+   → `origins_to_genbank.py`
+
+1. Load PLSDB 2025 metadata (72k plasmids) and filter to circular, bacterial,
+   non-`repABC`, non-narrow-host-range *E. coli* plasmids ≤ 6 kb.
+2. Stream the PLSDB FASTA in batches: predict ORFs with `pyrodigal`, call Rep
+   proteins with `hmmsearch` vs `RIPs/RIP.hmm`, and score intergenic
+   sequences with the embedded OriVFinder algorithm (iteron detection,
+   Z'-curve AT-rich regions, DnaA box / Fis / IHF pattern matching).
+3. Define origin windows that contain the Rep gene + best-scoring IGS + ORF
+   buffer; deduplicate by Rep HMM type; select a tiered diversity library
+   (Alphaproteobacteria → cross-phylum BHR → phylum-exclusive → fill).
+4. Annotate ORFs against `Pfam-A`, trim each origin to its functional core,
+   and emit FASTA, CSV, PDF maps, overview PNG, and one GenBank per origin.
+
+**B. repABC origin analysis from curated Agrobacterium/Rhizobium loci** —
+   `analyze_repABC_origins.py`
+
+5. Parse 118 `.fna` + `.gbk` pairs in `ARC_repABC_loci_fna_gbk/`; extract
+   repA/B/C genes, oriV, ctRNA, S-element, UniRef50 cross-references;
+   integrate parS partition-site annotations from `parS.table.xlsx`.
+6. Score each locus for Twist synthesizability and functional completeness;
+   rank into a **primary** tier (33 diverse, synthesizable representatives)
+   and a **secondary** tier (85 backups).
+7. Write metadata CSVs, FASTAs, and per-origin plasmid-map PDFs.
+
+**C. Merge + constraint-filter + budget fit + RB-TnSeq barcoding** —
+   `build_combined_synthesis_csv.py` → `build_final_order.py`
+
+8. Merge repABC primary + PLSDB diversity into `combined_synthesis_origins.csv`
+   (145 origins).
+9. Apply Ian Blaby's Twist constraint-fail list (2026-04-20): drop 33
+   diversity fails; re-tag 7 repABC fails (all pTi-family) as
+   `production_method=genomic_pcr_amplification` — still in the library,
+   just produced from genomic templates instead of Twist.
+10. Exact-sequence dedup; exclude `MobT`, `Phg_2220_C`, `Gemini_AL1__RCR`
+    Rep families; priority-greedy-fit to a **250 kb total-order budget**
+    that accounts for the 57 bp barcode cassette appended to every origin.
+11. Append a cassette to the 3′ end of each origin (top-strand 5′→3′):
+    **`A — U1(GATGTCCACGAGGTCTCT) — [N20] — U2(CGTACGCTGCAGGTCGAC)`** where
+    U1/U2 are the canonical Wetmore 2015 BarSeq priming sites
+    (verified by direct match against pKMW7 at `results_plsdb/JBx_109896.gb`)
+    and each N20 is deterministic, Hamming ≥ 3, GC 40–60 %, no homopolymer
+    ≥ 4, absent both strands in every target origin.
+12. Render the barcoded library as a one-page-per-origin linear PDF
+    (`make_final_order_pdf.py`).
+
+**D. Barcode diversity audit** — `analyze_barcode_diversity.py`
+
+13. Audit the N20 set for BarSeq demultiplexing robustness: pairwise Hamming
+    and Levenshtein distance distributions, positional base-composition
+    entropy, GC content, revcomp collisions, shared-*k*-mer overlap, and
+    comparison against a random 20-mer baseline.
+
+Final deliverables for the collaborator live in **[`final_order/`](final_order)**.
 
 ## Repository contents
 
@@ -111,6 +152,17 @@ python origins_to_genbank.py \
     --plsdb-fasta plsdb2025/sequences.fasta \
     --outdir      results_plsdb/genbanks \
     --buffer      200
+
+# 5. Analyse the curated repABC locus set (no arguments — inputs in ARC_repABC_loci_fna_gbk/)
+python3 analyze_repABC_origins.py
+
+# 6. Merge repABC + PLSDB diversity into one reference CSV
+python3 build_combined_synthesis_csv.py
+
+# 7. Build the barcoded, budget-fit, synthesis-ready order
+python3 build_final_order.py          # -> final_order/final_order.csv
+python3 make_final_order_pdf.py       # -> final_order/final_order_maps.pdf
+python3 analyze_barcode_diversity.py  # -> final_order/barcode_diversity_report.{txt,pdf}
 ```
 
 ## repABC Origin Analysis Pipeline
@@ -271,6 +323,8 @@ Each GenBank CDS feature carries:
 
 ## Pipeline parameters
 
+`plasmid_origin_pipeline.py` flags:
+
 | Flag | Default | Purpose |
 |------|---------|---------|
 | `--plsdb-dir` | (required) | PLSDB 2025 directory containing `nuccore.csv`, `taxonomy.csv`, `typing.csv`, `sequences.fasta` |
@@ -281,40 +335,78 @@ Each GenBank CDS feature carries:
 | `--target-bp` | 500_000 | Target total bp (the pipeline overshoots ~1.5× to compensate for downstream trimming) |
 | `--hmm-evalue` | 1e-5 | HMM hit E-value cutoff |
 
+`analyze_repABC_origins.py`, `build_combined_synthesis_csv.py`,
+`build_final_order.py`, `make_final_order_pdf.py`, and
+`analyze_barcode_diversity.py` take **no CLI arguments** — configurable
+knobs (budget, excluded Rep families, constraint-fail lists, RNG seed,
+cassette structure) are pinned as constants at the top of each script so
+the library build is reproducible.
+
 ## Pipeline architecture
 
 ```
-┌──────────────────────────────────────────────────────────┐
-│  plasmid_origin_pipeline.py                              │
-│  ┌────────────────────────────────────────────────────┐  │
-│  │ S1  Load PLSDB metadata (72k → 47k)                │  │
-│  │ S2  Filter (circular, size, not repABC, not NHR)   │  │
-│  │ S3  Stream FASTA, predict ORFs (parallel)          │  │
-│  │ S4  hmmsearch vs RIP.hmm                           │  │
-│  │ S5  OriVFinder IGS scoring                         │  │
-│  │ S6  Origin window (≥200 bp ORF buffer, ≤6 kb)      │  │
-│  │ S7  Local ORF-based trimming                       │  │
-│  │ S8  Dedup by RIP type (5/type)                     │  │
-│  │ S9  Tiered diversity selection (1.5× overshoot)    │  │
-│  │ S10 Functional OriV validation + ORF labels        │  │
-│  │ S11 Twist synthesis assessment                     │  │
-│  │ S12 Outputs (CSV, FASTA, PDF, PNG)                 │  │
-│  └────────────────────────────────────────────────────┘  │
-└──────────────────────────────────────────────────────────┘
+ Stage A — PLSDB diversity discovery
+┌────────────────────────────────────────────────────────────────────┐
+│  plasmid_origin_pipeline.py                                        │
+│    S1  Load PLSDB metadata (72k → 47k filtered)                    │
+│    S2  Filter (circular, ≤6 kb, not repABC, not E. coli NHR)       │
+│    S3  Stream FASTA, predict ORFs with pyrodigal (parallel)        │
+│    S4  hmmsearch vs RIPs/RIP.hmm                                   │
+│    S5  OriVFinder IGS scoring (iterons, Z'-curve, DnaA/Fis/IHF)    │
+│    S6  Origin windowing (≥200 bp ORF buffer, ≤6 kb)                │
+│    S7  Local ORF-based trimming                                    │
+│    S8  Deduplicate by RIP type (≤5 per type)                       │
+│    S9  Tiered diversity selection (Alpha / BHR / phylum / fill)    │
+│    S10 Functional validation + ORF labels                          │
+│    S11 Twist synthesis assessment                                  │
+│    S12 Write CSV, FASTA, PDF maps, overview PNG                    │
+│                         │                                          │
+│                         ▼                                          │
+│  origins_to_genbank.py                                             │
+│    Pfam-A / RIP annotation → per-origin GenBank + origin trimming  │
+└─────────────────────────────┬──────────────────────────────────────┘
+                              │  results_plsdb/diversity_library_metadata.csv
                               │
+ Stage B — repABC analysis    │
+┌─────────────────────────────┼──────────────────────────────────────┐
+│  analyze_repABC_origins.py  │                                      │
+│    Parse 118 Agro/Rhizo .fna+.gbk pairs                            │
+│    Integrate parS partition sites (parS.table.xlsx)                │
+│    Rank + tier (primary / secondary) for Twist synthesis           │
+│    Write CSV, FASTA, primary/secondary/all PDF maps                │
+└─────────────────────────────┬──────────────────────────────────────┘
+                              │  results_repABC/primary_synthesis_origins.{csv,fasta}
+                              │
+ Stage C — merge + barcoded order
+┌─────────────────────────────┼──────────────────────────────────────┐
+│  build_combined_synthesis_csv.py                                   │
+│    Merge repABC primary (33) + PLSDB diversity (112) -> reference  │
+│                         │                                          │
+│                         ▼   combined_synthesis_origins.csv         │
+│  build_final_order.py                                              │
+│    Drop Ian's Twist constraint-fails (re-tag 7 repABC as alt_clone)│
+│    Exact-sequence dedup                                            │
+│    Exclude MobT / Phg_2220_C / Gemini_AL1 Rep families             │
+│    Priority greedy fit to 250 kb (effective size = origin + 57 bp) │
+│    Append cassette:  A | U1 | N20 | U2  (Wetmore 2015 BarSeq)      │
+│    Flag post-cassette oversize / junction-homopolymer issues       │
+│                         │                                          │
+│                         ▼                                          │
+│  make_final_order_pdf.py  → one page per origin, cassette shown    │
+└─────────────────────────────┬──────────────────────────────────────┘
+                              │  final_order/final_order.csv
+                              │
+ Stage D — barcode diversity audit
+┌─────────────────────────────┼──────────────────────────────────────┐
+│  analyze_barcode_diversity.py                                      │
+│    Pairwise Hamming + Levenshtein distance distributions           │
+│    Positional base composition + Shannon entropy                   │
+│    GC distribution, revcomp collisions, shared k-mer overlap       │
+│    PASS/FAIL verdict vs random-20-mer baseline                     │
+└────────────────────────────────────────────────────────────────────┘
+                              │  final_order/barcode_diversity_report.{txt,pdf}
                               ▼
-┌──────────────────────────────────────────────────────────┐
-│  origins_to_genbank.py                                   │
-│  ┌────────────────────────────────────────────────────┐  │
-│  │ Predict ORFs with pyrodigal                        │  │
-│  │ Run hmmsearch vs RIP.hmm  (Rep proteins)           │  │
-│  │ Run hmmscan  vs Pfam-A    (everything else)        │  │
-│  │ Trim origins to origin-relevant core               │  │
-│  │ Iteratively extend to enforce 200 bp ORF buffer    │  │
-│  │ Re-predict & re-classify on extended windows       │  │
-│  │ Write per-origin .gb files + regenerate PDF/FASTA  │  │
-│  └────────────────────────────────────────────────────┘  │
-└──────────────────────────────────────────────────────────┘
+                    Deliver `final_order/` to collaborator
 ```
 
 ## Citing this work
