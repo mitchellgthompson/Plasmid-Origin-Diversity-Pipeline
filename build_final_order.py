@@ -47,7 +47,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 IN_CSV = ROOT / "combined_synthesis_origins.csv"
-OUT_CSV = ROOT / "final_order.csv"
+OUT_DIR = ROOT / "final_order"
+OUT_DIR.mkdir(exist_ok=True)
+OUT_CSV = OUT_DIR / "final_order.csv"
 
 BUDGET_BP = 250_000
 RNG_SEED = 20260420  # date of Ian's review; frozen for reproducibility

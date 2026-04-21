@@ -43,9 +43,11 @@ import numpy as np
 from matplotlib.backends.backend_pdf import PdfPages
 
 ROOT = Path(__file__).parent
-IN_CSV = ROOT / "final_order.csv"
-TXT_OUT = ROOT / "barcode_diversity_report.txt"
-PDF_OUT = ROOT / "barcode_diversity_report.pdf"
+OUT_DIR = ROOT / "final_order"
+OUT_DIR.mkdir(exist_ok=True)
+IN_CSV = OUT_DIR / "final_order.csv"
+TXT_OUT = OUT_DIR / "barcode_diversity_report.txt"
+PDF_OUT = OUT_DIR / "barcode_diversity_report.pdf"
 
 BARCODE_BP = 20
 

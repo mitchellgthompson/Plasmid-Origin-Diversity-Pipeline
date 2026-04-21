@@ -13,8 +13,10 @@ import matplotlib.patches as mpatches
 from matplotlib.backends.backend_pdf import PdfPages
 
 ROOT = Path(__file__).parent
-IN_CSV = ROOT / "final_order.csv"
-OUT_PDF = ROOT / "final_order_maps.pdf"
+OUT_DIR = ROOT / "final_order"
+OUT_DIR.mkdir(exist_ok=True)
+IN_CSV = OUT_DIR / "final_order.csv"
+OUT_PDF = OUT_DIR / "final_order_maps.pdf"
 
 SPACER = "A"
 U1 = "GATGTCCACGAGGTCTCT"

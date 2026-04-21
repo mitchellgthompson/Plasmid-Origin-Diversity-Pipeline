@@ -38,8 +38,12 @@ synthetic biology applications.
 | `build_final_order.py` | **Build the final ≤250 kb barcoded order** (constraint filter → dedup → family exclusions → priority fit → RB-TnSeq cassette) |
 | `make_final_order_pdf.py` | Render `final_order.csv` as a linear-fragment PDF (one page per origin) |
 | `combined_synthesis_origins.csv` | Pre-filter reference CSV (all 230 repABC + diversity origins) |
-| `final_order.csv` | **Final order** — 73 barcoded origins (≈249 kb) with `production_method`, `barcode_N20`, `barcoded_sequence` columns |
-| `final_order_maps.pdf` | One-page-per-origin linear map of the final order, cassette highlighted |
+| `final_order/` | **All final deliverables** (CSV, PDFs, barcode diversity report) |
+| `final_order/final_order.csv` | Final order — 73 barcoded origins (≈249 kb) with `production_method`, `barcode_N20`, `barcoded_sequence` columns |
+| `final_order/final_order_maps.pdf` | One-page-per-origin linear map of the final order, cassette highlighted |
+| `final_order/barcode_diversity_report.txt` | Barcode diversity audit (Hamming, Levenshtein, positional balance) |
+| `final_order/barcode_diversity_report.pdf` | Histograms + positional-composition heatmap |
+| `analyze_barcode_diversity.py` | Script that produces the barcode-diversity audit outputs |
 | `ARC_repABC_loci_fna_gbk/` | 118 curated repABC loci (.fna + .gbk) from Agrobacterium/Rhizobium |
 | `ARC_repABC_loci_fna_gbk/parS.table.xlsx` | parS partition-site annotations for repABC loci |
 | `results_repABC/` | repABC pipeline outputs (metadata, FASTAs, PDFs, summary) |
@@ -207,10 +211,40 @@ Current result: **73 origins, 248,974 bp total order** — 66 twist_synthesis
 (26 repABC + 40 diversity) + 7 genomic_pcr_amplification; 6 origins carry
 `oversize_flag=YES` for Ian to confirm with Twist's extended clonal-gene tier.
 
-```bash
-python3 build_final_order.py       # writes final_order.csv
-python3 make_final_order_pdf.py    # writes final_order_maps.pdf
+All final deliverables live in [`final_order/`](final_order):
+
 ```
+final_order/
+├─ final_order.csv                  # 73-origin order, one row per origin, includes
+│                                     barcode_N20 and barcoded_sequence columns
+├─ final_order_maps.pdf             # one page per origin: linear fragment +
+│                                     highlighted cassette + metadata
+├─ barcode_diversity_report.txt     # Hamming / Levenshtein / positional audit
+└─ barcode_diversity_report.pdf     # histograms + positional-composition heatmap
+```
+
+Rebuild end-to-end from the reference CSV:
+
+```bash
+python3 build_final_order.py          # -> final_order/final_order.csv
+python3 make_final_order_pdf.py       # -> final_order/final_order_maps.pdf
+python3 analyze_barcode_diversity.py  # -> final_order/barcode_diversity_report.{txt,pdf}
+```
+
+### Barcode diversity audit
+
+`analyze_barcode_diversity.py` audits the 73 N20 barcodes for BarSeq
+demultiplexing robustness. The current set passes every check:
+
+| Check | Target | Observed |
+|-------|--------|----------|
+| min pairwise Hamming distance | ≥ 3 | **7** |
+| mean pairwise Hamming vs random baseline | ≈ baseline | 14.97 vs 14.93 |
+| min pairwise Levenshtein (edit) distance | ≥ 3 | **6** |
+| positional Shannon entropy (bits, max 2.00) | ≥ 1.7 | median 1.970 |
+| positional max-base frequency | < 40 % | max 39.7 % |
+| GC content | [40 %, 60 %] | all within range, mean 49.9 % |
+| revcomp / palindrome collisions | 0 | 0 |
 
 ---
 
