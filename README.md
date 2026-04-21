@@ -34,6 +34,12 @@ synthetic biology applications.
 | `plasmid_origin_pipeline.py` | Main PLSDB pipeline (runs steps S1–S12) |
 | `origins_to_genbank.py` | Pfam annotation, origin trimming, GenBank export |
 | `analyze_repABC_origins.py` | **repABC origin analysis, synthesis ranking & PDF maps** |
+| `build_combined_synthesis_csv.py` | Merge repABC + diversity outputs into one reference CSV |
+| `build_final_order.py` | **Build the final ≤250 kb barcoded order** (constraint filter → dedup → family exclusions → priority fit → RB-TnSeq cassette) |
+| `make_final_order_pdf.py` | Render `final_order.csv` as a linear-fragment PDF (one page per origin) |
+| `combined_synthesis_origins.csv` | Pre-filter reference CSV (all 230 repABC + diversity origins) |
+| `final_order.csv` | **Final order** — 73 barcoded origins (≈249 kb) with `production_method`, `barcode_N20`, `barcoded_sequence` columns |
+| `final_order_maps.pdf` | One-page-per-origin linear map of the final order, cassette highlighted |
 | `ARC_repABC_loci_fna_gbk/` | 118 curated repABC loci (.fna + .gbk) from Agrobacterium/Rhizobium |
 | `ARC_repABC_loci_fna_gbk/parS.table.xlsx` | parS partition-site annotations for repABC loci |
 | `results_repABC/` | repABC pipeline outputs (metadata, FASTAs, PDFs, summary) |
@@ -42,6 +48,7 @@ synthetic biology applications.
 | `RIPs/Collected_RIPs.xlsx` | Curated metadata for the RIP families |
 | `results_plsdb/` | Example output from the PLSDB pipeline |
 | `results_plsdb/genbanks/` | One annotated GenBank per origin |
+| `results_plsdb/JBx_109896.gb` | pKMW7 reference (RB-TnSeq transposon vector, Wetmore 2015) used to verify U1/U2 priming sites |
 | `requirements.txt` | Python dependencies |
 
 ## External data (not in repo)
@@ -155,6 +162,55 @@ After running, `results_repABC/` contains:
 | `secondary_repABC_maps.pdf` | Annotated linear maps for secondary tier |
 | `all_repABC_maps.pdf` | Maps for all 118 origins |
 | `diversity_summary.txt` | Human-readable ranking and statistics |
+
+---
+
+## Final order assembly (`build_final_order.py`)
+
+Once the upstream repABC and PLSDB pipelines have produced their outputs,
+`build_final_order.py` merges them into a single **barcoded, synthesis-ready
+order** under a 250 kb total-order budget. The recipe:
+
+1. Start from `combined_synthesis_origins.csv` (33 repABC primary + 112
+   diversity origins, 145 total).
+2. **Drop Twist constraint-fails** from Ian Blaby's review (2026-04-20):
+   7 repABC (all pTi-family) + 33 diversity origins. The 7 repABC do **not**
+   leave the library — they are tagged `production_method=genomic_pcr_amplification`
+   and will be amplified from genomic/plasmid templates instead.
+3. **Exact-sequence deduplicate** the diversity set (drops 4 redundant copies).
+4. **Exclude** `MobT`, `Phg_2220_C`, and `Gemini_AL1__RCR` Rep-family origins.
+5. **Priority-ordered greedy fit** across diversity tiers
+   (Tier 3 cross-phylum BHR > Tier 2 Alphaproteobacteria > Tier 4
+   phylum-exclusive > Tier 5 fill) using *effective* fragment size
+   (origin + 57 bp cassette) so the total order lands at ≤ 250 kb.
+6. **Append an RB-TnSeq barcode cassette** to the 3′ end of every origin,
+   top-strand 5′→3′:
+   ```
+   origin ... — A — GATGTCCACGAGGTCTCT — [N20] — CGTACGCTGCAGGTCGAC
+                |   └─ U1 (BarSeq_P2) ─┘   └─ barcode ─┘   └─ U2 (BarSeq_P1) ─┘
+                └─ 1 bp spacer (prevents G-homopolymer extension into U1)
+   ```
+   Priming sites are the canonical Wetmore *et al.* 2015 (mBio) BarSeq U1/U2
+   sequences, verified by direct match against the **pKMW7** transposon
+   vector (`results_plsdb/JBx_109896.gb`). Each 20 bp barcode satisfies:
+   GC 40–60 %, no homopolymer ≥ 4, pairwise Hamming ≥ 3, no overlap with
+   U1/U2 or their reverse complements, and absent (both strands) from every
+   target origin. Barcodes are regenerated deterministically from a fixed
+   RNG seed, so reruns produce identical assignments.
+7. **Flag post-cassette issues** for human review:
+   - `oversize_flag=YES` if the barcoded fragment exceeds 5,000 bp (Twist
+     clonal-gene standard tier ceiling).
+   - `junction_homopolymer_flag` if the cassette extends an origin-terminal
+     homopolymer across the junction into a ≥ 6 bp G/C or ≥ 10 bp A/T run.
+
+Current result: **73 origins, 248,974 bp total order** — 66 twist_synthesis
+(26 repABC + 40 diversity) + 7 genomic_pcr_amplification; 6 origins carry
+`oversize_flag=YES` for Ian to confirm with Twist's extended clonal-gene tier.
+
+```bash
+python3 build_final_order.py       # writes final_order.csv
+python3 make_final_order_pdf.py    # writes final_order_maps.pdf
+```
 
 ---
 

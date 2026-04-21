@@ -17,6 +17,9 @@ orivfinder/
 # Old results from notebook runs
 results/
 
+# Email correspondence (kept locally for reference)
+*.eml
+
 # ── Python ──────────────────────────────────────────────────────────────────
 __pycache__/
 *.pyc
