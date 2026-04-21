@@ -50,6 +50,7 @@ IN_CSV = ROOT / "combined_synthesis_origins.csv"
 OUT_DIR = ROOT / "final_order"
 OUT_DIR.mkdir(exist_ok=True)
 OUT_CSV = OUT_DIR / "final_order.csv"
+OUT_FASTA = OUT_DIR / "final_order_barcoded.fasta"
 
 BUDGET_BP = 250_000
 RNG_SEED = 20260420  # date of Ian's review; frozen for reproducibility
@@ -276,6 +277,23 @@ def main():
         w = csv.DictWriter(fh, fieldnames=out_cols)
         w.writeheader()
         w.writerows(final_rows)
+
+    # Emit a FASTA of the barcoded sequences (what Twist/alt-clone will produce)
+    with OUT_FASTA.open("w") as fh:
+        for r in final_rows:
+            flags = []
+            if r["oversize_flag"]:
+                flags.append("oversize")
+            if r["junction_homopolymer_flag"]:
+                flags.append(f"junction_{r['junction_homopolymer_flag'].split()[0]}")
+            flag_str = f" flags={','.join(flags)}" if flags else ""
+            header = (f">{r['id']} method={r['production_method']} "
+                      f"barcode={r['barcode_N20']} origin_len={len(r['sequence'])}bp "
+                      f"total_len={len(r['barcoded_sequence'])}bp{flag_str}")
+            fh.write(header + "\n")
+            seq = r["barcoded_sequence"]
+            for i in range(0, len(seq), 70):
+                fh.write(seq[i:i + 70] + "\n")
 
     # --- Report ---
     by_method = Counter(r["production_method"] for r in final_rows)
