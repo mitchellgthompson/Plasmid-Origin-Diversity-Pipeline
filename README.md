@@ -79,6 +79,7 @@ Final deliverables for the collaborator live in **[`final_order/`](final_order)*
 | `build_final_order.py` | **Build the final ≤250 kb barcoded order** (constraint filter → dedup → family exclusions → priority fit → RB-TnSeq cassette) |
 | `make_final_order_pdf.py` | Render `final_order.csv` as a linear-fragment PDF (one page per origin) |
 | `combined_synthesis_origins.csv` | Pre-filter reference CSV (all 230 repABC + diversity origins) |
+| `pLANT_master_ORI_template.gb` | **Destination binary vector** (9,056 bp) into which every origin in the final order will be cloned — Gibson-assembly slot flanked by FseI / AscI cut sites |
 | `final_order/` | **All final deliverables** (CSV, PDFs, barcode diversity report) |
 | `final_order/final_order.csv` | Final order — 73 barcoded origins (≈249 kb) with `production_method`, `barcode_N20`, `barcoded_sequence` columns |
 | `final_order/final_order_maps.pdf` | One-page-per-origin linear map of the final order, cassette highlighted |
@@ -262,6 +263,28 @@ order** under a 250 kb total-order budget. The recipe:
 Current result: **73 origins, 248,974 bp total order** — 66 twist_synthesis
 (26 repABC + 40 diversity) + 7 genomic_pcr_amplification; 6 origins carry
 `oversize_flag=YES` for Ian to confirm with Twist's extended clonal-gene tier.
+
+### Destination vector
+
+Every origin in the final order will be cloned into [`pLANT_master_ORI_template.gb`](pLANT_master_ORI_template.gb)
+— a 9,056 bp circular binary vector ("Master Binary Vector"). The vector
+carries the plant-transformation payload (T-DNA LB/RB, Rhodo GFP, plant
+pNOS::eGFP, NOS terminator, C58 Overdrive, dPCR QC targets, Kanamycin
+selection, ColE1 ori for *E. coli* propagation, conjugal-transfer origin
+from pEX18-Gm) and a single dropout slot for the replication origin:
+
+```
+… Gibson RB Super Site 2 (30 bp) | FseI | ORI dropout (20 bp stuffer) | AscI | Gibson ORI (30 bp) …
+                              ^cut^                                 ^cut^
+   5' homology arm                                                 3' homology arm
+```
+
+Linearise the vector with FseI + AscI to release the 20 bp stuffer, then
+Gibson-assemble each barcoded origin in. The 30 bp flanking sequences are
+not included in the ordered fragments — they are part of the vector
+backbone and provide the Gibson homology directly.
+
+### Final deliverables
 
 All final deliverables live in [`final_order/`](final_order):
 
