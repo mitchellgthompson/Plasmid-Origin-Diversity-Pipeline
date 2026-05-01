@@ -229,7 +229,7 @@ def main():
     # Single smallest-remaining top-up: allow a modest overshoot (up to 1 kb over
     # the 250 kb total budget) so the library lands at the intended ~73-origin
     # size even when constraint-fail or ambiguous-base drops free a too-narrow gap.
-    OVERSHOOT_TOLERANCE_BP = 1_500
+    OVERSHOOT_TOLERANCE_BP = 0
     picked_ids = {p["id"] for p in picked}
     remaining = sorted([r for r in ordered if r["id"] not in picked_ids],
                        key=lambda r: len(r["sequence"]))
