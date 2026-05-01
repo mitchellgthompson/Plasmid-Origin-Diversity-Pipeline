@@ -73,6 +73,14 @@ REPABC_ALT_CLONING = {
     "Atu_K84_pAtK84b_CP000630.1_repABC",
 }
 
+# Origins dropped because the NCBI assembly contains ambiguous bases (N) that
+# cannot be resolved by homology — Twist rejects redundant bases. The greedy
+# fit will backfill with the next-best candidate from the same tier system.
+AMBIGUOUS_BASE_DROPS = {
+    "1908110475",  # Defluviicoccus vanus (NZ_CP053924.1) — 6 N's in RepC CDS
+                   # at codons 182, 291, 300; no clear blastp consensus.
+}
+
 DIVERSITY_FAILS = {
     "1884895362","1928226770","1008893761","2708435457","1608334067","187736698",
     "1054801980","2428992113","636800953","2218211345","1848374391","870972790",
@@ -187,6 +195,7 @@ def main():
     # Diversity pool: drop fails, drop excluded families, dedup exact sequence
     div_pool = [r for r in rows if r["source_tier"] == "diversity_PLSDB"]
     div_pool = [r for r in div_pool if r["id"] not in DIVERSITY_FAILS]
+    div_pool = [r for r in div_pool if r["id"] not in AMBIGUOUS_BASE_DROPS]
     div_pool = [r for r in div_pool if r["rep_class_or_family"] not in EXCLUDED_FAMILIES]
     by_seq = defaultdict(list)
     for r in div_pool:
@@ -208,12 +217,16 @@ def main():
             picked.append(dict(r, production_method="twist_synthesis"))
             order_bp += eff
 
+    # Single smallest-remaining top-up: allow a modest overshoot (up to 1 kb over
+    # the 250 kb total budget) so the library lands at the intended ~73-origin
+    # size even when constraint-fail or ambiguous-base drops free a too-narrow gap.
+    OVERSHOOT_TOLERANCE_BP = 1_500
     picked_ids = {p["id"] for p in picked}
     remaining = sorted([r for r in ordered if r["id"] not in picked_ids],
                        key=lambda r: len(r["sequence"]))
     for cand in remaining:
         eff = len(cand["sequence"]) + CASSETTE_TOTAL_BP
-        if order_bp + eff <= div_budget:
+        if order_bp + eff <= div_budget + OVERSHOOT_TOLERANCE_BP:
             picked.append(dict(cand, production_method="twist_synthesis"))
             order_bp += eff
             break

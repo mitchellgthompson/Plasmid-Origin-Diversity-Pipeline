@@ -31,7 +31,7 @@ Uniqueness:   all 73 barcodes distinct
   Empirical vs random: OK
 
   Closest pairs at Hamming = 7 bp (1 pair(s)):
-    CGTGCCTTCTCTTTGGAATC  <-> CGTTACTTCTGGTTAGTGTC   (origins: Rhizobium_etli_CFN_42_CP000135.1_repABC  <-> 1883660858)
+    CGTGCCTTCTCTTTGGAATC  <-> CGTTACTTCTGGTTAGTGTC   (origins: Rhizobium_etli_CFN_42_CP000135.1_repABC  <-> 2639748091)
 
 --- Pairwise Levenshtein (edit) distance ---
   min:    6   median: 12.0   mean: 11.97   max: 17
