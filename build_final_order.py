@@ -81,6 +81,14 @@ AMBIGUOUS_BASE_DROPS = {
                    # at codons 182, 291, 300; no clear blastp consensus.
 }
 
+# Origins dropped because their Rep family lacks established bacterial-host
+# precedence — keeps the library to Rep families known to function in
+# bacterial hosts. Greedy will backfill the freed budget with the next-best
+# bacterial candidate.
+NO_BACTERIAL_PRECEDENCE_DROPS = {
+    "2270922916",  # Haloarcula marina (RNA_helicase__RCR, archaeal halophile)
+}
+
 DIVERSITY_FAILS = {
     "1884895362","1928226770","1008893761","2708435457","1608334067","187736698",
     "1054801980","2428992113","636800953","2218211345","1848374391","870972790",
@@ -90,15 +98,7 @@ DIVERSITY_FAILS = {
     "1883370430","2452734037","2272232194",
 }
 
-EXCLUDED_FAMILIES = {
-    "MobT",
-    "Phg_2220_C",
-    "Gemini_AL1__RCR",
-    # RNA_helicase__RCR origins in our pool are all from haloarchaea
-    # (Haloarcula, Halomicrobium, Halobacterium); no established bacterial
-    # replication precedence, so exclude the family.
-    "RNA_helicase__RCR",
-}
+EXCLUDED_FAMILIES = {"MobT", "Phg_2220_C", "Gemini_AL1__RCR"}
 
 TIER_RANK = {
     "Tier 3: Cross-phylum BHR": 0,
@@ -204,6 +204,7 @@ def main():
     div_pool = [r for r in rows if r["source_tier"] == "diversity_PLSDB"]
     div_pool = [r for r in div_pool if r["id"] not in DIVERSITY_FAILS]
     div_pool = [r for r in div_pool if r["id"] not in AMBIGUOUS_BASE_DROPS]
+    div_pool = [r for r in div_pool if r["id"] not in NO_BACTERIAL_PRECEDENCE_DROPS]
     div_pool = [r for r in div_pool if r["rep_class_or_family"] not in EXCLUDED_FAMILIES]
     by_seq = defaultdict(list)
     for r in div_pool:
