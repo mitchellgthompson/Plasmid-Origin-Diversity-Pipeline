@@ -90,7 +90,15 @@ DIVERSITY_FAILS = {
     "1883370430","2452734037","2272232194",
 }
 
-EXCLUDED_FAMILIES = {"MobT", "Phg_2220_C", "Gemini_AL1__RCR"}
+EXCLUDED_FAMILIES = {
+    "MobT",
+    "Phg_2220_C",
+    "Gemini_AL1__RCR",
+    # RNA_helicase__RCR origins in our pool are all from haloarchaea
+    # (Haloarcula, Halomicrobium, Halobacterium); no established bacterial
+    # replication precedence, so exclude the family.
+    "RNA_helicase__RCR",
+}
 
 TIER_RANK = {
     "Tier 3: Cross-phylum BHR": 0,
